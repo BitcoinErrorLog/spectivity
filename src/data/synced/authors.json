@@ -34,6 +34,461 @@
     "name": "Gavin Andresen",
     "bio": "BIP contributor."
   },
+  "gh:Nils Schneider": {
+    "githubLogin": "Nils Schneider",
+    "name": "Nils Schneider",
+    "bio": "BIP contributor."
+  },
+  "gh:Mike Hearn": {
+    "githubLogin": "Mike Hearn",
+    "name": "Mike Hearn",
+    "bio": "BIP contributor."
+  },
+  "gh:Jeff Garzik": {
+    "githubLogin": "Jeff Garzik",
+    "name": "Jeff Garzik",
+    "bio": "BIP contributor."
+  },
+  "gh:Stefan Thomas": {
+    "githubLogin": "Stefan Thomas",
+    "name": "Stefan Thomas",
+    "bio": "BIP contributor."
+  },
+  "gh:Mike Caldwell": {
+    "githubLogin": "Mike Caldwell",
+    "name": "Mike Caldwell",
+    "bio": "BIP contributor."
+  },
+  "gh:Marek Palatinus": {
+    "githubLogin": "Marek Palatinus",
+    "name": "Marek Palatinus",
+    "bio": "BIP contributor."
+  },
+  "gh:Manuel Araoz": {
+    "githubLogin": "Manuel Araoz",
+    "name": "Manuel Araoz",
+    "bio": "BIP contributor."
+  },
+  "gh:Chris Belcher": {
+    "githubLogin": "Chris Belcher",
+    "name": "Chris Belcher",
+    "bio": "BIP contributor."
+  },
+  "gh:Justus Ranvier": {
+    "githubLogin": "Justus Ranvier",
+    "name": "Justus Ranvier",
+    "bio": "BIP contributor."
+  },
+  "gh:Fontaine": {
+    "githubLogin": "Fontaine",
+    "name": "Fontaine",
+    "bio": "BIP contributor."
+  },
+  "gh:Daniel Weigl": {
+    "githubLogin": "Daniel Weigl",
+    "name": "Daniel Weigl",
+    "bio": "BIP contributor."
+  },
+  "gh:Michael Dubrovsky": {
+    "githubLogin": "Michael Dubrovsky",
+    "name": "Michael Dubrovsky",
+    "bio": "BIP contributor."
+  },
+  "gh:Chris Stewart": {
+    "githubLogin": "Chris Stewart",
+    "name": "Chris Stewart",
+    "bio": "BIP contributor."
+  },
+  "gh:Antoine Poinsot": {
+    "githubLogin": "Antoine Poinsot",
+    "name": "Antoine Poinsot",
+    "bio": "BIP contributor."
+  },
+  "gh:Peter Todd": {
+    "githubLogin": "Peter Todd",
+    "name": "Peter Todd",
+    "bio": "BIP contributor."
+  },
+  "gh:Thomas Kerin": {
+    "githubLogin": "Thomas Kerin",
+    "name": "Thomas Kerin",
+    "bio": "BIP contributor."
+  },
+  "gh:Mark Friedenbach": {
+    "githubLogin": "Mark Friedenbach",
+    "name": "Mark Friedenbach",
+    "bio": "BIP contributor."
+  },
+  "gh:Kristov Atlas": {
+    "githubLogin": "Kristov Atlas",
+    "name": "Kristov Atlas",
+    "bio": "BIP contributor."
+  },
+  "gh:Stephen Pair": {
+    "githubLogin": "Stephen Pair",
+    "name": "Stephen Pair",
+    "bio": "BIP contributor."
+  },
+  "gh:Toby Padilla": {
+    "githubLogin": "Toby Padilla",
+    "name": "Toby Padilla",
+    "bio": "BIP contributor."
+  },
+  "gh:Justin Newton": {
+    "githubLogin": "Justin Newton",
+    "name": "Justin Newton",
+    "bio": "BIP contributor."
+  },
+  "gh:Dan Gould": {
+    "githubLogin": "Dan Gould",
+    "name": "Dan Gould",
+    "bio": "BIP contributor."
+  },
+  "gh:Nicolas Dorier": {
+    "githubLogin": "Nicolas Dorier",
+    "name": "Nicolas Dorier",
+    "bio": "BIP contributor."
+  },
+  "gh:Ryan Havar": {
+    "githubLogin": "Ryan Havar",
+    "name": "Ryan Havar",
+    "bio": "BIP contributor."
+  },
+  "gh:Eric Lombrozo": {
+    "githubLogin": "Eric Lombrozo",
+    "name": "Eric Lombrozo",
+    "bio": "BIP contributor."
+  },
+  "gh:Pavol Rusnak": {
+    "githubLogin": "Pavol Rusnak",
+    "name": "Pavol Rusnak",
+    "bio": "BIP contributor."
+  },
+  "gh:Ethan Kosakovsky": {
+    "githubLogin": "Ethan Kosakovsky",
+    "name": "Ethan Kosakovsky",
+    "bio": "BIP contributor."
+  },
+  "gh:Ava Chow": {
+    "githubLogin": "Ava Chow",
+    "name": "Ava Chow",
+    "bio": "BIP contributor."
+  },
+  "gh:Robert Spigler": {
+    "githubLogin": "Robert Spigler",
+    "name": "Robert Spigler",
+    "bio": "BIP contributor."
+  },
+  "gh:Dmitry Petukhov": {
+    "githubLogin": "Dmitry Petukhov",
+    "name": "Dmitry Petukhov",
+    "bio": "BIP contributor."
+  },
+  "gh:Jesse Posner": {
+    "githubLogin": "Jesse Posner",
+    "name": "Jesse Posner",
+    "bio": "BIP contributor."
+  },
+  "gh:Suhas Daftuar": {
+    "githubLogin": "Suhas Daftuar",
+    "name": "Suhas Daftuar",
+    "bio": "BIP contributor."
+  },
+  "gh:James Hilliard": {
+    "githubLogin": "James Hilliard",
+    "name": "James Hilliard",
+    "bio": "BIP contributor."
+  },
+  "gh:Leon Olsson Curr and Pearlwort Sneed": {
+    "githubLogin": "Leon Olsson Curr and Pearlwort Sneed",
+    "name": "Leon Olsson Curr and Pearlwort Sneed",
+    "bio": "BIP contributor."
+  },
+  "gh:Fabian Jahr": {
+    "githubLogin": "Fabian Jahr",
+    "name": "Fabian Jahr",
+    "bio": "BIP contributor."
+  },
+  "gh:Jorge Timón": {
+    "githubLogin": "Jorge Timón",
+    "name": "Jorge Timón",
+    "bio": "BIP contributor."
+  },
+  "gh:t.khan": {
+    "githubLogin": "t.khan",
+    "name": "t.khan",
+    "bio": "BIP contributor."
+  },
+  "gh:BtcDrak": {
+    "githubLogin": "BtcDrak",
+    "name": "BtcDrak",
+    "bio": "BIP contributor."
+  },
+  "gh:Upal Chakraborty": {
+    "githubLogin": "Upal Chakraborty",
+    "name": "Upal Chakraborty",
+    "bio": "BIP contributor."
+  },
+  "gh:Washington Y. Sanchez": {
+    "githubLogin": "Washington Y. Sanchez",
+    "name": "Washington Y. Sanchez",
+    "bio": "BIP contributor."
+  },
+  "gh:Dathon Ohm": {
+    "githubLogin": "Dathon Ohm",
+    "name": "Dathon Ohm",
+    "bio": "BIP contributor."
+  },
+  "gh:Matt Corallo": {
+    "githubLogin": "Matt Corallo",
+    "name": "Matt Corallo",
+    "bio": "BIP contributor."
+  },
+  "gh:Johnson Lau": {
+    "githubLogin": "Johnson Lau",
+    "name": "Johnson Lau",
+    "bio": "BIP contributor."
+  },
+  "gh:Christian Decker": {
+    "githubLogin": "Christian Decker",
+    "name": "Christian Decker",
+    "bio": "BIP contributor."
+  },
+  "gh:Jeremy Rubin": {
+    "githubLogin": "Jeremy Rubin",
+    "name": "Jeremy Rubin",
+    "bio": "BIP contributor."
+  },
+  "gh:Kalle Rosenbaum": {
+    "githubLogin": "Kalle Rosenbaum",
+    "name": "Kalle Rosenbaum",
+    "bio": "BIP contributor."
+  },
+  "gh:Marco Pontello": {
+    "githubLogin": "Marco Pontello",
+    "name": "Marco Pontello",
+    "bio": "BIP contributor."
+  },
+  "gh:David A. Harding": {
+    "githubLogin": "David A. Harding",
+    "name": "David A. Harding",
+    "bio": "BIP contributor."
+  },
+  "gh:Steven Roose": {
+    "githubLogin": "Steven Roose",
+    "name": "Steven Roose",
+    "bio": "BIP contributor."
+  },
+  "gh:Oren Z": {
+    "githubLogin": "Oren Z",
+    "name": "Oren Z",
+    "bio": "BIP contributor."
+  },
+  "gh:Hugo Nguyen": {
+    "githubLogin": "Hugo Nguyen",
+    "name": "Hugo Nguyen",
+    "bio": "BIP contributor."
+  },
+  "gh:Chris Priest": {
+    "githubLogin": "Chris Priest",
+    "name": "Chris Priest",
+    "bio": "BIP contributor."
+  },
+  "gh:Andy Chase": {
+    "githubLogin": "Andy Chase",
+    "name": "Andy Chase",
+    "bio": "BIP contributor."
+  },
+  "gh:Alex Morcos": {
+    "githubLogin": "Alex Morcos",
+    "name": "Alex Morcos",
+    "bio": "BIP contributor."
+  },
+  "gh:Tom Zander": {
+    "githubLogin": "Tom Zander",
+    "name": "Tom Zander",
+    "bio": "BIP contributor."
+  },
+  "gh:Sancho Panza": {
+    "githubLogin": "Sancho Panza",
+    "name": "Sancho Panza",
+    "bio": "BIP contributor."
+  },
+  "gh:Велеслав": {
+    "githubLogin": "Велеслав",
+    "name": "Велеслав",
+    "bio": "BIP contributor."
+  },
+  "gh:Christopher Gilliard": {
+    "githubLogin": "Christopher Gilliard",
+    "name": "Christopher Gilliard",
+    "bio": "BIP contributor."
+  },
+  "gh:Jonas Schnelli": {
+    "githubLogin": "Jonas Schnelli",
+    "name": "Jonas Schnelli",
+    "bio": "BIP contributor."
+  },
+  "gh:Karl-Johan Alm": {
+    "githubLogin": "Karl-Johan Alm",
+    "name": "Karl-Johan Alm",
+    "bio": "BIP contributor."
+  },
+  "gh:Wladimir J. van der Laan": {
+    "githubLogin": "Wladimir J. van der Laan",
+    "name": "Wladimir J. van der Laan",
+    "bio": "BIP contributor."
+  },
+  "gh:Brad Denby": {
+    "githubLogin": "Brad Denby",
+    "name": "Brad Denby",
+    "bio": "BIP contributor."
+  },
+  "gh:Olaoluwa Osuntokun": {
+    "githubLogin": "Olaoluwa Osuntokun",
+    "name": "Olaoluwa Osuntokun",
+    "bio": "BIP contributor."
+  },
+  "gh:OceanSlim": {
+    "githubLogin": "OceanSlim",
+    "name": "OceanSlim",
+    "bio": "BIP contributor."
+  },
+  "gh:Omar Shibli": {
+    "githubLogin": "Omar Shibli",
+    "name": "Omar Shibli",
+    "bio": "BIP contributor."
+  },
+  "gh:Jimmy Song": {
+    "githubLogin": "Jimmy Song",
+    "name": "Jimmy Song",
+    "bio": "BIP contributor."
+  },
+  "gh:John Carvalho": {
+    "githubLogin": "John Carvalho",
+    "name": "John Carvalho",
+    "bio": "BIP contributor."
+  },
+  "gh:Emil Engler": {
+    "githubLogin": "Emil Engler",
+    "name": "Emil Engler",
+    "bio": "BIP contributor."
+  },
+  "gh:Matthew Black": {
+    "githubLogin": "Matthew Black",
+    "name": "Matthew Black",
+    "bio": "BIP contributor."
+  },
+  "gh:Sean Bowe": {
+    "githubLogin": "Sean Bowe",
+    "name": "Sean Bowe",
+    "bio": "BIP contributor."
+  },
+  "gh:Paul Sztorc": {
+    "githubLogin": "Paul Sztorc",
+    "name": "Paul Sztorc",
+    "bio": "BIP contributor."
+  },
+  "gh:Pavel Moravec": {
+    "githubLogin": "Pavel Moravec",
+    "name": "Pavel Moravec",
+    "bio": "BIP contributor."
+  },
+  "gh:Dhruv Mehta": {
+    "githubLogin": "Dhruv Mehta",
+    "name": "Dhruv Mehta",
+    "bio": "BIP contributor."
+  },
+  "gh:Jonas Nick": {
+    "githubLogin": "Jonas Nick",
+    "name": "Jonas Nick",
+    "bio": "BIP contributor."
+  },
+  "gh:Craig Raw": {
+    "githubLogin": "Craig Raw",
+    "name": "Craig Raw",
+    "bio": "BIP contributor."
+  },
+  "gh:Gleb Naumenko": {
+    "githubLogin": "Gleb Naumenko",
+    "name": "Gleb Naumenko",
+    "bio": "BIP contributor."
+  },
+  "gh:Gloria Zhao": {
+    "githubLogin": "Gloria Zhao",
+    "name": "Gloria Zhao",
+    "bio": "BIP contributor."
+  },
+  "gh:Tom Briar": {
+    "githubLogin": "Tom Briar",
+    "name": "Tom Briar",
+    "bio": "BIP contributor."
+  },
+  "gh:Shinobius": {
+    "githubLogin": "Shinobius",
+    "name": "Shinobius",
+    "bio": "BIP contributor."
+  },
+  "gh:James O'Beirne": {
+    "githubLogin": "James O'Beirne",
+    "name": "James O'Beirne",
+    "bio": "BIP contributor."
+  },
+  "gh:Ethan Heilman": {
+    "githubLogin": "Ethan Heilman",
+    "name": "Ethan Heilman",
+    "bio": "BIP contributor."
+  },
+  "gh:Brandon Black": {
+    "githubLogin": "Brandon Black",
+    "name": "Brandon Black",
+    "bio": "BIP contributor."
+  },
+  "gh:Alfred Hodler": {
+    "githubLogin": "Alfred Hodler",
+    "name": "Alfred Hodler",
+    "bio": "BIP contributor."
+  },
+  "gh:josibake": {
+    "githubLogin": "josibake",
+    "name": "josibake",
+    "bio": "BIP contributor."
+  },
+  "gh:Hunter Beast": {
+    "githubLogin": "Hunter Beast",
+    "name": "Hunter Beast",
+    "bio": "BIP contributor."
+  },
+  "gh:Maxim Orlovsky": {
+    "githubLogin": "Maxim Orlovsky",
+    "name": "Maxim Orlovsky",
+    "bio": "BIP contributor."
+  },
+  "gh:Andrew Toth": {
+    "githubLogin": "Andrew Toth",
+    "name": "Andrew Toth",
+    "bio": "BIP contributor."
+  },
+  "gh:Salvatore Ingala": {
+    "githubLogin": "Salvatore Ingala",
+    "name": "Salvatore Ingala",
+    "bio": "BIP contributor."
+  },
+  "gh:Gregory Sanders": {
+    "githubLogin": "Gregory Sanders",
+    "name": "Gregory Sanders",
+    "bio": "BIP contributor."
+  },
+  "gh:Anthony Towns": {
+    "githubLogin": "Anthony Towns",
+    "name": "Anthony Towns",
+    "bio": "BIP contributor."
+  },
+  "gh:moonsettler": {
+    "githubLogin": "moonsettler",
+    "name": "moonsettler",
+    "bio": "BIP contributor."
+  },
   "gh:thewrlck": {
     "githubLogin": "thewrlck",
     "name": "thewrlck",
@@ -99,14 +554,144 @@
     "name": "schjonhaug",
     "bio": "BIP contributor."
   },
+  "gh:AdamISZ": {
+    "githubLogin": "AdamISZ",
+    "name": "AdamISZ",
+    "bio": "BIP contributor."
+  },
+  "gh:3rdIteration": {
+    "githubLogin": "3rdIteration",
+    "name": "3rdIteration",
+    "bio": "BIP contributor."
+  },
+  "gh:jlopp": {
+    "githubLogin": "jlopp",
+    "name": "jlopp",
+    "bio": "BIP contributor."
+  },
+  "gh:BenWestgate": {
+    "githubLogin": "BenWestgate",
+    "name": "BenWestgate",
+    "bio": "BIP contributor."
+  },
+  "gh:TheBlueMatt": {
+    "githubLogin": "TheBlueMatt",
+    "name": "TheBlueMatt",
+    "bio": "BIP contributor."
+  },
+  "gh:Sjors": {
+    "githubLogin": "Sjors",
+    "name": "Sjors",
+    "bio": "BIP contributor."
+  },
+  "gh:siv2r": {
+    "githubLogin": "siv2r",
+    "name": "siv2r",
+    "bio": "BIP contributor."
+  },
+  "gh:KeysSoze": {
+    "githubLogin": "KeysSoze",
+    "name": "KeysSoze",
+    "bio": "BIP contributor."
+  },
+  "gh:GarmashAlex": {
+    "githubLogin": "GarmashAlex",
+    "name": "GarmashAlex",
+    "bio": "BIP contributor."
+  },
+  "gh:kcalvinalvin": {
+    "githubLogin": "kcalvinalvin",
+    "name": "kcalvinalvin",
+    "bio": "BIP contributor."
+  },
+  "gh:ajtowns": {
+    "githubLogin": "ajtowns",
+    "name": "ajtowns",
+    "bio": "BIP contributor."
+  },
+  "gh:Roasbeef": {
+    "githubLogin": "Roasbeef",
+    "name": "Roasbeef",
+    "bio": "BIP contributor."
+  },
+  "gh:strmfos": {
+    "githubLogin": "strmfos",
+    "name": "strmfos",
+    "bio": "BIP contributor."
+  },
+  "gh:Snezhkko": {
+    "githubLogin": "Snezhkko",
+    "name": "Snezhkko",
+    "bio": "BIP contributor."
+  },
+  "gh:dr-bonez": {
+    "githubLogin": "dr-bonez",
+    "name": "dr-bonez",
+    "bio": "BIP contributor."
+  },
+  "gh:ovrdos": {
+    "githubLogin": "ovrdos",
+    "name": "ovrdos",
+    "bio": "BIP contributor."
+  },
+  "gh:junderw": {
+    "githubLogin": "junderw",
+    "name": "junderw",
+    "bio": "BIP contributor."
+  },
+  "gh:zeroprooff": {
+    "githubLogin": "zeroprooff",
+    "name": "zeroprooff",
+    "bio": "BIP contributor."
+  },
+  "gh:Nuhvi": {
+    "githubLogin": "Nuhvi",
+    "name": "Nuhvi",
+    "bio": "BIP contributor."
+  },
+  "gh:shesek": {
+    "githubLogin": "shesek",
+    "name": "shesek",
+    "bio": "BIP contributor."
+  },
+  "gh:EthanHeilman": {
+    "githubLogin": "EthanHeilman",
+    "name": "EthanHeilman",
+    "bio": "BIP contributor."
+  },
+  "gh:ben221199": {
+    "githubLogin": "ben221199",
+    "name": "ben221199",
+    "bio": "BIP contributor."
+  },
+  "gh:MozirDmitriy": {
+    "githubLogin": "MozirDmitriy",
+    "name": "MozirDmitriy",
+    "bio": "BIP contributor."
+  },
+  "gh:bitcoinguardian": {
+    "githubLogin": "bitcoinguardian",
+    "name": "bitcoinguardian",
+    "bio": "BIP contributor."
+  },
+  "gh:forkfury": {
+    "githubLogin": "forkfury",
+    "name": "forkfury",
+    "bio": "BIP contributor."
+  },
+  "gh:phrwlk": {
+    "githubLogin": "phrwlk",
+    "name": "phrwlk",
+    "bio": "BIP contributor."
+  },
+  "gh:yyhrnk": {
+    "githubLogin": "yyhrnk",
+    "name": "yyhrnk",
+    "bio": "BIP contributor."
+  },
   "gh:cryptoquick": {
     "githubLogin": "cryptoquick",
     "name": "cryptoquick",
-    "bio": "BIP contributor."
-  },
-  "gh:moonsettler": {
-    "githubLogin": "moonsettler",
-    "name": "moonsettler",
     "bio": "BIP contributor."
   },
   "gh:theStack": {
@@ -139,9 +724,2534 @@
     "name": "sashabeton",
     "bio": "BIP contributor."
   },
-  "gh:BenWestgate": {
-    "githubLogin": "BenWestgate",
-    "name": "BenWestgate",
+  "gh:lifofifoX": {
+    "githubLogin": "lifofifoX",
+    "name": "lifofifoX",
+    "bio": "BIP contributor."
+  },
+  "gh:MohammadEglil": {
+    "githubLogin": "MohammadEglil",
+    "name": "MohammadEglil",
+    "bio": "BIP contributor."
+  },
+  "gh:lechpzn": {
+    "githubLogin": "lechpzn",
+    "name": "lechpzn",
+    "bio": "BIP contributor."
+  },
+  "gh:jonatack": {
+    "githubLogin": "jonatack",
+    "name": "jonatack",
+    "bio": "BIP contributor."
+  },
+  "gh:prestoalvarez": {
+    "githubLogin": "prestoalvarez",
+    "name": "prestoalvarez",
+    "bio": "BIP contributor."
+  },
+  "gh:casey": {
+    "githubLogin": "casey",
+    "name": "casey",
+    "bio": "BIP contributor."
+  },
+  "gh:shivaenigma": {
+    "githubLogin": "shivaenigma",
+    "name": "shivaenigma",
+    "bio": "BIP contributor."
+  },
+  "gh:Bortlesboat": {
+    "githubLogin": "Bortlesboat",
+    "name": "Bortlesboat",
+    "bio": "BIP contributor."
+  },
+  "gh:radik878": {
+    "githubLogin": "radik878",
+    "name": "radik878",
+    "bio": "BIP contributor."
+  },
+  "gh:Christewart": {
+    "githubLogin": "Christewart",
+    "name": "Christewart",
+    "bio": "BIP contributor."
+  },
+  "gh:lisenokdonbassenok": {
+    "githubLogin": "lisenokdonbassenok",
+    "name": "lisenokdonbassenok",
+    "bio": "BIP contributor."
+  },
+  "gh:sashass1315": {
+    "githubLogin": "sashass1315",
+    "name": "sashass1315",
+    "bio": "BIP contributor."
+  },
+  "gh:rkrux": {
+    "githubLogin": "rkrux",
+    "name": "rkrux",
+    "bio": "BIP contributor."
+  },
+  "gh:j1729labs": {
+    "githubLogin": "j1729labs",
+    "name": "j1729labs",
+    "bio": "BIP contributor."
+  },
+  "gh:vibegentt": {
+    "githubLogin": "vibegentt",
+    "name": "vibegentt",
+    "bio": "BIP contributor."
+  },
+  "gh:ariard": {
+    "githubLogin": "ariard",
+    "name": "ariard",
+    "bio": "BIP contributor."
+  },
+  "gh:MoNyAvA": {
+    "githubLogin": "MoNyAvA",
+    "name": "MoNyAvA",
+    "bio": "BIP contributor."
+  },
+  "gh:murchandamus": {
+    "githubLogin": "murchandamus",
+    "name": "murchandamus",
+    "bio": "BIP contributor."
+  },
+  "gh:YoYo860224": {
+    "githubLogin": "YoYo860224",
+    "name": "YoYo860224",
+    "bio": "BIP contributor."
+  },
+  "gh:BST1807": {
+    "githubLogin": "BST1807",
+    "name": "BST1807",
+    "bio": "BIP contributor."
+  },
+  "gh:VolodymyrBg": {
+    "githubLogin": "VolodymyrBg",
+    "name": "VolodymyrBg",
+    "bio": "BIP contributor."
+  },
+  "gh:futurepaul": {
+    "githubLogin": "futurepaul",
+    "name": "futurepaul",
+    "bio": "BIP contributor."
+  },
+  "gh:stevenroose": {
+    "githubLogin": "stevenroose",
+    "name": "stevenroose",
+    "bio": "BIP contributor."
+  },
+  "gh:ysangkok": {
+    "githubLogin": "ysangkok",
+    "name": "ysangkok",
+    "bio": "BIP contributor."
+  },
+  "gh:luke-jr": {
+    "githubLogin": "luke-jr",
+    "name": "luke-jr",
+    "bio": "BIP contributor."
+  },
+  "gh:Shadouts": {
+    "githubLogin": "Shadouts",
+    "name": "Shadouts",
+    "bio": "BIP contributor."
+  },
+  "gh:DanGould": {
+    "githubLogin": "DanGould",
+    "name": "DanGould",
+    "bio": "BIP contributor."
+  },
+  "gh:EntropyMaBoyy": {
+    "githubLogin": "EntropyMaBoyy",
+    "name": "EntropyMaBoyy",
+    "bio": "BIP contributor."
+  },
+  "gh:Olexandr88": {
+    "githubLogin": "Olexandr88",
+    "name": "Olexandr88",
+    "bio": "BIP contributor."
+  },
+  "gh:real-or-random": {
+    "githubLogin": "real-or-random",
+    "name": "real-or-random",
+    "bio": "BIP contributor."
+  },
+  "gh:maradini77": {
+    "githubLogin": "maradini77",
+    "name": "maradini77",
+    "bio": "BIP contributor."
+  },
+  "gh:reallesee": {
+    "githubLogin": "reallesee",
+    "name": "reallesee",
+    "bio": "BIP contributor."
+  },
+  "gh:kurahin": {
+    "githubLogin": "kurahin",
+    "name": "kurahin",
+    "bio": "BIP contributor."
+  },
+  "gh:golden-goose-routstr": {
+    "githubLogin": "golden-goose-routstr",
+    "name": "golden-goose-routstr",
+    "bio": "BIP contributor."
+  },
+  "gh:cal-gooo": {
+    "githubLogin": "cal-gooo",
+    "name": "cal-gooo",
+    "bio": "BIP contributor."
+  },
+  "gh:SashaMalysehko": {
+    "githubLogin": "SashaMalysehko",
+    "name": "SashaMalysehko",
+    "bio": "BIP contributor."
+  },
+  "gh:Lil-Duckling-22": {
+    "githubLogin": "Lil-Duckling-22",
+    "name": "Lil-Duckling-22",
+    "bio": "BIP contributor."
+  },
+  "gh:Galoretka": {
+    "githubLogin": "Galoretka",
+    "name": "Galoretka",
+    "bio": "BIP contributor."
+  },
+  "gh:hodlinator": {
+    "githubLogin": "hodlinator",
+    "name": "hodlinator",
+    "bio": "BIP contributor."
+  },
+  "gh:brunoerg": {
+    "githubLogin": "brunoerg",
+    "name": "brunoerg",
+    "bio": "BIP contributor."
+  },
+  "gh:ostromcode": {
+    "githubLogin": "ostromcode",
+    "name": "ostromcode",
+    "bio": "BIP contributor."
+  },
+  "gh:dhruv": {
+    "githubLogin": "dhruv",
+    "name": "dhruv",
+    "bio": "BIP contributor."
+  },
+  "gh:Bashmunta": {
+    "githubLogin": "Bashmunta",
+    "name": "Bashmunta",
+    "bio": "BIP contributor."
+  },
+  "gh:billymcbip": {
+    "githubLogin": "billymcbip",
+    "name": "billymcbip",
+    "bio": "BIP contributor."
+  },
+  "gh:edyth933": {
+    "githubLogin": "edyth933",
+    "name": "edyth933",
+    "bio": "BIP contributor."
+  },
+  "gh:Doryu001": {
+    "githubLogin": "Doryu001",
+    "name": "Doryu001",
+    "bio": "BIP contributor."
+  },
+  "gh:defenwycke": {
+    "githubLogin": "defenwycke",
+    "name": "defenwycke",
+    "bio": "BIP contributor."
+  },
+  "gh:JonnyFJi": {
+    "githubLogin": "JonnyFJi",
+    "name": "JonnyFJi",
+    "bio": "BIP contributor."
+  },
+  "gh:Forostovec": {
+    "githubLogin": "Forostovec",
+    "name": "Forostovec",
+    "bio": "BIP contributor."
+  },
+  "gh:justinfilip": {
+    "githubLogin": "justinfilip",
+    "name": "justinfilip",
+    "bio": "BIP contributor."
+  },
+  "gh:kallewoof": {
+    "githubLogin": "kallewoof",
+    "name": "kallewoof",
+    "bio": "BIP contributor."
+  },
+  "gh:markjr": {
+    "githubLogin": "markjr",
+    "name": "markjr",
+    "bio": "BIP contributor."
+  },
+  "gh:futreall": {
+    "githubLogin": "futreall",
+    "name": "futreall",
+    "bio": "BIP contributor."
+  },
+  "gh:sky-coderay": {
+    "githubLogin": "sky-coderay",
+    "name": "sky-coderay",
+    "bio": "BIP contributor."
+  },
+  "gh:tomasandroil": {
+    "githubLogin": "tomasandroil",
+    "name": "tomasandroil",
+    "bio": "BIP contributor."
+  },
+  "gh:sashaodessa": {
+    "githubLogin": "sashaodessa",
+    "name": "sashaodessa",
+    "bio": "BIP contributor."
+  },
+  "gh:IrshadKohl51": {
+    "githubLogin": "IrshadKohl51",
+    "name": "IrshadKohl51",
+    "bio": "BIP contributor."
+  },
+  "gh:andrewtoth": {
+    "githubLogin": "andrewtoth",
+    "name": "andrewtoth",
+    "bio": "BIP contributor."
+  },
+  "gh:adblesss": {
+    "githubLogin": "adblesss",
+    "name": "adblesss",
+    "bio": "BIP contributor."
+  },
+  "gh:crisseee": {
+    "githubLogin": "crisseee",
+    "name": "crisseee",
+    "bio": "BIP contributor."
+  },
+  "gh:aso20455": {
+    "githubLogin": "aso20455",
+    "name": "aso20455",
+    "bio": "BIP contributor."
+  },
+  "gh:fifalodm": {
+    "githubLogin": "fifalodm",
+    "name": "fifalodm",
+    "bio": "BIP contributor."
+  },
+  "gh:ghost": {
+    "githubLogin": "ghost",
+    "name": "ghost",
+    "bio": "BIP contributor."
+  },
+  "gh:Fibonacci747": {
+    "githubLogin": "Fibonacci747",
+    "name": "Fibonacci747",
+    "bio": "BIP contributor."
+  },
+  "gh:ANtutov": {
+    "githubLogin": "ANtutov",
+    "name": "ANtutov",
+    "bio": "BIP contributor."
+  },
+  "gh:qusaismael": {
+    "githubLogin": "qusaismael",
+    "name": "qusaismael",
+    "bio": "BIP contributor."
+  },
+  "gh:Echopraxium": {
+    "githubLogin": "Echopraxium",
+    "name": "Echopraxium",
+    "bio": "BIP contributor."
+  },
+  "gh:matbalez": {
+    "githubLogin": "matbalez",
+    "name": "matbalez",
+    "bio": "BIP contributor."
+  },
+  "gh:moneyball": {
+    "githubLogin": "moneyball",
+    "name": "moneyball",
+    "bio": "BIP contributor."
+  },
+  "gh:bethoffman": {
+    "githubLogin": "bethoffman",
+    "name": "bethoffman",
+    "bio": "BIP contributor."
+  },
+  "gh:QbitsCode": {
+    "githubLogin": "QbitsCode",
+    "name": "QbitsCode",
+    "bio": "BIP contributor."
+  },
+  "gh:otc-png": {
+    "githubLogin": "otc-png",
+    "name": "otc-png",
+    "bio": "BIP contributor."
+  },
+  "gh:anim001k": {
+    "githubLogin": "anim001k",
+    "name": "anim001k",
+    "bio": "BIP contributor."
+  },
+  "gh:1440000bytes": {
+    "githubLogin": "1440000bytes",
+    "name": "1440000bytes",
+    "bio": "BIP contributor."
+  },
+  "gh:dplusplus1024": {
+    "githubLogin": "dplusplus1024",
+    "name": "dplusplus1024",
+    "bio": "BIP contributor."
+  },
+  "gh:ddustin": {
+    "githubLogin": "ddustin",
+    "name": "ddustin",
+    "bio": "BIP contributor."
+  },
+  "gh:furszy": {
+    "githubLogin": "furszy",
+    "name": "furszy",
+    "bio": "BIP contributor."
+  },
+  "gh:peterkisfaludi": {
+    "githubLogin": "peterkisfaludi",
+    "name": "peterkisfaludi",
+    "bio": "BIP contributor."
+  },
+  "gh:crStiv": {
+    "githubLogin": "crStiv",
+    "name": "crStiv",
+    "bio": "BIP contributor."
+  },
+  "gh:nothingmuch": {
+    "githubLogin": "nothingmuch",
+    "name": "nothingmuch",
+    "bio": "BIP contributor."
+  },
+  "gh:kumulynja": {
+    "githubLogin": "kumulynja",
+    "name": "kumulynja",
+    "bio": "BIP contributor."
+  },
+  "gh:Noisyxl": {
+    "githubLogin": "Noisyxl",
+    "name": "Noisyxl",
+    "bio": "BIP contributor."
+  },
+  "gh:Danger-MaN": {
+    "githubLogin": "Danger-MaN",
+    "name": "Danger-MaN",
+    "bio": "BIP contributor."
+  },
+  "gh:PixelPil0t1": {
+    "githubLogin": "PixelPil0t1",
+    "name": "PixelPil0t1",
+    "bio": "BIP contributor."
+  },
+  "gh:wedjob0X": {
+    "githubLogin": "wedjob0X",
+    "name": "wedjob0X",
+    "bio": "BIP contributor."
+  },
+  "gh:scgbckbone": {
+    "githubLogin": "scgbckbone",
+    "name": "scgbckbone",
+    "bio": "BIP contributor."
+  },
+  "gh:spacebear21": {
+    "githubLogin": "spacebear21",
+    "name": "spacebear21",
+    "bio": "BIP contributor."
+  },
+  "gh:gap-editor": {
+    "githubLogin": "gap-editor",
+    "name": "gap-editor",
+    "bio": "BIP contributor."
+  },
+  "gh:kks-code": {
+    "githubLogin": "kks-code",
+    "name": "kks-code",
+    "bio": "BIP contributor."
+  },
+  "gh:Extheoisah": {
+    "githubLogin": "Extheoisah",
+    "name": "Extheoisah",
+    "bio": "BIP contributor."
+  },
+  "gh:quapka": {
+    "githubLogin": "quapka",
+    "name": "quapka",
+    "bio": "BIP contributor."
+  },
+  "gh:famouswizard": {
+    "githubLogin": "famouswizard",
+    "name": "famouswizard",
+    "bio": "BIP contributor."
+  },
+  "gh:vtjl10": {
+    "githubLogin": "vtjl10",
+    "name": "vtjl10",
+    "bio": "BIP contributor."
+  },
+  "gh:dancer1325": {
+    "githubLogin": "dancer1325",
+    "name": "dancer1325",
+    "bio": "BIP contributor."
+  },
+  "gh:notnout": {
+    "githubLogin": "notnout",
+    "name": "notnout",
+    "bio": "BIP contributor."
+  },
+  "gh:dr-orlovsky": {
+    "githubLogin": "dr-orlovsky",
+    "name": "dr-orlovsky",
+    "bio": "BIP contributor."
+  },
+  "gh:bigspider": {
+    "githubLogin": "bigspider",
+    "name": "bigspider",
+    "bio": "BIP contributor."
+  },
+  "gh:thebrandonlucas": {
+    "githubLogin": "thebrandonlucas",
+    "name": "thebrandonlucas",
+    "bio": "BIP contributor."
+  },
+  "gh:halseth": {
+    "githubLogin": "halseth",
+    "name": "halseth",
+    "bio": "BIP contributor."
+  },
+  "gh:Fonta1n3": {
+    "githubLogin": "Fonta1n3",
+    "name": "Fonta1n3",
+    "bio": "BIP contributor."
+  },
+  "gh:torrpriius": {
+    "githubLogin": "torrpriius",
+    "name": "torrpriius",
+    "bio": "BIP contributor."
+  },
+  "gh:BitcoinErrorLog": {
+    "githubLogin": "BitcoinErrorLog",
+    "name": "BitcoinErrorLog",
+    "bio": "BIP contributor."
+  },
+  "gh:mutestt": {
+    "githubLogin": "mutestt",
+    "name": "mutestt",
+    "bio": "BIP contributor."
+  },
+  "gh:psztorc": {
+    "githubLogin": "psztorc",
+    "name": "psztorc",
+    "bio": "BIP contributor."
+  },
+  "gh:dni": {
+    "githubLogin": "dni",
+    "name": "dni",
+    "bio": "BIP contributor."
+  },
+  "gh:ben-kaufman": {
+    "githubLogin": "ben-kaufman",
+    "name": "ben-kaufman",
+    "bio": "BIP contributor."
+  },
+  "gh:jamesob": {
+    "githubLogin": "jamesob",
+    "name": "jamesob",
+    "bio": "BIP contributor."
+  },
+  "gh:0ceanSlim": {
+    "githubLogin": "0ceanSlim",
+    "name": "0ceanSlim",
+    "bio": "BIP contributor."
+  },
+  "gh:david-bakin": {
+    "githubLogin": "david-bakin",
+    "name": "david-bakin",
+    "bio": "BIP contributor."
+  },
+  "gh:NicolasDorier": {
+    "githubLogin": "NicolasDorier",
+    "name": "NicolasDorier",
+    "bio": "BIP contributor."
+  },
+  "gh:prusnak": {
+    "githubLogin": "prusnak",
+    "name": "prusnak",
+    "bio": "BIP contributor."
+  },
+  "gh:okba14": {
+    "githubLogin": "okba14",
+    "name": "okba14",
+    "bio": "BIP contributor."
+  },
+  "gh:wgyt": {
+    "githubLogin": "wgyt",
+    "name": "wgyt",
+    "bio": "BIP contributor."
+  },
+  "gh:xiaobei0715": {
+    "githubLogin": "xiaobei0715",
+    "name": "xiaobei0715",
+    "bio": "BIP contributor."
+  },
+  "gh:Pronoss": {
+    "githubLogin": "Pronoss",
+    "name": "Pronoss",
+    "bio": "BIP contributor."
+  },
+  "gh:leopardracer": {
+    "githubLogin": "leopardracer",
+    "name": "leopardracer",
+    "bio": "BIP contributor."
+  },
+  "gh:zeevick10": {
+    "githubLogin": "zeevick10",
+    "name": "zeevick10",
+    "bio": "BIP contributor."
+  },
+  "gh:kilavvy": {
+    "githubLogin": "kilavvy",
+    "name": "kilavvy",
+    "bio": "BIP contributor."
+  },
+  "gh:dedyshkaPexto": {
+    "githubLogin": "dedyshkaPexto",
+    "name": "dedyshkaPexto",
+    "bio": "BIP contributor."
+  },
+  "gh:litvintech": {
+    "githubLogin": "litvintech",
+    "name": "litvintech",
+    "bio": "BIP contributor."
+  },
+  "gh:vipocenka": {
+    "githubLogin": "vipocenka",
+    "name": "vipocenka",
+    "bio": "BIP contributor."
+  },
+  "gh:guspan-tanadi": {
+    "githubLogin": "guspan-tanadi",
+    "name": "guspan-tanadi",
+    "bio": "BIP contributor."
+  },
+  "gh:EthnTuttle": {
+    "githubLogin": "EthnTuttle",
+    "name": "EthnTuttle",
+    "bio": "BIP contributor."
+  },
+  "gh:GobiShanthan": {
+    "githubLogin": "GobiShanthan",
+    "name": "GobiShanthan",
+    "bio": "BIP contributor."
+  },
+  "gh:reardencode": {
+    "githubLogin": "reardencode",
+    "name": "reardencode",
+    "bio": "BIP contributor."
+  },
+  "gh:fjahr": {
+    "githubLogin": "fjahr",
+    "name": "fjahr",
+    "bio": "BIP contributor."
+  },
+  "gh:GlenCooper": {
+    "githubLogin": "GlenCooper",
+    "name": "GlenCooper",
+    "bio": "BIP contributor."
+  },
+  "gh:brawncode": {
+    "githubLogin": "brawncode",
+    "name": "brawncode",
+    "bio": "BIP contributor."
+  },
+  "gh:doc-hex": {
+    "githubLogin": "doc-hex",
+    "name": "doc-hex",
+    "bio": "BIP contributor."
+  },
+  "gh:costcould": {
+    "githubLogin": "costcould",
+    "name": "costcould",
+    "bio": "BIP contributor."
+  },
+  "gh:arminsabouri": {
+    "githubLogin": "arminsabouri",
+    "name": "arminsabouri",
+    "bio": "BIP contributor."
+  },
+  "gh:stratospher": {
+    "githubLogin": "stratospher",
+    "name": "stratospher",
+    "bio": "BIP contributor."
+  },
+  "gh:akarve": {
+    "githubLogin": "akarve",
+    "name": "akarve",
+    "bio": "BIP contributor."
+  },
+  "gh:ujjwali2s": {
+    "githubLogin": "ujjwali2s",
+    "name": "ujjwali2s",
+    "bio": "BIP contributor."
+  },
+  "gh:Gudnessuche": {
+    "githubLogin": "Gudnessuche",
+    "name": "Gudnessuche",
+    "bio": "BIP contributor."
+  },
+  "gh:Kixunil": {
+    "githubLogin": "Kixunil",
+    "name": "Kixunil",
+    "bio": "BIP contributor."
+  },
+  "gh:afk11": {
+    "githubLogin": "afk11",
+    "name": "afk11",
+    "bio": "BIP contributor."
+  },
+  "gh:MamunC0der": {
+    "githubLogin": "MamunC0der",
+    "name": "MamunC0der",
+    "bio": "BIP contributor."
+  },
+  "gh:epysqyli": {
+    "githubLogin": "epysqyli",
+    "name": "epysqyli",
+    "bio": "BIP contributor."
+  },
+  "gh:guggero": {
+    "githubLogin": "guggero",
+    "name": "guggero",
+    "bio": "BIP contributor."
+  },
+  "gh:kdmukai": {
+    "githubLogin": "kdmukai",
+    "name": "kdmukai",
+    "bio": "BIP contributor."
+  },
+  "gh:savvar9991": {
+    "githubLogin": "savvar9991",
+    "name": "savvar9991",
+    "bio": "BIP contributor."
+  },
+  "gh:youyyytrok": {
+    "githubLogin": "youyyytrok",
+    "name": "youyyytrok",
+    "bio": "BIP contributor."
+  },
+  "gh:denevertt": {
+    "githubLogin": "denevertt",
+    "name": "denevertt",
+    "bio": "BIP contributor."
+  },
+  "gh:pad01g": {
+    "githubLogin": "pad01g",
+    "name": "pad01g",
+    "bio": "BIP contributor."
+  },
+  "gh:anurag-lint": {
+    "githubLogin": "anurag-lint",
+    "name": "anurag-lint",
+    "bio": "BIP contributor."
+  },
+  "gh:QuestofIranon": {
+    "githubLogin": "QuestofIranon",
+    "name": "QuestofIranon",
+    "bio": "BIP contributor."
+  },
+  "gh:simondev1": {
+    "githubLogin": "simondev1",
+    "name": "simondev1",
+    "bio": "BIP contributor."
+  },
+  "gh:achow101": {
+    "githubLogin": "achow101",
+    "name": "achow101",
+    "bio": "BIP contributor."
+  },
+  "gh:slush0": {
+    "githubLogin": "slush0",
+    "name": "slush0",
+    "bio": "BIP contributor."
+  },
+  "gh:bskrksyp9": {
+    "githubLogin": "bskrksyp9",
+    "name": "bskrksyp9",
+    "bio": "BIP contributor."
+  },
+  "gh:RandyMcMillan": {
+    "githubLogin": "RandyMcMillan",
+    "name": "RandyMcMillan",
+    "bio": "BIP contributor."
+  },
+  "gh:sipa": {
+    "githubLogin": "sipa",
+    "name": "sipa",
+    "bio": "BIP contributor."
+  },
+  "gh:arjunsunar1": {
+    "githubLogin": "arjunsunar1",
+    "name": "arjunsunar1",
+    "bio": "BIP contributor."
+  },
+  "gh:azuchi": {
+    "githubLogin": "azuchi",
+    "name": "azuchi",
+    "bio": "BIP contributor."
+  },
+  "gh:ChrisCho-H": {
+    "githubLogin": "ChrisCho-H",
+    "name": "ChrisCho-H",
+    "bio": "BIP contributor."
+  },
+  "gh:douglaz": {
+    "githubLogin": "douglaz",
+    "name": "douglaz",
+    "bio": "BIP contributor."
+  },
+  "gh:Crypt-iQ": {
+    "githubLogin": "Crypt-iQ",
+    "name": "Crypt-iQ",
+    "bio": "BIP contributor."
+  },
+  "gh:TheTrunk": {
+    "githubLogin": "TheTrunk",
+    "name": "TheTrunk",
+    "bio": "BIP contributor."
+  },
+  "gh:OrfeasLitos": {
+    "githubLogin": "OrfeasLitos",
+    "name": "OrfeasLitos",
+    "bio": "BIP contributor."
+  },
+  "gh:michael1011": {
+    "githubLogin": "michael1011",
+    "name": "michael1011",
+    "bio": "BIP contributor."
+  },
+  "gh:5atoshiNakamoto": {
+    "githubLogin": "5atoshiNakamoto",
+    "name": "5atoshiNakamoto",
+    "bio": "BIP contributor."
+  },
+  "gh:jonasschnelli": {
+    "githubLogin": "jonasschnelli",
+    "name": "jonasschnelli",
+    "bio": "BIP contributor."
+  },
+  "gh:pinheadmz": {
+    "githubLogin": "pinheadmz",
+    "name": "pinheadmz",
+    "bio": "BIP contributor."
+  },
+  "gh:glozow": {
+    "githubLogin": "glozow",
+    "name": "glozow",
+    "bio": "BIP contributor."
+  },
+  "gh:Enegnei": {
+    "githubLogin": "Enegnei",
+    "name": "Enegnei",
+    "bio": "BIP contributor."
+  },
+  "gh:theborakompanioni": {
+    "githubLogin": "theborakompanioni",
+    "name": "theborakompanioni",
+    "bio": "BIP contributor."
+  },
+  "gh:veleslavs": {
+    "githubLogin": "veleslavs",
+    "name": "veleslavs",
+    "bio": "BIP contributor."
+  },
+  "gh:sdaftuar": {
+    "githubLogin": "sdaftuar",
+    "name": "sdaftuar",
+    "bio": "BIP contributor."
+  },
+  "gh:satsie": {
+    "githubLogin": "satsie",
+    "name": "satsie",
+    "bio": "BIP contributor."
+  },
+  "gh:thesimplekid": {
+    "githubLogin": "thesimplekid",
+    "name": "thesimplekid",
+    "bio": "BIP contributor."
+  },
+  "gh:nnsW3": {
+    "githubLogin": "nnsW3",
+    "name": "nnsW3",
+    "bio": "BIP contributor."
+  },
+  "gh:efecini": {
+    "githubLogin": "efecini",
+    "name": "efecini",
+    "bio": "BIP contributor."
+  },
+  "gh:CrewsControlSolutions": {
+    "githubLogin": "CrewsControlSolutions",
+    "name": "CrewsControlSolutions",
+    "bio": "BIP contributor."
+  },
+  "gh:chris-belcher": {
+    "githubLogin": "chris-belcher",
+    "name": "chris-belcher",
+    "bio": "BIP contributor."
+  },
+  "gh:TomBriar": {
+    "githubLogin": "TomBriar",
+    "name": "TomBriar",
+    "bio": "BIP contributor."
+  },
+  "gh:MarnixCroes": {
+    "githubLogin": "MarnixCroes",
+    "name": "MarnixCroes",
+    "bio": "BIP contributor."
+  },
+  "gh:meherett": {
+    "githubLogin": "meherett",
+    "name": "meherett",
+    "bio": "BIP contributor."
+  },
+  "gh:threewebcode": {
+    "githubLogin": "threewebcode",
+    "name": "threewebcode",
+    "bio": "BIP contributor."
+  },
+  "gh:wu-emma": {
+    "githubLogin": "wu-emma",
+    "name": "wu-emma",
+    "bio": "BIP contributor."
+  },
+  "gh:john-moffett": {
+    "githubLogin": "john-moffett",
+    "name": "john-moffett",
+    "bio": "BIP contributor."
+  },
+  "gh:rorp": {
+    "githubLogin": "rorp",
+    "name": "rorp",
+    "bio": "BIP contributor."
+  },
+  "gh:katesalazar": {
+    "githubLogin": "katesalazar",
+    "name": "katesalazar",
+    "bio": "BIP contributor."
+  },
+  "gh:philsmd": {
+    "githubLogin": "philsmd",
+    "name": "philsmd",
+    "bio": "BIP contributor."
+  },
+  "gh:yannickseurin": {
+    "githubLogin": "yannickseurin",
+    "name": "yannickseurin",
+    "bio": "BIP contributor."
+  },
+  "gh:Alegege": {
+    "githubLogin": "Alegege",
+    "name": "Alegege",
+    "bio": "BIP contributor."
+  },
+  "gh:matthewjablack": {
+    "githubLogin": "matthewjablack",
+    "name": "matthewjablack",
+    "bio": "BIP contributor."
+  },
+  "gh:louneskmt": {
+    "githubLogin": "louneskmt",
+    "name": "louneskmt",
+    "bio": "BIP contributor."
+  },
+  "gh:ZenulAbidin": {
+    "githubLogin": "ZenulAbidin",
+    "name": "ZenulAbidin",
+    "bio": "BIP contributor."
+  },
+  "gh:mmgen": {
+    "githubLogin": "mmgen",
+    "name": "mmgen",
+    "bio": "BIP contributor."
+  },
+  "gh:paribu": {
+    "githubLogin": "paribu",
+    "name": "paribu",
+    "bio": "BIP contributor."
+  },
+  "gh:yassun": {
+    "githubLogin": "yassun",
+    "name": "yassun",
+    "bio": "BIP contributor."
+  },
+  "gh:Varunram": {
+    "githubLogin": "Varunram",
+    "name": "Varunram",
+    "bio": "BIP contributor."
+  },
+  "gh:helder-garcia": {
+    "githubLogin": "helder-garcia",
+    "name": "helder-garcia",
+    "bio": "BIP contributor."
+  },
+  "gh:kanzure": {
+    "githubLogin": "kanzure",
+    "name": "kanzure",
+    "bio": "BIP contributor."
+  },
+  "gh:lukechilds": {
+    "githubLogin": "lukechilds",
+    "name": "lukechilds",
+    "bio": "BIP contributor."
+  },
+  "gh:RealCocoArdo": {
+    "githubLogin": "RealCocoArdo",
+    "name": "RealCocoArdo",
+    "bio": "BIP contributor."
+  },
+  "gh:petterhs": {
+    "githubLogin": "petterhs",
+    "name": "petterhs",
+    "bio": "BIP contributor."
+  },
+  "gh:impul": {
+    "githubLogin": "impul",
+    "name": "impul",
+    "bio": "BIP contributor."
+  },
+  "gh:cmdruid": {
+    "githubLogin": "cmdruid",
+    "name": "cmdruid",
+    "bio": "BIP contributor."
+  },
+  "gh:dlwhitehurst": {
+    "githubLogin": "dlwhitehurst",
+    "name": "dlwhitehurst",
+    "bio": "BIP contributor."
+  },
+  "gh:eMaringolo": {
+    "githubLogin": "eMaringolo",
+    "name": "eMaringolo",
+    "bio": "BIP contributor."
+  },
+  "gh:justusranvier": {
+    "githubLogin": "justusranvier",
+    "name": "justusranvier",
+    "bio": "BIP contributor."
+  },
+  "gh:Coding-Enthusiast": {
+    "githubLogin": "Coding-Enthusiast",
+    "name": "Coding-Enthusiast",
+    "bio": "BIP contributor."
+  },
+  "gh:riordant": {
+    "githubLogin": "riordant",
+    "name": "riordant",
+    "bio": "BIP contributor."
+  },
+  "gh:chm": {
+    "githubLogin": "chm",
+    "name": "chm",
+    "bio": "BIP contributor."
+  },
+  "gh:StijnVA": {
+    "githubLogin": "StijnVA",
+    "name": "StijnVA",
+    "bio": "BIP contributor."
+  },
+  "gh:nau": {
+    "githubLogin": "nau",
+    "name": "nau",
+    "bio": "BIP contributor."
+  },
+  "gh:tuxcanfly": {
+    "githubLogin": "tuxcanfly",
+    "name": "tuxcanfly",
+    "bio": "BIP contributor."
+  },
+  "gh:bitcoinbrisbane": {
+    "githubLogin": "bitcoinbrisbane",
+    "name": "bitcoinbrisbane",
+    "bio": "BIP contributor."
+  },
+  "gh:davidgumberg": {
+    "githubLogin": "davidgumberg",
+    "name": "davidgumberg",
+    "bio": "BIP contributor."
+  },
+  "gh:ottosch": {
+    "githubLogin": "ottosch",
+    "name": "ottosch",
+    "bio": "BIP contributor."
+  },
+  "gh:nopara73": {
+    "githubLogin": "nopara73",
+    "name": "nopara73",
+    "bio": "BIP contributor."
+  },
+  "gh:fakefraud": {
+    "githubLogin": "fakefraud",
+    "name": "fakefraud",
+    "bio": "BIP contributor."
+  },
+  "gh:wangchun": {
+    "githubLogin": "wangchun",
+    "name": "wangchun",
+    "bio": "BIP contributor."
+  },
+  "gh:evoskuil": {
+    "githubLogin": "evoskuil",
+    "name": "evoskuil",
+    "bio": "BIP contributor."
+  },
+  "gh:yuntai": {
+    "githubLogin": "yuntai",
+    "name": "yuntai",
+    "bio": "BIP contributor."
+  },
+  "gh:greenaddress": {
+    "githubLogin": "greenaddress",
+    "name": "greenaddress",
+    "bio": "BIP contributor."
+  },
+  "gh:da2ce7": {
+    "githubLogin": "da2ce7",
+    "name": "da2ce7",
+    "bio": "BIP contributor."
+  },
+  "gh:bijeebuss": {
+    "githubLogin": "bijeebuss",
+    "name": "bijeebuss",
+    "bio": "BIP contributor."
+  },
+  "gh:DeftNerd": {
+    "githubLogin": "DeftNerd",
+    "name": "DeftNerd",
+    "bio": "BIP contributor."
+  },
+  "gh:portlandhodl": {
+    "githubLogin": "portlandhodl",
+    "name": "portlandhodl",
+    "bio": "BIP contributor."
+  },
+  "gh:bitjson": {
+    "githubLogin": "bitjson",
+    "name": "bitjson",
+    "bio": "BIP contributor."
+  },
+  "gh:momodaka": {
+    "githubLogin": "momodaka",
+    "name": "momodaka",
+    "bio": "BIP contributor."
+  },
+  "gh:willyko": {
+    "githubLogin": "willyko",
+    "name": "willyko",
+    "bio": "BIP contributor."
+  },
+  "gh:pkvk": {
+    "githubLogin": "pkvk",
+    "name": "pkvk",
+    "bio": "BIP contributor."
+  },
+  "gh:benthecarman": {
+    "githubLogin": "benthecarman",
+    "name": "benthecarman",
+    "bio": "BIP contributor."
+  },
+  "gh:Mironenko": {
+    "githubLogin": "Mironenko",
+    "name": "Mironenko",
+    "bio": "BIP contributor."
+  },
+  "gh:anquii": {
+    "githubLogin": "anquii",
+    "name": "anquii",
+    "bio": "BIP contributor."
+  },
+  "gh:laanwj": {
+    "githubLogin": "laanwj",
+    "name": "laanwj",
+    "bio": "BIP contributor."
+  },
+  "gh:techguy613": {
+    "githubLogin": "techguy613",
+    "name": "techguy613",
+    "bio": "BIP contributor."
+  },
+  "gh:n1rna": {
+    "githubLogin": "n1rna",
+    "name": "n1rna",
+    "bio": "BIP contributor."
+  },
+  "gh:SebastianFloKa": {
+    "githubLogin": "SebastianFloKa",
+    "name": "SebastianFloKa",
+    "bio": "BIP contributor."
+  },
+  "gh:conduition": {
+    "githubLogin": "conduition",
+    "name": "conduition",
+    "bio": "BIP contributor."
+  },
+  "gh:sts10": {
+    "githubLogin": "sts10",
+    "name": "sts10",
+    "bio": "BIP contributor."
+  },
+  "gh:tcharding": {
+    "githubLogin": "tcharding",
+    "name": "tcharding",
+    "bio": "BIP contributor."
+  },
+  "gh:zaq1tomo": {
+    "githubLogin": "zaq1tomo",
+    "name": "zaq1tomo",
+    "bio": "BIP contributor."
+  },
+  "gh:ulrichard": {
+    "githubLogin": "ulrichard",
+    "name": "ulrichard",
+    "bio": "BIP contributor."
+  },
+  "gh:yahiheb": {
+    "githubLogin": "yahiheb",
+    "name": "yahiheb",
+    "bio": "BIP contributor."
+  },
+  "gh:ktecho": {
+    "githubLogin": "ktecho",
+    "name": "ktecho",
+    "bio": "BIP contributor."
+  },
+  "gh:sethforprivacy": {
+    "githubLogin": "sethforprivacy",
+    "name": "sethforprivacy",
+    "bio": "BIP contributor."
+  },
+  "gh:vicentkasumba23": {
+    "githubLogin": "vicentkasumba23",
+    "name": "vicentkasumba23",
+    "bio": "BIP contributor."
+  },
+  "gh:jl2012": {
+    "githubLogin": "jl2012",
+    "name": "jl2012",
+    "bio": "BIP contributor."
+  },
+  "gh:torkelrogstad": {
+    "githubLogin": "torkelrogstad",
+    "name": "torkelrogstad",
+    "bio": "BIP contributor."
+  },
+  "gh:jeffrade": {
+    "githubLogin": "jeffrade",
+    "name": "jeffrade",
+    "bio": "BIP contributor."
+  },
+  "gh:sabotag3x": {
+    "githubLogin": "sabotag3x",
+    "name": "sabotag3x",
+    "bio": "BIP contributor."
+  },
+  "gh:vostrnad": {
+    "githubLogin": "vostrnad",
+    "name": "vostrnad",
+    "bio": "BIP contributor."
+  },
+  "gh:ishaanam": {
+    "githubLogin": "ishaanam",
+    "name": "ishaanam",
+    "bio": "BIP contributor."
+  },
+  "gh:jnewbery": {
+    "githubLogin": "jnewbery",
+    "name": "jnewbery",
+    "bio": "BIP contributor."
+  },
+  "gh:apoelstra": {
+    "githubLogin": "apoelstra",
+    "name": "apoelstra",
+    "bio": "BIP contributor."
+  },
+  "gh:jonasnick": {
+    "githubLogin": "jonasnick",
+    "name": "jonasnick",
+    "bio": "BIP contributor."
+  },
+  "gh:Mertz22": {
+    "githubLogin": "Mertz22",
+    "name": "Mertz22",
+    "bio": "BIP contributor."
+  },
+  "gh:raphjaph": {
+    "githubLogin": "raphjaph",
+    "name": "raphjaph",
+    "bio": "BIP contributor."
+  },
+  "gh:grondilu": {
+    "githubLogin": "grondilu",
+    "name": "grondilu",
+    "bio": "BIP contributor."
+  },
+  "gh:michaelfolkson": {
+    "githubLogin": "michaelfolkson",
+    "name": "michaelfolkson",
+    "bio": "BIP contributor."
+  },
+  "gh:uncomputable": {
+    "githubLogin": "uncomputable",
+    "name": "uncomputable",
+    "bio": "BIP contributor."
+  },
+  "gh:jeepkd": {
+    "githubLogin": "jeepkd",
+    "name": "jeepkd",
+    "bio": "BIP contributor."
+  },
+  "gh:xembook": {
+    "githubLogin": "xembook",
+    "name": "xembook",
+    "bio": "BIP contributor."
+  },
+  "gh:DariusParvin": {
+    "githubLogin": "DariusParvin",
+    "name": "DariusParvin",
+    "bio": "BIP contributor."
+  },
+  "gh:vasild": {
+    "githubLogin": "vasild",
+    "name": "vasild",
+    "bio": "BIP contributor."
+  },
+  "gh:hujiulong": {
+    "githubLogin": "hujiulong",
+    "name": "hujiulong",
+    "bio": "BIP contributor."
+  },
+  "gh:Lucienest": {
+    "githubLogin": "Lucienest",
+    "name": "Lucienest",
+    "bio": "BIP contributor."
+  },
+  "gh:wip-abramson": {
+    "githubLogin": "wip-abramson",
+    "name": "wip-abramson",
+    "bio": "BIP contributor."
+  },
+  "gh:54627384": {
+    "githubLogin": "54627384",
+    "name": "54627384",
+    "bio": "BIP contributor."
+  },
+  "gh:alfred-hodler": {
+    "githubLogin": "alfred-hodler",
+    "name": "alfred-hodler",
+    "bio": "BIP contributor."
+  },
+  "gh:naumenkogs": {
+    "githubLogin": "naumenkogs",
+    "name": "naumenkogs",
+    "bio": "BIP contributor."
+  },
+  "gh:joemphilips": {
+    "githubLogin": "joemphilips",
+    "name": "joemphilips",
+    "bio": "BIP contributor."
+  },
+  "gh:Vvvy6": {
+    "githubLogin": "Vvvy6",
+    "name": "Vvvy6",
+    "bio": "BIP contributor."
+  },
+  "gh:Mentors4EDU": {
+    "githubLogin": "Mentors4EDU",
+    "name": "Mentors4EDU",
+    "bio": "BIP contributor."
+  },
+  "gh:haleemshal": {
+    "githubLogin": "haleemshal",
+    "name": "haleemshal",
+    "bio": "BIP contributor."
+  },
+  "gh:Randy808": {
+    "githubLogin": "Randy808",
+    "name": "Randy808",
+    "bio": "BIP contributor."
+  },
+  "gh:evanlinjin": {
+    "githubLogin": "evanlinjin",
+    "name": "evanlinjin",
+    "bio": "BIP contributor."
+  },
+  "gh:SunitRoy2703": {
+    "githubLogin": "SunitRoy2703",
+    "name": "SunitRoy2703",
+    "bio": "BIP contributor."
+  },
+  "gh:alexbosworth": {
+    "githubLogin": "alexbosworth",
+    "name": "alexbosworth",
+    "bio": "BIP contributor."
+  },
+  "gh:brandonblack": {
+    "githubLogin": "brandonblack",
+    "name": "brandonblack",
+    "bio": "BIP contributor."
+  },
+  "gh:jonathancross": {
+    "githubLogin": "jonathancross",
+    "name": "jonathancross",
+    "bio": "BIP contributor."
+  },
+  "gh:learn2grid": {
+    "githubLogin": "learn2grid",
+    "name": "learn2grid",
+    "bio": "BIP contributor."
+  },
+  "gh:meshcollider": {
+    "githubLogin": "meshcollider",
+    "name": "meshcollider",
+    "bio": "BIP contributor."
+  },
+  "gh:graingert": {
+    "githubLogin": "graingert",
+    "name": "graingert",
+    "bio": "BIP contributor."
+  },
+  "gh:Y75QMO": {
+    "githubLogin": "Y75QMO",
+    "name": "Y75QMO",
+    "bio": "BIP contributor."
+  },
+  "gh:jamesdorfman": {
+    "githubLogin": "jamesdorfman",
+    "name": "jamesdorfman",
+    "bio": "BIP contributor."
+  },
+  "gh:tiero": {
+    "githubLogin": "tiero",
+    "name": "tiero",
+    "bio": "BIP contributor."
+  },
+  "gh:callebtc": {
+    "githubLogin": "callebtc",
+    "name": "callebtc",
+    "bio": "BIP contributor."
+  },
+  "gh:kallerosenbaum": {
+    "githubLogin": "kallerosenbaum",
+    "name": "kallerosenbaum",
+    "bio": "BIP contributor."
+  },
+  "gh:jaonoctus": {
+    "githubLogin": "jaonoctus",
+    "name": "jaonoctus",
+    "bio": "BIP contributor."
+  },
+  "gh:yanmaani": {
+    "githubLogin": "yanmaani",
+    "name": "yanmaani",
+    "bio": "BIP contributor."
+  },
+  "gh:maflcko": {
+    "githubLogin": "maflcko",
+    "name": "maflcko",
+    "bio": "BIP contributor."
+  },
+  "gh:zizelevak": {
+    "githubLogin": "zizelevak",
+    "name": "zizelevak",
+    "bio": "BIP contributor."
+  },
+  "gh:GambolingPangolin": {
+    "githubLogin": "GambolingPangolin",
+    "name": "GambolingPangolin",
+    "bio": "BIP contributor."
+  },
+  "gh:hugohn": {
+    "githubLogin": "hugohn",
+    "name": "hugohn",
+    "bio": "BIP contributor."
+  },
+  "gh:giacomocaironi": {
+    "githubLogin": "giacomocaironi",
+    "name": "giacomocaironi",
+    "bio": "BIP contributor."
+  },
+  "gh:OttoAllmendinger": {
+    "githubLogin": "OttoAllmendinger",
+    "name": "OttoAllmendinger",
+    "bio": "BIP contributor."
+  },
+  "gh:CikeQiu": {
+    "githubLogin": "CikeQiu",
+    "name": "CikeQiu",
+    "bio": "BIP contributor."
+  },
+  "gh:jgeewax": {
+    "githubLogin": "jgeewax",
+    "name": "jgeewax",
+    "bio": "BIP contributor."
+  },
+  "gh:prahaladbelavadi": {
+    "githubLogin": "prahaladbelavadi",
+    "name": "prahaladbelavadi",
+    "bio": "BIP contributor."
+  },
+  "gh:CodeShark": {
+    "githubLogin": "CodeShark",
+    "name": "CodeShark",
+    "bio": "BIP contributor."
+  },
+  "gh:gottook4blame": {
+    "githubLogin": "gottook4blame",
+    "name": "gottook4blame",
+    "bio": "BIP contributor."
+  },
+  "gh:SomberNight": {
+    "githubLogin": "SomberNight",
+    "name": "SomberNight",
+    "bio": "BIP contributor."
+  },
+  "gh:rage-proof": {
+    "githubLogin": "rage-proof",
+    "name": "rage-proof",
+    "bio": "BIP contributor."
+  },
+  "gh:bip39JP": {
+    "githubLogin": "bip39JP",
+    "name": "bip39JP",
+    "bio": "BIP contributor."
+  },
+  "gh:sanket1729": {
+    "githubLogin": "sanket1729",
+    "name": "sanket1729",
+    "bio": "BIP contributor."
+  },
+  "gh:guypergal": {
+    "githubLogin": "guypergal",
+    "name": "guypergal",
+    "bio": "BIP contributor."
+  },
+  "gh:straumat": {
+    "githubLogin": "straumat",
+    "name": "straumat",
+    "bio": "BIP contributor."
+  },
+  "gh:fburrull": {
+    "githubLogin": "fburrull",
+    "name": "fburrull",
+    "bio": "BIP contributor."
+  },
+  "gh:KarolTrzeszczkowski": {
+    "githubLogin": "KarolTrzeszczkowski",
+    "name": "KarolTrzeszczkowski",
+    "bio": "BIP contributor."
+  },
+  "gh:stefantds": {
+    "githubLogin": "stefantds",
+    "name": "stefantds",
+    "bio": "BIP contributor."
+  },
+  "gh:mjsamadi": {
+    "githubLogin": "mjsamadi",
+    "name": "mjsamadi",
+    "bio": "BIP contributor."
+  },
+  "gh:narimanam": {
+    "githubLogin": "narimanam",
+    "name": "narimanam",
+    "bio": "BIP contributor."
+  },
+  "gh:3sGgpQ8H": {
+    "githubLogin": "3sGgpQ8H",
+    "name": "3sGgpQ8H",
+    "bio": "BIP contributor."
+  },
+  "gh:filips123": {
+    "githubLogin": "filips123",
+    "name": "filips123",
+    "bio": "BIP contributor."
+  },
+  "gh:p2w34": {
+    "githubLogin": "p2w34",
+    "name": "p2w34",
+    "bio": "BIP contributor."
+  },
+  "gh:DavidMStraub": {
+    "githubLogin": "DavidMStraub",
+    "name": "DavidMStraub",
+    "bio": "BIP contributor."
+  },
+  "gh:perlancar": {
+    "githubLogin": "perlancar",
+    "name": "perlancar",
+    "bio": "BIP contributor."
+  },
+  "gh:Bohdat": {
+    "githubLogin": "Bohdat",
+    "name": "Bohdat",
+    "bio": "BIP contributor."
+  },
+  "gh:farazdagi": {
+    "githubLogin": "farazdagi",
+    "name": "farazdagi",
+    "bio": "BIP contributor."
+  },
+  "gh:Raulo": {
+    "githubLogin": "Raulo",
+    "name": "Raulo",
+    "bio": "BIP contributor."
+  },
+  "gh:AndreasGassmann": {
+    "githubLogin": "AndreasGassmann",
+    "name": "AndreasGassmann",
+    "bio": "BIP contributor."
+  },
+  "gh:t-bast": {
+    "githubLogin": "t-bast",
+    "name": "t-bast",
+    "bio": "BIP contributor."
+  },
+  "gh:dgpv": {
+    "githubLogin": "dgpv",
+    "name": "dgpv",
+    "bio": "BIP contributor."
+  },
+  "gh:silencer-Tsai": {
+    "githubLogin": "silencer-Tsai",
+    "name": "silencer-Tsai",
+    "bio": "BIP contributor."
+  },
+  "gh:ch1ru": {
+    "githubLogin": "ch1ru",
+    "name": "ch1ru",
+    "bio": "BIP contributor."
+  },
+  "gh:danpape": {
+    "githubLogin": "danpape",
+    "name": "danpape",
+    "bio": "BIP contributor."
+  },
+  "gh:Rspigler": {
+    "githubLogin": "Rspigler",
+    "name": "Rspigler",
+    "bio": "BIP contributor."
+  },
+  "gh:JaimeCaring": {
+    "githubLogin": "JaimeCaring",
+    "name": "JaimeCaring",
+    "bio": "BIP contributor."
+  },
+  "gh:koushiro": {
+    "githubLogin": "koushiro",
+    "name": "koushiro",
+    "bio": "BIP contributor."
+  },
+  "gh:cgilliard": {
+    "githubLogin": "cgilliard",
+    "name": "cgilliard",
+    "bio": "BIP contributor."
+  },
+  "gh:fresheneesz": {
+    "githubLogin": "fresheneesz",
+    "name": "fresheneesz",
+    "bio": "BIP contributor."
+  },
+  "gh:kiminuo": {
+    "githubLogin": "kiminuo",
+    "name": "kiminuo",
+    "bio": "BIP contributor."
+  },
+  "gh:8go": {
+    "githubLogin": "8go",
+    "name": "8go",
+    "bio": "BIP contributor."
+  },
+  "gh:rikitau": {
+    "githubLogin": "rikitau",
+    "name": "rikitau",
+    "bio": "BIP contributor."
+  },
+  "gh:ethankosakovsky": {
+    "githubLogin": "ethankosakovsky",
+    "name": "ethankosakovsky",
+    "bio": "BIP contributor."
+  },
+  "gh:Matthiti": {
+    "githubLogin": "Matthiti",
+    "name": "Matthiti",
+    "bio": "BIP contributor."
+  },
+  "gh:remyers": {
+    "githubLogin": "remyers",
+    "name": "remyers",
+    "bio": "BIP contributor."
+  },
+  "gh:cr": {
+    "githubLogin": "cr",
+    "name": "cr",
+    "bio": "BIP contributor."
+  },
+  "gh:omarshibli": {
+    "githubLogin": "omarshibli",
+    "name": "omarshibli",
+    "bio": "BIP contributor."
+  },
+  "gh:Greg-Griffith": {
+    "githubLogin": "Greg-Griffith",
+    "name": "Greg-Griffith",
+    "bio": "BIP contributor."
+  },
+  "gh:multisignature": {
+    "githubLogin": "multisignature",
+    "name": "multisignature",
+    "bio": "BIP contributor."
+  },
+  "gh:Annasadra": {
+    "githubLogin": "Annasadra",
+    "name": "Annasadra",
+    "bio": "BIP contributor."
+  },
+  "gh:hoganri": {
+    "githubLogin": "hoganri",
+    "name": "hoganri",
+    "bio": "BIP contributor."
+  },
+  "gh:joerlop": {
+    "githubLogin": "joerlop",
+    "name": "joerlop",
+    "bio": "BIP contributor."
+  },
+  "gh:hebasto": {
+    "githubLogin": "hebasto",
+    "name": "hebasto",
+    "bio": "BIP contributor."
+  },
+  "gh:dgenr8": {
+    "githubLogin": "dgenr8",
+    "name": "dgenr8",
+    "bio": "BIP contributor."
+  },
+  "gh:Anderson-Juhasc": {
+    "githubLogin": "Anderson-Juhasc",
+    "name": "Anderson-Juhasc",
+    "bio": "BIP contributor."
+  },
+  "gh:pengpengliu": {
+    "githubLogin": "pengpengliu",
+    "name": "pengpengliu",
+    "bio": "BIP contributor."
+  },
+  "gh:joshklop": {
+    "githubLogin": "joshklop",
+    "name": "joshklop",
+    "bio": "BIP contributor."
+  },
+  "gh:pacu": {
+    "githubLogin": "pacu",
+    "name": "pacu",
+    "bio": "BIP contributor."
+  },
+  "gh:kuthullu": {
+    "githubLogin": "kuthullu",
+    "name": "kuthullu",
+    "bio": "BIP contributor."
+  },
+  "gh:peterizzoo": {
+    "githubLogin": "peterizzoo",
+    "name": "peterizzoo",
+    "bio": "BIP contributor."
+  },
+  "gh:jrawsthorne": {
+    "githubLogin": "jrawsthorne",
+    "name": "jrawsthorne",
+    "bio": "BIP contributor."
+  },
+  "gh:ZmnSCPxj": {
+    "githubLogin": "ZmnSCPxj",
+    "name": "ZmnSCPxj",
+    "bio": "BIP contributor."
+  },
+  "gh:bitschmidty": {
+    "githubLogin": "bitschmidty",
+    "name": "bitschmidty",
+    "bio": "BIP contributor."
+  },
+  "gh:milczarekIT": {
+    "githubLogin": "milczarekIT",
+    "name": "milczarekIT",
+    "bio": "BIP contributor."
+  },
+  "gh:SGeetansh": {
+    "githubLogin": "SGeetansh",
+    "name": "SGeetansh",
+    "bio": "BIP contributor."
+  },
+  "gh:skywinder": {
+    "githubLogin": "skywinder",
+    "name": "skywinder",
+    "bio": "BIP contributor."
+  },
+  "gh:kris124": {
+    "githubLogin": "kris124",
+    "name": "kris124",
+    "bio": "BIP contributor."
+  },
+  "gh:Kevingislason": {
+    "githubLogin": "Kevingislason",
+    "name": "Kevingislason",
+    "bio": "BIP contributor."
+  },
+  "gh:aerosol": {
+    "githubLogin": "aerosol",
+    "name": "aerosol",
+    "bio": "BIP contributor."
+  },
+  "gh:ProofOfKeags": {
+    "githubLogin": "ProofOfKeags",
+    "name": "ProofOfKeags",
+    "bio": "BIP contributor."
+  },
+  "gh:richardkiss": {
+    "githubLogin": "richardkiss",
+    "name": "richardkiss",
+    "bio": "BIP contributor."
+  },
+  "gh:0xB10C": {
+    "githubLogin": "0xB10C",
+    "name": "0xB10C",
+    "bio": "BIP contributor."
+  },
+  "gh:23Yc8z": {
+    "githubLogin": "23Yc8z",
+    "name": "23Yc8z",
+    "bio": "BIP contributor."
+  },
+  "gh:Empact": {
+    "githubLogin": "Empact",
+    "name": "Empact",
+    "bio": "BIP contributor."
+  },
+  "gh:cvengler": {
+    "githubLogin": "cvengler",
+    "name": "cvengler",
+    "bio": "BIP contributor."
+  },
+  "gh:eupn": {
+    "githubLogin": "eupn",
+    "name": "eupn",
+    "bio": "BIP contributor."
+  },
+  "gh:tenakakhan": {
+    "githubLogin": "tenakakhan",
+    "name": "tenakakhan",
+    "bio": "BIP contributor."
+  },
+  "gh:AtsukiTak": {
+    "githubLogin": "AtsukiTak",
+    "name": "AtsukiTak",
+    "bio": "BIP contributor."
+  },
+  "gh:matthewleon": {
+    "githubLogin": "matthewleon",
+    "name": "matthewleon",
+    "bio": "BIP contributor."
+  },
+  "gh:maguayo": {
+    "githubLogin": "maguayo",
+    "name": "maguayo",
+    "bio": "BIP contributor."
+  },
+  "gh:clarkmoody": {
+    "githubLogin": "clarkmoody",
+    "name": "clarkmoody",
+    "bio": "BIP contributor."
+  },
+  "gh:marzig76": {
+    "githubLogin": "marzig76",
+    "name": "marzig76",
+    "bio": "BIP contributor."
+  },
+  "gh:dergigi": {
+    "githubLogin": "dergigi",
+    "name": "dergigi",
+    "bio": "BIP contributor."
+  },
+  "gh:4tochka": {
+    "githubLogin": "4tochka",
+    "name": "4tochka",
+    "bio": "BIP contributor."
+  },
+  "gh:jgarzik": {
+    "githubLogin": "jgarzik",
+    "name": "jgarzik",
+    "bio": "BIP contributor."
+  },
+  "gh:SilentStep1204": {
+    "githubLogin": "SilentStep1204",
+    "name": "SilentStep1204",
+    "bio": "BIP contributor."
+  },
+  "gh:Sword-Smith": {
+    "githubLogin": "Sword-Smith",
+    "name": "Sword-Smith",
+    "bio": "BIP contributor."
+  },
+  "gh:gakonst": {
+    "githubLogin": "gakonst",
+    "name": "gakonst",
+    "bio": "BIP contributor."
+  },
+  "gh:DanielWeigl": {
+    "githubLogin": "DanielWeigl",
+    "name": "DanielWeigl",
+    "bio": "BIP contributor."
+  },
+  "gh:0xmountaintop": {
+    "githubLogin": "0xmountaintop",
+    "name": "0xmountaintop",
+    "bio": "BIP contributor."
+  },
+  "gh:TheRook": {
+    "githubLogin": "TheRook",
+    "name": "TheRook",
+    "bio": "BIP contributor."
+  },
+  "gh:wigy-opensource-developer": {
+    "githubLogin": "wigy-opensource-developer",
+    "name": "wigy-opensource-developer",
+    "bio": "BIP contributor."
+  },
+  "gh:nkohen": {
+    "githubLogin": "nkohen",
+    "name": "nkohen",
+    "bio": "BIP contributor."
+  },
+  "gh:AlexITC": {
+    "githubLogin": "AlexITC",
+    "name": "AlexITC",
+    "bio": "BIP contributor."
+  },
+  "gh:Kirvx": {
+    "githubLogin": "Kirvx",
+    "name": "Kirvx",
+    "bio": "BIP contributor."
+  },
+  "gh:shanejonas": {
+    "githubLogin": "shanejonas",
+    "name": "shanejonas",
+    "bio": "BIP contributor."
+  },
+  "gh:lanhaoxiang": {
+    "githubLogin": "lanhaoxiang",
+    "name": "lanhaoxiang",
+    "bio": "BIP contributor."
+  },
+  "gh:RHavar": {
+    "githubLogin": "RHavar",
+    "name": "RHavar",
+    "bio": "BIP contributor."
+  },
+  "gh:iancoleman": {
+    "githubLogin": "iancoleman",
+    "name": "iancoleman",
+    "bio": "BIP contributor."
+  },
+  "gh:officefish": {
+    "githubLogin": "officefish",
+    "name": "officefish",
+    "bio": "BIP contributor."
+  },
+  "gh:harding": {
+    "githubLogin": "harding",
+    "name": "harding",
+    "bio": "BIP contributor."
+  },
+  "gh:yuzushioh": {
+    "githubLogin": "yuzushioh",
+    "name": "yuzushioh",
+    "bio": "BIP contributor."
+  },
+  "gh:shaolinfry": {
+    "githubLogin": "shaolinfry",
+    "name": "shaolinfry",
+    "bio": "BIP contributor."
+  },
+  "gh:kaidiren": {
+    "githubLogin": "kaidiren",
+    "name": "kaidiren",
+    "bio": "BIP contributor."
+  },
+  "gh:Dorson": {
+    "githubLogin": "Dorson",
+    "name": "Dorson",
+    "bio": "BIP contributor."
+  },
+  "gh:janbraiins": {
+    "githubLogin": "janbraiins",
+    "name": "janbraiins",
+    "bio": "BIP contributor."
+  },
+  "gh:jimpo": {
+    "githubLogin": "jimpo",
+    "name": "jimpo",
+    "bio": "BIP contributor."
+  },
+  "gh:goudbor": {
+    "githubLogin": "goudbor",
+    "name": "goudbor",
+    "bio": "BIP contributor."
+  },
+  "gh:fedsten": {
+    "githubLogin": "fedsten",
+    "name": "fedsten",
+    "bio": "BIP contributor."
+  },
+  "gh:mytwocentimes": {
+    "githubLogin": "mytwocentimes",
+    "name": "mytwocentimes",
+    "bio": "BIP contributor."
+  },
+  "gh:btcdrak": {
+    "githubLogin": "btcdrak",
+    "name": "btcdrak",
+    "bio": "BIP contributor."
+  },
+  "gh:gfanti": {
+    "githubLogin": "gfanti",
+    "name": "gfanti",
+    "bio": "BIP contributor."
+  },
+  "gh:esneider": {
+    "githubLogin": "esneider",
+    "name": "esneider",
+    "bio": "BIP contributor."
+  },
+  "gh:nym-zone": {
+    "githubLogin": "nym-zone",
+    "name": "nym-zone",
+    "bio": "BIP contributor."
+  },
+  "gh:SamouraiDev": {
+    "githubLogin": "SamouraiDev",
+    "name": "SamouraiDev",
+    "bio": "BIP contributor."
+  },
+  "gh:erikarvstedt": {
+    "githubLogin": "erikarvstedt",
+    "name": "erikarvstedt",
+    "bio": "BIP contributor."
+  },
+  "gh:cornfeedhobo": {
+    "githubLogin": "cornfeedhobo",
+    "name": "cornfeedhobo",
+    "bio": "BIP contributor."
+  },
+  "gh:cdecker": {
+    "githubLogin": "cdecker",
+    "name": "cdecker",
+    "bio": "BIP contributor."
+  },
+  "gh:gspasov": {
+    "githubLogin": "gspasov",
+    "name": "gspasov",
+    "bio": "BIP contributor."
+  },
+  "gh:aakselrod": {
+    "githubLogin": "aakselrod",
+    "name": "aakselrod",
+    "bio": "BIP contributor."
+  },
+  "gh:BTCTaras": {
+    "githubLogin": "BTCTaras",
+    "name": "BTCTaras",
+    "bio": "BIP contributor."
+  },
+  "gh:eklitzke": {
+    "githubLogin": "eklitzke",
+    "name": "eklitzke",
+    "bio": "BIP contributor."
+  },
+  "gh:xeoncross": {
+    "githubLogin": "xeoncross",
+    "name": "xeoncross",
+    "bio": "BIP contributor."
+  },
+  "gh:maaku": {
+    "githubLogin": "maaku",
+    "name": "maaku",
+    "bio": "BIP contributor."
+  },
+  "gh:jimmysong": {
+    "githubLogin": "jimmysong",
+    "name": "jimmysong",
+    "bio": "BIP contributor."
+  },
+  "gh:dcousens": {
+    "githubLogin": "dcousens",
+    "name": "dcousens",
+    "bio": "BIP contributor."
+  },
+  "gh:danra": {
+    "githubLogin": "danra",
+    "name": "danra",
+    "bio": "BIP contributor."
+  },
+  "gh:mruddy": {
+    "githubLogin": "mruddy",
+    "name": "mruddy",
+    "bio": "BIP contributor."
+  },
+  "gh:izelnakri": {
+    "githubLogin": "izelnakri",
+    "name": "izelnakri",
+    "bio": "BIP contributor."
+  },
+  "gh:starcharles": {
+    "githubLogin": "starcharles",
+    "name": "starcharles",
+    "bio": "BIP contributor."
+  },
+  "gh:dittaeva": {
+    "githubLogin": "dittaeva",
+    "name": "dittaeva",
+    "bio": "BIP contributor."
+  },
+  "gh:jameshilliard": {
+    "githubLogin": "jameshilliard",
+    "name": "jameshilliard",
+    "bio": "BIP contributor."
+  },
+  "gh:jkauffman1": {
+    "githubLogin": "jkauffman1",
+    "name": "jkauffman1",
+    "bio": "BIP contributor."
+  },
+  "gh:kn0rhaan": {
+    "githubLogin": "kn0rhaan",
+    "name": "kn0rhaan",
+    "bio": "BIP contributor."
+  },
+  "gh:jmprcx": {
+    "githubLogin": "jmprcx",
+    "name": "jmprcx",
+    "bio": "BIP contributor."
+  },
+  "gh:Giszmo": {
+    "githubLogin": "Giszmo",
+    "name": "Giszmo",
+    "bio": "BIP contributor."
+  },
+  "gh:wbnns": {
+    "githubLogin": "wbnns",
+    "name": "wbnns",
+    "bio": "BIP contributor."
+  },
+  "gh:vbmithr": {
+    "githubLogin": "vbmithr",
+    "name": "vbmithr",
+    "bio": "BIP contributor."
+  },
+  "gh:sanch0panza": {
+    "githubLogin": "sanch0panza",
+    "name": "sanch0panza",
+    "bio": "BIP contributor."
+  },
+  "gh:comboy": {
+    "githubLogin": "comboy",
+    "name": "comboy",
+    "bio": "BIP contributor."
+  },
+  "gh:chfast": {
+    "githubLogin": "chfast",
+    "name": "chfast",
+    "bio": "BIP contributor."
+  },
+  "gh:negatratoron": {
+    "githubLogin": "negatratoron",
+    "name": "negatratoron",
+    "bio": "BIP contributor."
+  },
+  "gh:ebfull": {
+    "githubLogin": "ebfull",
+    "name": "ebfull",
+    "bio": "BIP contributor."
+  },
+  "gh:super3": {
+    "githubLogin": "super3",
+    "name": "super3",
+    "bio": "BIP contributor."
+  },
+  "gh:rubensayshi": {
+    "githubLogin": "rubensayshi",
+    "name": "rubensayshi",
+    "bio": "BIP contributor."
+  },
+  "gh:zander": {
+    "githubLogin": "zander",
+    "name": "zander",
+    "bio": "BIP contributor."
+  },
+  "gh:isghe": {
+    "githubLogin": "isghe",
+    "name": "isghe",
+    "bio": "BIP contributor."
+  },
+  "gh:chjj": {
+    "githubLogin": "chjj",
+    "name": "chjj",
+    "bio": "BIP contributor."
+  },
+  "gh:kristovatlas": {
+    "githubLogin": "kristovatlas",
+    "name": "kristovatlas",
+    "bio": "BIP contributor."
+  },
+  "gh:chriswheeler": {
+    "githubLogin": "chriswheeler",
+    "name": "chriswheeler",
+    "bio": "BIP contributor."
+  },
+  "gh:mappum": {
+    "githubLogin": "mappum",
+    "name": "mappum",
+    "bio": "BIP contributor."
+  },
+  "gh:dooglus": {
+    "githubLogin": "dooglus",
+    "name": "dooglus",
+    "bio": "BIP contributor."
+  },
+  "gh:WriteCodeEveryday": {
+    "githubLogin": "WriteCodeEveryday",
+    "name": "WriteCodeEveryday",
+    "bio": "BIP contributor."
+  },
+  "gh:voisine": {
+    "githubLogin": "voisine",
+    "name": "voisine",
+    "bio": "BIP contributor."
+  },
+  "gh:Jesion": {
+    "githubLogin": "Jesion",
+    "name": "Jesion",
+    "bio": "BIP contributor."
+  },
+  "gh:priestc": {
+    "githubLogin": "priestc",
+    "name": "priestc",
+    "bio": "BIP contributor."
+  },
+  "gh:morcos": {
+    "githubLogin": "morcos",
+    "name": "morcos",
+    "bio": "BIP contributor."
+  },
+  "gh:dangershony": {
+    "githubLogin": "dangershony",
+    "name": "dangershony",
+    "bio": "BIP contributor."
+  },
+  "gh:gavinandresen": {
+    "githubLogin": "gavinandresen",
+    "name": "gavinandresen",
+    "bio": "BIP contributor."
+  },
+  "gh:paoloaga": {
+    "githubLogin": "paoloaga",
+    "name": "paoloaga",
+    "bio": "BIP contributor."
+  },
+  "gh:toby": {
+    "githubLogin": "toby",
+    "name": "toby",
+    "bio": "BIP contributor."
+  },
+  "gh:fanatid": {
+    "githubLogin": "fanatid",
+    "name": "fanatid",
+    "bio": "BIP contributor."
+  },
+  "gh:JornC": {
+    "githubLogin": "JornC",
+    "name": "JornC",
+    "bio": "BIP contributor."
+  },
+  "gh:iamsamwood": {
+    "githubLogin": "iamsamwood",
+    "name": "iamsamwood",
+    "bio": "BIP contributor."
+  },
+  "gh:andychase": {
+    "githubLogin": "andychase",
+    "name": "andychase",
+    "bio": "BIP contributor."
+  },
+  "gh:schildbach": {
+    "githubLogin": "schildbach",
+    "name": "schildbach",
+    "bio": "BIP contributor."
+  },
+  "gh:gubatron": {
+    "githubLogin": "gubatron",
+    "name": "gubatron",
+    "bio": "BIP contributor."
+  },
+  "gh:drwasho": {
+    "githubLogin": "drwasho",
+    "name": "drwasho",
+    "bio": "BIP contributor."
+  },
+  "gh:MarcoPon": {
+    "githubLogin": "MarcoPon",
+    "name": "MarcoPon",
+    "bio": "BIP contributor."
+  },
+  "gh:petertodd": {
+    "githubLogin": "petertodd",
+    "name": "petertodd",
+    "bio": "BIP contributor."
+  },
+  "gh:dionyziz": {
+    "githubLogin": "dionyziz",
+    "name": "dionyziz",
+    "bio": "BIP contributor."
+  },
+  "gh:xbtdev": {
+    "githubLogin": "xbtdev",
+    "name": "xbtdev",
+    "bio": "BIP contributor."
+  },
+  "gh:JeffreyBytes": {
+    "githubLogin": "JeffreyBytes",
+    "name": "JeffreyBytes",
+    "bio": "BIP contributor."
+  },
+  "gh:bitstein": {
+    "githubLogin": "bitstein",
+    "name": "bitstein",
+    "bio": "BIP contributor."
+  },
+  "gh:jwilkins": {
+    "githubLogin": "jwilkins",
+    "name": "jwilkins",
+    "bio": "BIP contributor."
+  },
+  "gh:jtimon": {
+    "githubLogin": "jtimon",
+    "name": "jtimon",
+    "bio": "BIP contributor."
+  },
+  "gh:zdexter": {
+    "githubLogin": "zdexter",
+    "name": "zdexter",
+    "bio": "BIP contributor."
+  },
+  "gh:maraoz": {
+    "githubLogin": "maraoz",
+    "name": "maraoz",
+    "bio": "BIP contributor."
+  },
+  "gh:rayrrr": {
+    "githubLogin": "rayrrr",
+    "name": "rayrrr",
+    "bio": "BIP contributor."
+  },
+  "gh:UpalChakraborty": {
+    "githubLogin": "UpalChakraborty",
+    "name": "UpalChakraborty",
+    "bio": "BIP contributor."
+  },
+  "gh:tungpang2009": {
+    "githubLogin": "tungpang2009",
+    "name": "tungpang2009",
+    "bio": "BIP contributor."
+  },
+  "gh:xeniacx": {
+    "githubLogin": "xeniacx",
+    "name": "xeniacx",
+    "bio": "BIP contributor."
+  },
+  "gh:nathanph": {
+    "githubLogin": "nathanph",
+    "name": "nathanph",
+    "bio": "BIP contributor."
+  },
+  "gh:UdjinM6": {
+    "githubLogin": "UdjinM6",
+    "name": "UdjinM6",
+    "bio": "BIP contributor."
+  },
+  "gh:Kefkius": {
+    "githubLogin": "Kefkius",
+    "name": "Kefkius",
+    "bio": "BIP contributor."
+  },
+  "gh:shea256": {
+    "githubLogin": "shea256",
+    "name": "shea256",
+    "bio": "BIP contributor."
+  },
+  "gh:bip39CN": {
+    "githubLogin": "bip39CN",
+    "name": "bip39CN",
+    "bio": "BIP contributor."
+  },
+  "gh:realindiahotel": {
+    "githubLogin": "realindiahotel",
+    "name": "realindiahotel",
+    "bio": "BIP contributor."
+  },
+  "gh:wink": {
+    "githubLogin": "wink",
+    "name": "wink",
+    "bio": "BIP contributor."
+  },
+  "gh:kaykurokawa": {
+    "githubLogin": "kaykurokawa",
+    "name": "kaykurokawa",
+    "bio": "BIP contributor."
+  },
+  "gh:aalness": {
+    "githubLogin": "aalness",
+    "name": "aalness",
+    "bio": "BIP contributor."
+  },
+  "gh:coder5876": {
+    "githubLogin": "coder5876",
+    "name": "coder5876",
+    "bio": "BIP contributor."
+  },
+  "gh:ecdsa": {
+    "githubLogin": "ecdsa",
+    "name": "ecdsa",
+    "bio": "BIP contributor."
+  },
+  "gh:AndersBNielsen": {
+    "githubLogin": "AndersBNielsen",
+    "name": "AndersBNielsen",
+    "bio": "BIP contributor."
+  },
+  "gh:ricmoo": {
+    "githubLogin": "ricmoo",
+    "name": "ricmoo",
+    "bio": "BIP contributor."
+  },
+  "gh:Perlover": {
+    "githubLogin": "Perlover",
+    "name": "Perlover",
+    "bio": "BIP contributor."
+  },
+  "gh:gurnec": {
+    "githubLogin": "gurnec",
+    "name": "gurnec",
+    "bio": "BIP contributor."
+  },
+  "gh:robjohnson189": {
+    "githubLogin": "robjohnson189",
+    "name": "robjohnson189",
+    "bio": "BIP contributor."
+  },
+  "gh:derrend": {
+    "githubLogin": "derrend",
+    "name": "derrend",
+    "bio": "BIP contributor."
+  },
+  "gh:erasmospunk": {
+    "githubLogin": "erasmospunk",
+    "name": "erasmospunk",
+    "bio": "BIP contributor."
+  },
+  "gh:jprichardson": {
+    "githubLogin": "jprichardson",
+    "name": "jprichardson",
+    "bio": "BIP contributor."
+  },
+  "gh:mikehearn": {
+    "githubLogin": "mikehearn",
+    "name": "mikehearn",
+    "bio": "BIP contributor."
+  },
+  "gh:davecgh": {
+    "githubLogin": "davecgh",
+    "name": "davecgh",
+    "bio": "BIP contributor."
+  },
+  "gh:oleganza": {
+    "githubLogin": "oleganza",
+    "name": "oleganza",
+    "bio": "BIP contributor."
+  },
+  "gh:benjiqq": {
+    "githubLogin": "benjiqq",
+    "name": "benjiqq",
+    "bio": "BIP contributor."
+  },
+  "gh:timthelion": {
+    "githubLogin": "timthelion",
+    "name": "timthelion",
+    "bio": "BIP contributor."
+  },
+  "gh:jmcorgan": {
+    "githubLogin": "jmcorgan",
+    "name": "jmcorgan",
+    "bio": "BIP contributor."
+  },
+  "gh:johnhenry": {
+    "githubLogin": "johnhenry",
+    "name": "johnhenry",
+    "bio": "BIP contributor."
+  },
+  "gh:swansontec": {
+    "githubLogin": "swansontec",
+    "name": "swansontec",
+    "bio": "BIP contributor."
+  },
+  "gh:MidnightLightning": {
+    "githubLogin": "MidnightLightning",
+    "name": "MidnightLightning",
+    "bio": "BIP contributor."
+  },
+  "gh:discretepackets": {
+    "githubLogin": "discretepackets",
+    "name": "discretepackets",
+    "bio": "BIP contributor."
+  },
+  "gh:rnicoll": {
+    "githubLogin": "rnicoll",
+    "name": "rnicoll",
+    "bio": "BIP contributor."
+  },
+  "gh:fanquake": {
+    "githubLogin": "fanquake",
+    "name": "fanquake",
+    "bio": "BIP contributor."
+  },
+  "gh:airbreather": {
+    "githubLogin": "airbreather",
+    "name": "airbreather",
+    "bio": "BIP contributor."
+  },
+  "gh:brotchie": {
+    "githubLogin": "brotchie",
+    "name": "brotchie",
+    "bio": "BIP contributor."
+  },
+  "gh:matiu": {
+    "githubLogin": "matiu",
+    "name": "matiu",
+    "bio": "BIP contributor."
+  },
+  "gh:sarchar": {
+    "githubLogin": "sarchar",
+    "name": "sarchar",
+    "bio": "BIP contributor."
+  },
+  "gh:wemeetagain": {
+    "githubLogin": "wemeetagain",
+    "name": "wemeetagain",
     "bio": "BIP contributor."
   },
   "gh:shocknet-justin": {
@@ -149,19 +3259,14 @@
     "name": "shocknet-justin",
     "bio": "BIP reviewer."
   },
-  "gh:Sjors": {
-    "githubLogin": "Sjors",
-    "name": "Sjors",
+  "gh:Symphonic3": {
+    "githubLogin": "Symphonic3",
+    "name": "Symphonic3",
     "bio": "BIP reviewer."
   },
-  "gh:achow101": {
-    "githubLogin": "achow101",
-    "name": "achow101",
-    "bio": "BIP reviewer."
-  },
-  "gh:petertodd": {
-    "githubLogin": "petertodd",
-    "name": "petertodd",
+  "gh:ChrisMartl": {
+    "githubLogin": "ChrisMartl",
+    "name": "ChrisMartl",
     "bio": "BIP reviewer."
   },
   "gh:saltduck": {
@@ -194,19 +3299,274 @@
     "name": "MarkJelic",
     "bio": "BIP reviewer."
   },
-  "gh:BitcoinErrorLog": {
-    "githubLogin": "BitcoinErrorLog",
-    "name": "BitcoinErrorLog",
-    "bio": "BIP reviewer."
-  },
   "gh:DimiH2025": {
     "githubLogin": "DimiH2025",
     "name": "DimiH2025",
+    "bio": "BIP reviewer."
+  },
+  "gh:BullishNode": {
+    "githubLogin": "BullishNode",
+    "name": "BullishNode",
+    "bio": "BIP reviewer."
+  },
+  "gh:vikbtc": {
+    "githubLogin": "vikbtc",
+    "name": "vikbtc",
+    "bio": "BIP reviewer."
+  },
+  "gh:vicariousdrama": {
+    "githubLogin": "vicariousdrama",
+    "name": "vicariousdrama",
+    "bio": "BIP reviewer."
+  },
+  "gh:viresinnumeris-1": {
+    "githubLogin": "viresinnumeris-1",
+    "name": "viresinnumeris-1",
+    "bio": "BIP reviewer."
+  },
+  "gh:itme-brain": {
+    "githubLogin": "itme-brain",
+    "name": "itme-brain",
+    "bio": "BIP reviewer."
+  },
+  "gh:BrashRatel": {
+    "githubLogin": "BrashRatel",
+    "name": "BrashRatel",
+    "bio": "BIP reviewer."
+  },
+  "gh:Retropex": {
+    "githubLogin": "Retropex",
+    "name": "Retropex",
+    "bio": "BIP reviewer."
+  },
+  "gh:nsvrn": {
+    "githubLogin": "nsvrn",
+    "name": "nsvrn",
+    "bio": "BIP reviewer."
+  },
+  "gh:RicYashiroLee": {
+    "githubLogin": "RicYashiroLee",
+    "name": "RicYashiroLee",
+    "bio": "BIP reviewer."
+  },
+  "gh:earonesty": {
+    "githubLogin": "earonesty",
+    "name": "earonesty",
+    "bio": "BIP reviewer."
+  },
+  "gh:udiWertheimer": {
+    "githubLogin": "udiWertheimer",
+    "name": "udiWertheimer",
+    "bio": "BIP reviewer."
+  },
+  "gh:chrisguida": {
+    "githubLogin": "chrisguida",
+    "name": "chrisguida",
+    "bio": "BIP reviewer."
+  },
+  "gh:Sosthene00": {
+    "githubLogin": "Sosthene00",
+    "name": "Sosthene00",
+    "bio": "BIP reviewer."
+  },
+  "gh:polespinasa": {
+    "githubLogin": "polespinasa",
+    "name": "polespinasa",
+    "bio": "BIP reviewer."
+  },
+  "gh:SatsAndSports": {
+    "githubLogin": "SatsAndSports",
+    "name": "SatsAndSports",
+    "bio": "BIP reviewer."
+  },
+  "gh:gmaxwell": {
+    "githubLogin": "gmaxwell",
+    "name": "gmaxwell",
+    "bio": "BIP reviewer."
+  },
+  "gh:jgriffiths": {
+    "githubLogin": "jgriffiths",
+    "name": "jgriffiths",
+    "bio": "BIP reviewer."
+  },
+  "gh:aaronisme": {
+    "githubLogin": "aaronisme",
+    "name": "aaronisme",
+    "bio": "BIP reviewer."
+  },
+  "gh:timohanke": {
+    "githubLogin": "timohanke",
+    "name": "timohanke",
     "bio": "BIP reviewer."
   },
   "gh:Unknown": {
     "githubLogin": "Unknown",
     "name": "Unknown",
     "bio": "NIP contributor."
+  },
+  "gh:filterPubkeys;": {
+    "githubLogin": "filterPubkeys;",
+    "name": "filterPubkeys;",
+    "bio": "NIP contributor."
+  },
+  "gh:David Harrison": {
+    "githubLogin": "David Harrison",
+    "name": "David Harrison",
+    "bio": "BEP contributor."
+  },
+  "gh:Bram Cohen": {
+    "githubLogin": "Bram Cohen",
+    "name": "Bram Cohen",
+    "bio": "BEP contributor."
+  },
+  "gh:Andrew Loewenstern , Arvid Norberg": {
+    "githubLogin": "Andrew Loewenstern , Arvid Norberg",
+    "name": "Andrew Loewenstern , Arvid Norberg",
+    "bio": "BEP contributor."
+  },
+  "gh:David Harrison , Bram Cohen": {
+    "githubLogin": "David Harrison , Bram Cohen",
+    "name": "David Harrison , Bram Cohen",
+    "bio": "BEP contributor."
+  },
+  "gh:Greg Hazel , Arvid Norberg": {
+    "githubLogin": "Greg Hazel , Arvid Norberg",
+    "name": "Greg Hazel , Arvid Norberg",
+    "bio": "BEP contributor."
+  },
+  "gh:David Harrison , Anthony Ciani , Arvid Norberg , Greg Hazel": {
+    "githubLogin": "David Harrison , Anthony Ciani , Arvid Norberg , Greg Hazel",
+    "name": "David Harrison , Anthony Ciani , Arvid Norberg , Greg Hazel",
+    "bio": "BEP contributor."
+  },
+  "gh:Arvid Norberg , Ludvig Strigeus , Greg Hazel": {
+    "githubLogin": "Arvid Norberg , Ludvig Strigeus , Greg Hazel",
+    "name": "Arvid Norberg , Ludvig Strigeus , Greg Hazel",
+    "bio": "BEP contributor."
+  },
+  "gh:The 8472": {
+    "githubLogin": "The 8472",
+    "name": "The 8472",
+    "bio": "BEP contributor."
+  },
+  "gh:John Hoffman": {
+    "githubLogin": "John Hoffman",
+    "name": "John Hoffman",
+    "bio": "BEP contributor."
+  },
+  "gh:Olaf van der Spek": {
+    "githubLogin": "Olaf van der Spek",
+    "name": "Olaf van der Spek",
+    "bio": "BEP contributor."
+  },
+  "gh:John Hoffman , DeHackEd": {
+    "githubLogin": "John Hoffman , DeHackEd",
+    "name": "John Hoffman , DeHackEd",
+    "bio": "BEP contributor."
+  },
+  "gh:Richard Choi": {
+    "githubLogin": "Richard Choi",
+    "name": "Richard Choi",
+    "bio": "BEP contributor."
+  },
+  "gh:Michael Burford": {
+    "githubLogin": "Michael Burford",
+    "name": "Michael Burford",
+    "bio": "BEP contributor."
+  },
+  "gh:Arvid Norberg , Greg Hazel , Aaron Grunthal": {
+    "githubLogin": "Arvid Norberg , Greg Hazel , Aaron Grunthal",
+    "name": "Arvid Norberg , Greg Hazel , Aaron Grunthal",
+    "bio": "BEP contributor."
+  },
+  "gh:David Harrison , Stanislav Shalunov , Greg Hazel": {
+    "githubLogin": "David Harrison , Stanislav Shalunov , Greg Hazel",
+    "name": "David Harrison , Stanislav Shalunov , Greg Hazel",
+    "bio": "BEP contributor."
+  },
+  "gh:David Harrison , Greg Hazel , Stanislav Shalunov": {
+    "githubLogin": "David Harrison , Greg Hazel , Stanislav Shalunov",
+    "name": "David Harrison , Greg Hazel , Stanislav Shalunov",
+    "bio": "BEP contributor."
+  },
+  "gh:Robin Perkins": {
+    "githubLogin": "Robin Perkins",
+    "name": "Robin Perkins",
+    "bio": "BEP contributor."
+  },
+  "gh:Arvid Norberg": {
+    "githubLogin": "Arvid Norberg",
+    "name": "Arvid Norberg",
+    "bio": "BEP contributor."
+  },
+  "gh:Arno Bakker": {
+    "githubLogin": "Arno Bakker",
+    "name": "Arno Bakker",
+    "bio": "BEP contributor."
+  },
+  "gh:Jeroen Massar": {
+    "githubLogin": "Jeroen Massar",
+    "name": "Jeroen Massar",
+    "bio": "BEP contributor."
+  },
+  "gh:Juliusz Chroboczek": {
+    "githubLogin": "Juliusz Chroboczek",
+    "name": "Juliusz Chroboczek",
+    "bio": "BEP contributor."
+  },
+  "gh:Fredrik Neij , Arvid Norberg , Chris Brown": {
+    "githubLogin": "Fredrik Neij , Arvid Norberg , Chris Brown",
+    "name": "Fredrik Neij , Arvid Norberg , Chris Brown",
+    "bio": "BEP contributor."
+  },
+  "gh:Chris Brown": {
+    "githubLogin": "Chris Brown",
+    "name": "Chris Brown",
+    "bio": "BEP contributor."
+  },
+  "gh:Arvid Norberg , Chris Brown": {
+    "githubLogin": "Arvid Norberg , Chris Brown",
+    "name": "Arvid Norberg , Chris Brown",
+    "bio": "BEP contributor."
+  },
+  "gh:Michael C. Toren": {
+    "githubLogin": "Michael C. Toren",
+    "name": "Michael C. Toren",
+    "bio": "BEP contributor."
+  },
+  "gh:Arvid Norberg , Steve Austin": {
+    "githubLogin": "Arvid Norberg , Steve Austin",
+    "name": "Arvid Norberg , Steve Austin",
+    "bio": "BEP contributor."
+  },
+  "gh:Arvid Norberg , Steven Siloti": {
+    "githubLogin": "Arvid Norberg , Steven Siloti",
+    "name": "Arvid Norberg , Steven Siloti",
+    "bio": "BEP contributor."
+  },
+  "gh:Luca Matteis": {
+    "githubLogin": "Luca Matteis",
+    "name": "Luca Matteis",
+    "bio": "BEP contributor."
+  },
+  "gh:Jimmy Zelinskie": {
+    "githubLogin": "Jimmy Zelinskie",
+    "name": "Jimmy Zelinskie",
+    "bio": "BEP contributor."
+  },
+  "gh:Steven Siloti": {
+    "githubLogin": "Steven Siloti",
+    "name": "Steven Siloti",
+    "bio": "BEP contributor."
+  },
+  "gh:Tyler Houlihan": {
+    "githubLogin": "Tyler Houlihan",
+    "name": "Tyler Houlihan",
+    "bio": "BEP contributor."
+  },
+  "gh:Mihael Peklar": {
+    "githubLogin": "Mihael Peklar",
+    "name": "Mihael Peklar",
+    "bio": "BEP contributor."
   }
 }

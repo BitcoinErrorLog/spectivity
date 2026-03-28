@@ -1,14 +1,20 @@
 {
-  "syncedAt": "2026-03-28T12:25:18.668Z",
-  "totalSpecs": 69,
-  "totalReviews": 12,
-  "totalAuthors": 42,
+  "syncedAt": "2026-03-28T16:15:23.537Z",
+  "totalSpecs": 1859,
+  "totalReviews": 112,
+  "totalAuthors": 714,
   "byNamespace": {
-    "bip": {
-      "merged": 23,
-      "open": 15,
-      "closed": 4,
+    "bep": {
+      "merged": 56,
+      "open": 0,
+      "closed": 0,
       "rejected": 0
+    },
+    "bip": {
+      "merged": 1221,
+      "open": 46,
+      "closed": 392,
+      "rejected": 47
     },
     "bolt": {
       "merged": 12,
@@ -17,7 +23,7 @@
       "rejected": 0
     },
     "nip": {
-      "merged": 15,
+      "merged": 85,
       "open": 0,
       "closed": 0,
       "rejected": 0

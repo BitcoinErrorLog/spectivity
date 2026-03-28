@@ -1,14 +1,14 @@
 'use client'
 import { useState } from 'react'
 import { publishSpec, type PublishSpecInput } from '@/lib/publish'
+import { useAuth } from '@/lib/AuthContext'
 import { cn } from '@/lib/cn'
 
 interface PublishSpecProps {
-  authorPubky: string
   onPublished?: (uri: string) => void
 }
 
-export function PublishSpec({ authorPubky, onPublished }: PublishSpecProps) {
+export function PublishSpec({ onPublished }: PublishSpecProps) {
   const [isOpen, setIsOpen] = useState(false)
   const [title, setTitle] = useState('')
   const [summary, setSummary] = useState('')
@@ -16,29 +16,36 @@ export function PublishSpec({ authorPubky, onPublished }: PublishSpecProps) {
   const [typeLabel, setTypeLabel] = useState('informational')
   const [tagsInput, setTagsInput] = useState('')
   const [submitting, setSubmitting] = useState(false)
+  const { isAuthenticated, pubky, session } = useAuth()
+
+  if (!isAuthenticated || !session || !pubky) return null
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault()
-    if (!title.trim() || !summary.trim() || !body.trim()) return
+    if (!title.trim() || !summary.trim() || !body.trim() || !session || !pubky) return
 
     setSubmitting(true)
-    const input: PublishSpecInput = {
-      title: title.trim(),
-      summary: summary.trim(),
-      body: body.trim(),
-      typeLabel,
-      topicTags: tagsInput.split(',').map(t => t.trim().toLowerCase()).filter(Boolean),
-    }
+    try {
+      const input: PublishSpecInput = {
+        title: title.trim(),
+        summary: summary.trim(),
+        body: body.trim(),
+        typeLabel,
+        topicTags: tagsInput.split(',').map(t => t.trim().toLowerCase()).filter(Boolean),
+      }
 
-    const result = await publishSpec(authorPubky, input)
+      const result = await publishSpec(session, pubky, input)
 
-    if (result.success) {
-      onPublished?.(result.uri)
-      setTitle('')
-      setSummary('')
-      setBody('')
-      setTagsInput('')
-      setIsOpen(false)
+      if (result.success) {
+        onPublished?.(result.uri)
+        setTitle('')
+        setSummary('')
+        setBody('')
+        setTagsInput('')
+        setIsOpen(false)
+      }
+    } catch (e: any) {
+      console.error('Failed to publish spec:', e)
     }
     setSubmitting(false)
   }

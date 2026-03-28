@@ -2,6 +2,8 @@
 
 import { useState } from 'react'
 import { getTopLevelDiscussions, getReplies, type Discussion } from '@/data/discussions'
+import { useAuth } from '@/lib/AuthContext'
+import { publishComment } from '@/lib/publish'
 import { cn } from '@/lib/cn'
 
 interface DiscussionThreadProps {
@@ -13,6 +15,25 @@ export function DiscussionThread({ specId, specTitle }: DiscussionThreadProps) {
   const topLevel = getTopLevelDiscussions(specId)
   const [replyTo, setReplyTo] = useState<string | null>(null)
   const [replyText, setReplyText] = useState('')
+  const [posting, setPosting] = useState(false)
+  const { isAuthenticated, pubky, session } = useAuth()
+
+  async function handlePost(parentUri?: string) {
+    if (!replyText.trim() || !session || !pubky) return
+    setPosting(true)
+    try {
+      await publishComment(session, pubky, {
+        content: replyText.trim(),
+        parentUri,
+      })
+      setReplyTo(null)
+      setReplyText('')
+    } catch (e: any) {
+      console.error('Failed to post comment:', e)
+    } finally {
+      setPosting(false)
+    }
+  }
 
   return (
     <div>
@@ -20,12 +41,14 @@ export function DiscussionThread({ specId, specTitle }: DiscussionThreadProps) {
         <h3 className="text-sm font-semibold text-text-primary">
           Discussion ({topLevel.length} thread{topLevel.length !== 1 ? 's' : ''})
         </h3>
-        <button
-          onClick={() => setReplyTo('top')}
-          className="px-3 py-1.5 bg-accent text-white rounded-lg text-xs font-medium hover:bg-accent-hover transition-colors"
-        >
-          New comment
-        </button>
+        {isAuthenticated && (
+          <button
+            onClick={() => setReplyTo('top')}
+            className="px-3 py-1.5 bg-accent text-white rounded-lg text-xs font-medium hover:bg-accent-hover transition-colors"
+          >
+            New comment
+          </button>
+        )}
       </div>
 
       {replyTo === 'top' && (
@@ -39,7 +62,7 @@ export function DiscussionThread({ specId, specTitle }: DiscussionThreadProps) {
           />
           <div className="flex items-center justify-between mt-2">
             <p className="text-[0.65rem] text-text-tertiary">
-              Sign in with GitHub to post. Comments are signed PubkyAppPost objects.
+              Your comment will be published as a signed PubkyAppPost.
             </p>
             <div className="flex gap-2">
               <button
@@ -49,17 +72,24 @@ export function DiscussionThread({ specId, specTitle }: DiscussionThreadProps) {
                 Cancel
               </button>
               <button
-                onClick={() => { setReplyTo(null); setReplyText('') }}
-                className="px-3 py-1.5 bg-accent text-white rounded-lg text-xs font-medium hover:bg-accent-hover transition-colors"
+                disabled={posting || !replyText.trim()}
+                onClick={() => handlePost()}
+                className="px-3 py-1.5 bg-accent text-white rounded-lg text-xs font-medium hover:bg-accent-hover transition-colors disabled:opacity-50"
               >
-                Post
+                {posting ? 'Posting...' : 'Post'}
               </button>
             </div>
           </div>
         </div>
       )}
 
-      {topLevel.length === 0 ? (
+      {!isAuthenticated && topLevel.length === 0 && (
+        <div className="text-center py-12 text-text-tertiary">
+          <p className="text-sm">Sign in to start a discussion on this spec.</p>
+        </div>
+      )}
+
+      {topLevel.length === 0 && isAuthenticated ? (
         <div className="text-center py-12 text-text-tertiary">
           <p className="text-sm">No discussion yet. Be the first to comment.</p>
         </div>
@@ -74,6 +104,9 @@ export function DiscussionThread({ specId, specTitle }: DiscussionThreadProps) {
               setReplyTo={setReplyTo}
               replyText={replyText}
               setReplyText={setReplyText}
+              onPost={handlePost}
+              posting={posting}
+              isAuthenticated={isAuthenticated}
             />
           ))}
         </div>
@@ -89,6 +122,9 @@ function DiscussionPost({
   setReplyTo,
   replyText,
   setReplyText,
+  onPost,
+  posting,
+  isAuthenticated,
 }: {
   discussion: Discussion
   depth: number
@@ -96,6 +132,9 @@ function DiscussionPost({
   setReplyTo: (id: string | null) => void
   replyText: string
   setReplyText: (text: string) => void
+  onPost: (parentUri?: string) => Promise<void>
+  posting: boolean
+  isAuthenticated: boolean
 }) {
   const replies = getReplies(discussion.id)
   const initials = discussion.authorName
@@ -120,12 +159,14 @@ function DiscussionPost({
               </span>
             </div>
             <p className="text-sm text-text-secondary leading-relaxed">{discussion.body}</p>
-            <button
-              onClick={() => setReplyTo(discussion.id)}
-              className="text-xs text-text-tertiary hover:text-accent mt-2 transition-colors"
-            >
-              Reply
-            </button>
+            {isAuthenticated && (
+              <button
+                onClick={() => setReplyTo(discussion.id)}
+                className="text-xs text-text-tertiary hover:text-accent mt-2 transition-colors"
+              >
+                Reply
+              </button>
+            )}
           </div>
         </div>
       </div>
@@ -141,7 +182,13 @@ function DiscussionPost({
           />
           <div className="flex justify-end gap-2 mt-2">
             <button onClick={() => { setReplyTo(null); setReplyText('') }} className="px-3 py-1 text-xs text-text-tertiary">Cancel</button>
-            <button onClick={() => { setReplyTo(null); setReplyText('') }} className="px-3 py-1 bg-accent text-white rounded text-xs font-medium hover:bg-accent-hover">Reply</button>
+            <button
+              disabled={posting || !replyText.trim()}
+              onClick={() => onPost(discussion.id)}
+              className="px-3 py-1 bg-accent text-white rounded text-xs font-medium hover:bg-accent-hover disabled:opacity-50"
+            >
+              {posting ? 'Posting...' : 'Reply'}
+            </button>
           </div>
         </div>
       )}
@@ -157,6 +204,9 @@ function DiscussionPost({
               setReplyTo={setReplyTo}
               replyText={replyText}
               setReplyText={setReplyText}
+              onPost={onPost}
+              posting={posting}
+              isAuthenticated={isAuthenticated}
             />
           ))}
         </div>

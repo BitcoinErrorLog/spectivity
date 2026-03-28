@@ -1,6 +1,7 @@
 'use client'
 import { useState } from 'react'
 import { publishReview } from '@/lib/publish'
+import { useAuth } from '@/lib/AuthContext'
 import type { ReviewStance } from '@/data/types'
 import { stanceBgColor, stanceLabel } from '@/data/types'
 import { cn } from '@/lib/cn'
@@ -13,26 +14,38 @@ const ALL_STANCES: ReviewStance[] = [
 interface PublishReviewProps {
   specUri: string
   specTitle: string
-  reviewerPubky: string
   onPublished?: (tagId: string) => void
 }
 
-export function PublishReview({ specUri, specTitle, reviewerPubky, onPublished }: PublishReviewProps) {
+export function PublishReview({ specUri, specTitle, onPublished }: PublishReviewProps) {
   const [selectedStance, setSelectedStance] = useState<ReviewStance | null>(null)
   const [submitting, setSubmitting] = useState(false)
+  const { isAuthenticated, pubky, session } = useAuth()
+
+  if (!isAuthenticated || !session || !pubky) {
+    return (
+      <div className="bg-surface border border-border rounded-xl p-4">
+        <p className="text-xs text-text-tertiary">Sign in to review this spec.</p>
+      </div>
+    )
+  }
 
   async function handleSubmit() {
-    if (!selectedStance) return
+    if (!selectedStance || !session || !pubky) return
 
     setSubmitting(true)
-    const result = await publishReview(reviewerPubky, {
-      specUri,
-      stance: selectedStance,
-    })
+    try {
+      const result = await publishReview(session, pubky, {
+        specUri,
+        stance: selectedStance,
+      })
 
-    if (result.success) {
-      onPublished?.(result.tagId)
-      setSelectedStance(null)
+      if (result.success) {
+        onPublished?.(result.tagId)
+        setSelectedStance(null)
+      }
+    } catch (e: any) {
+      console.error('Failed to publish review:', e)
     }
     setSubmitting(false)
   }

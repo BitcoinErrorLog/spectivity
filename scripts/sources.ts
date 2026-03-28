@@ -31,9 +31,9 @@ export const SOURCES: SpecSourceConfig[] = [
     namespace: 'nip',
     label: 'NIP',
     repo: 'nostr-protocol/nips',
-    filePattern: /^(\d{2,3})\.md$/,
+    filePattern: /^(\d{1,4})\.md$/,
     numberExtractor: (f) => {
-      const m = f.match(/^(\d{2,3})\.md$/)
+      const m = f.match(/^(\d{1,4})\.md$/)
       return m ? parseInt(m[1], 10) : undefined
     },
     prLabels: [],

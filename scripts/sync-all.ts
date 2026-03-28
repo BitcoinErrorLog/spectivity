@@ -16,10 +16,15 @@
 import * as fs from 'fs'
 import * as path from 'path'
 import { fileURLToPath } from 'url'
+import { config as dotenvConfig } from 'dotenv'
 import { SOURCES, type SpecSourceConfig } from './sources.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
+
+dotenvConfig({ path: path.resolve(__dirname, '../.env.local') })
+dotenvConfig({ path: path.resolve(__dirname, '../.env') })
+
 const OUTPUT_DIR = path.resolve(__dirname, '../src/data/synced')
 const GITHUB_API = 'https://api.github.com'
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN ?? ''
@@ -77,8 +82,32 @@ async function ghFetch(url: string): Promise<any> {
   return res.json()
 }
 
+async function ghFetchAll(baseUrl: string): Promise<any[]> {
+  const results: any[] = []
+  let url: string | null = baseUrl.includes('?') ? `${baseUrl}&per_page=100` : `${baseUrl}?per_page=100`
+
+  while (url) {
+    const res: Response = await fetch(url, { headers })
+    if (res.status === 403) {
+      const remaining = res.headers.get('x-ratelimit-remaining')
+      if (remaining === '0') {
+        console.warn(`\nRate limited during pagination. Returning partial results.`)
+        throw new Error('RATE_LIMIT')
+      }
+    }
+    if (!res.ok) throw new Error(`GitHub API ${res.status}: ${url}`)
+    const data = await res.json()
+    results.push(...(Array.isArray(data) ? data : []))
+
+    const link = res.headers.get('link')
+    const next = link?.match(/<([^>]+)>;\s*rel="next"/)
+    url = next ? next[1] : null
+  }
+  return results
+}
+
 async function ghText(url: string): Promise<string> {
-  const res = await fetch(url, { headers: { 'User-Agent': 'spectivity-sync/1.0' } })
+  const res = await fetch(url, { headers: { ...headers, 'Accept': 'text/plain' } })
   if (!res.ok) throw new Error(`Fetch ${res.status}: ${url}`)
   return res.text()
 }
@@ -127,6 +156,30 @@ function parseBoltContent(content: string): { title: string; summary: string } {
     : 'Lightning Network specification.'
 
   return { title, summary }
+}
+
+function parseBepContent(content: string): { title: string; summary: string; status?: string; type?: string } {
+  const lines = content.split('\n')
+  const fields: Record<string, string> = {}
+  for (const line of lines) {
+    const m = line.match(/^\.\.\s+([\w\s]+):\s*(.+)$/)
+    if (m) {
+      fields[m[1].trim().toLowerCase()] = m[2].trim()
+    }
+    if (line.startsWith('===') || line.startsWith('---') || (line.startsWith('Abstract') && !line.startsWith('..'))) break
+  }
+
+  let title = fields['title'] ?? 'Untitled BEP'
+  const status = fields['status']
+  const type = fields['type']
+
+  const abstractMatch = content.match(/(?:^|\n)Abstract\n[-=]+\n([\s\S]*?)(?=\n\w+\n[-=]+|\n\.\.|$)/i)
+    ?? content.match(/(?:^|\n)Abstract\n\n([\s\S]*?)(?=\n\n\w+\n|\n\.\.|$)/i)
+  const summary = abstractMatch
+    ? abstractMatch[1].trim().replace(/\n/g, ' ').slice(0, 400)
+    : content.split('\n').filter(l => l.trim() && !l.startsWith('..') && !l.startsWith('=') && !l.startsWith('-')).slice(0, 3).join(' ').slice(0, 300)
+
+  return { title, summary, status, type }
 }
 
 function extractAbstract(content: string): string {
@@ -179,7 +232,25 @@ function extractStance(body: string): string | null {
 async function syncMergedFiles(source: SpecSourceConfig, limit: number): Promise<SyncedSpec[]> {
   const contentPath = source.subdir ? `${source.repo}/contents/${source.subdir}` : `${source.repo}/contents`
   console.log(`  Fetching file list from ${contentPath}...`)
-  const contents: any[] = await ghFetch(`${GITHUB_API}/repos/${contentPath}`)
+
+  let contents: any[]
+  try {
+    contents = await ghFetch(`${GITHUB_API}/repos/${contentPath}`)
+  } catch {
+    console.log(`  Using Git Trees API for full listing...`)
+    const defaultBranch = (await ghFetch(`${GITHUB_API}/repos/${source.repo}`)).default_branch ?? 'master'
+    const tree = await ghFetch(`${GITHUB_API}/repos/${source.repo}/git/trees/${defaultBranch}?recursive=1`)
+    const prefix = source.subdir ? `${source.subdir}/` : ''
+    contents = (tree.tree ?? [])
+      .filter((t: any) => t.type === 'blob' && t.path.startsWith(prefix))
+      .map((t: any) => ({
+        name: t.path.split('/').pop(),
+        path: t.path,
+        type: 'file',
+        download_url: `https://raw.githubusercontent.com/${source.repo}/${defaultBranch}/${t.path}`,
+        html_url: `https://github.com/${source.repo}/blob/${defaultBranch}/${t.path}`,
+      }))
+  }
 
   const files = contents
     .filter((f: any) => f.type === 'file' && source.filePattern.test(f.name))
@@ -212,6 +283,12 @@ async function syncMergedFiles(source: SpecSourceConfig, limit: number): Promise
         const parsed = parseBoltContent(content)
         title = `BOLT ${num}: ${parsed.title}`
         summary = parsed.summary
+      } else if (source.namespace === 'bep') {
+        const parsed = parseBepContent(content)
+        title = `BEP ${num}: ${parsed.title}`
+        summary = parsed.summary
+        status = parsed.status
+        type = bipTypeToLabel(parsed.type ?? '')
       } else {
         title = `${source.label} ${num}: ${file.name}`
         summary = content.split('\n').filter((l: string) => l.trim()).slice(0, 3).join(' ').slice(0, 300)
@@ -257,8 +334,8 @@ async function syncPRs(source: SpecSourceConfig, limit: number): Promise<{ specs
 
   for (const state of ['open', 'closed'] as const) {
     try {
-      const prs: any[] = await ghFetch(
-        `${GITHUB_API}/repos/${source.repo}/pulls?state=${state}&per_page=${Math.min(limit, 30)}&sort=updated&direction=desc`
+      const prs: any[] = await ghFetchAll(
+        `${GITHUB_API}/repos/${source.repo}/pulls?state=${state}&sort=updated&direction=desc`
       )
       for (const pr of prs) {
         const labels = (pr.labels ?? []).map((l: any) => l.name)
@@ -292,8 +369,8 @@ async function syncPRs(source: SpecSourceConfig, limit: number): Promise<{ specs
 
         if (source.prLabels.some(pl => labels.includes(pl))) {
           try {
-            const comments: any[] = await ghFetch(
-              `${GITHUB_API}/repos/${source.repo}/issues/${pr.number}/comments?per_page=50`
+            const comments: any[] = await ghFetchAll(
+              `${GITHUB_API}/repos/${source.repo}/issues/${pr.number}/comments`
             )
             for (const c of comments) {
               const stance = extractStance(c.body ?? '')
@@ -327,7 +404,7 @@ async function main() {
   const nsIdx = args.indexOf('--namespace')
   const targetNs = nsIdx >= 0 ? args[nsIdx + 1] : undefined
   const limitIdx = args.indexOf('--limit')
-  const limit = limitIdx >= 0 ? parseInt(args[limitIdx + 1], 10) : 50
+  const limit = limitIdx >= 0 ? parseInt(args[limitIdx + 1], 10) : 9999
 
   const sources = targetNs ? SOURCES.filter(s => s.namespace === targetNs) : SOURCES
 

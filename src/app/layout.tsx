@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 import { Nav } from '@/components/Nav'
 import { SessionProvider } from '@/components/SessionProvider'
+import { AuthProvider } from '@/lib/AuthContext'
 
 export const metadata: Metadata = {
   title: {
@@ -35,6 +36,7 @@ export default function RootLayout({
       </head>
       <body>
         <SessionProvider>
+        <AuthProvider>
         <div className="min-h-screen flex flex-col">
           <Nav />
           <main className="flex-1">{children}</main>
@@ -48,6 +50,7 @@ export default function RootLayout({
             </div>
           </footer>
         </div>
+        </AuthProvider>
         </SessionProvider>
       </body>
     </html>

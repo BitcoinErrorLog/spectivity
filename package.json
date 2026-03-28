@@ -6,10 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "sync": "tsx scripts/sync-all.ts",
+    "sync:bip": "tsx scripts/sync-all.ts --namespace bip",
+    "sync:nip": "tsx scripts/sync-all.ts --namespace nip",
+    "sync:bolt": "tsx scripts/sync-all.ts --namespace bolt",
+    "sync:bep": "tsx scripts/sync-all.ts --namespace bep"
   },
   "dependencies": {
+    "@synonymdev/pubky": "^0.6.0",
     "clsx": "^2.1.1",
+    "dotenv": "^17.3.1",
     "lucide-react": "^1.7.0",
     "next": "16.2.1",
     "next-auth": "^5.0.0-beta.30",
