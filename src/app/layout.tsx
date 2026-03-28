@@ -13,9 +13,11 @@ export const metadata: Metadata = {
   openGraph: {
     siteName: 'Spectivity',
     type: 'website',
+    images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'Spectivity' }],
   },
   twitter: {
     card: 'summary_large_image',
+    images: ['/og-image.png'],
   },
 }
 

@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import ReactMarkdown from 'react-markdown'
 import type { Spec, ReviewStance } from '@/data/types'
 import { getNamespace, stanceBgColor, stanceLabel } from '@/data/types'
 import { getReviewsForSpec, getAttestationsForSpec, getCollectionsForSpec, getAuthor, getAllReviewers, getAllTrustPresets, buildReviewSummary } from '@/data/adapters'
@@ -98,14 +99,7 @@ export function SpecDetailView({ spec }: { spec: Spec }) {
 
       <div className="bg-surface border border-border rounded-xl p-6 mb-6">
         <h2 className="font-display text-lg font-semibold mb-4">Specification</h2>
-        <div className="prose prose-invert prose-sm max-w-none text-text-secondary leading-relaxed whitespace-pre-line text-sm">
-          {spec.body.slice(0, 8000)}
-          {spec.body.length > 8000 && (
-            <p className="text-text-tertiary italic mt-4">
-              [Truncated — <a href={spec.sourceUrl} target="_blank" rel="noopener" className="text-accent hover:underline">view full spec at source</a>]
-            </p>
-          )}
-        </div>
+        <SpecBody body={spec.body} sourceUrl={spec.sourceUrl} />
       </div>
 
       <DependencyGraph spec={spec} />
@@ -184,4 +178,59 @@ export function SpecDetailView({ spec }: { spec: Spec }) {
       )}
     </div>
   )
+}
+
+function SpecBody({ body, sourceUrl }: { body: string; sourceUrl?: string }) {
+  const isMediaWiki = body.includes('==') && body.includes('<pre>')
+    || body.includes('===') && !body.includes('```')
+    || body.includes("'''")
+
+  const displayBody = body.slice(0, 15000)
+  const isTruncated = body.length > 15000
+
+  if (isMediaWiki) {
+    const html = mediaWikiToHtml(displayBody)
+    return (
+      <div className="spec-body text-sm text-text-secondary leading-relaxed">
+        <div dangerouslySetInnerHTML={{ __html: html }} />
+        {isTruncated && <TruncatedNotice sourceUrl={sourceUrl} />}
+      </div>
+    )
+  }
+
+  return (
+    <div className="spec-body text-sm text-text-secondary leading-relaxed [&_h1]:text-lg [&_h1]:font-display [&_h1]:font-semibold [&_h1]:text-text-primary [&_h1]:mt-6 [&_h1]:mb-2 [&_h2]:text-base [&_h2]:font-display [&_h2]:font-semibold [&_h2]:text-text-primary [&_h2]:mt-5 [&_h2]:mb-2 [&_h3]:text-sm [&_h3]:font-semibold [&_h3]:text-text-primary [&_h3]:mt-4 [&_h3]:mb-1 [&_p]:mb-3 [&_ul]:pl-5 [&_ul]:mb-3 [&_ul]:list-disc [&_ol]:pl-5 [&_ol]:mb-3 [&_ol]:list-decimal [&_li]:mb-1 [&_code]:text-xs [&_code]:bg-surface-2 [&_code]:px-1 [&_code]:py-0.5 [&_code]:rounded [&_code]:font-mono [&_pre]:bg-surface-2 [&_pre]:border [&_pre]:border-border [&_pre]:rounded-lg [&_pre]:p-3 [&_pre]:mb-3 [&_pre]:overflow-x-auto [&_pre]:text-xs [&_pre_code]:bg-transparent [&_pre_code]:p-0 [&_a]:text-accent [&_a:hover]:underline [&_blockquote]:border-l-2 [&_blockquote]:border-accent [&_blockquote]:pl-4 [&_blockquote]:italic [&_blockquote]:text-text-tertiary [&_blockquote]:mb-3 [&_table]:w-full [&_table]:text-xs [&_table]:mb-3 [&_th]:text-left [&_th]:px-2 [&_th]:py-1 [&_th]:border-b [&_th]:border-border [&_th]:font-semibold [&_th]:text-text-primary [&_td]:px-2 [&_td]:py-1 [&_td]:border-b [&_td]:border-border [&_hr]:border-border [&_hr]:my-4">
+      <ReactMarkdown>{displayBody}</ReactMarkdown>
+      {isTruncated && <TruncatedNotice sourceUrl={sourceUrl} />}
+    </div>
+  )
+}
+
+function TruncatedNotice({ sourceUrl }: { sourceUrl?: string }) {
+  return (
+    <p className="text-text-tertiary italic mt-4 text-xs">
+      [Content truncated{sourceUrl && (
+        <> — <a href={sourceUrl} target="_blank" rel="noopener" className="text-accent hover:underline">view full spec at source</a></>
+      )}]
+    </p>
+  )
+}
+
+function mediaWikiToHtml(wiki: string): string {
+  let html = wiki
+    .replace(/'''(.*?)'''/g, '<strong>$1</strong>')
+    .replace(/''(.*?)''/g, '<em>$1</em>')
+    .replace(/====\s*(.*?)\s*====/g, '<h4 class="text-sm font-semibold text-text-primary mt-3 mb-1">$1</h4>')
+    .replace(/===\s*(.*?)\s*===/g, '<h3 class="text-sm font-semibold text-text-primary mt-4 mb-1">$1</h3>')
+    .replace(/==\s*(.*?)\s*==/g, '<h2 class="text-base font-display font-semibold text-text-primary mt-5 mb-2">$1</h2>')
+    .replace(/<pre>([\s\S]*?)<\/pre>/g, '<pre class="bg-surface-2 border border-border rounded-lg p-3 mb-3 overflow-x-auto text-xs font-mono">$1</pre>')
+    .replace(/\[https?:\/\/\S+\s+([^\]]+)\]/g, '<a href="#" class="text-accent">$1</a>')
+    .replace(/^\*\s+(.*)/gm, '<li class="mb-1">$1</li>')
+    .replace(/(<li.*<\/li>\n?)+/g, (m) => `<ul class="pl-5 mb-3 list-disc">${m}</ul>`)
+    .replace(/\n\n/g, '</p><p class="mb-3">')
+
+  if (!html.startsWith('<')) html = '<p class="mb-3">' + html
+  if (!html.endsWith('>')) html += '</p>'
+
+  return html
 }
