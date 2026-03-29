@@ -53,7 +53,7 @@ export function SpecCard({ spec, summary, explanation }: SpecCardProps) {
             )}
           </div>
           <h3 className="text-base font-semibold text-text-primary group-hover:text-accent transition-colors leading-snug">
-            {spec.title}
+            {stripNumberPrefix(spec.title, spec.specNumber)}
           </h3>
           {spec.topicTags.length > 0 && (
             <div className="flex flex-wrap gap-1 mt-1.5">
@@ -108,6 +108,11 @@ export function SpecCard({ spec, summary, explanation }: SpecCardProps) {
       )}
     </Link>
   )
+}
+
+function stripNumberPrefix(title: string, specNumber?: number): string {
+  if (specNumber == null) return title
+  return title.replace(/^(?:BIP|NIP|BOLT|BEP|SLIP)[\s-]*\d+\s*:\s*/i, '')
 }
 
 function formatDate(iso: string) {

@@ -58,7 +58,11 @@ export function SpecDetailView({ spec }: { spec: Spec }) {
           ))}
         </div>
 
-        <h1 className="font-display text-2xl font-bold mb-2 leading-snug">{spec.title}</h1>
+        <h1 className="font-display text-2xl font-bold mb-2 leading-snug">
+          {spec.specNumber != null
+            ? spec.title.replace(/^(?:BIP|NIP|BOLT|BEP|SLIP)[\s-]*\d+\s*:\s*/i, '')
+            : spec.title}
+        </h1>
         <p className="text-sm text-text-secondary leading-relaxed mb-4">{spec.summary}</p>
 
         <ReviewBadges summary={summary} />
@@ -181,9 +185,10 @@ export function SpecDetailView({ spec }: { spec: Spec }) {
 }
 
 function SpecBody({ body, sourceUrl }: { body: string; sourceUrl?: string }) {
-  const isMediaWiki = body.includes('==') && body.includes('<pre>')
-    || body.includes('===') && !body.includes('```')
-    || body.includes("'''")
+  const isMediaWiki = (body.includes('==') && body.includes('<pre>'))
+    || (body.includes('===') && !body.includes('```') && body.includes("'''"))
+
+  const isRst = /^:[A-Z][\w-]+:\s/m.test(body) || /\n[=]{4,}\n/.test(body) || body.includes(':raw-html:')
 
   const displayBody = body.slice(0, 15000)
   const isTruncated = body.length > 15000
@@ -198,9 +203,23 @@ function SpecBody({ body, sourceUrl }: { body: string; sourceUrl?: string }) {
     )
   }
 
+  if (isRst) {
+    const html = rstToHtml(displayBody)
+    return (
+      <div className="spec-body text-sm text-text-secondary leading-relaxed">
+        <div dangerouslySetInnerHTML={{ __html: html }} />
+        {isTruncated && <TruncatedNotice sourceUrl={sourceUrl} />}
+      </div>
+    )
+  }
+
+  const mdClasses = "spec-body text-sm text-text-secondary leading-relaxed [&_h1]:text-lg [&_h1]:font-display [&_h1]:font-semibold [&_h1]:text-text-primary [&_h1]:mt-6 [&_h1]:mb-2 [&_h2]:text-base [&_h2]:font-display [&_h2]:font-semibold [&_h2]:text-text-primary [&_h2]:mt-5 [&_h2]:mb-2 [&_h3]:text-sm [&_h3]:font-semibold [&_h3]:text-text-primary [&_h3]:mt-4 [&_h3]:mb-1 [&_p]:mb-3 [&_ul]:pl-5 [&_ul]:mb-3 [&_ul]:list-disc [&_ol]:pl-5 [&_ol]:mb-3 [&_ol]:list-decimal [&_li]:mb-1 [&_code]:text-xs [&_code]:bg-surface-2 [&_code]:px-1 [&_code]:py-0.5 [&_code]:rounded [&_code]:font-mono [&_pre]:bg-surface-2 [&_pre]:border [&_pre]:border-border [&_pre]:rounded-lg [&_pre]:p-3 [&_pre]:mb-3 [&_pre]:overflow-x-auto [&_pre]:text-xs [&_pre_code]:bg-transparent [&_pre_code]:p-0 [&_a]:text-accent [&_a:hover]:underline [&_blockquote]:border-l-2 [&_blockquote]:border-accent [&_blockquote]:pl-4 [&_blockquote]:italic [&_blockquote]:text-text-tertiary [&_blockquote]:mb-3 [&_table]:w-full [&_table]:text-xs [&_table]:mb-3 [&_th]:text-left [&_th]:px-2 [&_th]:py-1 [&_th]:border-b [&_th]:border-border [&_th]:font-semibold [&_th]:text-text-primary [&_td]:px-2 [&_td]:py-1 [&_td]:border-b [&_td]:border-border [&_hr]:border-border [&_hr]:my-4"
+
+  const preprocessed = convertRstUnderlinesToMd(displayBody)
+
   return (
-    <div className="spec-body text-sm text-text-secondary leading-relaxed [&_h1]:text-lg [&_h1]:font-display [&_h1]:font-semibold [&_h1]:text-text-primary [&_h1]:mt-6 [&_h1]:mb-2 [&_h2]:text-base [&_h2]:font-display [&_h2]:font-semibold [&_h2]:text-text-primary [&_h2]:mt-5 [&_h2]:mb-2 [&_h3]:text-sm [&_h3]:font-semibold [&_h3]:text-text-primary [&_h3]:mt-4 [&_h3]:mb-1 [&_p]:mb-3 [&_ul]:pl-5 [&_ul]:mb-3 [&_ul]:list-disc [&_ol]:pl-5 [&_ol]:mb-3 [&_ol]:list-decimal [&_li]:mb-1 [&_code]:text-xs [&_code]:bg-surface-2 [&_code]:px-1 [&_code]:py-0.5 [&_code]:rounded [&_code]:font-mono [&_pre]:bg-surface-2 [&_pre]:border [&_pre]:border-border [&_pre]:rounded-lg [&_pre]:p-3 [&_pre]:mb-3 [&_pre]:overflow-x-auto [&_pre]:text-xs [&_pre_code]:bg-transparent [&_pre_code]:p-0 [&_a]:text-accent [&_a:hover]:underline [&_blockquote]:border-l-2 [&_blockquote]:border-accent [&_blockquote]:pl-4 [&_blockquote]:italic [&_blockquote]:text-text-tertiary [&_blockquote]:mb-3 [&_table]:w-full [&_table]:text-xs [&_table]:mb-3 [&_th]:text-left [&_th]:px-2 [&_th]:py-1 [&_th]:border-b [&_th]:border-border [&_th]:font-semibold [&_th]:text-text-primary [&_td]:px-2 [&_td]:py-1 [&_td]:border-b [&_td]:border-border [&_hr]:border-border [&_hr]:my-4">
-      <ReactMarkdown>{displayBody}</ReactMarkdown>
+    <div className={mdClasses}>
+      <ReactMarkdown>{preprocessed}</ReactMarkdown>
       {isTruncated && <TruncatedNotice sourceUrl={sourceUrl} />}
     </div>
   )
@@ -214,6 +233,137 @@ function TruncatedNotice({ sourceUrl }: { sourceUrl?: string }) {
       )}]
     </p>
   )
+}
+
+function convertRstUnderlinesToMd(text: string): string {
+  const lines = text.split('\n')
+  const out: string[] = []
+  for (let i = 0; i < lines.length; i++) {
+    const cur = lines[i]
+    const next = lines[i + 1]
+    if (next && cur.trim().length > 0 && /^[=]{3,}$/.test(next.trim()) && cur.trim().length <= next.trim().length + 2) {
+      out.push(`## ${cur.trim()}`)
+      i++
+      continue
+    }
+    if (next && cur.trim().length > 0 && /^[-]{3,}$/.test(next.trim()) && cur.trim().length <= next.trim().length + 2) {
+      out.push(`### ${cur.trim()}`)
+      i++
+      continue
+    }
+    out.push(cur)
+  }
+  return out.join('\n')
+}
+
+function rstToHtml(rst: string): string {
+  const lines = rst.split('\n')
+  const out: string[] = []
+  let i = 0
+  let inLiteral = false
+
+  while (i < lines.length) {
+    const line = lines[i]
+    const next = lines[i + 1]
+
+    // RST field list ":Key: value" at top — render as metadata table
+    if (/^:[A-Z][\w-]+:\s/.test(line) && i < 20) {
+      const m = line.match(/^:(.+?):\s*(.*)$/)
+      if (m) {
+        out.push(`<div class="mb-1"><span class="text-text-tertiary font-medium">${escHtml(m[1])}:</span> ${escHtml(m[2])}</div>`)
+        i++
+        continue
+      }
+    }
+
+    // Literal block (indented code after "::")
+    if (line.trim().endsWith('::') && !inLiteral) {
+      const heading = line.trim().replace(/::$/, '')
+      if (heading) out.push(`<p class="mb-2 font-medium text-text-primary">${escHtml(heading)}</p>`)
+      out.push('<pre class="bg-surface-2 border border-border rounded-lg p-3 mb-3 overflow-x-auto text-xs font-mono">')
+      inLiteral = true
+      i++
+      // Skip blank line after ::
+      if (i < lines.length && lines[i].trim() === '') i++
+      continue
+    }
+
+    if (inLiteral) {
+      if (line.trim() === '' && i + 1 < lines.length && lines[i + 1].trim() !== '' && !lines[i + 1].startsWith('  ') && !lines[i + 1].startsWith('\t')) {
+        out.push('</pre>')
+        inLiteral = false
+        i++
+        continue
+      }
+      out.push(escHtml(line))
+      i++
+      continue
+    }
+
+    // Headings: RST uses underline characters (=, -, ~, ^)
+    if (next && /^[=]{3,}$/.test(next.trim())) {
+      out.push(`<h2 class="text-base font-display font-semibold text-text-primary mt-5 mb-2">${escHtml(line.trim())}</h2>`)
+      i += 2
+      continue
+    }
+    if (next && /^[-]{3,}$/.test(next.trim())) {
+      out.push(`<h3 class="text-sm font-semibold text-text-primary mt-4 mb-1">${escHtml(line.trim())}</h3>`)
+      i += 2
+      continue
+    }
+    if (next && /^[~]{3,}$/.test(next.trim())) {
+      out.push(`<h4 class="text-sm font-semibold text-text-primary mt-3 mb-1">${escHtml(line.trim())}</h4>`)
+      i += 2
+      continue
+    }
+
+    // Skip raw-html directives
+    if (line.includes(':raw-html:')) {
+      const cleaned = line.replace(/:raw-html:`([^`]*)`/g, '$1')
+      if (cleaned.trim()) out.push(`<p class="mb-2">${escHtml(cleaned.trim())}</p>`)
+      i++
+      continue
+    }
+
+    // RST directives (.. note::, .. warning::, etc.)
+    if (/^\.\.\s+\w+::/.test(line.trim())) {
+      const directive = line.trim().replace(/^\.\.\s+(\w+)::.*/, '$1')
+      out.push(`<div class="border-l-2 border-accent pl-4 mb-3 italic text-text-tertiary"><strong>${escHtml(directive)}:</strong>`)
+      i++
+      while (i < lines.length && (lines[i].startsWith('   ') || lines[i].trim() === '')) {
+        if (lines[i].trim()) out.push(` ${escHtml(lines[i].trim())}`)
+        i++
+      }
+      out.push('</div>')
+      continue
+    }
+
+    // Bullet lists
+    if (/^[-*]\s+/.test(line.trim())) {
+      out.push(`<li class="mb-1 ml-5">${escHtml(line.trim().replace(/^[-*]\s+/, ''))}</li>`)
+      i++
+      continue
+    }
+
+    // Blank line
+    if (line.trim() === '') {
+      out.push('')
+      i++
+      continue
+    }
+
+    // Regular paragraph
+    out.push(`<p class="mb-3">${escHtml(line)}</p>`)
+    i++
+  }
+
+  if (inLiteral) out.push('</pre>')
+
+  return out.join('\n')
+}
+
+function escHtml(s: string): string {
+  return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
 }
 
 function mediaWikiToHtml(wiki: string): string {

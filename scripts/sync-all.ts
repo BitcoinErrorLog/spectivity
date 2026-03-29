@@ -132,16 +132,67 @@ function parseBipPreamble(content: string): Record<string, string> {
 }
 
 function parseNipContent(content: string): { title: string; summary: string; status?: string } {
-  const titleMatch = content.match(/^#\s+NIP-\d+\s*\n+##\s+(.+)/m)
-    ?? content.match(/^#\s+(.+)/m)
-  const title = titleMatch ? titleMatch[1].trim() : 'Untitled NIP'
+  const lines = content.split('\n')
+  let title = 'Untitled NIP'
 
-  const summaryMatch = content.match(/(?:^|\n)(?:>|##\s*(?:Abstract|Summary|Description))\s*\n+([\s\S]*?)(?=\n##|\n#|$)/i)
-  const summary = summaryMatch
-    ? summaryMatch[1].trim().slice(0, 400)
-    : content.split('\n').filter(l => l.trim() && !l.startsWith('#')).slice(0, 3).join(' ').slice(0, 300)
+  // NIPs use RST-style underlines: "NIP-01\n======\n\nTitle text\n----------"
+  for (let i = 0; i < lines.length - 1; i++) {
+    const cur = lines[i].trim()
+    const next = lines[i + 1]?.trim()
+    if (/^NIP-\d+/.test(cur) && next && /^[=]+$/.test(next)) {
+      // The subtitle (actual title) is typically 2 lines later
+      for (let j = i + 2; j < lines.length; j++) {
+        const sub = lines[j].trim()
+        if (!sub) continue
+        const subNext = lines[j + 1]?.trim()
+        if (subNext && /^[-]+$/.test(subNext)) {
+          title = sub
+          break
+        }
+        if (sub && !sub.startsWith('#') && !sub.startsWith('=') && !sub.startsWith('-') && sub.length > 3) {
+          title = sub
+          break
+        }
+      }
+      break
+    }
+  }
 
-  const statusMatch = content.match(/status:\s*(\w+)/i)
+  // Also try markdown heading format (some NIPs use this)
+  if (title === 'Untitled NIP') {
+    const mdTitle = content.match(/^#\s+NIP-\d+\s*\n+##\s+(.+)/m)
+      ?? content.match(/^#\s+(.+)/m)
+    if (mdTitle) title = mdTitle[1].trim()
+  }
+
+  // Extract summary: first substantial paragraph after the title block
+  let summary = ''
+  const statusMatch = content.match(/`(draft|mandatory|optional|deprecated|final)`/i)
+  const statusLineIdx = lines.findIndex(l => /`(draft|mandatory|optional|deprecated|final)`/i.test(l))
+  const startIdx = statusLineIdx >= 0 ? statusLineIdx + 1 : 0
+
+  const paragraphs: string[] = []
+  let buf = ''
+  for (let i = startIdx; i < lines.length; i++) {
+    const l = lines[i]
+    if (l.trim() === '') {
+      if (buf.trim()) paragraphs.push(buf.trim())
+      buf = ''
+    } else if (/^[#=\-]+$/.test(l.trim()) || /^NIP-\d+$/.test(l.trim())) {
+      if (buf.trim()) paragraphs.push(buf.trim())
+      buf = ''
+    } else {
+      buf += ' ' + l
+    }
+  }
+  if (buf.trim()) paragraphs.push(buf.trim())
+
+  const goodParagraphs = paragraphs.filter(p =>
+    p.length > 20 && !p.startsWith('`') && !p.startsWith('---') && !p.startsWith('NIP-')
+  )
+  summary = goodParagraphs.slice(0, 2).join(' ').slice(0, 400)
+  if (!summary) summary = 'Nostr protocol specification.'
+
   return { title, summary, status: statusMatch?.[1] }
 }
 
@@ -161,23 +212,47 @@ function parseBoltContent(content: string): { title: string; summary: string } {
 function parseBepContent(content: string): { title: string; summary: string; status?: string; type?: string } {
   const lines = content.split('\n')
   const fields: Record<string, string> = {}
+
+  // BEPs use RST field-list format ":Field: value" (with leading colons)
   for (const line of lines) {
-    const m = line.match(/^\.\.\s+([\w\s]+):\s*(.+)$/)
+    const m = line.match(/^:([\w-]+):\s*(.+)$/)
     if (m) {
       fields[m[1].trim().toLowerCase()] = m[2].trim()
     }
-    if (line.startsWith('===') || line.startsWith('---') || (line.startsWith('Abstract') && !line.startsWith('..'))) break
+    // Also try ".. field: value" format (some older BEPs)
+    const m2 = line.match(/^\.\.\s+([\w\s]+):\s*(.+)$/)
+    if (m2) {
+      const key = m2[1].trim().toLowerCase()
+      if (!fields[key]) fields[key] = m2[2].trim()
+    }
   }
 
   let title = fields['title'] ?? 'Untitled BEP'
   const status = fields['status']
   const type = fields['type']
 
-  const abstractMatch = content.match(/(?:^|\n)Abstract\n[-=]+\n([\s\S]*?)(?=\n\w+\n[-=]+|\n\.\.|$)/i)
-    ?? content.match(/(?:^|\n)Abstract\n\n([\s\S]*?)(?=\n\n\w+\n|\n\.\.|$)/i)
-  const summary = abstractMatch
-    ? abstractMatch[1].trim().replace(/\n/g, ' ').slice(0, 400)
-    : content.split('\n').filter(l => l.trim() && !l.startsWith('..') && !l.startsWith('=') && !l.startsWith('-')).slice(0, 3).join(' ').slice(0, 300)
+  // Extract the first real paragraph after the field list as summary
+  let summary = ''
+  const abstractMatch = content.match(/(?:^|\n)Abstract\n[-=]+\n([\s\S]*?)(?=\n[A-Z][\w\s]*\n[-=]+|\n\.\.|$)/i)
+  if (abstractMatch) {
+    summary = abstractMatch[1].trim().replace(/\n/g, ' ').slice(0, 400)
+  } else {
+    // Find first paragraph after the header fields
+    let pastFields = false
+    const paragraphLines: string[] = []
+    for (const line of lines) {
+      if (!pastFields) {
+        if (line.trim() === '' && Object.keys(fields).length > 0) pastFields = true
+        continue
+      }
+      if (line.trim() === '' && paragraphLines.length > 0) break
+      if (/^[-=]+$/.test(line.trim())) continue
+      if (line.trim()) paragraphLines.push(line.trim())
+    }
+    summary = paragraphLines.join(' ').slice(0, 400)
+  }
+
+  if (!summary) summary = 'BitTorrent Enhancement Proposal.'
 
   return { title, summary, status, type }
 }
@@ -194,7 +269,7 @@ function extractAbstract(content: string): string {
   return content.split('\n').filter(l => l.trim() && !l.startsWith('=') && !l.startsWith('#') && !l.startsWith('<')).slice(0, 3).join(' ').slice(0, 300) || 'No abstract.'
 }
 
-function extractTopicTags(text: string): string[] {
+function extractTopicTags(text: string, namespace: string): string[] {
   const tags: string[] = []
   const kw: [RegExp, string][] = [
     [/wallet/i, 'wallet'], [/lightning|bolt|channel/i, 'lightning'], [/privacy|stealth|silent/i, 'privacy'],
@@ -202,9 +277,10 @@ function extractTopicTags(text: string): string[] {
     [/covenant/i, 'covenants'], [/inscription|ordinal/i, 'ordinals'], [/payment/i, 'payments'],
     [/address/i, 'addresses'], [/key|derivation|hd/i, 'key-management'], [/mining|miner/i, 'mining'],
     [/transaction/i, 'transactions'], [/script/i, 'script'], [/relay/i, 'relay'], [/nostr/i, 'nostr'],
-    [/event/i, 'events'], [/nip/i, 'nip'], [/dht/i, 'dht'], [/torrent|peer/i, 'p2p'],
+    [/event\b/i, 'events'], [/\bdht\b/i, 'dht'], [/torrent|peer/i, 'p2p'],
   ]
   for (const [p, t] of kw) {
+    if (t === namespace) continue
     if (p.test(text) && !tags.includes(t)) tags.push(t)
   }
   return tags.slice(0, 6)
@@ -305,7 +381,7 @@ async function syncMergedFiles(source: SpecSourceConfig, limit: number): Promise
         title, summary,
         body: content.slice(0, 50000),
         typeLabel: type,
-        topicTags: extractTopicTags(title + ' ' + content.slice(0, 2000)),
+        topicTags: extractTopicTags(title + ' ' + content.slice(0, 2000), source.namespace),
         createdAt: new Date().toISOString(),
         updatedAt: new Date().toISOString(),
         revisionUris: [], discussionLinks: [],
@@ -357,7 +433,7 @@ async function syncPRs(source: SpecSourceConfig, limit: number): Promise<{ specs
           summary: (pr.body ?? '').replace(/\r\n/g, '\n').slice(0, 500),
           body: (pr.body ?? '').replace(/\r\n/g, '\n').slice(0, 50000),
           typeLabel: 'informational',
-          topicTags: extractTopicTags(pr.title + ' ' + (pr.body ?? '').slice(0, 1000)),
+          topicTags: extractTopicTags(pr.title + ' ' + (pr.body ?? '').slice(0, 1000), source.namespace),
           createdAt: pr.created_at,
           updatedAt: pr.updated_at,
           revisionUris: [], discussionLinks: [pr.html_url],
