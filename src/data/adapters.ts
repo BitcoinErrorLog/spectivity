@@ -83,15 +83,35 @@ export function getAllReviewers(): Reviewer[] {
         expertise: [],
       })
     }
-    for (const reviewer of mock.reviewers) {
-      if (!seen.has(reviewer.pubky)) {
-        reviewers.push(reviewer)
-        seen.add(reviewer.pubky)
-      }
+    return reviewers
+  }
+  return mock.reviewers
+}
+
+export function getReviewersByNamespace(namespace: string): Reviewer[] {
+  if (useSynced && syncedReviews) {
+    const nsReviews = syncedReviews.filter(r => r.specId.startsWith(`${namespace}-`))
+    const seen = new Set<string>()
+    const reviewers: Reviewer[] = []
+    for (const r of nsReviews) {
+      if (seen.has(r.reviewerPubky)) continue
+      seen.add(r.reviewerPubky)
+      const ghUser = (r as any).githubUser
+      reviewers.push({
+        pubky: r.reviewerPubky,
+        name: ghUser ?? r.reviewerPubky.replace('pk:gh-', ''),
+        bio: 'Spec reviewer on GitHub.',
+        role: 'GitHub Reviewer',
+        expertise: [],
+      })
     }
     return reviewers
   }
   return mock.reviewers
+}
+
+export function getReviewsForNamespace(namespace: string): Review[] {
+  return getReviews().filter(r => r.specId.startsWith(`${namespace}-`))
 }
 
 export function getReviewer(pubky: string): Reviewer | undefined {
@@ -107,6 +127,7 @@ export function getReviewsByReviewer(pubky: string): Review[] {
 }
 
 export function getAttestationsForSpec(specId: string): Attestation[] {
+  if (useSynced) return []
   return mock.attestations.filter(a => a.specId === specId)
 }
 
@@ -164,7 +185,10 @@ export function getAllCollections(): CuratorCollection[] {
     }
   }
 
-  return [...dynamicCollections, ...mock.collections]
+  if (!useSynced) {
+    return [...dynamicCollections, ...mock.collections]
+  }
+  return dynamicCollections
 }
 
 export function getCollection(id: string): CuratorCollection | undefined {
@@ -187,10 +211,25 @@ export function getAllTrustPresets(): TrustPreset[] {
         includedReviewers: allReviewerPubkys,
         excludedReviewers: [],
       },
-      ...mock.trustPresets.filter(p => p.id !== 'preset-all'),
     ]
   }
   return mock.trustPresets
+}
+
+export function getTrustPresetsForNamespace(namespace: string): TrustPreset[] {
+  const nsReviewers = getReviewersByNamespace(namespace)
+  if (nsReviewers.length === 0) return []
+  const allPubkys = nsReviewers.map(r => r.pubky)
+  return [
+    {
+      id: 'preset-all',
+      title: 'All Reviewers',
+      description: 'Every reviewer. No filtering.',
+      criteria: { type: 'all' as const },
+      includedReviewers: allPubkys,
+      excludedReviewers: [],
+    },
+  ]
 }
 
 export function getTrustPreset(id: string): TrustPreset | undefined {

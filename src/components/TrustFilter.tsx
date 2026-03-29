@@ -16,11 +16,13 @@ interface TrustFilterProps {
   collectionId?: string
   collections: { id: string; title: string }[]
   onCollectionChange: (id: string | undefined) => void
+  availableSorts?: SortMode[]
 }
 
 const SORT_OPTIONS: { value: SortMode; label: string }[] = [
-  { value: 'engagement', label: 'Most reviewed' },
+  { value: 'number', label: 'By number' },
   { value: 'recent', label: 'Most recent' },
+  { value: 'engagement', label: 'Most reviewed' },
   { value: 'implementations', label: 'Most implemented' },
   { value: 'controversial', label: 'Most contested' },
 ]
@@ -37,8 +39,12 @@ export function TrustFilter({
   collectionId,
   collections,
   onCollectionChange,
+  availableSorts,
 }: TrustFilterProps) {
   const activePreset = presets.find(p => p.id === activePresetId)
+  const visibleSorts = availableSorts
+    ? SORT_OPTIONS.filter(o => availableSorts.includes(o.value))
+    : SORT_OPTIONS
 
   return (
     <div className="bg-surface border border-border rounded-xl p-4 space-y-4">
@@ -108,7 +114,7 @@ export function TrustFilter({
             Sort
           </h4>
           <div className="flex gap-1">
-            {SORT_OPTIONS.map(opt => (
+            {visibleSorts.map(opt => (
               <button
                 key={opt.value}
                 onClick={() => onSortChange(opt.value)}

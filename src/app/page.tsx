@@ -1,66 +1,60 @@
 import Link from 'next/link'
-import { Widget } from '@/components/Widget'
-import { getAllSpecs, getActiveNamespaces } from '@/data/adapters'
+import { getAllSpecs } from '@/data/adapters'
 import { NAMESPACES } from '@/data/types'
-import { ActivityFeed } from '@/components/ActivityFeed'
 
 export default function Home() {
   const specs = getAllSpecs()
-  const namespaces = getActiveNamespaces()
 
   const nsCounts: Record<string, number> = {}
+  const nsMergedCounts: Record<string, number> = {}
   for (const s of specs) {
     nsCounts[s.namespace] = (nsCounts[s.namespace] ?? 0) + 1
+    if (s.source === 'merged') {
+      nsMergedCounts[s.namespace] = (nsMergedCounts[s.namespace] ?? 0) + 1
+    }
   }
+
+  const totalMerged = Object.values(nsMergedCounts).reduce((a, b) => a + b, 0)
 
   return (
     <div className="max-w-5xl mx-auto px-6">
       <section className="text-center pt-16 pb-12">
         <h1 className="font-display text-4xl sm:text-5xl font-bold leading-tight mb-4">
-          Every spec. Every opinion. Your trust.
+          The Protocol Spec Registry
         </h1>
         <p className="text-lg text-text-secondary max-w-2xl mx-auto leading-relaxed mb-2">
-          The cross-ecosystem registry for protocol specs, structured reviews, and community sentiment.
+          Search, read, and review {totalMerged.toLocaleString()}+ protocol specifications across Bitcoin, Lightning, Nostr, and BitTorrent.
         </p>
-        <p className="text-base text-text-tertiary max-w-2xl mx-auto leading-relaxed">
-          BIPs, NIPs, BOLTs, BEPs — read any spec, see who reviewed it, filter by whose judgment you trust.
+        <p className="text-base text-text-tertiary max-w-xl mx-auto leading-relaxed">
+          Filter by topic, sort by number, and track reviewer sentiment in one place.
         </p>
       </section>
 
       <section className="pb-12">
-        <div className="text-center mb-6">
-          <p className="text-sm text-text-tertiary">
-            Toggle trust filters. Watch the same spec change meaning.
-          </p>
-        </div>
-        <Widget />
-      </section>
-
-      <section className="pb-12">
-        <h2 className="font-display text-xl font-semibold text-center mb-6">
-          Browse by ecosystem
-        </h2>
-        <div className="grid sm:grid-cols-3 gap-3 max-w-3xl mx-auto">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-3 max-w-4xl mx-auto">
           {NAMESPACES.filter(ns => ns.id !== 'other').map(ns => {
-            const count = nsCounts[ns.id] ?? 0
+            const total = nsCounts[ns.id] ?? 0
+            const merged = nsMergedCounts[ns.id] ?? 0
             return (
               <Link
                 key={ns.id}
                 href={`/${ns.id}`}
-                className="flex items-center gap-3 bg-surface border border-border rounded-lg px-4 py-3 hover:border-border-2 transition-colors group"
+                className="bg-surface border border-border rounded-xl px-5 py-4 hover:border-border-2 transition-colors group"
               >
                 <span
-                  className="text-xs font-bold px-2 py-0.5 rounded flex-shrink-0"
+                  className="text-xs font-bold px-2.5 py-1 rounded inline-block mb-2"
                   style={{ backgroundColor: ns.color + '20', color: ns.color }}
                 >
                   {ns.label}
                 </span>
-                <div className="flex-1 min-w-0">
-                  <span className="text-sm text-text-primary group-hover:text-accent transition-colors">{ns.fullName}</span>
-                  {count > 0 && (
-                    <span className="text-xs text-text-tertiary ml-2">{count} specs</span>
-                  )}
-                </div>
+                <p className="text-sm text-text-primary group-hover:text-accent transition-colors font-medium mb-1">
+                  {ns.fullName}
+                </p>
+                <p className="text-xs text-text-tertiary">
+                  {merged > 0 && <>{merged} merged</>}
+                  {total > merged && <>{merged > 0 ? ' · ' : ''}{total - merged} proposals</>}
+                  {total === 0 && 'No specs yet'}
+                </p>
               </Link>
             )
           })}
@@ -69,27 +63,23 @@ export default function Home() {
 
       <section className="grid sm:grid-cols-3 gap-4 pb-12">
         <div className="bg-surface border border-border rounded-xl p-5">
-          <h3 className="font-display font-semibold text-sm mb-2">Authors publish freely</h3>
+          <h3 className="font-display font-semibold text-sm mb-2">Complete coverage</h3>
           <p className="text-sm text-text-secondary leading-relaxed">
-            Specs exist when their authors publish them. Editors are relieved of the burden of deciding what gets to exist.
+            Every BIP, NIP, BOLT, and BEP — merged, open, and rejected — synced directly from their official repositories.
           </p>
         </div>
         <div className="bg-surface border border-border rounded-xl p-5">
-          <h3 className="font-display font-semibold text-sm mb-2">Reviews are structured</h3>
+          <h3 className="font-display font-semibold text-sm mb-2">Structured reviews</h3>
           <p className="text-sm text-text-secondary leading-relaxed">
-            Expert reviews are signed, tagged by stance, and independently discoverable. Disagreement becomes legible, not noisy.
+            GitHub PR reviews are parsed and attributed. Filter by individual reviewers to see specs through the lens of experts you trust.
           </p>
         </div>
         <div className="bg-surface border border-border rounded-xl p-5">
-          <h3 className="font-display font-semibold text-sm mb-2">Trust is yours to define</h3>
+          <h3 className="font-display font-semibold text-sm mb-2">Search and filter</h3>
           <p className="text-sm text-text-secondary leading-relaxed">
-            Filter by whose judgment you trust. The same spec looks different through different trust lenses.
+            Filter specs by topic tag, sort by number or activity, and search across titles and summaries within each ecosystem.
           </p>
         </div>
-      </section>
-
-      <section className="pb-16">
-        <ActivityFeed />
       </section>
 
       <section className="text-center pb-16 border-t border-border pt-12">

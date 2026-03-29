@@ -22,36 +22,51 @@ export function SpecCard({ spec, summary, explanation }: SpecCardProps) {
       href={`/${spec.namespace}/${spec.specNumber ?? spec.id}`}
       className="block bg-surface border border-border rounded-xl p-5 hover:border-border-2 transition-colors group"
     >
-      <div className="flex items-start justify-between gap-4 mb-3">
+      <div className="flex items-start gap-3 mb-3">
+        {spec.specNumber != null && (
+          <span
+            className="text-sm font-bold tabular-nums flex-shrink-0 mt-0.5"
+            style={{ color: ns.color }}
+          >
+            {ns.label}&nbsp;{spec.specNumber}
+          </span>
+        )}
         <div className="flex-1 min-w-0">
-          <div className="flex items-center gap-2 mb-1 flex-wrap">
-            <span
-              className="text-[0.65rem] font-bold uppercase tracking-wider px-2 py-0.5 rounded"
-              style={{ backgroundColor: ns.color + '20', color: ns.color }}
-            >
-              {ns.label}
-              {spec.specNumber != null ? ` ${spec.specNumber}` : ''}
-            </span>
-            <span className="text-[0.65rem] font-semibold uppercase tracking-wider text-accent bg-accent-dim px-2 py-0.5 rounded">
-              {spec.typeLabel}
-            </span>
-            {spec.source && spec.source !== 'direct' && (
+          <div className="flex items-center gap-1.5 mb-1 flex-wrap">
+            {spec.specNumber == null && (
+              <span
+                className="text-[0.65rem] font-bold uppercase tracking-wider px-2 py-0.5 rounded"
+                style={{ backgroundColor: ns.color + '20', color: ns.color }}
+              >
+                {ns.label}
+              </span>
+            )}
+            {spec.typeLabel && (
+              <span className="text-[0.65rem] font-semibold uppercase tracking-wider text-accent bg-accent-dim px-2 py-0.5 rounded">
+                {spec.typeLabel}
+              </span>
+            )}
+            {spec.source && spec.source !== 'direct' && spec.source !== 'merged' && (
               <span className={`text-[0.65rem] font-semibold uppercase tracking-wider px-2 py-0.5 rounded ${getSourceColor(spec.source)}`}>
                 {getSourceLabel(spec.source)}
               </span>
             )}
-            {spec.topicTags.slice(0, 2).map(tag => (
-              <span
-                key={tag}
-                className="text-[0.65rem] text-text-tertiary bg-surface-2 px-2 py-0.5 rounded"
-              >
-                {tag}
-              </span>
-            ))}
           </div>
           <h3 className="text-base font-semibold text-text-primary group-hover:text-accent transition-colors leading-snug">
             {spec.title}
           </h3>
+          {spec.topicTags.length > 0 && (
+            <div className="flex flex-wrap gap-1 mt-1.5">
+              {spec.topicTags.map(tag => (
+                <span
+                  key={tag}
+                  className="text-[0.6rem] text-text-tertiary bg-surface-2 px-1.5 py-0.5 rounded"
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+          )}
         </div>
       </div>
 

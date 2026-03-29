@@ -2,7 +2,7 @@ import type { Spec, ReviewSummary, ReviewStance } from '@/data/types'
 import { POSITIVE_STANCES, NEGATIVE_STANCES } from '@/data/types'
 import { buildReviewSummary, getAttestationsForSpec, getCollectionsForSpec } from '@/data/adapters'
 
-export type SortMode = 'engagement' | 'recent' | 'implementations' | 'controversial'
+export type SortMode = 'number' | 'engagement' | 'recent' | 'implementations' | 'controversial'
 
 export interface RankedSpec {
   spec: Spec
@@ -33,7 +33,11 @@ export function rankSpecs(
     return { spec, summary, score, explanation }
   })
 
-  ranked.sort((a, b) => b.score - a.score)
+  if (sortMode === 'number') {
+    ranked.sort((a, b) => a.score - b.score)
+  } else {
+    ranked.sort((a, b) => b.score - a.score)
+  }
   return ranked
 }
 
@@ -43,6 +47,13 @@ function computeScore(
   sortMode: SortMode
 ): { score: number; explanation: string } {
   switch (sortMode) {
+    case 'number': {
+      const num = spec.specNumber ?? Infinity
+      return {
+        score: num,
+        explanation: spec.specNumber != null ? `#${spec.specNumber}` : '',
+      }
+    }
     case 'engagement': {
       const score = summary.total + summary.implementations * 2
       const parts: string[] = []
