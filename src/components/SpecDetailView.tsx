@@ -185,13 +185,20 @@ export function SpecDetailView({ spec }: { spec: Spec }) {
 }
 
 function SpecBody({ body, sourceUrl }: { body: string; sourceUrl?: string }) {
-  const isMediaWiki = (body.includes('==') && body.includes('<pre>'))
-    || (body.includes('===') && !body.includes('```') && body.includes("'''"))
+  const cleaned = stripBodyPreamble(body)
 
-  const isRst = /^:[A-Z][\w-]+:\s/m.test(body) || /\n[=]{4,}\n/.test(body) || body.includes(':raw-html:')
+  const isMediaWiki = (cleaned.includes('==') && cleaned.includes('<pre>'))
+    || (cleaned.includes('===') && !cleaned.includes('```') && cleaned.includes("'''"))
 
-  const displayBody = body.slice(0, 15000)
-  const isTruncated = body.length > 15000
+  const isRst = /^:[A-Z][\w-]+:\s/m.test(cleaned)
+    || /\n[=]{4,}\n/.test(cleaned)
+    || cleaned.includes(':raw-html:')
+    || /^#\.\s+/m.test(cleaned)
+    || /^\.\.\s+_/m.test(cleaned)
+    || /^\.{4,}$/m.test(cleaned)
+
+  const displayBody = cleaned.slice(0, 15000)
+  const isTruncated = cleaned.length > 15000
 
   if (isMediaWiki) {
     const html = mediaWikiToHtml(displayBody)
@@ -223,6 +230,57 @@ function SpecBody({ body, sourceUrl }: { body: string; sourceUrl?: string }) {
       {isTruncated && <TruncatedNotice sourceUrl={sourceUrl} />}
     </div>
   )
+}
+
+function stripBodyPreamble(body: string): string {
+  let text = body.replace(/\r\n/g, '\n').replace(/\r/g, '\n')
+
+  // Strip RST-style field-list preamble (:BEP: 3, :Title: ..., including tab-indented continuations)
+  if (/^:[A-Z]/.test(text)) {
+    const lines = text.split('\n')
+    let end = 0
+    for (let j = 0; j < lines.length; j++) {
+      if (/^:[A-Z][\w\s-]+:\s/.test(lines[j]) || lines[j].startsWith('\t') || lines[j].trim() === '') {
+        end = j + 1
+      } else {
+        break
+      }
+    }
+    if (end > 0) text = lines.slice(end).join('\n').replace(/^\n+/, '')
+  }
+
+  // Strip BEP-style field list without colon prefix (BEP: 1000, Title: ..., etc.)
+  if (/^(?:BEP|Title|Version|Status|Type|Created|Author|Last-Modified):/m.test(text) && text.indexOf(':') < 20) {
+    const lines = text.split('\n')
+    let end = 0
+    for (let j = 0; j < lines.length; j++) {
+      if (/^[\w-]+:/.test(lines[j]) || lines[j].startsWith('\t') || lines[j].startsWith('  ') || lines[j].trim() === '') {
+        end = j + 1
+      } else {
+        break
+      }
+    }
+    if (end > 2) text = lines.slice(end).join('\n').replace(/^\n+/, '')
+  }
+
+  // Strip NIP-style header: "NIP-XX\n======\nTitle\n------\n`tags`"
+  text = text.replace(/^NIP-\d+\s*\n[=]+\s*\n+.*\n[-]+\s*\n+(?:`[^`]+`\s*)*\n*/i, '')
+
+  // Strip SLIP/CAIP/IPIP-style "# LABEL-NNNN : Title" heading at top
+  text = text.replace(/^#\s+(?:SLIP|CAIP|IPIP)-?\d+\s*:?\s*[^\n]*\n+/, '')
+
+  // Strip YAML frontmatter (used by CAIP, IPIP)
+  text = text.replace(/^---\n[\s\S]*?\n---\n*/, '')
+
+  // Strip SLIP fenced preamble block (``` ... ```)
+  if (text.startsWith('```')) {
+    const closeIdx = text.indexOf('\n```', 3)
+    if (closeIdx !== -1 && closeIdx < 500) {
+      text = text.slice(closeIdx + 4).replace(/^\n+/, '')
+    }
+  }
+
+  return text.trim()
 }
 
 function TruncatedNotice({ sourceUrl }: { sourceUrl?: string }) {
@@ -270,7 +328,7 @@ function rstToHtml(rst: string): string {
     if (/^:[A-Z][\w-]+:\s/.test(line) && i < 20) {
       const m = line.match(/^:(.+?):\s*(.*)$/)
       if (m) {
-        out.push(`<div class="mb-1"><span class="text-text-tertiary font-medium">${escHtml(m[1])}:</span> ${escHtml(m[2])}</div>`)
+        out.push(`<div class="mb-1"><span class="text-text-tertiary font-medium">${escHtml(m[1])}:</span> ${rstInline(m[2])}</div>`)
         i++
         continue
       }
@@ -279,11 +337,10 @@ function rstToHtml(rst: string): string {
     // Literal block (indented code after "::")
     if (line.trim().endsWith('::') && !inLiteral) {
       const heading = line.trim().replace(/::$/, '')
-      if (heading) out.push(`<p class="mb-2 font-medium text-text-primary">${escHtml(heading)}</p>`)
+      if (heading) out.push(`<p class="mb-2 font-medium text-text-primary">${rstInline(heading)}</p>`)
       out.push('<pre class="bg-surface-2 border border-border rounded-lg p-3 mb-3 overflow-x-auto text-xs font-mono">')
       inLiteral = true
       i++
-      // Skip blank line after ::
       if (i < lines.length && lines[i].trim() === '') i++
       continue
     }
@@ -300,19 +357,29 @@ function rstToHtml(rst: string): string {
       continue
     }
 
-    // Headings: RST uses underline characters (=, -, ~, ^)
-    if (next && /^[=]{3,}$/.test(next.trim())) {
-      out.push(`<h2 class="text-base font-display font-semibold text-text-primary mt-5 mb-2">${escHtml(line.trim())}</h2>`)
+    // Headings: RST uses underline characters (=, -, ~, ^, .)
+    if (next && line.trim().length > 0 && /^[=]{3,}$/.test(next.trim())) {
+      out.push(`<h2 class="text-base font-display font-semibold text-text-primary mt-5 mb-2">${rstInline(line.trim())}</h2>`)
       i += 2
       continue
     }
-    if (next && /^[-]{3,}$/.test(next.trim())) {
-      out.push(`<h3 class="text-sm font-semibold text-text-primary mt-4 mb-1">${escHtml(line.trim())}</h3>`)
+    if (next && line.trim().length > 0 && /^[-]{3,}$/.test(next.trim())) {
+      out.push(`<h3 class="text-sm font-semibold text-text-primary mt-4 mb-1">${rstInline(line.trim())}</h3>`)
       i += 2
       continue
     }
-    if (next && /^[~]{3,}$/.test(next.trim())) {
-      out.push(`<h4 class="text-sm font-semibold text-text-primary mt-3 mb-1">${escHtml(line.trim())}</h4>`)
+    if (next && line.trim().length > 0 && /^[~]{3,}$/.test(next.trim())) {
+      out.push(`<h4 class="text-sm font-semibold text-text-primary mt-3 mb-1">${rstInline(line.trim())}</h4>`)
+      i += 2
+      continue
+    }
+    if (next && line.trim().length > 0 && /^[.]{3,}$/.test(next.trim())) {
+      out.push(`<h4 class="text-sm font-semibold text-text-primary mt-3 mb-1">${rstInline(line.trim())}</h4>`)
+      i += 2
+      continue
+    }
+    if (next && line.trim().length > 0 && /^[\^]{3,}$/.test(next.trim())) {
+      out.push(`<h5 class="text-xs font-semibold text-text-primary mt-2 mb-1">${rstInline(line.trim())}</h5>`)
       i += 2
       continue
     }
@@ -320,7 +387,13 @@ function rstToHtml(rst: string): string {
     // Skip raw-html directives
     if (line.includes(':raw-html:')) {
       const cleaned = line.replace(/:raw-html:`([^`]*)`/g, '$1')
-      if (cleaned.trim()) out.push(`<p class="mb-2">${escHtml(cleaned.trim())}</p>`)
+      if (cleaned.trim()) out.push(`<p class="mb-2">${rstInline(cleaned.trim())}</p>`)
+      i++
+      continue
+    }
+
+    // RST reference targets (.. _`Label`: url) — skip silently
+    if (/^\.\.\s+_/.test(line.trim())) {
       i++
       continue
     }
@@ -331,16 +404,28 @@ function rstToHtml(rst: string): string {
       out.push(`<div class="border-l-2 border-accent pl-4 mb-3 italic text-text-tertiary"><strong>${escHtml(directive)}:</strong>`)
       i++
       while (i < lines.length && (lines[i].startsWith('   ') || lines[i].trim() === '')) {
-        if (lines[i].trim()) out.push(` ${escHtml(lines[i].trim())}`)
+        if (lines[i].trim()) out.push(` ${rstInline(lines[i].trim())}`)
         i++
       }
       out.push('</div>')
       continue
     }
 
+    // RST numbered lists (#. item)
+    if (/^#\.\s+/.test(line.trim())) {
+      out.push('<ol class="pl-5 mb-3 list-decimal">')
+      while (i < lines.length && /^#\.\s+/.test(lines[i].trim())) {
+        const content = lines[i].trim().replace(/^#\.\s+/, '')
+        out.push(`<li class="mb-1">${rstInline(content)}</li>`)
+        i++
+      }
+      out.push('</ol>')
+      continue
+    }
+
     // Bullet lists
     if (/^[-*]\s+/.test(line.trim())) {
-      out.push(`<li class="mb-1 ml-5">${escHtml(line.trim().replace(/^[-*]\s+/, ''))}</li>`)
+      out.push(`<li class="mb-1 ml-5">${rstInline(line.trim().replace(/^[-*]\s+/, ''))}</li>`)
       i++
       continue
     }
@@ -353,13 +438,26 @@ function rstToHtml(rst: string): string {
     }
 
     // Regular paragraph
-    out.push(`<p class="mb-3">${escHtml(line)}</p>`)
+    out.push(`<p class="mb-3">${rstInline(line)}</p>`)
     i++
   }
 
   if (inLiteral) out.push('</pre>')
 
   return out.join('\n')
+}
+
+function rstInline(text: string): string {
+  let s = escHtml(text)
+  // RST inline literals: ``code``
+  s = s.replace(/``([^`]+)``/g, '<code class="text-xs bg-surface-2 px-1 py-0.5 rounded font-mono">$1</code>')
+  // RST references: `Link Text`_
+  s = s.replace(/`([^`]+)`_/g, '<span class="text-accent">$1</span>')
+  // RST bold: **text**
+  s = s.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+  // RST italic: *text*
+  s = s.replace(/\*([^*]+)\*/g, '<em>$1</em>')
+  return s
 }
 
 function escHtml(s: string): string {
