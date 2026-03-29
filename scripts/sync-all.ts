@@ -116,7 +116,7 @@ async function ghText(url: string): Promise<string> {
 
 function parseBipPreamble(content: string): Record<string, string> {
   const p: Record<string, string> = {}
-  const lines = content.split('\n')
+  const lines = content.replace(/\r\n/g, '\n').replace(/\r/g, '\n').split('\n')
   let inside = false
   for (const line of lines) {
     const t = line.trim()
@@ -132,7 +132,7 @@ function parseBipPreamble(content: string): Record<string, string> {
 }
 
 function parseNipContent(content: string): { title: string; summary: string; status?: string } {
-  const lines = content.split('\n')
+  const lines = content.replace(/\r\n/g, '\n').replace(/\r/g, '\n').split('\n')
   let title = 'Untitled NIP'
 
   // NIPs use RST-style underlines: "NIP-01\n======\n\nTitle text\n----------"
@@ -210,16 +210,23 @@ function parseBoltContent(content: string): { title: string; summary: string } {
 }
 
 function parseBepContent(content: string): { title: string; summary: string; status?: string; type?: string } {
-  const lines = content.split('\n')
+  const lines = content.replace(/\r\n/g, '\n').replace(/\r/g, '\n').split('\n')
   const fields: Record<string, string> = {}
 
   // BEPs use RST field-list format ":Field: value" (with leading colons)
+  // Some BEPs (e.g. 1000) use "Field: value" without leading colons
   for (const line of lines) {
     const m = line.match(/^:([\w-]+):\s*(.+)$/)
     if (m) {
       fields[m[1].trim().toLowerCase()] = m[2].trim()
+      continue
     }
-    // Also try ".. field: value" format (some older BEPs)
+    const m3 = line.match(/^(BEP|Title|Version|Status|Type|Author|Created|Last-Modified):\s*(.+)$/i)
+    if (m3) {
+      const key = m3[1].trim().toLowerCase()
+      if (!fields[key]) fields[key] = m3[2].trim()
+      continue
+    }
     const m2 = line.match(/^\.\.\s+([\w\s]+):\s*(.+)$/)
     if (m2) {
       const key = m2[1].trim().toLowerCase()
