@@ -489,9 +489,9 @@
     "name": "moonsettler",
     "bio": "BIP contributor."
   },
-  "gh:thewrlck": {
-    "githubLogin": "thewrlck",
-    "name": "thewrlck",
+  "gh:Yuri-SVB": {
+    "githubLogin": "Yuri-SVB",
+    "name": "Yuri-SVB",
     "bio": "BIP contributor."
   },
   "gh:nymius": {
@@ -499,14 +499,24 @@
     "name": "nymius",
     "bio": "BIP contributor."
   },
-  "gh:pythcoiner": {
-    "githubLogin": "pythcoiner",
-    "name": "pythcoiner",
-    "bio": "BIP contributor."
-  },
   "gh:rustyrussell": {
     "githubLogin": "rustyrussell",
     "name": "rustyrussell",
+    "bio": "BIP contributor."
+  },
+  "gh:macgyver13": {
+    "githubLogin": "macgyver13",
+    "name": "macgyver13",
+    "bio": "BIP contributor."
+  },
+  "gh:thewrlck": {
+    "githubLogin": "thewrlck",
+    "name": "thewrlck",
+    "bio": "BIP contributor."
+  },
+  "gh:pythcoiner": {
+    "githubLogin": "pythcoiner",
+    "name": "pythcoiner",
     "bio": "BIP contributor."
   },
   "gh:ethicnology": {
@@ -522,16 +532,6 @@
   "gh:craigraw": {
     "githubLogin": "craigraw",
     "name": "craigraw",
-    "bio": "BIP contributor."
-  },
-  "gh:Yuri-SVB": {
-    "githubLogin": "Yuri-SVB",
-    "name": "Yuri-SVB",
-    "bio": "BIP contributor."
-  },
-  "gh:macgyver13": {
-    "githubLogin": "macgyver13",
-    "name": "macgyver13",
     "bio": "BIP contributor."
   },
   "gh:JeremyRubin": {
@@ -669,9 +669,9 @@
     "name": "MozirDmitriy",
     "bio": "BIP contributor."
   },
-  "gh:bitcoinguardian": {
-    "githubLogin": "bitcoinguardian",
-    "name": "bitcoinguardian",
+  "gh:phrwlk": {
+    "githubLogin": "phrwlk",
+    "name": "phrwlk",
     "bio": "BIP contributor."
   },
   "gh:forkfury": {
@@ -679,9 +679,9 @@
     "name": "forkfury",
     "bio": "BIP contributor."
   },
-  "gh:phrwlk": {
-    "githubLogin": "phrwlk",
-    "name": "phrwlk",
+  "gh:bitcoinguardian": {
+    "githubLogin": "bitcoinguardian",
+    "name": "bitcoinguardian",
     "bio": "BIP contributor."
   },
   "gh:yyhrnk": {
@@ -3383,190 +3383,5 @@
     "githubLogin": "gmaxwell",
     "name": "gmaxwell",
     "bio": "BIP reviewer."
-  },
-  "gh:jgriffiths": {
-    "githubLogin": "jgriffiths",
-    "name": "jgriffiths",
-    "bio": "BIP reviewer."
-  },
-  "gh:aaronisme": {
-    "githubLogin": "aaronisme",
-    "name": "aaronisme",
-    "bio": "BIP reviewer."
-  },
-  "gh:timohanke": {
-    "githubLogin": "timohanke",
-    "name": "timohanke",
-    "bio": "BIP reviewer."
-  },
-  "gh:Unknown": {
-    "githubLogin": "Unknown",
-    "name": "Unknown",
-    "bio": "NIP contributor."
-  },
-  "gh:filterPubkeys;": {
-    "githubLogin": "filterPubkeys;",
-    "name": "filterPubkeys;",
-    "bio": "NIP contributor."
-  },
-  "gh:David Harrison": {
-    "githubLogin": "David Harrison",
-    "name": "David Harrison",
-    "bio": "BEP contributor."
-  },
-  "gh:Bram Cohen": {
-    "githubLogin": "Bram Cohen",
-    "name": "Bram Cohen",
-    "bio": "BEP contributor."
-  },
-  "gh:Andrew Loewenstern , Arvid Norberg": {
-    "githubLogin": "Andrew Loewenstern , Arvid Norberg",
-    "name": "Andrew Loewenstern , Arvid Norberg",
-    "bio": "BEP contributor."
-  },
-  "gh:David Harrison , Bram Cohen": {
-    "githubLogin": "David Harrison , Bram Cohen",
-    "name": "David Harrison , Bram Cohen",
-    "bio": "BEP contributor."
-  },
-  "gh:Greg Hazel , Arvid Norberg": {
-    "githubLogin": "Greg Hazel , Arvid Norberg",
-    "name": "Greg Hazel , Arvid Norberg",
-    "bio": "BEP contributor."
-  },
-  "gh:David Harrison , Anthony Ciani , Arvid Norberg , Greg Hazel": {
-    "githubLogin": "David Harrison , Anthony Ciani , Arvid Norberg , Greg Hazel",
-    "name": "David Harrison , Anthony Ciani , Arvid Norberg , Greg Hazel",
-    "bio": "BEP contributor."
-  },
-  "gh:Arvid Norberg , Ludvig Strigeus , Greg Hazel": {
-    "githubLogin": "Arvid Norberg , Ludvig Strigeus , Greg Hazel",
-    "name": "Arvid Norberg , Ludvig Strigeus , Greg Hazel",
-    "bio": "BEP contributor."
-  },
-  "gh:The 8472": {
-    "githubLogin": "The 8472",
-    "name": "The 8472",
-    "bio": "BEP contributor."
-  },
-  "gh:John Hoffman": {
-    "githubLogin": "John Hoffman",
-    "name": "John Hoffman",
-    "bio": "BEP contributor."
-  },
-  "gh:Olaf van der Spek": {
-    "githubLogin": "Olaf van der Spek",
-    "name": "Olaf van der Spek",
-    "bio": "BEP contributor."
-  },
-  "gh:John Hoffman , DeHackEd": {
-    "githubLogin": "John Hoffman , DeHackEd",
-    "name": "John Hoffman , DeHackEd",
-    "bio": "BEP contributor."
-  },
-  "gh:Richard Choi": {
-    "githubLogin": "Richard Choi",
-    "name": "Richard Choi",
-    "bio": "BEP contributor."
-  },
-  "gh:Michael Burford": {
-    "githubLogin": "Michael Burford",
-    "name": "Michael Burford",
-    "bio": "BEP contributor."
-  },
-  "gh:Arvid Norberg , Greg Hazel , Aaron Grunthal": {
-    "githubLogin": "Arvid Norberg , Greg Hazel , Aaron Grunthal",
-    "name": "Arvid Norberg , Greg Hazel , Aaron Grunthal",
-    "bio": "BEP contributor."
-  },
-  "gh:David Harrison , Stanislav Shalunov , Greg Hazel": {
-    "githubLogin": "David Harrison , Stanislav Shalunov , Greg Hazel",
-    "name": "David Harrison , Stanislav Shalunov , Greg Hazel",
-    "bio": "BEP contributor."
-  },
-  "gh:David Harrison , Greg Hazel , Stanislav Shalunov": {
-    "githubLogin": "David Harrison , Greg Hazel , Stanislav Shalunov",
-    "name": "David Harrison , Greg Hazel , Stanislav Shalunov",
-    "bio": "BEP contributor."
-  },
-  "gh:Robin Perkins": {
-    "githubLogin": "Robin Perkins",
-    "name": "Robin Perkins",
-    "bio": "BEP contributor."
-  },
-  "gh:Arvid Norberg": {
-    "githubLogin": "Arvid Norberg",
-    "name": "Arvid Norberg",
-    "bio": "BEP contributor."
-  },
-  "gh:Arno Bakker": {
-    "githubLogin": "Arno Bakker",
-    "name": "Arno Bakker",
-    "bio": "BEP contributor."
-  },
-  "gh:Jeroen Massar": {
-    "githubLogin": "Jeroen Massar",
-    "name": "Jeroen Massar",
-    "bio": "BEP contributor."
-  },
-  "gh:Juliusz Chroboczek": {
-    "githubLogin": "Juliusz Chroboczek",
-    "name": "Juliusz Chroboczek",
-    "bio": "BEP contributor."
-  },
-  "gh:Fredrik Neij , Arvid Norberg , Chris Brown": {
-    "githubLogin": "Fredrik Neij , Arvid Norberg , Chris Brown",
-    "name": "Fredrik Neij , Arvid Norberg , Chris Brown",
-    "bio": "BEP contributor."
-  },
-  "gh:Chris Brown": {
-    "githubLogin": "Chris Brown",
-    "name": "Chris Brown",
-    "bio": "BEP contributor."
-  },
-  "gh:Arvid Norberg , Chris Brown": {
-    "githubLogin": "Arvid Norberg , Chris Brown",
-    "name": "Arvid Norberg , Chris Brown",
-    "bio": "BEP contributor."
-  },
-  "gh:Michael C. Toren": {
-    "githubLogin": "Michael C. Toren",
-    "name": "Michael C. Toren",
-    "bio": "BEP contributor."
-  },
-  "gh:Arvid Norberg , Steve Austin": {
-    "githubLogin": "Arvid Norberg , Steve Austin",
-    "name": "Arvid Norberg , Steve Austin",
-    "bio": "BEP contributor."
-  },
-  "gh:Arvid Norberg , Steven Siloti": {
-    "githubLogin": "Arvid Norberg , Steven Siloti",
-    "name": "Arvid Norberg , Steven Siloti",
-    "bio": "BEP contributor."
-  },
-  "gh:Luca Matteis": {
-    "githubLogin": "Luca Matteis",
-    "name": "Luca Matteis",
-    "bio": "BEP contributor."
-  },
-  "gh:Jimmy Zelinskie": {
-    "githubLogin": "Jimmy Zelinskie",
-    "name": "Jimmy Zelinskie",
-    "bio": "BEP contributor."
-  },
-  "gh:Steven Siloti": {
-    "githubLogin": "Steven Siloti",
-    "name": "Steven Siloti",
-    "bio": "BEP contributor."
-  },
-  "gh:Tyler Houlihan": {
-    "githubLogin": "Tyler Houlihan",
-    "name": "Tyler Houlihan",
-    "bio": "BEP contributor."
-  },
-  "gh:Mihael Peklar": {
-    "githubLogin": "Mihael Peklar",
-    "name": "Mihael Peklar",
-    "bio": "BEP contributor."
   }
 }
