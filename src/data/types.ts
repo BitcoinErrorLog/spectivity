@@ -58,6 +58,8 @@ export const NAMESPACES: SpecNamespace[] = [
   { id: 'bep', label: 'BEP', fullName: 'BitTorrent Enhancement Proposals', description: 'Proposals for the BitTorrent protocol and Mainline DHT.', repo: 'bittorrent/bittorrent.org', color: '#22D3EE' },
   { id: 'bolt', label: 'BOLT', fullName: 'Basis of Lightning Technology', description: 'Specifications for the Lightning Network protocol.', repo: 'lightning/bolts', color: '#FACC15' },
   { id: 'slip', label: 'SLIP', fullName: 'SatoshiLabs Improvement Proposals', description: 'Proposals for hardware wallet standards and key derivation.', repo: 'satoshilabs/slips', color: '#4ADE80' },
+  { id: 'caip', label: 'CAIP', fullName: 'Chain Agnostic Improvement Proposals', description: 'Cross-chain standards for wallet interaction, account addressing, and chain identification.', repo: 'ChainAgnostic/CAIPs', color: '#F472B6' },
+  { id: 'ipip', label: 'IPIP', fullName: 'InterPlanetary Improvement Proposals', description: 'Specifications for IPFS gateways, routing, and content addressing.', repo: 'ipfs/specs', color: '#65D9E8' },
   { id: 'other', label: 'Other', fullName: 'Independent Proposals', description: 'Specs published directly without a traditional standards body.', color: '#94A3B8' },
 ]
 

@@ -60,7 +60,7 @@ export function SpecDetailView({ spec }: { spec: Spec }) {
 
         <h1 className="font-display text-2xl font-bold mb-2 leading-snug">
           {spec.specNumber != null
-            ? spec.title.replace(/^(?:BIP|NIP|BOLT|BEP|SLIP)[\s-]*\d+\s*:\s*/i, '')
+            ? spec.title.replace(/^(?:BIP|NIP|BOLT|BEP|SLIP|CAIP|IPIP)[\s-]*\d+\s*:\s*/i, '')
             : spec.title}
         </h1>
         <p className="text-sm text-text-secondary leading-relaxed mb-4">{spec.summary}</p>

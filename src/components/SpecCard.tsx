@@ -112,7 +112,7 @@ export function SpecCard({ spec, summary, explanation }: SpecCardProps) {
 
 function stripNumberPrefix(title: string, specNumber?: number): string {
   if (specNumber == null) return title
-  return title.replace(/^(?:BIP|NIP|BOLT|BEP|SLIP)[\s-]*\d+\s*:\s*/i, '')
+  return title.replace(/^(?:BIP|NIP|BOLT|BEP|SLIP|CAIP|IPIP)[\s-]*\d+\s*:\s*/i, '')
 }
 
 function formatDate(iso: string) {

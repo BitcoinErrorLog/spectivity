@@ -304,6 +304,74 @@ function parseSlipContent(content: string): { title: string; summary: string; st
   return { title, summary, status, type }
 }
 
+function parseCaipContent(content: string): { title: string; summary: string; status?: string; type?: string } {
+  const normalized = content.replace(/\r\n/g, '\n').replace(/\r/g, '\n')
+
+  // YAML frontmatter between --- delimiters
+  const fmMatch = normalized.match(/^---\n([\s\S]*?)\n---/)
+  const fields: Record<string, string> = {}
+  if (fmMatch) {
+    for (const line of fmMatch[1].split('\n')) {
+      const m = line.match(/^(\w[\w-]*):\s*(.+)$/)
+      if (m) fields[m[1].trim().toLowerCase()] = m[2].trim().replace(/^["']|["']$/g, '')
+    }
+  }
+
+  const title = fields['title'] ?? 'Untitled CAIP'
+  const status = fields['status']
+  const type = fields['type']
+
+  // Extract first substantial paragraph after frontmatter as summary
+  const body = fmMatch ? normalized.slice(fmMatch[0].length) : normalized
+  const abstractMatch = body.match(/##\s*(?:Abstract|Simple Summary|Summary)\s*\n+([\s\S]*?)(?=\n##|$)/i)
+  let summary = ''
+  if (abstractMatch) {
+    summary = abstractMatch[1].trim().replace(/\n/g, ' ').slice(0, 400)
+  } else {
+    const paragraphs = body.split('\n\n')
+      .map(p => p.trim())
+      .filter(p => p.length > 30 && !p.startsWith('#') && !p.startsWith('---'))
+    summary = (paragraphs[0] ?? 'Chain Agnostic Improvement Proposal.').slice(0, 400)
+  }
+
+  return { title, summary, status, type }
+}
+
+function parseIpipContent(content: string): { title: string; summary: string; status?: string } {
+  const normalized = content.replace(/\r\n/g, '\n').replace(/\r/g, '\n')
+
+  // YAML frontmatter
+  const fmMatch = normalized.match(/^---\n([\s\S]*?)\n---/)
+  const fields: Record<string, string> = {}
+  if (fmMatch) {
+    for (const line of fmMatch[1].split('\n')) {
+      const m = line.match(/^(\w[\w-]*):\s*(.+)$/)
+      if (m) fields[m[1].trim().toLowerCase()] = m[2].trim().replace(/^["']|["']$/g, '')
+    }
+  }
+
+  // Title often includes "IPIP-NNNN:" prefix — strip it
+  let title = fields['title'] ?? 'Untitled IPIP'
+  title = title.replace(/^IPIP-\d+\s*:\s*/i, '')
+
+  // IPIP uses "ipip" field for status (e.g. "ratified", "open", "deferred")
+  const status = fields['ipip']
+
+  const body = fmMatch ? normalized.slice(fmMatch[0].length) : normalized
+  const motivationMatch = body.match(/##\s*Motivation\s*\n+([\s\S]*?)(?=\n##|$)/i)
+  let summary = ''
+  if (motivationMatch) {
+    summary = motivationMatch[1].trim().replace(/\n/g, ' ').slice(0, 400)
+  } else {
+    const paragraphs = body.split('\n\n')
+      .map(p => p.trim())
+      .filter(p => p.length > 30 && !p.startsWith('#') && !p.startsWith('---') && !p.startsWith('['))
+    summary = (paragraphs[0] ?? 'InterPlanetary Improvement Proposal.').slice(0, 400)
+  }
+
+  return { title, summary, status }
+}
+
 function extractAbstract(content: string): string {
   const patterns = [
     /===\s*Abstract\s*===\s*\n+([\s\S]*?)(?=\n===|\n==)/i,
@@ -323,8 +391,11 @@ function extractTopicTags(text: string, namespace: string): string[] {
     [/taproot|schnorr/i, 'taproot'], [/segwit/i, 'segwit'], [/psbt/i, 'psbt'], [/opcode|op_/i, 'opcodes'],
     [/covenant/i, 'covenants'], [/inscription|ordinal/i, 'ordinals'], [/payment/i, 'payments'],
     [/address/i, 'addresses'], [/key|derivation|hd/i, 'key-management'], [/mining|miner/i, 'mining'],
-    [/transaction/i, 'transactions'], [/script/i, 'script'], [/relay/i, 'relay'], [/nostr/i, 'nostr'],
+    [/transaction/i, 'transactions'], [/script/i, 'script'],     [/relay/i, 'relay'], [/nostr/i, 'nostr'],
     [/event\b/i, 'events'], [/\bdht\b/i, 'dht'], [/torrent|peer/i, 'p2p'],
+    [/\bipfs\b|content.?address/i, 'ipfs'], [/\bcid\b|content.?identifier/i, 'content-addressing'],
+    [/gateway/i, 'gateways'], [/routing/i, 'routing'], [/chain.?id|namespace/i, 'chain-identification'],
+    [/\bjson.?rpc\b|api\b/i, 'api'], [/authentication|auth\b/i, 'auth'], [/signing|signature/i, 'signing'],
   ]
   for (const [p, t] of kw) {
     if (t === namespace) continue
@@ -418,6 +489,17 @@ async function syncMergedFiles(source: SpecSourceConfig, limit: number): Promise
         summary = parsed.summary
         status = parsed.status
         type = bipTypeToLabel(parsed.type ?? '')
+      } else if (source.namespace === 'caip') {
+        const parsed = parseCaipContent(content)
+        title = `CAIP-${num}: ${parsed.title}`
+        summary = parsed.summary
+        status = parsed.status
+        type = bipTypeToLabel(parsed.type ?? '')
+      } else if (source.namespace === 'ipip') {
+        const parsed = parseIpipContent(content)
+        title = `IPIP-${String(num).padStart(4, '0')}: ${parsed.title}`
+        summary = parsed.summary
+        status = parsed.status
       } else {
         title = `${source.label} ${num}: ${file.name}`
         summary = content.split('\n').filter((l: string) => l.trim()).slice(0, 3).join(' ').slice(0, 300)

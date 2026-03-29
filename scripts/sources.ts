@@ -76,6 +76,32 @@ export const SOURCES: SpecSourceConfig[] = [
     prLabels: [],
     mirrorPubky: 'pk:slip-mirror',
   },
+  {
+    namespace: 'caip',
+    label: 'CAIP',
+    repo: 'ChainAgnostic/CAIPs',
+    filePattern: /^caip-(\d+)\.md$/,
+    numberExtractor: (f) => {
+      const m = f.match(/caip-(\d+)/)
+      return m ? parseInt(m[1], 10) : undefined
+    },
+    prLabels: [],
+    mirrorPubky: 'pk:caip-mirror',
+    subdir: 'CAIPs',
+  },
+  {
+    namespace: 'ipip',
+    label: 'IPIP',
+    repo: 'ipfs/specs',
+    filePattern: /^ipip-(\d{4})\.md$/,
+    numberExtractor: (f) => {
+      const m = f.match(/ipip-(\d{4})/)
+      return m ? parseInt(m[1], 10) : undefined
+    },
+    prLabels: [],
+    mirrorPubky: 'pk:ipip-mirror',
+    subdir: 'src/ipips',
+  },
 ]
 
 export function getSource(namespace: string): SpecSourceConfig | undefined {
