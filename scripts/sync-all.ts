@@ -264,6 +264,46 @@ function parseBepContent(content: string): { title: string; summary: string; sta
   return { title, summary, status, type }
 }
 
+function parseSlipContent(content: string): { title: string; summary: string; status?: string; type?: string } {
+  const lines = content.replace(/\r\n/g, '\n').replace(/\r/g, '\n').split('\n')
+  const fields: Record<string, string> = {}
+
+  // SLIPs have a heading like "# SLIP-0044 : Title" then a fenced preamble block
+  let inPreamble = false
+  for (const line of lines) {
+    const t = line.trim()
+    if (t === '```') {
+      if (inPreamble) break
+      inPreamble = true
+      continue
+    }
+    if (inPreamble) {
+      const m = t.match(/^([\w-]+)\s*:\s*(.+)$/)
+      if (m) fields[m[1].trim().toLowerCase()] = m[2].trim()
+    }
+  }
+
+  // Also try heading for title: "# SLIP-0044 : Registered coin types for BIP-0044"
+  const headingMatch = content.match(/^#\s+SLIP-\d+\s*:\s*(.+)/m)
+  let title = fields['title'] ?? (headingMatch ? headingMatch[1].trim() : 'Untitled SLIP')
+  const status = fields['status']
+  const type = fields['type']
+
+  // Extract abstract section
+  const abstractMatch = content.match(/##\s*Abstract\s*\n+([\s\S]*?)(?=\n##|\n#|$)/i)
+  let summary = ''
+  if (abstractMatch) {
+    summary = abstractMatch[1].trim().replace(/\n/g, ' ').slice(0, 400)
+  } else {
+    const paragraphs = content.split('\n\n')
+      .map(p => p.trim())
+      .filter(p => p.length > 30 && !p.startsWith('#') && !p.startsWith('```') && !p.startsWith('Number:'))
+    summary = (paragraphs[0] ?? 'SatoshiLabs Improvement Proposal.').slice(0, 400)
+  }
+
+  return { title, summary, status, type }
+}
+
 function extractAbstract(content: string): string {
   const patterns = [
     /===\s*Abstract\s*===\s*\n+([\s\S]*?)(?=\n===|\n==)/i,
@@ -369,6 +409,12 @@ async function syncMergedFiles(source: SpecSourceConfig, limit: number): Promise
       } else if (source.namespace === 'bep') {
         const parsed = parseBepContent(content)
         title = `BEP ${num}: ${parsed.title}`
+        summary = parsed.summary
+        status = parsed.status
+        type = bipTypeToLabel(parsed.type ?? '')
+      } else if (source.namespace === 'slip') {
+        const parsed = parseSlipContent(content)
+        title = `SLIP ${num}: ${parsed.title}`
         summary = parsed.summary
         status = parsed.status
         type = bipTypeToLabel(parsed.type ?? '')

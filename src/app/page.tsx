@@ -23,7 +23,7 @@ export default function Home() {
           The Protocol Spec Registry
         </h1>
         <p className="text-lg text-text-secondary max-w-2xl mx-auto leading-relaxed mb-2">
-          Search, read, and review {totalMerged.toLocaleString()}+ protocol specifications across Bitcoin, Lightning, Nostr, and BitTorrent.
+          Search, read, and review {totalMerged.toLocaleString()}+ protocol specifications across Bitcoin, Lightning, Nostr, BitTorrent, and hardware wallet standards.
         </p>
         <p className="text-base text-text-tertiary max-w-xl mx-auto leading-relaxed">
           Filter by topic, sort by number, and track reviewer sentiment in one place.
@@ -31,7 +31,7 @@ export default function Home() {
       </section>
 
       <section className="pb-12">
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-3 max-w-4xl mx-auto">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-3 max-w-5xl mx-auto">
           {NAMESPACES.filter(ns => ns.id !== 'other').map(ns => {
             const total = nsCounts[ns.id] ?? 0
             const merged = nsMergedCounts[ns.id] ?? 0
@@ -65,7 +65,7 @@ export default function Home() {
         <div className="bg-surface border border-border rounded-xl p-5">
           <h3 className="font-display font-semibold text-sm mb-2">Complete coverage</h3>
           <p className="text-sm text-text-secondary leading-relaxed">
-            Every BIP, NIP, BOLT, and BEP — merged, open, and rejected — synced directly from their official repositories.
+            Every BIP, NIP, BOLT, BEP, and SLIP — merged, open, and rejected — synced directly from their official repositories.
           </p>
         </div>
         <div className="bg-surface border border-border rounded-xl p-5">

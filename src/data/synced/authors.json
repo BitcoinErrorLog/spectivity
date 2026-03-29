@@ -3568,5 +3568,55 @@
     "githubLogin": "Mihael Peklar",
     "name": "Mihael Peklar",
     "bio": "BEP contributor."
+  },
+  "gh:SatoshiLabs": {
+    "githubLogin": "SatoshiLabs",
+    "name": "SatoshiLabs",
+    "bio": "SLIP contributor."
+  },
+  "gh:Jochen Hoenicke": {
+    "githubLogin": "Jochen Hoenicke",
+    "name": "Jochen Hoenicke",
+    "bio": "SLIP contributor."
+  },
+  "gh:Karel Bilek": {
+    "githubLogin": "Karel Bilek",
+    "name": "Karel Bilek",
+    "bio": "SLIP contributor."
+  },
+  "gh:Peter Jensen": {
+    "githubLogin": "Peter Jensen",
+    "name": "Peter Jensen",
+    "bio": "SLIP contributor."
+  },
+  "gh:Roman Zeyde": {
+    "githubLogin": "Roman Zeyde",
+    "name": "Roman Zeyde",
+    "bio": "SLIP contributor."
+  },
+  "gh:Andrew Kozlik": {
+    "githubLogin": "Andrew Kozlik",
+    "name": "Andrew Kozlik",
+    "bio": "SLIP contributor."
+  },
+  "gh:TBD": {
+    "githubLogin": "TBD",
+    "name": "TBD",
+    "bio": "SLIP contributor."
+  },
+  "gh:Andrew R. Kozlik": {
+    "githubLogin": "Andrew R. Kozlik",
+    "name": "Andrew R. Kozlik",
+    "bio": "SLIP contributor."
+  },
+  "gh:Fabian Schuh": {
+    "githubLogin": "Fabian Schuh",
+    "name": "Fabian Schuh",
+    "bio": "SLIP contributor."
+  },
+  "gh:Clark Moody": {
+    "githubLogin": "Clark Moody",
+    "name": "Clark Moody",
+    "bio": "SLIP contributor."
   }
 }

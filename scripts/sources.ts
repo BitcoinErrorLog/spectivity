@@ -64,6 +64,18 @@ export const SOURCES: SpecSourceConfig[] = [
     mirrorPubky: 'pk:bep-mirror',
     subdir: 'beps',
   },
+  {
+    namespace: 'slip',
+    label: 'SLIP',
+    repo: 'satoshilabs/slips',
+    filePattern: /^slip-(\d{4})\.md$/,
+    numberExtractor: (f) => {
+      const m = f.match(/slip-(\d{4})/)
+      return m ? parseInt(m[1], 10) : undefined
+    },
+    prLabels: [],
+    mirrorPubky: 'pk:slip-mirror',
+  },
 ]
 
 export function getSource(namespace: string): SpecSourceConfig | undefined {
