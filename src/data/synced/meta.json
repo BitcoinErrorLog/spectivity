@@ -1,50 +1,14 @@
 {
-  "syncedAt": "2026-03-29T16:21:27.188Z",
-  "totalSpecs": 1957,
-  "totalReviews": 112,
-  "totalAuthors": 768,
+  "syncedAt": "2026-03-30T07:55:13.175Z",
+  "totalSpecs": 1706,
+  "totalReviews": 42,
+  "totalAuthors": 676,
   "byNamespace": {
-    "bep": {
-      "merged": 56,
-      "open": 0,
-      "closed": 0,
-      "rejected": 0
-    },
     "bip": {
       "merged": 1221,
       "open": 46,
       "closed": 392,
       "rejected": 47
-    },
-    "bolt": {
-      "merged": 12,
-      "open": 0,
-      "closed": 0,
-      "rejected": 0
-    },
-    "caip": {
-      "merged": 54,
-      "open": 0,
-      "closed": 0,
-      "rejected": 0
-    },
-    "ipip": {
-      "merged": 21,
-      "open": 0,
-      "closed": 0,
-      "rejected": 0
-    },
-    "nip": {
-      "merged": 85,
-      "open": 0,
-      "closed": 0,
-      "rejected": 0
-    },
-    "slip": {
-      "merged": 23,
-      "open": 0,
-      "closed": 0,
-      "rejected": 0
     }
   }
 }

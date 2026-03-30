@@ -489,6 +489,11 @@
     "name": "moonsettler",
     "bio": "BIP contributor."
   },
+  "gh:rustyrussell": {
+    "githubLogin": "rustyrussell",
+    "name": "rustyrussell",
+    "bio": "BIP contributor."
+  },
   "gh:Yuri-SVB": {
     "githubLogin": "Yuri-SVB",
     "name": "Yuri-SVB",
@@ -497,11 +502,6 @@
   "gh:nymius": {
     "githubLogin": "nymius",
     "name": "nymius",
-    "bio": "BIP contributor."
-  },
-  "gh:rustyrussell": {
-    "githubLogin": "rustyrussell",
-    "name": "rustyrussell",
     "bio": "BIP contributor."
   },
   "gh:macgyver13": {
@@ -669,9 +669,9 @@
     "name": "MozirDmitriy",
     "bio": "BIP contributor."
   },
-  "gh:bitcoinguardian": {
-    "githubLogin": "bitcoinguardian",
-    "name": "bitcoinguardian",
+  "gh:phrwlk": {
+    "githubLogin": "phrwlk",
+    "name": "phrwlk",
     "bio": "BIP contributor."
   },
   "gh:forkfury": {
@@ -679,14 +679,19 @@
     "name": "forkfury",
     "bio": "BIP contributor."
   },
-  "gh:phrwlk": {
-    "githubLogin": "phrwlk",
-    "name": "phrwlk",
+  "gh:bitcoinguardian": {
+    "githubLogin": "bitcoinguardian",
+    "name": "bitcoinguardian",
     "bio": "BIP contributor."
   },
   "gh:yyhrnk": {
     "githubLogin": "yyhrnk",
     "name": "yyhrnk",
+    "bio": "BIP contributor."
+  },
+  "gh:ariard": {
+    "githubLogin": "ariard",
+    "name": "ariard",
     "bio": "BIP contributor."
   },
   "gh:cryptoquick": {
@@ -797,11 +802,6 @@
   "gh:vibegentt": {
     "githubLogin": "vibegentt",
     "name": "vibegentt",
-    "bio": "BIP contributor."
-  },
-  "gh:ariard": {
-    "githubLogin": "ariard",
-    "name": "ariard",
     "bio": "BIP contributor."
   },
   "gh:MoNyAvA": {
@@ -3378,465 +3378,5 @@
     "githubLogin": "SatsAndSports",
     "name": "SatsAndSports",
     "bio": "BIP reviewer."
-  },
-  "gh:gmaxwell": {
-    "githubLogin": "gmaxwell",
-    "name": "gmaxwell",
-    "bio": "BIP reviewer."
-  },
-  "gh:jgriffiths": {
-    "githubLogin": "jgriffiths",
-    "name": "jgriffiths",
-    "bio": "BIP reviewer."
-  },
-  "gh:aaronisme": {
-    "githubLogin": "aaronisme",
-    "name": "aaronisme",
-    "bio": "BIP reviewer."
-  },
-  "gh:timohanke": {
-    "githubLogin": "timohanke",
-    "name": "timohanke",
-    "bio": "BIP reviewer."
-  },
-  "gh:Unknown": {
-    "githubLogin": "Unknown",
-    "name": "Unknown",
-    "bio": "NIP contributor."
-  },
-  "gh:filterPubkeys;": {
-    "githubLogin": "filterPubkeys;",
-    "name": "filterPubkeys;",
-    "bio": "NIP contributor."
-  },
-  "gh:David Harrison": {
-    "githubLogin": "David Harrison",
-    "name": "David Harrison",
-    "bio": "BEP contributor."
-  },
-  "gh:Bram Cohen": {
-    "githubLogin": "Bram Cohen",
-    "name": "Bram Cohen",
-    "bio": "BEP contributor."
-  },
-  "gh:Andrew Loewenstern , Arvid Norberg": {
-    "githubLogin": "Andrew Loewenstern , Arvid Norberg",
-    "name": "Andrew Loewenstern , Arvid Norberg",
-    "bio": "BEP contributor."
-  },
-  "gh:David Harrison , Bram Cohen": {
-    "githubLogin": "David Harrison , Bram Cohen",
-    "name": "David Harrison , Bram Cohen",
-    "bio": "BEP contributor."
-  },
-  "gh:Greg Hazel , Arvid Norberg": {
-    "githubLogin": "Greg Hazel , Arvid Norberg",
-    "name": "Greg Hazel , Arvid Norberg",
-    "bio": "BEP contributor."
-  },
-  "gh:David Harrison , Anthony Ciani , Arvid Norberg , Greg Hazel": {
-    "githubLogin": "David Harrison , Anthony Ciani , Arvid Norberg , Greg Hazel",
-    "name": "David Harrison , Anthony Ciani , Arvid Norberg , Greg Hazel",
-    "bio": "BEP contributor."
-  },
-  "gh:Arvid Norberg , Ludvig Strigeus , Greg Hazel": {
-    "githubLogin": "Arvid Norberg , Ludvig Strigeus , Greg Hazel",
-    "name": "Arvid Norberg , Ludvig Strigeus , Greg Hazel",
-    "bio": "BEP contributor."
-  },
-  "gh:The 8472": {
-    "githubLogin": "The 8472",
-    "name": "The 8472",
-    "bio": "BEP contributor."
-  },
-  "gh:John Hoffman": {
-    "githubLogin": "John Hoffman",
-    "name": "John Hoffman",
-    "bio": "BEP contributor."
-  },
-  "gh:Olaf van der Spek": {
-    "githubLogin": "Olaf van der Spek",
-    "name": "Olaf van der Spek",
-    "bio": "BEP contributor."
-  },
-  "gh:John Hoffman , DeHackEd": {
-    "githubLogin": "John Hoffman , DeHackEd",
-    "name": "John Hoffman , DeHackEd",
-    "bio": "BEP contributor."
-  },
-  "gh:Richard Choi": {
-    "githubLogin": "Richard Choi",
-    "name": "Richard Choi",
-    "bio": "BEP contributor."
-  },
-  "gh:Michael Burford": {
-    "githubLogin": "Michael Burford",
-    "name": "Michael Burford",
-    "bio": "BEP contributor."
-  },
-  "gh:Arvid Norberg , Greg Hazel , Aaron Grunthal": {
-    "githubLogin": "Arvid Norberg , Greg Hazel , Aaron Grunthal",
-    "name": "Arvid Norberg , Greg Hazel , Aaron Grunthal",
-    "bio": "BEP contributor."
-  },
-  "gh:David Harrison , Stanislav Shalunov , Greg Hazel": {
-    "githubLogin": "David Harrison , Stanislav Shalunov , Greg Hazel",
-    "name": "David Harrison , Stanislav Shalunov , Greg Hazel",
-    "bio": "BEP contributor."
-  },
-  "gh:David Harrison , Greg Hazel , Stanislav Shalunov": {
-    "githubLogin": "David Harrison , Greg Hazel , Stanislav Shalunov",
-    "name": "David Harrison , Greg Hazel , Stanislav Shalunov",
-    "bio": "BEP contributor."
-  },
-  "gh:Robin Perkins": {
-    "githubLogin": "Robin Perkins",
-    "name": "Robin Perkins",
-    "bio": "BEP contributor."
-  },
-  "gh:Arvid Norberg": {
-    "githubLogin": "Arvid Norberg",
-    "name": "Arvid Norberg",
-    "bio": "BEP contributor."
-  },
-  "gh:Arno Bakker": {
-    "githubLogin": "Arno Bakker",
-    "name": "Arno Bakker",
-    "bio": "BEP contributor."
-  },
-  "gh:Jeroen Massar": {
-    "githubLogin": "Jeroen Massar",
-    "name": "Jeroen Massar",
-    "bio": "BEP contributor."
-  },
-  "gh:Juliusz Chroboczek": {
-    "githubLogin": "Juliusz Chroboczek",
-    "name": "Juliusz Chroboczek",
-    "bio": "BEP contributor."
-  },
-  "gh:Fredrik Neij , Arvid Norberg , Chris Brown": {
-    "githubLogin": "Fredrik Neij , Arvid Norberg , Chris Brown",
-    "name": "Fredrik Neij , Arvid Norberg , Chris Brown",
-    "bio": "BEP contributor."
-  },
-  "gh:Chris Brown": {
-    "githubLogin": "Chris Brown",
-    "name": "Chris Brown",
-    "bio": "BEP contributor."
-  },
-  "gh:Arvid Norberg , Chris Brown": {
-    "githubLogin": "Arvid Norberg , Chris Brown",
-    "name": "Arvid Norberg , Chris Brown",
-    "bio": "BEP contributor."
-  },
-  "gh:Michael C. Toren": {
-    "githubLogin": "Michael C. Toren",
-    "name": "Michael C. Toren",
-    "bio": "BEP contributor."
-  },
-  "gh:Arvid Norberg , Steve Austin": {
-    "githubLogin": "Arvid Norberg , Steve Austin",
-    "name": "Arvid Norberg , Steve Austin",
-    "bio": "BEP contributor."
-  },
-  "gh:Arvid Norberg , Steven Siloti": {
-    "githubLogin": "Arvid Norberg , Steven Siloti",
-    "name": "Arvid Norberg , Steven Siloti",
-    "bio": "BEP contributor."
-  },
-  "gh:Luca Matteis": {
-    "githubLogin": "Luca Matteis",
-    "name": "Luca Matteis",
-    "bio": "BEP contributor."
-  },
-  "gh:Jimmy Zelinskie": {
-    "githubLogin": "Jimmy Zelinskie",
-    "name": "Jimmy Zelinskie",
-    "bio": "BEP contributor."
-  },
-  "gh:Steven Siloti": {
-    "githubLogin": "Steven Siloti",
-    "name": "Steven Siloti",
-    "bio": "BEP contributor."
-  },
-  "gh:Tyler Houlihan": {
-    "githubLogin": "Tyler Houlihan",
-    "name": "Tyler Houlihan",
-    "bio": "BEP contributor."
-  },
-  "gh:Mihael Peklar": {
-    "githubLogin": "Mihael Peklar",
-    "name": "Mihael Peklar",
-    "bio": "BEP contributor."
-  },
-  "gh:SatoshiLabs": {
-    "githubLogin": "SatoshiLabs",
-    "name": "SatoshiLabs",
-    "bio": "SLIP contributor."
-  },
-  "gh:Jochen Hoenicke": {
-    "githubLogin": "Jochen Hoenicke",
-    "name": "Jochen Hoenicke",
-    "bio": "SLIP contributor."
-  },
-  "gh:Karel Bilek": {
-    "githubLogin": "Karel Bilek",
-    "name": "Karel Bilek",
-    "bio": "SLIP contributor."
-  },
-  "gh:Peter Jensen": {
-    "githubLogin": "Peter Jensen",
-    "name": "Peter Jensen",
-    "bio": "SLIP contributor."
-  },
-  "gh:Roman Zeyde": {
-    "githubLogin": "Roman Zeyde",
-    "name": "Roman Zeyde",
-    "bio": "SLIP contributor."
-  },
-  "gh:Andrew Kozlik": {
-    "githubLogin": "Andrew Kozlik",
-    "name": "Andrew Kozlik",
-    "bio": "SLIP contributor."
-  },
-  "gh:TBD": {
-    "githubLogin": "TBD",
-    "name": "TBD",
-    "bio": "SLIP contributor."
-  },
-  "gh:Andrew R. Kozlik": {
-    "githubLogin": "Andrew R. Kozlik",
-    "name": "Andrew R. Kozlik",
-    "bio": "SLIP contributor."
-  },
-  "gh:Fabian Schuh": {
-    "githubLogin": "Fabian Schuh",
-    "name": "Fabian Schuh",
-    "bio": "SLIP contributor."
-  },
-  "gh:Clark Moody": {
-    "githubLogin": "Clark Moody",
-    "name": "Clark Moody",
-    "bio": "SLIP contributor."
-  },
-  "gh:ligi": {
-    "githubLogin": "ligi",
-    "name": "ligi",
-    "bio": "CAIP contributor."
-  },
-  "gh:Pedro Gomes (@pedrouid)": {
-    "githubLogin": "Pedro Gomes (@pedrouid)",
-    "name": "Pedro Gomes (@pedrouid)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Bumblefudge (@bumblefudge), Wayne Chang (@wyc)": {
-    "githubLogin": "Bumblefudge (@bumblefudge), Wayne Chang (@wyc)",
-    "name": "Bumblefudge (@bumblefudge), Wayne Chang (@wyc)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Haardik (@haardikk21), Sergey Ukustov (@ukstv)": {
-    "githubLogin": "Haardik (@haardikk21), Sergey Ukustov (@ukstv)",
-    "name": "Haardik (@haardikk21), Sergey Ukustov (@ukstv)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Pedro Gomes (@pedrouid), Joshua Mir (@joshua-mir), Shawn Tabrizi (@shawntabrizi)": {
-    "githubLogin": "Pedro Gomes (@pedrouid), Joshua Mir (@joshua-mir), Shawn Tabrizi (@shawntabrizi)",
-    "name": "Pedro Gomes (@pedrouid), Joshua Mir (@joshua-mir), Shawn Tabrizi (@shawntabrizi)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Yan Zhu (@diracdeltas), Brian R. Bondy (@bbondy), Andrea  Brancaleoni (@thypon), Kyle Den Hartog (@kdenhartog)": {
-    "githubLogin": "Yan Zhu (@diracdeltas), Brian R. Bondy (@bbondy), Andrea  Brancaleoni (@thypon), Kyle Den Hartog (@kdenhartog)",
-    "name": "Yan Zhu (@diracdeltas), Brian R. Bondy (@bbondy), Andrea  Brancaleoni (@thypon), Kyle Den Hartog (@kdenhartog)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Zach Ferland , Joel Thorstensson (@oed)": {
-    "githubLogin": "Zach Ferland , Joel Thorstensson (@oed)",
-    "name": "Zach Ferland , Joel Thorstensson (@oed)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Oliver Terbu (@awoie), Mircea Nistor (@mirceanis), Bumblefudge (@bumblefudge)": {
-    "githubLogin": "Oliver Terbu (@awoie), Mircea Nistor (@mirceanis), Bumblefudge (@bumblefudge)",
-    "name": "Oliver Terbu (@awoie), Mircea Nistor (@mirceanis), Bumblefudge (@bumblefudge)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Olaf Tomalka (@ritave)": {
-    "githubLogin": "Olaf Tomalka (@ritave)",
-    "name": "Olaf Tomalka (@ritave)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Antoine Herzog (@antoineherzog), Pedro Gomes (@pedrouid), Joel Thorstensson (@oed)": {
-    "githubLogin": "Antoine Herzog (@antoineherzog), Pedro Gomes (@pedrouid), Joel Thorstensson (@oed)",
-    "name": "Antoine Herzog (@antoineherzog), Pedro Gomes (@pedrouid), Joel Thorstensson (@oed)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Sergey Ukustov (@ukstv), Haardik (@haardikk21), Irakli Gozalishvili (@Gozala), Joel Thorstensson (@oed)": {
-    "githubLogin": "Sergey Ukustov (@ukstv), Haardik (@haardikk21), Irakli Gozalishvili (@Gozala), Joel Thorstensson (@oed)",
-    "name": "Sergey Ukustov (@ukstv), Haardik (@haardikk21), Irakli Gozalishvili (@Gozala), Joel Thorstensson (@oed)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Simon Warta (@webmaster128), ligi , Pedro Gomes (@pedrouid), Antoine Herzog (@antoineherzog)": {
-    "githubLogin": "Simon Warta (@webmaster128), ligi , Pedro Gomes (@pedrouid), Antoine Herzog (@antoineherzog)",
-    "name": "Simon Warta (@webmaster128), ligi , Pedro Gomes (@pedrouid), Antoine Herzog (@antoineherzog)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Pedro Gomes (@pedrouid), ligi (@ligi)": {
-    "githubLogin": "Pedro Gomes (@pedrouid), ligi (@ligi)",
-    "name": "Pedro Gomes (@pedrouid), ligi (@ligi)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Hassan Malik (@hmalik88), Bumblefudge (@bumblefudge)": {
-    "githubLogin": "Hassan Malik (@hmalik88), Bumblefudge (@bumblefudge)",
-    "name": "Hassan Malik (@hmalik88), Bumblefudge (@bumblefudge)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Pedro Gomes (@pedrouid), Hassan Malik (@hmalik88), Bumblefudge (@bumblefudge)": {
-    "githubLogin": "Pedro Gomes (@pedrouid), Hassan Malik (@hmalik88), Bumblefudge (@bumblefudge)",
-    "name": "Pedro Gomes (@pedrouid), Hassan Malik (@hmalik88), Bumblefudge (@bumblefudge)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Pedro Gomes (@pedrouid), Gancho Radkov (@ganchoradkov)": {
-    "githubLogin": "Pedro Gomes (@pedrouid), Gancho Radkov (@ganchoradkov)",
-    "name": "Pedro Gomes (@pedrouid), Gancho Radkov (@ganchoradkov)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Sergey Ukustov (@ukstv)": {
-    "githubLogin": "Sergey Ukustov (@ukstv)",
-    "name": "Sergey Ukustov (@ukstv)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Pedro Gomes (@pedrouid), Hassan Malik (@hmalik88), Alex Donesky (@adonesky1), Jiexi Luan (@jiexi)": {
-    "githubLogin": "Pedro Gomes (@pedrouid), Hassan Malik (@hmalik88), Alex Donesky (@adonesky1), Jiexi Luan (@jiexi)",
-    "name": "Pedro Gomes (@pedrouid), Hassan Malik (@hmalik88), Alex Donesky (@adonesky1), Jiexi Luan (@jiexi)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Stanly Johnson (@stanly-johnson)": {
-    "githubLogin": "Stanly Johnson (@stanly-johnson)",
-    "name": "Stanly Johnson (@stanly-johnson)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Dayan | dayan.fc | dayan.lens | dayanx.eth | (@dayksx)": {
-    "githubLogin": "Dayan | dayan.fc | dayan.lens | dayanx.eth | (@dayksx)",
-    "name": "Dayan | dayan.fc | dayan.lens | dayanx.eth | (@dayksx)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Pedro Gomes (@pedrouid), Hassan Malik (@hmalik88)": {
-    "githubLogin": "Pedro Gomes (@pedrouid), Hassan Malik (@hmalik88)",
-    "name": "Pedro Gomes (@pedrouid), Hassan Malik (@hmalik88)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Chris Cassano (@glitch003), David Sneider (@davidlsneider), Federico Amura (@FedericoAmura), Gregory Markou (@GregTheGreek)": {
-    "githubLogin": "Chris Cassano (@glitch003), David Sneider (@davidlsneider), Federico Amura (@FedericoAmura), Gregory Markou (@GregTheGreek)",
-    "name": "Chris Cassano (@glitch003), David Sneider (@davidlsneider), Federico Amura (@FedericoAmura), Gregory Markou (@GregTheGreek)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Gleb Pitsevich (@pitsevich)": {
-    "githubLogin": "Gleb Pitsevich (@pitsevich)",
-    "name": "Gleb Pitsevich (@pitsevich)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Pedro Gomes (@pedrouid), Joao Carlos (@ffmcgee725), Jiexi Luan (@jiexi), Alex Donesky (@adonesky1)": {
-    "githubLogin": "Pedro Gomes (@pedrouid), Joao Carlos (@ffmcgee725), Jiexi Luan (@jiexi), Alex Donesky (@adonesky1)",
-    "name": "Pedro Gomes (@pedrouid), Joao Carlos (@ffmcgee725), Jiexi Luan (@jiexi), Alex Donesky (@adonesky1)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Alex Donesky (@adonesky1)": {
-    "githubLogin": "Alex Donesky (@adonesky1)",
-    "name": "Alex Donesky (@adonesky1)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Bumblefudge (@bumblefudge)": {
-    "githubLogin": "Bumblefudge (@bumblefudge)",
-    "name": "Bumblefudge (@bumblefudge)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Matt Condon (@shrugs)": {
-    "githubLogin": "Matt Condon (@shrugs)",
-    "name": "Matt Condon (@shrugs)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Simon Warta (@webmaster128), ligi , Pedro Gomes (@pedrouid)": {
-    "githubLogin": "Simon Warta (@webmaster128), ligi , Pedro Gomes (@pedrouid)",
-    "name": "Simon Warta (@webmaster128), ligi , Pedro Gomes (@pedrouid)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Antoine Herzog (@antoineherzog), Josh Hundley (@oJshua)": {
-    "githubLogin": "Antoine Herzog (@antoineherzog), Josh Hundley (@oJshua)",
-    "name": "Antoine Herzog (@antoineherzog), Josh Hundley (@oJshua)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Alex Donesky (@adonesky1), Jiexi Luan (@jiexi), Joao Tavares (@ffmcgee725)": {
-    "githubLogin": "Alex Donesky (@adonesky1), Jiexi Luan (@jiexi), Joao Tavares (@ffmcgee725)",
-    "name": "Alex Donesky (@adonesky1), Jiexi Luan (@jiexi), Joao Tavares (@ffmcgee725)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Chris Smith (@chris13524)": {
-    "githubLogin": "Chris Smith (@chris13524)",
-    "name": "Chris Smith (@chris13524)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Defi Wonderland (@defi-wonderland), Teddy (@0xteddybear), Joxes (@Joxess), Racu (@0xRacoon), Skeletor Spaceman (@0xskeletor-spaceman), TiTi (@0xtiti), Gori (@0xGorilla), Ardy (@0xArdy), Onizuka (@onizuka-wl)": {
-    "githubLogin": "Defi Wonderland (@defi-wonderland), Teddy (@0xteddybear), Joxes (@Joxess), Racu (@0xRacoon), Skeletor Spaceman (@0xskeletor-spaceman), TiTi (@0xtiti), Gori (@0xGorilla), Ardy (@0xArdy), Onizuka (@onizuka-wl)",
-    "name": "Defi Wonderland (@defi-wonderland), Teddy (@0xteddybear), Joxes (@Joxess), Racu (@0xRacoon), Skeletor Spaceman (@0xskeletor-spaceman), TiTi (@0xtiti), Gori (@0xGorilla), Ardy (@0xArdy), Onizuka (@onizuka-wl)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Luka Isailovic (@lukaisailovic), Derek Rein (@arein), Pedro Gomes (@pedrouid)": {
-    "githubLogin": "Luka Isailovic (@lukaisailovic), Derek Rein (@arein), Pedro Gomes (@pedrouid)",
-    "name": "Luka Isailovic (@lukaisailovic), Derek Rein (@arein), Pedro Gomes (@pedrouid)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Daniel Rocha (@danroc)": {
-    "githubLogin": "Daniel Rocha (@danroc)",
-    "name": "Daniel Rocha (@danroc)",
-    "bio": "CAIP contributor."
-  },
-  "gh:David Furlong (@davidfurlong), Stephan Cilliers (@stephancill)": {
-    "githubLogin": "David Furlong (@davidfurlong), Stephan Cilliers (@stephancill)",
-    "name": "David Furlong (@davidfurlong), Stephan Cilliers (@stephancill)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Chris Leal (@cl34l)": {
-    "githubLogin": "Chris Leal (@cl34l)",
-    "name": "Chris Leal (@cl34l)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Yan (@xzensh)": {
-    "githubLogin": "Yan (@xzensh)",
-    "name": "Yan (@xzensh)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Simon Warta (@webmaster128)": {
-    "githubLogin": "Simon Warta (@webmaster128)",
-    "name": "Simon Warta (@webmaster128)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Joel Torstensson (@oed), Pedro Gomes (@pedrouid)": {
-    "githubLogin": "Joel Torstensson (@oed), Pedro Gomes (@pedrouid)",
-    "name": "Joel Torstensson (@oed), Pedro Gomes (@pedrouid)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Sebastian Montero (@sebastianmontero)": {
-    "githubLogin": "Sebastian Montero (@sebastianmontero)",
-    "name": "Sebastian Montero (@sebastianmontero)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Sergey Ukustov (@ukstv), Haardik (@haardikk21)": {
-    "githubLogin": "Sergey Ukustov (@ukstv), Haardik (@haardikk21)",
-    "name": "Sergey Ukustov (@ukstv), Haardik (@haardikk21)",
-    "bio": "CAIP contributor."
-  },
-  "gh:Danno Ferrin (@shemnon)": {
-    "githubLogin": "Danno Ferrin (@shemnon)",
-    "name": "Danno Ferrin (@shemnon)",
-    "bio": "CAIP contributor."
-  },
-  "gh:- allowing for requesting sub-paths within a DAG, and getting blocks necessary": {
-    "githubLogin": "- allowing for requesting sub-paths within a DAG, and getting blocks necessary",
-    "name": "- allowing for requesting sub-paths within a DAG, and getting blocks necessary",
-    "bio": "IPIP contributor."
-  },
-  "gh:1. **Preventing Unbounded Resource Consumption**: Limits the amount of data that can be inlined in CIDs": {
-    "githubLogin": "1. **Preventing Unbounded Resource Consumption**: Limits the amount of data that can be inlined in CIDs",
-    "name": "1. **Preventing Unbounded Resource Consumption**: Limits the amount of data that can be inlined in CIDs",
-    "bio": "IPIP contributor."
   }
 }
