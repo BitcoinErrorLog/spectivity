@@ -334,21 +334,5 @@
     "label": "concept-ack",
     "createdAt": 1768314884000,
     "githubUser": "fjahr"
-  },
-  {
-    "id": "rev-pr1008-707542805",
-    "specId": "pr-1008",
-    "reviewerPubky": "pk:gh-gmaxwell",
-    "label": "ack",
-    "createdAt": 1602573355000,
-    "githubUser": "gmaxwell"
-  },
-  {
-    "id": "rev-pr1008-2087075402",
-    "specId": "pr-1008",
-    "reviewerPubky": "pk:gh-murchandamus",
-    "label": "ack",
-    "createdAt": 1714508322000,
-    "githubUser": "murchandamus"
   }
 ]

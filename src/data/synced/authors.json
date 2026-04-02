@@ -494,6 +494,11 @@
     "name": "macgyver13",
     "bio": "BIP contributor."
   },
+  "gh:Yuri-SVB": {
+    "githubLogin": "Yuri-SVB",
+    "name": "Yuri-SVB",
+    "bio": "BIP contributor."
+  },
   "gh:nymius": {
     "githubLogin": "nymius",
     "name": "nymius",
@@ -502,11 +507,6 @@
   "gh:rustyrussell": {
     "githubLogin": "rustyrussell",
     "name": "rustyrussell",
-    "bio": "BIP contributor."
-  },
-  "gh:Yuri-SVB": {
-    "githubLogin": "Yuri-SVB",
-    "name": "Yuri-SVB",
     "bio": "BIP contributor."
   },
   "gh:thewrlck": {
@@ -3377,11 +3377,6 @@
   "gh:SatsAndSports": {
     "githubLogin": "SatsAndSports",
     "name": "SatsAndSports",
-    "bio": "BIP reviewer."
-  },
-  "gh:gmaxwell": {
-    "githubLogin": "gmaxwell",
-    "name": "gmaxwell",
     "bio": "BIP reviewer."
   }
 }
