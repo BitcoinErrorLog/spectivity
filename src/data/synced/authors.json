@@ -494,6 +494,16 @@
     "name": "macgyver13",
     "bio": "BIP contributor."
   },
+  "gh:pythcoiner": {
+    "githubLogin": "pythcoiner",
+    "name": "pythcoiner",
+    "bio": "BIP contributor."
+  },
+  "gh:seedhammer": {
+    "githubLogin": "seedhammer",
+    "name": "seedhammer",
+    "bio": "BIP contributor."
+  },
   "gh:Yuri-SVB": {
     "githubLogin": "Yuri-SVB",
     "name": "Yuri-SVB",
@@ -514,19 +524,9 @@
     "name": "thewrlck",
     "bio": "BIP contributor."
   },
-  "gh:pythcoiner": {
-    "githubLogin": "pythcoiner",
-    "name": "pythcoiner",
-    "bio": "BIP contributor."
-  },
   "gh:ethicnology": {
     "githubLogin": "ethicnology",
     "name": "ethicnology",
-    "bio": "BIP contributor."
-  },
-  "gh:seedhammer": {
-    "githubLogin": "seedhammer",
-    "name": "seedhammer",
     "bio": "BIP contributor."
   },
   "gh:craigraw": {
@@ -664,16 +664,6 @@
     "name": "ben221199",
     "bio": "BIP contributor."
   },
-  "gh:MozirDmitriy": {
-    "githubLogin": "MozirDmitriy",
-    "name": "MozirDmitriy",
-    "bio": "BIP contributor."
-  },
-  "gh:phrwlk": {
-    "githubLogin": "phrwlk",
-    "name": "phrwlk",
-    "bio": "BIP contributor."
-  },
   "gh:forkfury": {
     "githubLogin": "forkfury",
     "name": "forkfury",
@@ -682,6 +672,16 @@
   "gh:bitcoinguardian": {
     "githubLogin": "bitcoinguardian",
     "name": "bitcoinguardian",
+    "bio": "BIP contributor."
+  },
+  "gh:phrwlk": {
+    "githubLogin": "phrwlk",
+    "name": "phrwlk",
+    "bio": "BIP contributor."
+  },
+  "gh:MozirDmitriy": {
+    "githubLogin": "MozirDmitriy",
+    "name": "MozirDmitriy",
     "bio": "BIP contributor."
   },
   "gh:yyhrnk": {
