@@ -489,6 +489,21 @@
     "name": "moonsettler",
     "bio": "BIP contributor."
   },
+  "gh:3rdIteration": {
+    "githubLogin": "3rdIteration",
+    "name": "3rdIteration",
+    "bio": "BIP contributor."
+  },
+  "gh:BenWestgate": {
+    "githubLogin": "BenWestgate",
+    "name": "BenWestgate",
+    "bio": "BIP contributor."
+  },
+  "gh:ethicnology": {
+    "githubLogin": "ethicnology",
+    "name": "ethicnology",
+    "bio": "BIP contributor."
+  },
   "gh:macgyver13": {
     "githubLogin": "macgyver13",
     "name": "macgyver13",
@@ -524,11 +539,6 @@
     "name": "thewrlck",
     "bio": "BIP contributor."
   },
-  "gh:ethicnology": {
-    "githubLogin": "ethicnology",
-    "name": "ethicnology",
-    "bio": "BIP contributor."
-  },
   "gh:craigraw": {
     "githubLogin": "craigraw",
     "name": "craigraw",
@@ -559,19 +569,9 @@
     "name": "AdamISZ",
     "bio": "BIP contributor."
   },
-  "gh:3rdIteration": {
-    "githubLogin": "3rdIteration",
-    "name": "3rdIteration",
-    "bio": "BIP contributor."
-  },
   "gh:jlopp": {
     "githubLogin": "jlopp",
     "name": "jlopp",
-    "bio": "BIP contributor."
-  },
-  "gh:BenWestgate": {
-    "githubLogin": "BenWestgate",
-    "name": "BenWestgate",
     "bio": "BIP contributor."
   },
   "gh:TheBlueMatt": {
@@ -664,6 +664,11 @@
     "name": "ben221199",
     "bio": "BIP contributor."
   },
+  "gh:phrwlk": {
+    "githubLogin": "phrwlk",
+    "name": "phrwlk",
+    "bio": "BIP contributor."
+  },
   "gh:forkfury": {
     "githubLogin": "forkfury",
     "name": "forkfury",
@@ -672,11 +677,6 @@
   "gh:bitcoinguardian": {
     "githubLogin": "bitcoinguardian",
     "name": "bitcoinguardian",
-    "bio": "BIP contributor."
-  },
-  "gh:phrwlk": {
-    "githubLogin": "phrwlk",
-    "name": "phrwlk",
     "bio": "BIP contributor."
   },
   "gh:MozirDmitriy": {
@@ -3382,16 +3382,6 @@
   "gh:gmaxwell": {
     "githubLogin": "gmaxwell",
     "name": "gmaxwell",
-    "bio": "BIP reviewer."
-  },
-  "gh:aaronisme": {
-    "githubLogin": "aaronisme",
-    "name": "aaronisme",
-    "bio": "BIP reviewer."
-  },
-  "gh:timohanke": {
-    "githubLogin": "timohanke",
-    "name": "timohanke",
     "bio": "BIP reviewer."
   }
 }
