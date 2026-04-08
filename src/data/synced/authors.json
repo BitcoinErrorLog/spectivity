@@ -484,6 +484,11 @@
     "name": "Anthony Towns",
     "bio": "BIP contributor."
   },
+  "gh:Rusty Russell": {
+    "githubLogin": "Rusty Russell",
+    "name": "Rusty Russell",
+    "bio": "BIP contributor."
+  },
   "gh:moonsettler": {
     "githubLogin": "moonsettler",
     "name": "moonsettler",
@@ -494,24 +499,14 @@
     "name": "pythcoiner",
     "bio": "BIP contributor."
   },
-  "gh:craigraw": {
-    "githubLogin": "craigraw",
-    "name": "craigraw",
-    "bio": "BIP contributor."
-  },
-  "gh:andrewtoth": {
-    "githubLogin": "andrewtoth",
-    "name": "andrewtoth",
+  "gh:seedhammer": {
+    "githubLogin": "seedhammer",
+    "name": "seedhammer",
     "bio": "BIP contributor."
   },
   "gh:3rdIteration": {
     "githubLogin": "3rdIteration",
     "name": "3rdIteration",
-    "bio": "BIP contributor."
-  },
-  "gh:darosior": {
-    "githubLogin": "darosior",
-    "name": "darosior",
     "bio": "BIP contributor."
   },
   "gh:macgyver13": {
@@ -534,11 +529,6 @@
     "name": "BenWestgate",
     "bio": "BIP contributor."
   },
-  "gh:seedhammer": {
-    "githubLogin": "seedhammer",
-    "name": "seedhammer",
-    "bio": "BIP contributor."
-  },
   "gh:Yuri-SVB": {
     "githubLogin": "Yuri-SVB",
     "name": "Yuri-SVB",
@@ -549,14 +539,14 @@
     "name": "nymius",
     "bio": "BIP contributor."
   },
-  "gh:rustyrussell": {
-    "githubLogin": "rustyrussell",
-    "name": "rustyrussell",
-    "bio": "BIP contributor."
-  },
   "gh:JeremyRubin": {
     "githubLogin": "JeremyRubin",
     "name": "JeremyRubin",
+    "bio": "BIP contributor."
+  },
+  "gh:darosior": {
+    "githubLogin": "darosior",
+    "name": "darosior",
     "bio": "BIP contributor."
   },
   "gh:jasonandjay": {
@@ -689,9 +679,34 @@
     "name": "yyhrnk",
     "bio": "BIP contributor."
   },
+  "gh:andrewtoth": {
+    "githubLogin": "andrewtoth",
+    "name": "andrewtoth",
+    "bio": "BIP contributor."
+  },
+  "gh:cryptoquick": {
+    "githubLogin": "cryptoquick",
+    "name": "cryptoquick",
+    "bio": "BIP contributor."
+  },
+  "gh:Eunovo": {
+    "githubLogin": "Eunovo",
+    "name": "Eunovo",
+    "bio": "BIP contributor."
+  },
   "gh:thewrlck": {
     "githubLogin": "thewrlck",
     "name": "thewrlck",
+    "bio": "BIP contributor."
+  },
+  "gh:rustyrussell": {
+    "githubLogin": "rustyrussell",
+    "name": "rustyrussell",
+    "bio": "BIP contributor."
+  },
+  "gh:craigraw": {
+    "githubLogin": "craigraw",
+    "name": "craigraw",
     "bio": "BIP contributor."
   },
   "gh:jett22JOE": {
@@ -702,11 +717,6 @@
   "gh:ariard": {
     "githubLogin": "ariard",
     "name": "ariard",
-    "bio": "BIP contributor."
-  },
-  "gh:cryptoquick": {
-    "githubLogin": "cryptoquick",
-    "name": "cryptoquick",
     "bio": "BIP contributor."
   },
   "gh:theStack": {
@@ -3387,16 +3397,6 @@
   "gh:gmaxwell": {
     "githubLogin": "gmaxwell",
     "name": "gmaxwell",
-    "bio": "BIP reviewer."
-  },
-  "gh:aaronisme": {
-    "githubLogin": "aaronisme",
-    "name": "aaronisme",
-    "bio": "BIP reviewer."
-  },
-  "gh:timohanke": {
-    "githubLogin": "timohanke",
-    "name": "timohanke",
     "bio": "BIP reviewer."
   }
 }
