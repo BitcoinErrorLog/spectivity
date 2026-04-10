@@ -494,9 +494,19 @@
     "name": "moonsettler",
     "bio": "BIP contributor."
   },
+  "gh:guggero": {
+    "githubLogin": "guggero",
+    "name": "guggero",
+    "bio": "BIP contributor."
+  },
   "gh:murchandamus": {
     "githubLogin": "murchandamus",
     "name": "murchandamus",
+    "bio": "BIP contributor."
+  },
+  "gh:macgyver13": {
+    "githubLogin": "macgyver13",
+    "name": "macgyver13",
     "bio": "BIP contributor."
   },
   "gh:nymius": {
@@ -504,9 +514,9 @@
     "name": "nymius",
     "bio": "BIP contributor."
   },
-  "gh:seedhammer": {
-    "githubLogin": "seedhammer",
-    "name": "seedhammer",
+  "gh:jlopp": {
+    "githubLogin": "jlopp",
+    "name": "jlopp",
     "bio": "BIP contributor."
   },
   "gh:pythcoiner": {
@@ -514,14 +524,14 @@
     "name": "pythcoiner",
     "bio": "BIP contributor."
   },
+  "gh:seedhammer": {
+    "githubLogin": "seedhammer",
+    "name": "seedhammer",
+    "bio": "BIP contributor."
+  },
   "gh:3rdIteration": {
     "githubLogin": "3rdIteration",
     "name": "3rdIteration",
-    "bio": "BIP contributor."
-  },
-  "gh:macgyver13": {
-    "githubLogin": "macgyver13",
-    "name": "macgyver13",
     "bio": "BIP contributor."
   },
   "gh:TheBlueMatt": {
@@ -567,11 +577,6 @@
   "gh:AdamISZ": {
     "githubLogin": "AdamISZ",
     "name": "AdamISZ",
-    "bio": "BIP contributor."
-  },
-  "gh:jlopp": {
-    "githubLogin": "jlopp",
-    "name": "jlopp",
     "bio": "BIP contributor."
   },
   "gh:Sjors": {
@@ -684,6 +689,11 @@
     "name": "yyhrnk",
     "bio": "BIP contributor."
   },
+  "gh:thewrlck": {
+    "githubLogin": "thewrlck",
+    "name": "thewrlck",
+    "bio": "BIP contributor."
+  },
   "gh:laanwj": {
     "githubLogin": "laanwj",
     "name": "laanwj",
@@ -707,11 +717,6 @@
   "gh:Eunovo": {
     "githubLogin": "Eunovo",
     "name": "Eunovo",
-    "bio": "BIP contributor."
-  },
-  "gh:thewrlck": {
-    "githubLogin": "thewrlck",
-    "name": "thewrlck",
     "bio": "BIP contributor."
   },
   "gh:rustyrussell": {
@@ -1437,11 +1442,6 @@
   "gh:epysqyli": {
     "githubLogin": "epysqyli",
     "name": "epysqyli",
-    "bio": "BIP contributor."
-  },
-  "gh:guggero": {
-    "githubLogin": "guggero",
-    "name": "guggero",
     "bio": "BIP contributor."
   },
   "gh:kdmukai": {
