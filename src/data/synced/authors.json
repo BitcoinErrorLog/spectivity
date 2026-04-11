@@ -469,6 +469,11 @@
     "name": "Andrew Toth",
     "bio": "BIP contributor."
   },
+  "gh:nymius": {
+    "githubLogin": "nymius",
+    "name": "nymius",
+    "bio": "BIP contributor."
+  },
   "gh:Salvatore Ingala": {
     "githubLogin": "Salvatore Ingala",
     "name": "Salvatore Ingala",
@@ -494,9 +499,9 @@
     "name": "moonsettler",
     "bio": "BIP contributor."
   },
-  "gh:guggero": {
-    "githubLogin": "guggero",
-    "name": "guggero",
+  "gh:fjahr": {
+    "githubLogin": "fjahr",
+    "name": "fjahr",
     "bio": "BIP contributor."
   },
   "gh:murchandamus": {
@@ -507,11 +512,6 @@
   "gh:macgyver13": {
     "githubLogin": "macgyver13",
     "name": "macgyver13",
-    "bio": "BIP contributor."
-  },
-  "gh:nymius": {
-    "githubLogin": "nymius",
-    "name": "nymius",
     "bio": "BIP contributor."
   },
   "gh:jlopp": {
@@ -687,6 +687,11 @@
   "gh:yyhrnk": {
     "githubLogin": "yyhrnk",
     "name": "yyhrnk",
+    "bio": "BIP contributor."
+  },
+  "gh:guggero": {
+    "githubLogin": "guggero",
+    "name": "guggero",
     "bio": "BIP contributor."
   },
   "gh:thewrlck": {
@@ -1372,11 +1377,6 @@
   "gh:reardencode": {
     "githubLogin": "reardencode",
     "name": "reardencode",
-    "bio": "BIP contributor."
-  },
-  "gh:fjahr": {
-    "githubLogin": "fjahr",
-    "name": "fjahr",
     "bio": "BIP contributor."
   },
   "gh:GlenCooper": {
@@ -3399,9 +3399,9 @@
     "name": "gmaxwell",
     "bio": "BIP reviewer."
   },
-  "gh:jgriffiths": {
-    "githubLogin": "jgriffiths",
-    "name": "jgriffiths",
+  "gh:aaronisme": {
+    "githubLogin": "aaronisme",
+    "name": "aaronisme",
     "bio": "BIP reviewer."
   },
   "gh:timohanke": {
