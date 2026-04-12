@@ -499,9 +499,14 @@
     "name": "moonsettler",
     "bio": "BIP contributor."
   },
-  "gh:fjahr": {
-    "githubLogin": "fjahr",
-    "name": "fjahr",
+  "gh:jlopp": {
+    "githubLogin": "jlopp",
+    "name": "jlopp",
+    "bio": "BIP contributor."
+  },
+  "gh:lucia-w": {
+    "githubLogin": "lucia-w",
+    "name": "lucia-w",
     "bio": "BIP contributor."
   },
   "gh:murchandamus": {
@@ -512,11 +517,6 @@
   "gh:macgyver13": {
     "githubLogin": "macgyver13",
     "name": "macgyver13",
-    "bio": "BIP contributor."
-  },
-  "gh:jlopp": {
-    "githubLogin": "jlopp",
-    "name": "jlopp",
     "bio": "BIP contributor."
   },
   "gh:pythcoiner": {
@@ -687,6 +687,16 @@
   "gh:yyhrnk": {
     "githubLogin": "yyhrnk",
     "name": "yyhrnk",
+    "bio": "BIP contributor."
+  },
+  "gh:fjahr": {
+    "githubLogin": "fjahr",
+    "name": "fjahr",
+    "bio": "BIP contributor."
+  },
+  "gh:Rovikin": {
+    "githubLogin": "Rovikin",
+    "name": "Rovikin",
     "bio": "BIP contributor."
   },
   "gh:guggero": {
