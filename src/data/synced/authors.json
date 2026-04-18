@@ -499,9 +499,14 @@
     "name": "Rusty Russell",
     "bio": "BIP contributor."
   },
-  "gh:macgyver13": {
-    "githubLogin": "macgyver13",
-    "name": "macgyver13",
+  "gh:moonsettler": {
+    "githubLogin": "moonsettler",
+    "name": "moonsettler",
+    "bio": "BIP contributor."
+  },
+  "gh:conduition": {
+    "githubLogin": "conduition",
+    "name": "conduition",
     "bio": "BIP contributor."
   },
   "gh:TheBlueMatt": {
@@ -674,14 +679,19 @@
     "name": "phrwlk",
     "bio": "BIP contributor."
   },
-  "gh:fjahr": {
-    "githubLogin": "fjahr",
-    "name": "fjahr",
-    "bio": "BIP contributor."
-  },
   "gh:jlopp": {
     "githubLogin": "jlopp",
     "name": "jlopp",
+    "bio": "BIP contributor."
+  },
+  "gh:macgyver13": {
+    "githubLogin": "macgyver13",
+    "name": "macgyver13",
+    "bio": "BIP contributor."
+  },
+  "gh:fjahr": {
+    "githubLogin": "fjahr",
+    "name": "fjahr",
     "bio": "BIP contributor."
   },
   "gh:darosior": {
@@ -757,11 +767,6 @@
   "gh:jett22JOE": {
     "githubLogin": "jett22JOE",
     "name": "jett22JOE",
-    "bio": "BIP contributor."
-  },
-  "gh:moonsettler": {
-    "githubLogin": "moonsettler",
-    "name": "moonsettler",
     "bio": "BIP contributor."
   },
   "gh:ariard": {
@@ -1922,11 +1927,6 @@
   "gh:SebastianFloKa": {
     "githubLogin": "SebastianFloKa",
     "name": "SebastianFloKa",
-    "bio": "BIP contributor."
-  },
-  "gh:conduition": {
-    "githubLogin": "conduition",
-    "name": "conduition",
     "bio": "BIP contributor."
   },
   "gh:sts10": {
@@ -3312,6 +3312,11 @@
   "gh:shocknet-justin": {
     "githubLogin": "shocknet-justin",
     "name": "shocknet-justin",
+    "bio": "BIP reviewer."
+  },
+  "gh:RhettCreighton": {
+    "githubLogin": "RhettCreighton",
+    "name": "RhettCreighton",
     "bio": "BIP reviewer."
   },
   "gh:saltduck": {
