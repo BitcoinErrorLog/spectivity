@@ -504,9 +504,19 @@
     "name": "moonsettler",
     "bio": "BIP contributor."
   },
+  "gh:guggero": {
+    "githubLogin": "guggero",
+    "name": "guggero",
+    "bio": "BIP contributor."
+  },
   "gh:conduition": {
     "githubLogin": "conduition",
     "name": "conduition",
+    "bio": "BIP contributor."
+  },
+  "gh:BenWestgate": {
+    "githubLogin": "BenWestgate",
+    "name": "BenWestgate",
     "bio": "BIP contributor."
   },
   "gh:TheBlueMatt": {
@@ -517,11 +527,6 @@
   "gh:murchandamus": {
     "githubLogin": "murchandamus",
     "name": "murchandamus",
-    "bio": "BIP contributor."
-  },
-  "gh:guggero": {
-    "githubLogin": "guggero",
-    "name": "guggero",
     "bio": "BIP contributor."
   },
   "gh:jonatack": {
@@ -539,19 +544,14 @@
     "name": "kcalvinalvin",
     "bio": "BIP contributor."
   },
-  "gh:ben221199": {
-    "githubLogin": "ben221199",
-    "name": "ben221199",
-    "bio": "BIP contributor."
-  },
   "gh:Roasbeef": {
     "githubLogin": "Roasbeef",
     "name": "Roasbeef",
     "bio": "BIP contributor."
   },
-  "gh:BenWestgate": {
-    "githubLogin": "BenWestgate",
-    "name": "BenWestgate",
+  "gh:ben221199": {
+    "githubLogin": "ben221199",
+    "name": "ben221199",
     "bio": "BIP contributor."
   },
   "gh:EthanHeilman": {
@@ -579,24 +579,9 @@
     "name": "bitcoinguardian",
     "bio": "BIP contributor."
   },
-  "gh:AdamISZ": {
-    "githubLogin": "AdamISZ",
-    "name": "AdamISZ",
-    "bio": "BIP contributor."
-  },
   "gh:seedhammer": {
     "githubLogin": "seedhammer",
     "name": "seedhammer",
-    "bio": "BIP contributor."
-  },
-  "gh:GarmashAlex": {
-    "githubLogin": "GarmashAlex",
-    "name": "GarmashAlex",
-    "bio": "BIP contributor."
-  },
-  "gh:ajtowns": {
-    "githubLogin": "ajtowns",
-    "name": "ajtowns",
     "bio": "BIP contributor."
   },
   "gh:JeremyRubin": {
@@ -604,19 +589,24 @@
     "name": "JeremyRubin",
     "bio": "BIP contributor."
   },
-  "gh:strmfos": {
-    "githubLogin": "strmfos",
-    "name": "strmfos",
-    "bio": "BIP contributor."
-  },
   "gh:3rdIteration": {
     "githubLogin": "3rdIteration",
     "name": "3rdIteration",
     "bio": "BIP contributor."
   },
-  "gh:Snezhkko": {
-    "githubLogin": "Snezhkko",
-    "name": "Snezhkko",
+  "gh:strmfos": {
+    "githubLogin": "strmfos",
+    "name": "strmfos",
+    "bio": "BIP contributor."
+  },
+  "gh:ajtowns": {
+    "githubLogin": "ajtowns",
+    "name": "ajtowns",
+    "bio": "BIP contributor."
+  },
+  "gh:GarmashAlex": {
+    "githubLogin": "GarmashAlex",
+    "name": "GarmashAlex",
     "bio": "BIP contributor."
   },
   "gh:pythcoiner": {
@@ -624,14 +614,14 @@
     "name": "pythcoiner",
     "bio": "BIP contributor."
   },
-  "gh:schjonhaug": {
-    "githubLogin": "schjonhaug",
-    "name": "schjonhaug",
+  "gh:Snezhkko": {
+    "githubLogin": "Snezhkko",
+    "name": "Snezhkko",
     "bio": "BIP contributor."
   },
-  "gh:KeysSoze": {
-    "githubLogin": "KeysSoze",
-    "name": "KeysSoze",
+  "gh:AdamISZ": {
+    "githubLogin": "AdamISZ",
+    "name": "AdamISZ",
     "bio": "BIP contributor."
   },
   "gh:lucia-w": {
@@ -644,9 +634,14 @@
     "name": "ethicnology",
     "bio": "BIP contributor."
   },
-  "gh:zeroprooff": {
-    "githubLogin": "zeroprooff",
-    "name": "zeroprooff",
+  "gh:Sjors": {
+    "githubLogin": "Sjors",
+    "name": "Sjors",
+    "bio": "BIP contributor."
+  },
+  "gh:schjonhaug": {
+    "githubLogin": "schjonhaug",
+    "name": "schjonhaug",
     "bio": "BIP contributor."
   },
   "gh:Yuri-SVB": {
@@ -659,11 +654,6 @@
     "name": "jasonandjay",
     "bio": "BIP contributor."
   },
-  "gh:Sjors": {
-    "githubLogin": "Sjors",
-    "name": "Sjors",
-    "bio": "BIP contributor."
-  },
   "gh:yyhrnk": {
     "githubLogin": "yyhrnk",
     "name": "yyhrnk",
@@ -674,9 +664,19 @@
     "name": "shesek",
     "bio": "BIP contributor."
   },
+  "gh:zeroprooff": {
+    "githubLogin": "zeroprooff",
+    "name": "zeroprooff",
+    "bio": "BIP contributor."
+  },
   "gh:phrwlk": {
     "githubLogin": "phrwlk",
     "name": "phrwlk",
+    "bio": "BIP contributor."
+  },
+  "gh:KeysSoze": {
+    "githubLogin": "KeysSoze",
+    "name": "KeysSoze",
     "bio": "BIP contributor."
   },
   "gh:jlopp": {
@@ -3434,9 +3434,9 @@
     "name": "gmaxwell",
     "bio": "BIP reviewer."
   },
-  "gh:jgriffiths": {
-    "githubLogin": "jgriffiths",
-    "name": "jgriffiths",
+  "gh:aaronisme": {
+    "githubLogin": "aaronisme",
+    "name": "aaronisme",
     "bio": "BIP reviewer."
   },
   "gh:timohanke": {
