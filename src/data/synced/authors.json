@@ -514,9 +514,29 @@
     "name": "bubb1es",
     "bio": "BIP contributor."
   },
-  "gh:nervana21": {
-    "githubLogin": "nervana21",
-    "name": "nervana21",
+  "gh:guggero": {
+    "githubLogin": "guggero",
+    "name": "guggero",
+    "bio": "BIP contributor."
+  },
+  "gh:omipheo": {
+    "githubLogin": "omipheo",
+    "name": "omipheo",
+    "bio": "BIP contributor."
+  },
+  "gh:lucia-w": {
+    "githubLogin": "lucia-w",
+    "name": "lucia-w",
+    "bio": "BIP contributor."
+  },
+  "gh:edilmedeiros": {
+    "githubLogin": "edilmedeiros",
+    "name": "edilmedeiros",
+    "bio": "BIP contributor."
+  },
+  "gh:rustaceanrob": {
+    "githubLogin": "rustaceanrob",
+    "name": "rustaceanrob",
     "bio": "BIP contributor."
   },
   "gh:shesek": {
@@ -529,24 +549,9 @@
     "name": "ethicnology",
     "bio": "BIP contributor."
   },
-  "gh:rustaceanrob": {
-    "githubLogin": "rustaceanrob",
-    "name": "rustaceanrob",
-    "bio": "BIP contributor."
-  },
-  "gh:guggero": {
-    "githubLogin": "guggero",
-    "name": "guggero",
-    "bio": "BIP contributor."
-  },
   "gh:fjahr": {
     "githubLogin": "fjahr",
     "name": "fjahr",
-    "bio": "BIP contributor."
-  },
-  "gh:lucia-w": {
-    "githubLogin": "lucia-w",
-    "name": "lucia-w",
     "bio": "BIP contributor."
   },
   "gh:jasonandjay": {
@@ -629,19 +634,9 @@
     "name": "AdamISZ",
     "bio": "BIP contributor."
   },
-  "gh:Snezhkko": {
-    "githubLogin": "Snezhkko",
-    "name": "Snezhkko",
-    "bio": "BIP contributor."
-  },
   "gh:ajtowns": {
     "githubLogin": "ajtowns",
     "name": "ajtowns",
-    "bio": "BIP contributor."
-  },
-  "gh:phrwlk": {
-    "githubLogin": "phrwlk",
-    "name": "phrwlk",
     "bio": "BIP contributor."
   },
   "gh:yyhrnk": {
@@ -649,9 +644,24 @@
     "name": "yyhrnk",
     "bio": "BIP contributor."
   },
+  "gh:phrwlk": {
+    "githubLogin": "phrwlk",
+    "name": "phrwlk",
+    "bio": "BIP contributor."
+  },
   "gh:KeysSoze": {
     "githubLogin": "KeysSoze",
     "name": "KeysSoze",
+    "bio": "BIP contributor."
+  },
+  "gh:Snezhkko": {
+    "githubLogin": "Snezhkko",
+    "name": "Snezhkko",
+    "bio": "BIP contributor."
+  },
+  "gh:nervana21": {
+    "githubLogin": "nervana21",
+    "name": "nervana21",
     "bio": "BIP contributor."
   },
   "gh:bubb1es71": {
@@ -3387,6 +3397,81 @@
   "gh:DimiH2025": {
     "githubLogin": "DimiH2025",
     "name": "DimiH2025",
+    "bio": "BIP reviewer."
+  },
+  "gh:BullishNode": {
+    "githubLogin": "BullishNode",
+    "name": "BullishNode",
+    "bio": "BIP reviewer."
+  },
+  "gh:vikbtc": {
+    "githubLogin": "vikbtc",
+    "name": "vikbtc",
+    "bio": "BIP reviewer."
+  },
+  "gh:vicariousdrama": {
+    "githubLogin": "vicariousdrama",
+    "name": "vicariousdrama",
+    "bio": "BIP reviewer."
+  },
+  "gh:viresinnumeris-1": {
+    "githubLogin": "viresinnumeris-1",
+    "name": "viresinnumeris-1",
+    "bio": "BIP reviewer."
+  },
+  "gh:itme-brain": {
+    "githubLogin": "itme-brain",
+    "name": "itme-brain",
+    "bio": "BIP reviewer."
+  },
+  "gh:BrashRatel": {
+    "githubLogin": "BrashRatel",
+    "name": "BrashRatel",
+    "bio": "BIP reviewer."
+  },
+  "gh:Retropex": {
+    "githubLogin": "Retropex",
+    "name": "Retropex",
+    "bio": "BIP reviewer."
+  },
+  "gh:nsvrn": {
+    "githubLogin": "nsvrn",
+    "name": "nsvrn",
+    "bio": "BIP reviewer."
+  },
+  "gh:RicYashiroLee": {
+    "githubLogin": "RicYashiroLee",
+    "name": "RicYashiroLee",
+    "bio": "BIP reviewer."
+  },
+  "gh:earonesty": {
+    "githubLogin": "earonesty",
+    "name": "earonesty",
+    "bio": "BIP reviewer."
+  },
+  "gh:udiWertheimer": {
+    "githubLogin": "udiWertheimer",
+    "name": "udiWertheimer",
+    "bio": "BIP reviewer."
+  },
+  "gh:chrisguida": {
+    "githubLogin": "chrisguida",
+    "name": "chrisguida",
+    "bio": "BIP reviewer."
+  },
+  "gh:gmaxwell": {
+    "githubLogin": "gmaxwell",
+    "name": "gmaxwell",
+    "bio": "BIP reviewer."
+  },
+  "gh:jgriffiths": {
+    "githubLogin": "jgriffiths",
+    "name": "jgriffiths",
+    "bio": "BIP reviewer."
+  },
+  "gh:timohanke": {
+    "githubLogin": "timohanke",
+    "name": "timohanke",
     "bio": "BIP reviewer."
   }
 }
