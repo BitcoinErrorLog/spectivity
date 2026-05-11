@@ -294,5 +294,29 @@
     "label": "nack",
     "createdAt": 1736949408000,
     "githubUser": "chrisguida"
+  },
+  {
+    "id": "rev-pr2047-3988478047",
+    "specId": "pr-2047",
+    "reviewerPubky": "pk:gh-Sosthene00",
+    "label": "concept-ack",
+    "createdAt": 1772509991000,
+    "githubUser": "Sosthene00"
+  },
+  {
+    "id": "rev-pr2047-3998317514",
+    "specId": "pr-2047",
+    "reviewerPubky": "pk:gh-macgyver13",
+    "label": "ack",
+    "createdAt": 1772638480000,
+    "githubUser": "macgyver13"
+  },
+  {
+    "id": "rev-pr2047-3998480167",
+    "specId": "pr-2047",
+    "reviewerPubky": "pk:gh-achow101",
+    "label": "ack",
+    "createdAt": 1772640011000,
+    "githubUser": "achow101"
   }
 ]

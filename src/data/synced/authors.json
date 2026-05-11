@@ -519,6 +519,11 @@
     "name": "ethicnology",
     "bio": "BIP contributor."
   },
+  "gh:rustaceanrob": {
+    "githubLogin": "rustaceanrob",
+    "name": "rustaceanrob",
+    "bio": "BIP contributor."
+  },
   "gh:omipheo": {
     "githubLogin": "omipheo",
     "name": "omipheo",
@@ -542,11 +547,6 @@
   "gh:satindergrewal": {
     "githubLogin": "satindergrewal",
     "name": "satindergrewal",
-    "bio": "BIP contributor."
-  },
-  "gh:rustaceanrob": {
-    "githubLogin": "rustaceanrob",
-    "name": "rustaceanrob",
     "bio": "BIP contributor."
   },
   "gh:shesek": {
@@ -3462,6 +3462,11 @@
   "gh:chrisguida": {
     "githubLogin": "chrisguida",
     "name": "chrisguida",
+    "bio": "BIP reviewer."
+  },
+  "gh:Sosthene00": {
+    "githubLogin": "Sosthene00",
+    "name": "Sosthene00",
     "bio": "BIP reviewer."
   }
 }
