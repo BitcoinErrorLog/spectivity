@@ -514,6 +514,11 @@
     "name": "bubb1es",
     "bio": "BIP contributor."
   },
+  "gh:siv2r": {
+    "githubLogin": "siv2r",
+    "name": "siv2r",
+    "bio": "BIP contributor."
+  },
   "gh:Yuri-SVB": {
     "githubLogin": "Yuri-SVB",
     "name": "Yuri-SVB",
@@ -532,11 +537,6 @@
   "gh:omipheo": {
     "githubLogin": "omipheo",
     "name": "omipheo",
-    "bio": "BIP contributor."
-  },
-  "gh:siv2r": {
-    "githubLogin": "siv2r",
-    "name": "siv2r",
     "bio": "BIP contributor."
   },
   "gh:ethicnology": {
