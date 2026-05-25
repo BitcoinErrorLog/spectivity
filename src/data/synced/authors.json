@@ -524,6 +524,11 @@
     "name": "dmonakhov",
     "bio": "BIP contributor."
   },
+  "gh:ethicnology": {
+    "githubLogin": "ethicnology",
+    "name": "ethicnology",
+    "bio": "BIP contributor."
+  },
   "gh:fjahr": {
     "githubLogin": "fjahr",
     "name": "fjahr",
@@ -597,11 +602,6 @@
   "gh:omipheo": {
     "githubLogin": "omipheo",
     "name": "omipheo",
-    "bio": "BIP contributor."
-  },
-  "gh:ethicnology": {
-    "githubLogin": "ethicnology",
-    "name": "ethicnology",
     "bio": "BIP contributor."
   },
   "gh:Sjors": {
