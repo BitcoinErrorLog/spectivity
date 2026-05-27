@@ -519,9 +519,9 @@
     "name": "bubb1es",
     "bio": "BIP contributor."
   },
-  "gh:dmonakhov": {
-    "githubLogin": "dmonakhov",
-    "name": "dmonakhov",
+  "gh:ethicnology": {
+    "githubLogin": "ethicnology",
+    "name": "ethicnology",
     "bio": "BIP contributor."
   },
   "gh:3rdIteration": {
@@ -529,24 +529,24 @@
     "name": "3rdIteration",
     "bio": "BIP contributor."
   },
-  "gh:JeremyRubin": {
-    "githubLogin": "JeremyRubin",
-    "name": "JeremyRubin",
-    "bio": "BIP contributor."
-  },
   "gh:siv2r": {
     "githubLogin": "siv2r",
     "name": "siv2r",
     "bio": "BIP contributor."
   },
+  "gh:pythcoiner": {
+    "githubLogin": "pythcoiner",
+    "name": "pythcoiner",
+    "bio": "BIP contributor."
+  },
+  "gh:dmonakhov": {
+    "githubLogin": "dmonakhov",
+    "name": "dmonakhov",
+    "bio": "BIP contributor."
+  },
   "gh:fjahr": {
     "githubLogin": "fjahr",
     "name": "fjahr",
-    "bio": "BIP contributor."
-  },
-  "gh:ethicnology": {
-    "githubLogin": "ethicnology",
-    "name": "ethicnology",
     "bio": "BIP contributor."
   },
   "gh:rustaceanrob": {
@@ -562,11 +562,6 @@
   "gh:ben221199": {
     "githubLogin": "ben221199",
     "name": "ben221199",
-    "bio": "BIP contributor."
-  },
-  "gh:pythcoiner": {
-    "githubLogin": "pythcoiner",
-    "name": "pythcoiner",
     "bio": "BIP contributor."
   },
   "gh:KeysSoze": {
@@ -647,6 +642,21 @@
   "gh:darosior": {
     "githubLogin": "darosior",
     "name": "darosior",
+    "bio": "BIP contributor."
+  },
+  "gh:DigiMancer3D": {
+    "githubLogin": "DigiMancer3D",
+    "name": "DigiMancer3D",
+    "bio": "BIP contributor."
+  },
+  "gh:JeremyRubin": {
+    "githubLogin": "JeremyRubin",
+    "name": "JeremyRubin",
+    "bio": "BIP contributor."
+  },
+  "gh:akarve": {
+    "githubLogin": "akarve",
+    "name": "akarve",
     "bio": "BIP contributor."
   },
   "gh:HusseinAdeiza": {
@@ -1512,11 +1522,6 @@
   "gh:stratospher": {
     "githubLogin": "stratospher",
     "name": "stratospher",
-    "bio": "BIP contributor."
-  },
-  "gh:akarve": {
-    "githubLogin": "akarve",
-    "name": "akarve",
     "bio": "BIP contributor."
   },
   "gh:ujjwali2s": {

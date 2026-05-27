@@ -1,11 +1,19 @@
 [
   {
-    "id": "rev-pr2175-4535711498",
-    "specId": "pr-2175",
-    "reviewerPubky": "pk:gh-jonatack",
+    "id": "rev-pr1951-3254653055",
+    "specId": "pr-1951",
+    "reviewerPubky": "pk:gh-shocknet-justin",
     "label": "concept-ack",
-    "createdAt": 1779726519000,
-    "githubUser": "jonatack"
+    "createdAt": 1757005778000,
+    "githubUser": "shocknet-justin"
+  },
+  {
+    "id": "rev-pr1951-3257282280",
+    "specId": "pr-1951",
+    "reviewerPubky": "pk:gh-Sjors",
+    "label": "concept-ack",
+    "createdAt": 1757055546000,
+    "githubUser": "Sjors"
   },
   {
     "id": "rev-pr2137-4380924971",
@@ -21,22 +29,6 @@
     "reviewerPubky": "pk:gh-Sjors",
     "label": "nack",
     "createdAt": 1779345044000,
-    "githubUser": "Sjors"
-  },
-  {
-    "id": "rev-pr1951-3254653055",
-    "specId": "pr-1951",
-    "reviewerPubky": "pk:gh-shocknet-justin",
-    "label": "concept-ack",
-    "createdAt": 1757005778000,
-    "githubUser": "shocknet-justin"
-  },
-  {
-    "id": "rev-pr1951-3257282280",
-    "specId": "pr-1951",
-    "reviewerPubky": "pk:gh-Sjors",
-    "label": "concept-ack",
-    "createdAt": 1757055546000,
     "githubUser": "Sjors"
   },
   {
