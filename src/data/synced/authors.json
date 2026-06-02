@@ -519,14 +519,39 @@
     "name": "bubb1es",
     "bio": "BIP contributor."
   },
-  "gh:ajtowns": {
-    "githubLogin": "ajtowns",
-    "name": "ajtowns",
+  "gh:dmonakhov": {
+    "githubLogin": "dmonakhov",
+    "name": "dmonakhov",
+    "bio": "BIP contributor."
+  },
+  "gh:guggero": {
+    "githubLogin": "guggero",
+    "name": "guggero",
+    "bio": "BIP contributor."
+  },
+  "gh:murchandamus": {
+    "githubLogin": "murchandamus",
+    "name": "murchandamus",
+    "bio": "BIP contributor."
+  },
+  "gh:omipheo": {
+    "githubLogin": "omipheo",
+    "name": "omipheo",
     "bio": "BIP contributor."
   },
   "gh:DanGould": {
     "githubLogin": "DanGould",
     "name": "DanGould",
+    "bio": "BIP contributor."
+  },
+  "gh:ajtowns": {
+    "githubLogin": "ajtowns",
+    "name": "ajtowns",
+    "bio": "BIP contributor."
+  },
+  "gh:pythcoiner": {
+    "githubLogin": "pythcoiner",
+    "name": "pythcoiner",
     "bio": "BIP contributor."
   },
   "gh:JeremyRubin": {
@@ -549,11 +574,6 @@
     "name": "ben221199",
     "bio": "BIP contributor."
   },
-  "gh:pythcoiner": {
-    "githubLogin": "pythcoiner",
-    "name": "pythcoiner",
-    "bio": "BIP contributor."
-  },
   "gh:Grace-Ujah": {
     "githubLogin": "Grace-Ujah",
     "name": "Grace-Ujah",
@@ -574,29 +594,14 @@
     "name": "3rdIteration",
     "bio": "BIP contributor."
   },
-  "gh:dmonakhov": {
-    "githubLogin": "dmonakhov",
-    "name": "dmonakhov",
-    "bio": "BIP contributor."
-  },
   "gh:fjahr": {
     "githubLogin": "fjahr",
     "name": "fjahr",
     "bio": "BIP contributor."
   },
-  "gh:murchandamus": {
-    "githubLogin": "murchandamus",
-    "name": "murchandamus",
-    "bio": "BIP contributor."
-  },
   "gh:AdamISZ": {
     "githubLogin": "AdamISZ",
     "name": "AdamISZ",
-    "bio": "BIP contributor."
-  },
-  "gh:stevenroose": {
-    "githubLogin": "stevenroose",
-    "name": "stevenroose",
     "bio": "BIP contributor."
   },
   "gh:kcalvinalvin": {
@@ -612,11 +617,6 @@
   "gh:BenWestgate": {
     "githubLogin": "BenWestgate",
     "name": "BenWestgate",
-    "bio": "BIP contributor."
-  },
-  "gh:omipheo": {
-    "githubLogin": "omipheo",
-    "name": "omipheo",
     "bio": "BIP contributor."
   },
   "gh:edilmedeiros": {
@@ -644,6 +644,26 @@
     "name": "bitcoinguardian",
     "bio": "BIP contributor."
   },
+  "gh:theborakompanioni": {
+    "githubLogin": "theborakompanioni",
+    "name": "theborakompanioni",
+    "bio": "BIP contributor."
+  },
+  "gh:Shitnobi": {
+    "githubLogin": "Shitnobi",
+    "name": "Shitnobi",
+    "bio": "BIP contributor."
+  },
+  "gh:DigiMancer3D": {
+    "githubLogin": "DigiMancer3D",
+    "name": "DigiMancer3D",
+    "bio": "BIP contributor."
+  },
+  "gh:stevenroose": {
+    "githubLogin": "stevenroose",
+    "name": "stevenroose",
+    "bio": "BIP contributor."
+  },
   "gh:theStack": {
     "githubLogin": "theStack",
     "name": "theStack",
@@ -669,11 +689,6 @@
     "name": "yyhrnk",
     "bio": "BIP contributor."
   },
-  "gh:DigiMancer3D": {
-    "githubLogin": "DigiMancer3D",
-    "name": "DigiMancer3D",
-    "bio": "BIP contributor."
-  },
   "gh:akarve": {
     "githubLogin": "akarve",
     "name": "akarve",
@@ -687,11 +702,6 @@
   "gh:phrwlk": {
     "githubLogin": "phrwlk",
     "name": "phrwlk",
-    "bio": "BIP contributor."
-  },
-  "gh:theborakompanioni": {
-    "githubLogin": "theborakompanioni",
-    "name": "theborakompanioni",
     "bio": "BIP contributor."
   },
   "gh:cdecker": {
@@ -732,11 +742,6 @@
   "gh:scgbckbone": {
     "githubLogin": "scgbckbone",
     "name": "scgbckbone",
-    "bio": "BIP contributor."
-  },
-  "gh:guggero": {
-    "githubLogin": "guggero",
-    "name": "guggero",
     "bio": "BIP contributor."
   },
   "gh:arminsabouri": {
@@ -3422,31 +3427,6 @@
   "gh:RhettCreighton": {
     "githubLogin": "RhettCreighton",
     "name": "RhettCreighton",
-    "bio": "BIP reviewer."
-  },
-  "gh:Sosthene00": {
-    "githubLogin": "Sosthene00",
-    "name": "Sosthene00",
-    "bio": "BIP reviewer."
-  },
-  "gh:polespinasa": {
-    "githubLogin": "polespinasa",
-    "name": "polespinasa",
-    "bio": "BIP reviewer."
-  },
-  "gh:SatsAndSports": {
-    "githubLogin": "SatsAndSports",
-    "name": "SatsAndSports",
-    "bio": "BIP reviewer."
-  },
-  "gh:gmaxwell": {
-    "githubLogin": "gmaxwell",
-    "name": "gmaxwell",
-    "bio": "BIP reviewer."
-  },
-  "gh:jgriffiths": {
-    "githubLogin": "jgriffiths",
-    "name": "jgriffiths",
     "bio": "BIP reviewer."
   }
 }
