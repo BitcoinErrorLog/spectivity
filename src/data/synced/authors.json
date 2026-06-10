@@ -524,14 +524,19 @@
     "name": "murchandamus",
     "bio": "BIP contributor."
   },
-  "gh:JeremyRubin": {
-    "githubLogin": "JeremyRubin",
-    "name": "JeremyRubin",
+  "gh:edilmedeiros": {
+    "githubLogin": "edilmedeiros",
+    "name": "edilmedeiros",
     "bio": "BIP contributor."
   },
   "gh:ajtowns": {
     "githubLogin": "ajtowns",
     "name": "ajtowns",
+    "bio": "BIP contributor."
+  },
+  "gh:JeremyRubin": {
+    "githubLogin": "JeremyRubin",
+    "name": "JeremyRubin",
     "bio": "BIP contributor."
   },
   "gh:Grace-Ujah": {
@@ -552,11 +557,6 @@
   "gh:rustaceanrob": {
     "githubLogin": "rustaceanrob",
     "name": "rustaceanrob",
-    "bio": "BIP contributor."
-  },
-  "gh:edilmedeiros": {
-    "githubLogin": "edilmedeiros",
-    "name": "edilmedeiros",
     "bio": "BIP contributor."
   },
   "gh:dmonakhov": {
