@@ -150,45 +150,5 @@
     "label": "ack",
     "createdAt": 1775855626000,
     "githubUser": "achow101"
-  },
-  {
-    "id": "rev-pr339-342351913",
-    "specId": "pr-339",
-    "reviewerPubky": "pk:gh-jonathancross",
-    "label": "nack",
-    "createdAt": 1510020270000,
-    "githubUser": "jonathancross"
-  },
-  {
-    "id": "rev-pr339-515149147",
-    "specId": "pr-339",
-    "reviewerPubky": "pk:gh-ysangkok",
-    "label": "ack",
-    "createdAt": 1564077446000,
-    "githubUser": "ysangkok"
-  },
-  {
-    "id": "rev-pr339-2075909929",
-    "specId": "pr-339",
-    "reviewerPubky": "pk:gh-evoskuil",
-    "label": "ack",
-    "createdAt": 1713995604000,
-    "githubUser": "evoskuil"
-  },
-  {
-    "id": "rev-pr1670-3687095160",
-    "specId": "pr-1670",
-    "reviewerPubky": "pk:gh-billymcbip",
-    "label": "ack",
-    "createdAt": 1766504787000,
-    "githubUser": "billymcbip"
-  },
-  {
-    "id": "rev-pr2099-4130482677",
-    "specId": "pr-2099",
-    "reviewerPubky": "pk:gh-achow101",
-    "label": "concept-ack",
-    "createdAt": 1774481300000,
-    "githubUser": "achow101"
   }
 ]
