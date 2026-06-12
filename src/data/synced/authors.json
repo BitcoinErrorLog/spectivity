@@ -519,19 +519,9 @@
     "name": "bubb1es",
     "bio": "BIP contributor."
   },
-  "gh:ajtowns": {
-    "githubLogin": "ajtowns",
-    "name": "ajtowns",
-    "bio": "BIP contributor."
-  },
   "gh:murchandamus": {
     "githubLogin": "murchandamus",
     "name": "murchandamus",
-    "bio": "BIP contributor."
-  },
-  "gh:siv2r": {
-    "githubLogin": "siv2r",
-    "name": "siv2r",
     "bio": "BIP contributor."
   },
   "gh:fjahr": {
@@ -539,9 +529,19 @@
     "name": "fjahr",
     "bio": "BIP contributor."
   },
+  "gh:siv2r": {
+    "githubLogin": "siv2r",
+    "name": "siv2r",
+    "bio": "BIP contributor."
+  },
   "gh:edilmedeiros": {
     "githubLogin": "edilmedeiros",
     "name": "edilmedeiros",
+    "bio": "BIP contributor."
+  },
+  "gh:ajtowns": {
+    "githubLogin": "ajtowns",
+    "name": "ajtowns",
     "bio": "BIP contributor."
   },
   "gh:JeremyRubin": {
@@ -1264,6 +1264,11 @@
     "name": "anim001k",
     "bio": "BIP contributor."
   },
+  "gh:1440000bytes": {
+    "githubLogin": "1440000bytes",
+    "name": "1440000bytes",
+    "bio": "BIP contributor."
+  },
   "gh:dplusplus1024": {
     "githubLogin": "dplusplus1024",
     "name": "dplusplus1024",
@@ -1727,11 +1732,6 @@
   "gh:efecini": {
     "githubLogin": "efecini",
     "name": "efecini",
-    "bio": "BIP contributor."
-  },
-  "gh:1440000bytes": {
-    "githubLogin": "1440000bytes",
-    "name": "1440000bytes",
     "bio": "BIP contributor."
   },
   "gh:CrewsControlSolutions": {
