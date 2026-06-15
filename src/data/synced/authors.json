@@ -524,6 +524,11 @@
     "name": "conduition",
     "bio": "BIP contributor."
   },
+  "gh:pythcoiner": {
+    "githubLogin": "pythcoiner",
+    "name": "pythcoiner",
+    "bio": "BIP contributor."
+  },
   "gh:fjahr": {
     "githubLogin": "fjahr",
     "name": "fjahr",
@@ -572,11 +577,6 @@
   "gh:KeysSoze": {
     "githubLogin": "KeysSoze",
     "name": "KeysSoze",
-    "bio": "BIP contributor."
-  },
-  "gh:pythcoiner": {
-    "githubLogin": "pythcoiner",
-    "name": "pythcoiner",
     "bio": "BIP contributor."
   },
   "gh:ajtowns": {
@@ -3432,36 +3432,6 @@
   "gh:RhettCreighton": {
     "githubLogin": "RhettCreighton",
     "name": "RhettCreighton",
-    "bio": "BIP reviewer."
-  },
-  "gh:Sosthene00": {
-    "githubLogin": "Sosthene00",
-    "name": "Sosthene00",
-    "bio": "BIP reviewer."
-  },
-  "gh:polespinasa": {
-    "githubLogin": "polespinasa",
-    "name": "polespinasa",
-    "bio": "BIP reviewer."
-  },
-  "gh:SatsAndSports": {
-    "githubLogin": "SatsAndSports",
-    "name": "SatsAndSports",
-    "bio": "BIP reviewer."
-  },
-  "gh:gmaxwell": {
-    "githubLogin": "gmaxwell",
-    "name": "gmaxwell",
-    "bio": "BIP reviewer."
-  },
-  "gh:jgriffiths": {
-    "githubLogin": "jgriffiths",
-    "name": "jgriffiths",
-    "bio": "BIP reviewer."
-  },
-  "gh:timohanke": {
-    "githubLogin": "timohanke",
-    "name": "timohanke",
     "bio": "BIP reviewer."
   }
 }
