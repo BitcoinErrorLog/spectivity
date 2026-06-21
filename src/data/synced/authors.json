@@ -519,6 +519,16 @@
     "name": "bubb1es",
     "bio": "BIP contributor."
   },
+  "gh:edilmedeiros": {
+    "githubLogin": "edilmedeiros",
+    "name": "edilmedeiros",
+    "bio": "BIP contributor."
+  },
+  "gh:murchandamus": {
+    "githubLogin": "murchandamus",
+    "name": "murchandamus",
+    "bio": "BIP contributor."
+  },
   "gh:pythcoiner": {
     "githubLogin": "pythcoiner",
     "name": "pythcoiner",
@@ -539,11 +549,6 @@
     "name": "3rdIteration",
     "bio": "BIP contributor."
   },
-  "gh:edilmedeiros": {
-    "githubLogin": "edilmedeiros",
-    "name": "edilmedeiros",
-    "bio": "BIP contributor."
-  },
   "gh:BenWestgate": {
     "githubLogin": "BenWestgate",
     "name": "BenWestgate",
@@ -562,11 +567,6 @@
   "gh:lucia-w": {
     "githubLogin": "lucia-w",
     "name": "lucia-w",
-    "bio": "BIP contributor."
-  },
-  "gh:murchandamus": {
-    "githubLogin": "murchandamus",
-    "name": "murchandamus",
     "bio": "BIP contributor."
   },
   "gh:ethicnology": {
