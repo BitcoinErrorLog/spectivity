@@ -470,5 +470,21 @@
     "label": "ack",
     "createdAt": 1550520842000,
     "githubUser": "achow101"
+  },
+  {
+    "id": "rev-pr661-409715823",
+    "specId": "pr-661",
+    "reviewerPubky": "pk:gh-timohanke",
+    "label": "ack",
+    "createdAt": 1533156194000,
+    "githubUser": "timohanke"
+  },
+  {
+    "id": "rev-pr583-330127402",
+    "specId": "pr-583",
+    "reviewerPubky": "pk:gh-dcousens",
+    "label": "ack",
+    "createdAt": 1505708833000,
+    "githubUser": "dcousens"
   }
 ]
