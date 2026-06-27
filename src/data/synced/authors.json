@@ -524,19 +524,24 @@
     "name": "bubb1es",
     "bio": "BIP contributor."
   },
-  "gh:rustaceanrob": {
-    "githubLogin": "rustaceanrob",
-    "name": "rustaceanrob",
-    "bio": "BIP contributor."
-  },
   "gh:dathonohm": {
     "githubLogin": "dathonohm",
     "name": "dathonohm",
     "bio": "BIP contributor."
   },
+  "gh:notmike-5": {
+    "githubLogin": "notmike-5",
+    "name": "notmike-5",
+    "bio": "BIP contributor."
+  },
   "gh:jasonandjay": {
     "githubLogin": "jasonandjay",
     "name": "jasonandjay",
+    "bio": "BIP contributor."
+  },
+  "gh:rustaceanrob": {
+    "githubLogin": "rustaceanrob",
+    "name": "rustaceanrob",
     "bio": "BIP contributor."
   },
   "gh:siv2r": {
@@ -639,6 +644,26 @@
     "name": "bitcoinguardian",
     "bio": "BIP contributor."
   },
+  "gh:forkfury": {
+    "githubLogin": "forkfury",
+    "name": "forkfury",
+    "bio": "BIP contributor."
+  },
+  "gh:Doryu001": {
+    "githubLogin": "Doryu001",
+    "name": "Doryu001",
+    "bio": "BIP contributor."
+  },
+  "gh:Grace-Ujah": {
+    "githubLogin": "Grace-Ujah",
+    "name": "Grace-Ujah",
+    "bio": "BIP contributor."
+  },
+  "gh:MozirDmitriy": {
+    "githubLogin": "MozirDmitriy",
+    "name": "MozirDmitriy",
+    "bio": "BIP contributor."
+  },
   "gh:jlopp": {
     "githubLogin": "jlopp",
     "name": "jlopp",
@@ -647,11 +672,6 @@
   "gh:conduition": {
     "githubLogin": "conduition",
     "name": "conduition",
-    "bio": "BIP contributor."
-  },
-  "gh:Grace-Ujah": {
-    "githubLogin": "Grace-Ujah",
-    "name": "Grace-Ujah",
     "bio": "BIP contributor."
   },
   "gh:DanGould": {
@@ -754,11 +774,6 @@
     "name": "Yuri-SVB",
     "bio": "BIP contributor."
   },
-  "gh:forkfury": {
-    "githubLogin": "forkfury",
-    "name": "forkfury",
-    "bio": "BIP contributor."
-  },
   "gh:scgbckbone": {
     "githubLogin": "scgbckbone",
     "name": "scgbckbone",
@@ -842,11 +857,6 @@
   "gh:zeroprooff": {
     "githubLogin": "zeroprooff",
     "name": "zeroprooff",
-    "bio": "BIP contributor."
-  },
-  "gh:MozirDmitriy": {
-    "githubLogin": "MozirDmitriy",
-    "name": "MozirDmitriy",
     "bio": "BIP contributor."
   },
   "gh:dependabot[bot]": {
@@ -1132,11 +1142,6 @@
   "gh:billymcbip": {
     "githubLogin": "billymcbip",
     "name": "billymcbip",
-    "bio": "BIP contributor."
-  },
-  "gh:Doryu001": {
-    "githubLogin": "Doryu001",
-    "name": "Doryu001",
     "bio": "BIP contributor."
   },
   "gh:defenwycke": {
@@ -3427,16 +3432,6 @@
   "gh:RhettCreighton": {
     "githubLogin": "RhettCreighton",
     "name": "RhettCreighton",
-    "bio": "BIP reviewer."
-  },
-  "gh:plebhash": {
-    "githubLogin": "plebhash",
-    "name": "plebhash",
-    "bio": "BIP reviewer."
-  },
-  "gh:rkuester": {
-    "githubLogin": "rkuester",
-    "name": "rkuester",
     "bio": "BIP reviewer."
   }
 }
