@@ -529,6 +529,11 @@
     "name": "notmike-5",
     "bio": "BIP contributor."
   },
+  "gh:siv2r": {
+    "githubLogin": "siv2r",
+    "name": "siv2r",
+    "bio": "BIP contributor."
+  },
   "gh:fjahr": {
     "githubLogin": "fjahr",
     "name": "fjahr",
@@ -547,11 +552,6 @@
   "gh:pythcoiner": {
     "githubLogin": "pythcoiner",
     "name": "pythcoiner",
-    "bio": "BIP contributor."
-  },
-  "gh:siv2r": {
-    "githubLogin": "siv2r",
-    "name": "siv2r",
     "bio": "BIP contributor."
   },
   "gh:jmoik": {
