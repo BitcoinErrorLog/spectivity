@@ -524,6 +524,16 @@
     "name": "bubb1es",
     "bio": "BIP contributor."
   },
+  "gh:kcalvinalvin": {
+    "githubLogin": "kcalvinalvin",
+    "name": "kcalvinalvin",
+    "bio": "BIP contributor."
+  },
+  "gh:fjahr": {
+    "githubLogin": "fjahr",
+    "name": "fjahr",
+    "bio": "BIP contributor."
+  },
   "gh:notmike-5": {
     "githubLogin": "notmike-5",
     "name": "notmike-5",
@@ -532,11 +542,6 @@
   "gh:siv2r": {
     "githubLogin": "siv2r",
     "name": "siv2r",
-    "bio": "BIP contributor."
-  },
-  "gh:fjahr": {
-    "githubLogin": "fjahr",
-    "name": "fjahr",
     "bio": "BIP contributor."
   },
   "gh:rustaceanrob": {
@@ -617,11 +622,6 @@
   "gh:dmonakhov": {
     "githubLogin": "dmonakhov",
     "name": "dmonakhov",
-    "bio": "BIP contributor."
-  },
-  "gh:kcalvinalvin": {
-    "githubLogin": "kcalvinalvin",
-    "name": "kcalvinalvin",
     "bio": "BIP contributor."
   },
   "gh:ben221199": {
