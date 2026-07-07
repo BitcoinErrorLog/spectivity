@@ -524,16 +524,6 @@
     "name": "bubb1es",
     "bio": "BIP contributor."
   },
-  "gh:pythcoiner": {
-    "githubLogin": "pythcoiner",
-    "name": "pythcoiner",
-    "bio": "BIP contributor."
-  },
-  "gh:kcalvinalvin": {
-    "githubLogin": "kcalvinalvin",
-    "name": "kcalvinalvin",
-    "bio": "BIP contributor."
-  },
   "gh:fjahr": {
     "githubLogin": "fjahr",
     "name": "fjahr",
@@ -547,6 +537,16 @@
   "gh:siv2r": {
     "githubLogin": "siv2r",
     "name": "siv2r",
+    "bio": "BIP contributor."
+  },
+  "gh:pythcoiner": {
+    "githubLogin": "pythcoiner",
+    "name": "pythcoiner",
+    "bio": "BIP contributor."
+  },
+  "gh:kcalvinalvin": {
+    "githubLogin": "kcalvinalvin",
+    "name": "kcalvinalvin",
     "bio": "BIP contributor."
   },
   "gh:rustaceanrob": {
@@ -639,6 +639,11 @@
     "name": "bitcoinguardian",
     "bio": "BIP contributor."
   },
+  "gh:theborakompanioni": {
+    "githubLogin": "theborakompanioni",
+    "name": "theborakompanioni",
+    "bio": "BIP contributor."
+  },
   "gh:dathonohm": {
     "githubLogin": "dathonohm",
     "name": "dathonohm",
@@ -692,11 +697,6 @@
   "gh:darosior": {
     "githubLogin": "darosior",
     "name": "darosior",
-    "bio": "BIP contributor."
-  },
-  "gh:theborakompanioni": {
-    "githubLogin": "theborakompanioni",
-    "name": "theborakompanioni",
     "bio": "BIP contributor."
   },
   "gh:Shitnobi": {
@@ -3462,16 +3462,6 @@
   "gh:gmaxwell": {
     "githubLogin": "gmaxwell",
     "name": "gmaxwell",
-    "bio": "BIP reviewer."
-  },
-  "gh:jgriffiths": {
-    "githubLogin": "jgriffiths",
-    "name": "jgriffiths",
-    "bio": "BIP reviewer."
-  },
-  "gh:timohanke": {
-    "githubLogin": "timohanke",
-    "name": "timohanke",
     "bio": "BIP reviewer."
   }
 }
