@@ -176,14 +176,6 @@
     "githubUser": "evoskuil"
   },
   {
-    "id": "rev-pr1670-3687095160",
-    "specId": "pr-1670",
-    "reviewerPubky": "pk:gh-billymcbip",
-    "label": "ack",
-    "createdAt": 1766504787000,
-    "githubUser": "billymcbip"
-  },
-  {
     "id": "rev-pr2047-3988478047",
     "specId": "pr-2047",
     "reviewerPubky": "pk:gh-Sosthene00",
@@ -486,13 +478,5 @@
     "label": "ack",
     "createdAt": 1533156194000,
     "githubUser": "timohanke"
-  },
-  {
-    "id": "rev-pr583-330127402",
-    "specId": "pr-583",
-    "reviewerPubky": "pk:gh-dcousens",
-    "label": "ack",
-    "createdAt": 1505708833000,
-    "githubUser": "dcousens"
   }
 ]
