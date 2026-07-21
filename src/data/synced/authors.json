@@ -524,14 +524,19 @@
     "name": "bubb1es",
     "bio": "BIP contributor."
   },
-  "gh:ethicnology": {
-    "githubLogin": "ethicnology",
-    "name": "ethicnology",
-    "bio": "BIP contributor."
-  },
   "gh:dmonakhov": {
     "githubLogin": "dmonakhov",
     "name": "dmonakhov",
+    "bio": "BIP contributor."
+  },
+  "gh:notmike-5": {
+    "githubLogin": "notmike-5",
+    "name": "notmike-5",
+    "bio": "BIP contributor."
+  },
+  "gh:ethicnology": {
+    "githubLogin": "ethicnology",
+    "name": "ethicnology",
     "bio": "BIP contributor."
   },
   "gh:siv2r": {
@@ -577,11 +582,6 @@
   "gh:rustaceanrob": {
     "githubLogin": "rustaceanrob",
     "name": "rustaceanrob",
-    "bio": "BIP contributor."
-  },
-  "gh:notmike-5": {
-    "githubLogin": "notmike-5",
-    "name": "notmike-5",
     "bio": "BIP contributor."
   },
   "gh:macgyver13": {
@@ -3452,36 +3452,6 @@
   "gh:rkuester": {
     "githubLogin": "rkuester",
     "name": "rkuester",
-    "bio": "BIP reviewer."
-  },
-  "gh:Sosthene00": {
-    "githubLogin": "Sosthene00",
-    "name": "Sosthene00",
-    "bio": "BIP reviewer."
-  },
-  "gh:polespinasa": {
-    "githubLogin": "polespinasa",
-    "name": "polespinasa",
-    "bio": "BIP reviewer."
-  },
-  "gh:SatsAndSports": {
-    "githubLogin": "SatsAndSports",
-    "name": "SatsAndSports",
-    "bio": "BIP reviewer."
-  },
-  "gh:gmaxwell": {
-    "githubLogin": "gmaxwell",
-    "name": "gmaxwell",
-    "bio": "BIP reviewer."
-  },
-  "gh:jgriffiths": {
-    "githubLogin": "jgriffiths",
-    "name": "jgriffiths",
-    "bio": "BIP reviewer."
-  },
-  "gh:timohanke": {
-    "githubLogin": "timohanke",
-    "name": "timohanke",
     "bio": "BIP reviewer."
   }
 }
