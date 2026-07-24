@@ -529,6 +529,11 @@
     "name": "siv2r",
     "bio": "BIP contributor."
   },
+  "gh:ethicnology": {
+    "githubLogin": "ethicnology",
+    "name": "ethicnology",
+    "bio": "BIP contributor."
+  },
   "gh:murchandamus": {
     "githubLogin": "murchandamus",
     "name": "murchandamus",
@@ -554,11 +559,6 @@
     "name": "notmike-5",
     "bio": "BIP contributor."
   },
-  "gh:ethicnology": {
-    "githubLogin": "ethicnology",
-    "name": "ethicnology",
-    "bio": "BIP contributor."
-  },
   "gh:lucia-w": {
     "githubLogin": "lucia-w",
     "name": "lucia-w",
@@ -572,11 +572,6 @@
   "gh:BenWestgate": {
     "githubLogin": "BenWestgate",
     "name": "BenWestgate",
-    "bio": "BIP contributor."
-  },
-  "gh:AdamISZ": {
-    "githubLogin": "AdamISZ",
-    "name": "AdamISZ",
     "bio": "BIP contributor."
   },
   "gh:ajtowns": {
@@ -627,6 +622,11 @@
   "gh:bitcoinguardian": {
     "githubLogin": "bitcoinguardian",
     "name": "bitcoinguardian",
+    "bio": "BIP contributor."
+  },
+  "gh:AdamISZ": {
+    "githubLogin": "AdamISZ",
+    "name": "AdamISZ",
     "bio": "BIP contributor."
   },
   "gh:abusayed0206": {
