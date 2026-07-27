@@ -524,9 +524,14 @@
     "name": "bubb1es",
     "bio": "BIP contributor."
   },
-  "gh:jonatack": {
-    "githubLogin": "jonatack",
-    "name": "jonatack",
+  "gh:ethicnology": {
+    "githubLogin": "ethicnology",
+    "name": "ethicnology",
+    "bio": "BIP contributor."
+  },
+  "gh:jarolrod": {
+    "githubLogin": "jarolrod",
+    "name": "jarolrod",
     "bio": "BIP contributor."
   },
   "gh:fjahr": {
@@ -542,11 +547,6 @@
   "gh:siv2r": {
     "githubLogin": "siv2r",
     "name": "siv2r",
-    "bio": "BIP contributor."
-  },
-  "gh:ethicnology": {
-    "githubLogin": "ethicnology",
-    "name": "ethicnology",
     "bio": "BIP contributor."
   },
   "gh:murchandamus": {
@@ -622,6 +622,16 @@
   "gh:bitcoinguardian": {
     "githubLogin": "bitcoinguardian",
     "name": "bitcoinguardian",
+    "bio": "BIP contributor."
+  },
+  "gh:richbitcoinaddress": {
+    "githubLogin": "richbitcoinaddress",
+    "name": "richbitcoinaddress",
+    "bio": "BIP contributor."
+  },
+  "gh:jonatack": {
+    "githubLogin": "jonatack",
+    "name": "jonatack",
     "bio": "BIP contributor."
   },
   "gh:notmike-5": {
