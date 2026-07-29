@@ -524,9 +524,14 @@
     "name": "bubb1es",
     "bio": "BIP contributor."
   },
-  "gh:rustaceanrob": {
-    "githubLogin": "rustaceanrob",
-    "name": "rustaceanrob",
+  "gh:liamgilligan": {
+    "githubLogin": "liamgilligan",
+    "name": "liamgilligan",
+    "bio": "BIP contributor."
+  },
+  "gh:murchandamus": {
+    "githubLogin": "murchandamus",
+    "name": "murchandamus",
     "bio": "BIP contributor."
   },
   "gh:jarolrod": {
@@ -534,14 +539,14 @@
     "name": "jarolrod",
     "bio": "BIP contributor."
   },
-  "gh:jeanpablojp": {
-    "githubLogin": "jeanpablojp",
-    "name": "jeanpablojp",
-    "bio": "BIP contributor."
-  },
   "gh:fjahr": {
     "githubLogin": "fjahr",
     "name": "fjahr",
+    "bio": "BIP contributor."
+  },
+  "gh:jeanpablojp": {
+    "githubLogin": "jeanpablojp",
+    "name": "jeanpablojp",
     "bio": "BIP contributor."
   },
   "gh:siv2r": {
@@ -549,14 +554,14 @@
     "name": "siv2r",
     "bio": "BIP contributor."
   },
+  "gh:rustaceanrob": {
+    "githubLogin": "rustaceanrob",
+    "name": "rustaceanrob",
+    "bio": "BIP contributor."
+  },
   "gh:ethicnology": {
     "githubLogin": "ethicnology",
     "name": "ethicnology",
-    "bio": "BIP contributor."
-  },
-  "gh:murchandamus": {
-    "githubLogin": "murchandamus",
-    "name": "murchandamus",
     "bio": "BIP contributor."
   },
   "gh:pythcoiner": {
@@ -629,14 +634,14 @@
     "name": "bitcoinguardian",
     "bio": "BIP contributor."
   },
+  "gh:jmoik": {
+    "githubLogin": "jmoik",
+    "name": "jmoik",
+    "bio": "BIP contributor."
+  },
   "gh:MrHash": {
     "githubLogin": "MrHash",
     "name": "MrHash",
-    "bio": "BIP contributor."
-  },
-  "gh:richbitcoinaddress": {
-    "githubLogin": "richbitcoinaddress",
-    "name": "richbitcoinaddress",
     "bio": "BIP contributor."
   },
   "gh:jonatack": {
@@ -662,11 +667,6 @@
   "gh:shesek": {
     "githubLogin": "shesek",
     "name": "shesek",
-    "bio": "BIP contributor."
-  },
-  "gh:jmoik": {
-    "githubLogin": "jmoik",
-    "name": "jmoik",
     "bio": "BIP contributor."
   },
   "gh:JeremyRubin": {
