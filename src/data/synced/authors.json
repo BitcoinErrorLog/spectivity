@@ -524,9 +524,14 @@
     "name": "bubb1es",
     "bio": "BIP contributor."
   },
-  "gh:liamgilligan": {
-    "githubLogin": "liamgilligan",
-    "name": "liamgilligan",
+  "gh:guggero": {
+    "githubLogin": "guggero",
+    "name": "guggero",
+    "bio": "BIP contributor."
+  },
+  "gh:pseudoramdom": {
+    "githubLogin": "pseudoramdom",
+    "name": "pseudoramdom",
     "bio": "BIP contributor."
   },
   "gh:dathonohm": {
@@ -534,14 +539,19 @@
     "name": "dathonohm",
     "bio": "BIP contributor."
   },
+  "gh:siv2r": {
+    "githubLogin": "siv2r",
+    "name": "siv2r",
+    "bio": "BIP contributor."
+  },
+  "gh:liamgilligan": {
+    "githubLogin": "liamgilligan",
+    "name": "liamgilligan",
+    "bio": "BIP contributor."
+  },
   "gh:fametrano": {
     "githubLogin": "fametrano",
     "name": "fametrano",
-    "bio": "BIP contributor."
-  },
-  "gh:brunoerg": {
-    "githubLogin": "brunoerg",
-    "name": "brunoerg",
     "bio": "BIP contributor."
   },
   "gh:ethicnology": {
@@ -567,11 +577,6 @@
   "gh:mllwchrry": {
     "githubLogin": "mllwchrry",
     "name": "mllwchrry",
-    "bio": "BIP contributor."
-  },
-  "gh:siv2r": {
-    "githubLogin": "siv2r",
-    "name": "siv2r",
     "bio": "BIP contributor."
   },
   "gh:asaffulks": {
@@ -657,6 +662,11 @@
   "gh:bitcoinguardian": {
     "githubLogin": "bitcoinguardian",
     "name": "bitcoinguardian",
+    "bio": "BIP contributor."
+  },
+  "gh:brunoerg": {
+    "githubLogin": "brunoerg",
+    "name": "brunoerg",
     "bio": "BIP contributor."
   },
   "gh:yyhrnk": {
@@ -757,11 +767,6 @@
   "gh:DanGould": {
     "githubLogin": "DanGould",
     "name": "DanGould",
-    "bio": "BIP contributor."
-  },
-  "gh:guggero": {
-    "githubLogin": "guggero",
-    "name": "guggero",
     "bio": "BIP contributor."
   },
   "gh:Shitnobi": {
