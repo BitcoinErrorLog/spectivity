@@ -524,9 +524,19 @@
     "name": "bubb1es",
     "bio": "BIP contributor."
   },
+  "gh:dmonakhov": {
+    "githubLogin": "dmonakhov",
+    "name": "dmonakhov",
+    "bio": "BIP contributor."
+  },
   "gh:jonatack": {
     "githubLogin": "jonatack",
     "name": "jonatack",
+    "bio": "BIP contributor."
+  },
+  "gh:murchandamus": {
+    "githubLogin": "murchandamus",
+    "name": "murchandamus",
     "bio": "BIP contributor."
   },
   "gh:pythcoiner": {
@@ -549,11 +559,6 @@
     "name": "pseudoramdom",
     "bio": "BIP contributor."
   },
-  "gh:dathonohm": {
-    "githubLogin": "dathonohm",
-    "name": "dathonohm",
-    "bio": "BIP contributor."
-  },
   "gh:siv2r": {
     "githubLogin": "siv2r",
     "name": "siv2r",
@@ -574,11 +579,6 @@
     "name": "jeanpablojp",
     "bio": "BIP contributor."
   },
-  "gh:murchandamus": {
-    "githubLogin": "murchandamus",
-    "name": "murchandamus",
-    "bio": "BIP contributor."
-  },
   "gh:jmoik": {
     "githubLogin": "jmoik",
     "name": "jmoik",
@@ -597,11 +597,6 @@
   "gh:rustaceanrob": {
     "githubLogin": "rustaceanrob",
     "name": "rustaceanrob",
-    "bio": "BIP contributor."
-  },
-  "gh:dmonakhov": {
-    "githubLogin": "dmonakhov",
-    "name": "dmonakhov",
     "bio": "BIP contributor."
   },
   "gh:fjahr": {
@@ -669,9 +664,14 @@
     "name": "bitcoinguardian",
     "bio": "BIP contributor."
   },
-  "gh:BawdyAnarchist": {
-    "githubLogin": "BawdyAnarchist",
-    "name": "BawdyAnarchist",
+  "gh:dathonohm": {
+    "githubLogin": "dathonohm",
+    "name": "dathonohm",
+    "bio": "BIP contributor."
+  },
+  "gh:callebtc": {
+    "githubLogin": "callebtc",
+    "name": "callebtc",
     "bio": "BIP contributor."
   },
   "gh:yyhrnk": {
@@ -2317,11 +2317,6 @@
   "gh:tiero": {
     "githubLogin": "tiero",
     "name": "tiero",
-    "bio": "BIP contributor."
-  },
-  "gh:callebtc": {
-    "githubLogin": "callebtc",
-    "name": "callebtc",
     "bio": "BIP contributor."
   },
   "gh:kallerosenbaum": {
