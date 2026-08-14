@@ -524,14 +524,29 @@
     "name": "bubb1es",
     "bio": "BIP contributor."
   },
-  "gh:pseudoramdom": {
-    "githubLogin": "pseudoramdom",
-    "name": "pseudoramdom",
+  "gh:OrfeasLitos": {
+    "githubLogin": "OrfeasLitos",
+    "name": "OrfeasLitos",
+    "bio": "BIP contributor."
+  },
+  "gh:jmoik": {
+    "githubLogin": "jmoik",
+    "name": "jmoik",
     "bio": "BIP contributor."
   },
   "gh:jeanpablojp": {
     "githubLogin": "jeanpablojp",
     "name": "jeanpablojp",
+    "bio": "BIP contributor."
+  },
+  "gh:ethicnology": {
+    "githubLogin": "ethicnology",
+    "name": "ethicnology",
+    "bio": "BIP contributor."
+  },
+  "gh:jonatack": {
+    "githubLogin": "jonatack",
+    "name": "jonatack",
     "bio": "BIP contributor."
   },
   "gh:liamgilligan": {
@@ -549,19 +564,19 @@
     "name": "MrHash",
     "bio": "BIP contributor."
   },
-  "gh:jmoik": {
-    "githubLogin": "jmoik",
-    "name": "jmoik",
+  "gh:questfever": {
+    "githubLogin": "questfever",
+    "name": "questfever",
+    "bio": "BIP contributor."
+  },
+  "gh:pseudoramdom": {
+    "githubLogin": "pseudoramdom",
+    "name": "pseudoramdom",
     "bio": "BIP contributor."
   },
   "gh:fjahr": {
     "githubLogin": "fjahr",
     "name": "fjahr",
-    "bio": "BIP contributor."
-  },
-  "gh:jonatack": {
-    "githubLogin": "jonatack",
-    "name": "jonatack",
     "bio": "BIP contributor."
   },
   "gh:murchandamus": {
@@ -592,11 +607,6 @@
   "gh:guggero": {
     "githubLogin": "guggero",
     "name": "guggero",
-    "bio": "BIP contributor."
-  },
-  "gh:ethicnology": {
-    "githubLogin": "ethicnology",
-    "name": "ethicnology",
     "bio": "BIP contributor."
   },
   "gh:mllwchrry": {
@@ -1737,11 +1747,6 @@
   "gh:TheTrunk": {
     "githubLogin": "TheTrunk",
     "name": "TheTrunk",
-    "bio": "BIP contributor."
-  },
-  "gh:OrfeasLitos": {
-    "githubLogin": "OrfeasLitos",
-    "name": "OrfeasLitos",
     "bio": "BIP contributor."
   },
   "gh:michael1011": {
@@ -3492,26 +3497,6 @@
   "gh:RhettCreighton": {
     "githubLogin": "RhettCreighton",
     "name": "RhettCreighton",
-    "bio": "BIP reviewer."
-  },
-  "gh:Sosthene00": {
-    "githubLogin": "Sosthene00",
-    "name": "Sosthene00",
-    "bio": "BIP reviewer."
-  },
-  "gh:polespinasa": {
-    "githubLogin": "polespinasa",
-    "name": "polespinasa",
-    "bio": "BIP reviewer."
-  },
-  "gh:gmaxwell": {
-    "githubLogin": "gmaxwell",
-    "name": "gmaxwell",
-    "bio": "BIP reviewer."
-  },
-  "gh:jgriffiths": {
-    "githubLogin": "jgriffiths",
-    "name": "jgriffiths",
     "bio": "BIP reviewer."
   }
 }
