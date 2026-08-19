@@ -524,6 +524,36 @@
     "name": "bubb1es",
     "bio": "BIP contributor."
   },
+  "gh:pseudoramdom": {
+    "githubLogin": "pseudoramdom",
+    "name": "pseudoramdom",
+    "bio": "BIP contributor."
+  },
+  "gh:rustaceanrob": {
+    "githubLogin": "rustaceanrob",
+    "name": "rustaceanrob",
+    "bio": "BIP contributor."
+  },
+  "gh:liamgilligan": {
+    "githubLogin": "liamgilligan",
+    "name": "liamgilligan",
+    "bio": "BIP contributor."
+  },
+  "gh:SatsAndSports": {
+    "githubLogin": "SatsAndSports",
+    "name": "SatsAndSports",
+    "bio": "BIP contributor."
+  },
+  "gh:pythcoiner": {
+    "githubLogin": "pythcoiner",
+    "name": "pythcoiner",
+    "bio": "BIP contributor."
+  },
+  "gh:ViniciusCestarii": {
+    "githubLogin": "ViniciusCestarii",
+    "name": "ViniciusCestarii",
+    "bio": "BIP contributor."
+  },
   "gh:guggero": {
     "githubLogin": "guggero",
     "name": "guggero",
@@ -547,11 +577,6 @@
   "gh:siv2r": {
     "githubLogin": "siv2r",
     "name": "siv2r",
-    "bio": "BIP contributor."
-  },
-  "gh:pythcoiner": {
-    "githubLogin": "pythcoiner",
-    "name": "pythcoiner",
     "bio": "BIP contributor."
   },
   "gh:fjahr": {
@@ -589,16 +614,6 @@
     "name": "jmoik",
     "bio": "BIP contributor."
   },
-  "gh:liamgilligan": {
-    "githubLogin": "liamgilligan",
-    "name": "liamgilligan",
-    "bio": "BIP contributor."
-  },
-  "gh:pseudoramdom": {
-    "githubLogin": "pseudoramdom",
-    "name": "pseudoramdom",
-    "bio": "BIP contributor."
-  },
   "gh:jonatack": {
     "githubLogin": "jonatack",
     "name": "jonatack",
@@ -617,11 +632,6 @@
   "gh:asaffulks": {
     "githubLogin": "asaffulks",
     "name": "asaffulks",
-    "bio": "BIP contributor."
-  },
-  "gh:rustaceanrob": {
-    "githubLogin": "rustaceanrob",
-    "name": "rustaceanrob",
     "bio": "BIP contributor."
   },
   "gh:lucia-w": {
@@ -3447,11 +3457,6 @@
   "gh:ChrisMartl": {
     "githubLogin": "ChrisMartl",
     "name": "ChrisMartl",
-    "bio": "BIP reviewer."
-  },
-  "gh:SatsAndSports": {
-    "githubLogin": "SatsAndSports",
-    "name": "SatsAndSports",
     "bio": "BIP reviewer."
   },
   "gh:caesrcd": {
