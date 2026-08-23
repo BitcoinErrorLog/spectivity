@@ -524,14 +524,19 @@
     "name": "bubb1es",
     "bio": "BIP contributor."
   },
+  "gh:pseudoramdom": {
+    "githubLogin": "pseudoramdom",
+    "name": "pseudoramdom",
+    "bio": "BIP contributor."
+  },
   "gh:BenWestgate": {
     "githubLogin": "BenWestgate",
     "name": "BenWestgate",
     "bio": "BIP contributor."
   },
-  "gh:pseudoramdom": {
-    "githubLogin": "pseudoramdom",
-    "name": "pseudoramdom",
+  "gh:guggero": {
+    "githubLogin": "guggero",
+    "name": "guggero",
     "bio": "BIP contributor."
   },
   "gh:pythcoiner": {
@@ -562,11 +567,6 @@
   "gh:SatsAndSports": {
     "githubLogin": "SatsAndSports",
     "name": "SatsAndSports",
-    "bio": "BIP contributor."
-  },
-  "gh:guggero": {
-    "githubLogin": "guggero",
-    "name": "guggero",
     "bio": "BIP contributor."
   },
   "gh:theStack": {
@@ -3502,6 +3502,26 @@
   "gh:RhettCreighton": {
     "githubLogin": "RhettCreighton",
     "name": "RhettCreighton",
+    "bio": "BIP reviewer."
+  },
+  "gh:Sosthene00": {
+    "githubLogin": "Sosthene00",
+    "name": "Sosthene00",
+    "bio": "BIP reviewer."
+  },
+  "gh:polespinasa": {
+    "githubLogin": "polespinasa",
+    "name": "polespinasa",
+    "bio": "BIP reviewer."
+  },
+  "gh:gmaxwell": {
+    "githubLogin": "gmaxwell",
+    "name": "gmaxwell",
+    "bio": "BIP reviewer."
+  },
+  "gh:jgriffiths": {
+    "githubLogin": "jgriffiths",
+    "name": "jgriffiths",
     "bio": "BIP reviewer."
   }
 }
