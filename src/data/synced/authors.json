@@ -524,6 +524,11 @@
     "name": "bubb1es",
     "bio": "BIP contributor."
   },
+  "gh:fjahr": {
+    "githubLogin": "fjahr",
+    "name": "fjahr",
+    "bio": "BIP contributor."
+  },
   "gh:pseudoramdom": {
     "githubLogin": "pseudoramdom",
     "name": "pseudoramdom",
@@ -547,11 +552,6 @@
   "gh:nervana21": {
     "githubLogin": "nervana21",
     "name": "nervana21",
-    "bio": "BIP contributor."
-  },
-  "gh:fjahr": {
-    "githubLogin": "fjahr",
-    "name": "fjahr",
     "bio": "BIP contributor."
   },
   "gh:siv2r": {
