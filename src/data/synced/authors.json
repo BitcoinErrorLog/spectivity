@@ -524,6 +524,31 @@
     "name": "bubb1es",
     "bio": "BIP contributor."
   },
+  "gh:dmonakhov": {
+    "githubLogin": "dmonakhov",
+    "name": "dmonakhov",
+    "bio": "BIP contributor."
+  },
+  "gh:SatsAndSports": {
+    "githubLogin": "SatsAndSports",
+    "name": "SatsAndSports",
+    "bio": "BIP contributor."
+  },
+  "gh:stutxo": {
+    "githubLogin": "stutxo",
+    "name": "stutxo",
+    "bio": "BIP contributor."
+  },
+  "gh:mllwchrry": {
+    "githubLogin": "mllwchrry",
+    "name": "mllwchrry",
+    "bio": "BIP contributor."
+  },
+  "gh:ajtowns": {
+    "githubLogin": "ajtowns",
+    "name": "ajtowns",
+    "bio": "BIP contributor."
+  },
   "gh:BenWestgate": {
     "githubLogin": "BenWestgate",
     "name": "BenWestgate",
@@ -537,16 +562,6 @@
   "gh:rustaceanrob": {
     "githubLogin": "rustaceanrob",
     "name": "rustaceanrob",
-    "bio": "BIP contributor."
-  },
-  "gh:ajtowns": {
-    "githubLogin": "ajtowns",
-    "name": "ajtowns",
-    "bio": "BIP contributor."
-  },
-  "gh:Yuri-SVB": {
-    "githubLogin": "Yuri-SVB",
-    "name": "Yuri-SVB",
     "bio": "BIP contributor."
   },
   "gh:siv2r": {
@@ -577,11 +592,6 @@
   "gh:ViniciusCestarii": {
     "githubLogin": "ViniciusCestarii",
     "name": "ViniciusCestarii",
-    "bio": "BIP contributor."
-  },
-  "gh:SatsAndSports": {
-    "githubLogin": "SatsAndSports",
-    "name": "SatsAndSports",
     "bio": "BIP contributor."
   },
   "gh:theStack": {
@@ -639,16 +649,6 @@
     "name": "jonatack",
     "bio": "BIP contributor."
   },
-  "gh:dmonakhov": {
-    "githubLogin": "dmonakhov",
-    "name": "dmonakhov",
-    "bio": "BIP contributor."
-  },
-  "gh:mllwchrry": {
-    "githubLogin": "mllwchrry",
-    "name": "mllwchrry",
-    "bio": "BIP contributor."
-  },
   "gh:asaffulks": {
     "githubLogin": "asaffulks",
     "name": "asaffulks",
@@ -692,6 +692,11 @@
   "gh:bitcoinguardian": {
     "githubLogin": "bitcoinguardian",
     "name": "bitcoinguardian",
+    "bio": "BIP contributor."
+  },
+  "gh:Yuri-SVB": {
+    "githubLogin": "Yuri-SVB",
+    "name": "Yuri-SVB",
     "bio": "BIP contributor."
   },
   "gh:corepool": {
@@ -1832,11 +1837,6 @@
   "gh:TomBriar": {
     "githubLogin": "TomBriar",
     "name": "TomBriar",
-    "bio": "BIP contributor."
-  },
-  "gh:MarnixCroes": {
-    "githubLogin": "MarnixCroes",
-    "name": "MarnixCroes",
     "bio": "BIP contributor."
   },
   "gh:meherett": {
