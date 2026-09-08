@@ -529,24 +529,34 @@
     "name": "fametrano",
     "bio": "BIP contributor."
   },
-  "gh:BenWestgate": {
-    "githubLogin": "BenWestgate",
-    "name": "BenWestgate",
-    "bio": "BIP contributor."
-  },
   "gh:mllwchrry": {
     "githubLogin": "mllwchrry",
     "name": "mllwchrry",
     "bio": "BIP contributor."
   },
-  "gh:jeanpablojp": {
-    "githubLogin": "jeanpablojp",
-    "name": "jeanpablojp",
+  "gh:BenWestgate": {
+    "githubLogin": "BenWestgate",
+    "name": "BenWestgate",
     "bio": "BIP contributor."
   },
   "gh:bitsagarob": {
     "githubLogin": "bitsagarob",
     "name": "bitsagarob",
+    "bio": "BIP contributor."
+  },
+  "gh:macgyver13": {
+    "githubLogin": "macgyver13",
+    "name": "macgyver13",
+    "bio": "BIP contributor."
+  },
+  "gh:jonatack": {
+    "githubLogin": "jonatack",
+    "name": "jonatack",
+    "bio": "BIP contributor."
+  },
+  "gh:jeanpablojp": {
+    "githubLogin": "jeanpablojp",
+    "name": "jeanpablojp",
     "bio": "BIP contributor."
   },
   "gh:Sjors": {
@@ -649,19 +659,9 @@
     "name": "3rdIteration",
     "bio": "BIP contributor."
   },
-  "gh:macgyver13": {
-    "githubLogin": "macgyver13",
-    "name": "macgyver13",
-    "bio": "BIP contributor."
-  },
   "gh:jmoik": {
     "githubLogin": "jmoik",
     "name": "jmoik",
-    "bio": "BIP contributor."
-  },
-  "gh:jonatack": {
-    "githubLogin": "jonatack",
-    "name": "jonatack",
     "bio": "BIP contributor."
   },
   "gh:asaffulks": {
