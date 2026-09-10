@@ -424,6 +424,11 @@
     "name": "Gloria Zhao",
     "bio": "BIP contributor."
   },
+  "gh:Anthony Towns": {
+    "githubLogin": "Anthony Towns",
+    "name": "Anthony Towns",
+    "bio": "BIP contributor."
+  },
   "gh:Tom Briar": {
     "githubLogin": "Tom Briar",
     "name": "Tom Briar",
@@ -499,11 +504,6 @@
     "name": "Gregory Sanders",
     "bio": "BIP contributor."
   },
-  "gh:Anthony Towns": {
-    "githubLogin": "Anthony Towns",
-    "name": "Anthony Towns",
-    "bio": "BIP contributor."
-  },
   "gh:Rusty Russell": {
     "githubLogin": "Rusty Russell",
     "name": "Rusty Russell",
@@ -524,19 +524,39 @@
     "name": "bubb1es",
     "bio": "BIP contributor."
   },
+  "gh:kcalvinalvin": {
+    "githubLogin": "kcalvinalvin",
+    "name": "kcalvinalvin",
+    "bio": "BIP contributor."
+  },
   "gh:fametrano": {
     "githubLogin": "fametrano",
     "name": "fametrano",
     "bio": "BIP contributor."
   },
+  "gh:Sjors": {
+    "githubLogin": "Sjors",
+    "name": "Sjors",
+    "bio": "BIP contributor."
+  },
+  "gh:liamgilligan": {
+    "githubLogin": "liamgilligan",
+    "name": "liamgilligan",
+    "bio": "BIP contributor."
+  },
+  "gh:jeanpablojp": {
+    "githubLogin": "jeanpablojp",
+    "name": "jeanpablojp",
+    "bio": "BIP contributor."
+  },
+  "gh:guggero": {
+    "githubLogin": "guggero",
+    "name": "guggero",
+    "bio": "BIP contributor."
+  },
   "gh:macgyver13": {
     "githubLogin": "macgyver13",
     "name": "macgyver13",
-    "bio": "BIP contributor."
-  },
-  "gh:pseudoramdom": {
-    "githubLogin": "pseudoramdom",
-    "name": "pseudoramdom",
     "bio": "BIP contributor."
   },
   "gh:ajtowns": {
@@ -547,11 +567,6 @@
   "gh:siv2r": {
     "githubLogin": "siv2r",
     "name": "siv2r",
-    "bio": "BIP contributor."
-  },
-  "gh:guggero": {
-    "githubLogin": "guggero",
-    "name": "guggero",
     "bio": "BIP contributor."
   },
   "gh:mllwchrry": {
@@ -567,21 +582,6 @@
   "gh:bitsagarob": {
     "githubLogin": "bitsagarob",
     "name": "bitsagarob",
-    "bio": "BIP contributor."
-  },
-  "gh:jonatack": {
-    "githubLogin": "jonatack",
-    "name": "jonatack",
-    "bio": "BIP contributor."
-  },
-  "gh:jeanpablojp": {
-    "githubLogin": "jeanpablojp",
-    "name": "jeanpablojp",
-    "bio": "BIP contributor."
-  },
-  "gh:Sjors": {
-    "githubLogin": "Sjors",
-    "name": "Sjors",
     "bio": "BIP contributor."
   },
   "gh:notTanveer": {
@@ -644,11 +644,6 @@
     "name": "theStack",
     "bio": "BIP contributor."
   },
-  "gh:liamgilligan": {
-    "githubLogin": "liamgilligan",
-    "name": "liamgilligan",
-    "bio": "BIP contributor."
-  },
   "gh:murchandamus": {
     "githubLogin": "murchandamus",
     "name": "murchandamus",
@@ -679,11 +674,6 @@
     "name": "edilmedeiros",
     "bio": "BIP contributor."
   },
-  "gh:kcalvinalvin": {
-    "githubLogin": "kcalvinalvin",
-    "name": "kcalvinalvin",
-    "bio": "BIP contributor."
-  },
   "gh:osem23": {
     "githubLogin": "osem23",
     "name": "osem23",
@@ -707,6 +697,21 @@
   "gh:bitcoinguardian": {
     "githubLogin": "bitcoinguardian",
     "name": "bitcoinguardian",
+    "bio": "BIP contributor."
+  },
+  "gh:andrewtoth": {
+    "githubLogin": "andrewtoth",
+    "name": "andrewtoth",
+    "bio": "BIP contributor."
+  },
+  "gh:jonatack": {
+    "githubLogin": "jonatack",
+    "name": "jonatack",
+    "bio": "BIP contributor."
+  },
+  "gh:pseudoramdom": {
+    "githubLogin": "pseudoramdom",
+    "name": "pseudoramdom",
     "bio": "BIP contributor."
   },
   "gh:shesek": {
@@ -1027,11 +1032,6 @@
   "gh:luke-jr": {
     "githubLogin": "luke-jr",
     "name": "luke-jr",
-    "bio": "BIP contributor."
-  },
-  "gh:andrewtoth": {
-    "githubLogin": "andrewtoth",
-    "name": "andrewtoth",
     "bio": "BIP contributor."
   },
   "gh:Eunovo": {
@@ -1857,6 +1857,11 @@
   "gh:TomBriar": {
     "githubLogin": "TomBriar",
     "name": "TomBriar",
+    "bio": "BIP contributor."
+  },
+  "gh:MarnixCroes": {
+    "githubLogin": "MarnixCroes",
+    "name": "MarnixCroes",
     "bio": "BIP contributor."
   },
   "gh:meherett": {
@@ -3517,41 +3522,6 @@
   "gh:DimiH2025": {
     "githubLogin": "DimiH2025",
     "name": "DimiH2025",
-    "bio": "BIP reviewer."
-  },
-  "gh:RhettCreighton": {
-    "githubLogin": "RhettCreighton",
-    "name": "RhettCreighton",
-    "bio": "BIP reviewer."
-  },
-  "gh:plebhash": {
-    "githubLogin": "plebhash",
-    "name": "plebhash",
-    "bio": "BIP reviewer."
-  },
-  "gh:rkuester": {
-    "githubLogin": "rkuester",
-    "name": "rkuester",
-    "bio": "BIP reviewer."
-  },
-  "gh:Sosthene00": {
-    "githubLogin": "Sosthene00",
-    "name": "Sosthene00",
-    "bio": "BIP reviewer."
-  },
-  "gh:polespinasa": {
-    "githubLogin": "polespinasa",
-    "name": "polespinasa",
-    "bio": "BIP reviewer."
-  },
-  "gh:gmaxwell": {
-    "githubLogin": "gmaxwell",
-    "name": "gmaxwell",
-    "bio": "BIP reviewer."
-  },
-  "gh:jgriffiths": {
-    "githubLogin": "jgriffiths",
-    "name": "jgriffiths",
     "bio": "BIP reviewer."
   }
 }
