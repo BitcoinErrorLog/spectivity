@@ -524,14 +524,29 @@
     "name": "bubb1es",
     "bio": "BIP contributor."
   },
-  "gh:kcalvinalvin": {
-    "githubLogin": "kcalvinalvin",
-    "name": "kcalvinalvin",
-    "bio": "BIP contributor."
-  },
   "gh:fametrano": {
     "githubLogin": "fametrano",
     "name": "fametrano",
+    "bio": "BIP contributor."
+  },
+  "gh:BenWestgate": {
+    "githubLogin": "BenWestgate",
+    "name": "BenWestgate",
+    "bio": "BIP contributor."
+  },
+  "gh:notTanveer": {
+    "githubLogin": "notTanveer",
+    "name": "notTanveer",
+    "bio": "BIP contributor."
+  },
+  "gh:fjahr": {
+    "githubLogin": "fjahr",
+    "name": "fjahr",
+    "bio": "BIP contributor."
+  },
+  "gh:kcalvinalvin": {
+    "githubLogin": "kcalvinalvin",
+    "name": "kcalvinalvin",
     "bio": "BIP contributor."
   },
   "gh:Sjors": {
@@ -574,19 +589,9 @@
     "name": "mllwchrry",
     "bio": "BIP contributor."
   },
-  "gh:BenWestgate": {
-    "githubLogin": "BenWestgate",
-    "name": "BenWestgate",
-    "bio": "BIP contributor."
-  },
   "gh:bitsagarob": {
     "githubLogin": "bitsagarob",
     "name": "bitsagarob",
-    "bio": "BIP contributor."
-  },
-  "gh:notTanveer": {
-    "githubLogin": "notTanveer",
-    "name": "notTanveer",
     "bio": "BIP contributor."
   },
   "gh:MrHash": {
@@ -612,11 +617,6 @@
   "gh:SatsAndSports": {
     "githubLogin": "SatsAndSports",
     "name": "SatsAndSports",
-    "bio": "BIP contributor."
-  },
-  "gh:fjahr": {
-    "githubLogin": "fjahr",
-    "name": "fjahr",
     "bio": "BIP contributor."
   },
   "gh:rustaceanrob": {
@@ -3522,6 +3522,11 @@
   "gh:DimiH2025": {
     "githubLogin": "DimiH2025",
     "name": "DimiH2025",
+    "bio": "BIP reviewer."
+  },
+  "gh:RhettCreighton": {
+    "githubLogin": "RhettCreighton",
+    "name": "RhettCreighton",
     "bio": "BIP reviewer."
   }
 }
