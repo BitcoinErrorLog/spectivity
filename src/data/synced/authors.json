@@ -529,6 +529,31 @@
     "name": "BenWestgate",
     "bio": "BIP contributor."
   },
+  "gh:ginavalent": {
+    "githubLogin": "ginavalent",
+    "name": "ginavalent",
+    "bio": "BIP contributor."
+  },
+  "gh:akarve": {
+    "githubLogin": "akarve",
+    "name": "akarve",
+    "bio": "BIP contributor."
+  },
+  "gh:dmonakhov": {
+    "githubLogin": "dmonakhov",
+    "name": "dmonakhov",
+    "bio": "BIP contributor."
+  },
+  "gh:fjahr": {
+    "githubLogin": "fjahr",
+    "name": "fjahr",
+    "bio": "BIP contributor."
+  },
+  "gh:fametrano": {
+    "githubLogin": "fametrano",
+    "name": "fametrano",
+    "bio": "BIP contributor."
+  },
   "gh:wangjingshuiku": {
     "githubLogin": "wangjingshuiku",
     "name": "wangjingshuiku",
@@ -542,16 +567,6 @@
   "gh:kriss39": {
     "githubLogin": "kriss39",
     "name": "kriss39",
-    "bio": "BIP contributor."
-  },
-  "gh:fametrano": {
-    "githubLogin": "fametrano",
-    "name": "fametrano",
-    "bio": "BIP contributor."
-  },
-  "gh:fjahr": {
-    "githubLogin": "fjahr",
-    "name": "fjahr",
     "bio": "BIP contributor."
   },
   "gh:kcalvinalvin": {
@@ -612,11 +627,6 @@
   "gh:OrfeasLitos": {
     "githubLogin": "OrfeasLitos",
     "name": "OrfeasLitos",
-    "bio": "BIP contributor."
-  },
-  "gh:dmonakhov": {
-    "githubLogin": "dmonakhov",
-    "name": "dmonakhov",
     "bio": "BIP contributor."
   },
   "gh:SatsAndSports": {
@@ -704,6 +714,16 @@
     "name": "bitcoinguardian",
     "bio": "BIP contributor."
   },
+  "gh:ethicnology": {
+    "githubLogin": "ethicnology",
+    "name": "ethicnology",
+    "bio": "BIP contributor."
+  },
+  "gh:stevenroose": {
+    "githubLogin": "stevenroose",
+    "name": "stevenroose",
+    "bio": "BIP contributor."
+  },
   "gh:notTanveer": {
     "githubLogin": "notTanveer",
     "name": "notTanveer",
@@ -752,11 +772,6 @@
   "gh:sipa": {
     "githubLogin": "sipa",
     "name": "sipa",
-    "bio": "BIP contributor."
-  },
-  "gh:ethicnology": {
-    "githubLogin": "ethicnology",
-    "name": "ethicnology",
     "bio": "BIP contributor."
   },
   "gh:questfever": {
@@ -884,11 +899,6 @@
     "name": "DigiMancer3D",
     "bio": "BIP contributor."
   },
-  "gh:stevenroose": {
-    "githubLogin": "stevenroose",
-    "name": "stevenroose",
-    "bio": "BIP contributor."
-  },
   "gh:omipheo": {
     "githubLogin": "omipheo",
     "name": "omipheo",
@@ -897,11 +907,6 @@
   "gh:evanlinjin": {
     "githubLogin": "evanlinjin",
     "name": "evanlinjin",
-    "bio": "BIP contributor."
-  },
-  "gh:akarve": {
-    "githubLogin": "akarve",
-    "name": "akarve",
     "bio": "BIP contributor."
   },
   "gh:HusseinAdeiza": {
