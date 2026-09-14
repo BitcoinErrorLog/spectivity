@@ -529,6 +529,16 @@
     "name": "BenWestgate",
     "bio": "BIP contributor."
   },
+  "gh:fametrano": {
+    "githubLogin": "fametrano",
+    "name": "fametrano",
+    "bio": "BIP contributor."
+  },
+  "gh:kriss39": {
+    "githubLogin": "kriss39",
+    "name": "kriss39",
+    "bio": "BIP contributor."
+  },
   "gh:ginavalent": {
     "githubLogin": "ginavalent",
     "name": "ginavalent",
@@ -549,11 +559,6 @@
     "name": "fjahr",
     "bio": "BIP contributor."
   },
-  "gh:fametrano": {
-    "githubLogin": "fametrano",
-    "name": "fametrano",
-    "bio": "BIP contributor."
-  },
   "gh:wangjingshuiku": {
     "githubLogin": "wangjingshuiku",
     "name": "wangjingshuiku",
@@ -562,11 +567,6 @@
   "gh:siv2r": {
     "githubLogin": "siv2r",
     "name": "siv2r",
-    "bio": "BIP contributor."
-  },
-  "gh:kriss39": {
-    "githubLogin": "kriss39",
-    "name": "kriss39",
     "bio": "BIP contributor."
   },
   "gh:kcalvinalvin": {
@@ -714,14 +714,14 @@
     "name": "bitcoinguardian",
     "bio": "BIP contributor."
   },
-  "gh:ethicnology": {
-    "githubLogin": "ethicnology",
-    "name": "ethicnology",
-    "bio": "BIP contributor."
-  },
   "gh:stevenroose": {
     "githubLogin": "stevenroose",
     "name": "stevenroose",
+    "bio": "BIP contributor."
+  },
+  "gh:ethicnology": {
+    "githubLogin": "ethicnology",
+    "name": "ethicnology",
     "bio": "BIP contributor."
   },
   "gh:notTanveer": {
