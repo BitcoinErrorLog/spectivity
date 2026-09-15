@@ -524,19 +524,24 @@
     "name": "bubb1es",
     "bio": "BIP contributor."
   },
+  "gh:fjahr": {
+    "githubLogin": "fjahr",
+    "name": "fjahr",
+    "bio": "BIP contributor."
+  },
   "gh:BenWestgate": {
     "githubLogin": "BenWestgate",
     "name": "BenWestgate",
     "bio": "BIP contributor."
   },
+  "gh:jeanpablojp": {
+    "githubLogin": "jeanpablojp",
+    "name": "jeanpablojp",
+    "bio": "BIP contributor."
+  },
   "gh:fametrano": {
     "githubLogin": "fametrano",
     "name": "fametrano",
-    "bio": "BIP contributor."
-  },
-  "gh:kriss39": {
-    "githubLogin": "kriss39",
-    "name": "kriss39",
     "bio": "BIP contributor."
   },
   "gh:ginavalent": {
@@ -552,11 +557,6 @@
   "gh:dmonakhov": {
     "githubLogin": "dmonakhov",
     "name": "dmonakhov",
-    "bio": "BIP contributor."
-  },
-  "gh:fjahr": {
-    "githubLogin": "fjahr",
-    "name": "fjahr",
     "bio": "BIP contributor."
   },
   "gh:wangjingshuiku": {
@@ -582,11 +582,6 @@
   "gh:liamgilligan": {
     "githubLogin": "liamgilligan",
     "name": "liamgilligan",
-    "bio": "BIP contributor."
-  },
-  "gh:jeanpablojp": {
-    "githubLogin": "jeanpablojp",
-    "name": "jeanpablojp",
     "bio": "BIP contributor."
   },
   "gh:guggero": {
@@ -712,6 +707,11 @@
   "gh:bitcoinguardian": {
     "githubLogin": "bitcoinguardian",
     "name": "bitcoinguardian",
+    "bio": "BIP contributor."
+  },
+  "gh:kriss39": {
+    "githubLogin": "kriss39",
+    "name": "kriss39",
     "bio": "BIP contributor."
   },
   "gh:stevenroose": {
@@ -3539,9 +3539,19 @@
     "name": "DimiH2025",
     "bio": "BIP reviewer."
   },
-  "gh:RhettCreighton": {
-    "githubLogin": "RhettCreighton",
-    "name": "RhettCreighton",
+  "gh:Sosthene00": {
+    "githubLogin": "Sosthene00",
+    "name": "Sosthene00",
+    "bio": "BIP reviewer."
+  },
+  "gh:polespinasa": {
+    "githubLogin": "polespinasa",
+    "name": "polespinasa",
+    "bio": "BIP reviewer."
+  },
+  "gh:jgriffiths": {
+    "githubLogin": "jgriffiths",
+    "name": "jgriffiths",
     "bio": "BIP reviewer."
   }
 }
