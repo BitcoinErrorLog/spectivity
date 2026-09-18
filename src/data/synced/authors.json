@@ -529,6 +529,26 @@
     "name": "Liam Gilligan",
     "bio": "BIP contributor."
   },
+  "gh:duncan0k": {
+    "githubLogin": "duncan0k",
+    "name": "duncan0k",
+    "bio": "BIP contributor."
+  },
+  "gh:douglaz": {
+    "githubLogin": "douglaz",
+    "name": "douglaz",
+    "bio": "BIP contributor."
+  },
+  "gh:danielabrozzoni": {
+    "githubLogin": "danielabrozzoni",
+    "name": "danielabrozzoni",
+    "bio": "BIP contributor."
+  },
+  "gh:jeanpablojp": {
+    "githubLogin": "jeanpablojp",
+    "name": "jeanpablojp",
+    "bio": "BIP contributor."
+  },
   "gh:fametrano": {
     "githubLogin": "fametrano",
     "name": "fametrano",
@@ -552,11 +572,6 @@
   "gh:siv2r": {
     "githubLogin": "siv2r",
     "name": "siv2r",
-    "bio": "BIP contributor."
-  },
-  "gh:jeanpablojp": {
-    "githubLogin": "jeanpablojp",
-    "name": "jeanpablojp",
     "bio": "BIP contributor."
   },
   "gh:akarve": {
@@ -1792,11 +1807,6 @@
   "gh:ChrisCho-H": {
     "githubLogin": "ChrisCho-H",
     "name": "ChrisCho-H",
-    "bio": "BIP contributor."
-  },
-  "gh:douglaz": {
-    "githubLogin": "douglaz",
-    "name": "douglaz",
     "bio": "BIP contributor."
   },
   "gh:Crypt-iQ": {
@@ -3542,6 +3552,11 @@
   "gh:DimiH2025": {
     "githubLogin": "DimiH2025",
     "name": "DimiH2025",
+    "bio": "BIP reviewer."
+  },
+  "gh:RhettCreighton": {
+    "githubLogin": "RhettCreighton",
+    "name": "RhettCreighton",
     "bio": "BIP reviewer."
   }
 }
