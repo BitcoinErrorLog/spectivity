@@ -529,14 +529,34 @@
     "name": "Liam Gilligan",
     "bio": "BIP contributor."
   },
-  "gh:OrfeasLitos": {
-    "githubLogin": "OrfeasLitos",
-    "name": "OrfeasLitos",
+  "gh:BenWestgate": {
+    "githubLogin": "BenWestgate",
+    "name": "BenWestgate",
+    "bio": "BIP contributor."
+  },
+  "gh:scgbckbone": {
+    "githubLogin": "scgbckbone",
+    "name": "scgbckbone",
+    "bio": "BIP contributor."
+  },
+  "gh:let-the-dreamers-rise": {
+    "githubLogin": "let-the-dreamers-rise",
+    "name": "let-the-dreamers-rise",
     "bio": "BIP contributor."
   },
   "gh:theStack": {
     "githubLogin": "theStack",
     "name": "theStack",
+    "bio": "BIP contributor."
+  },
+  "gh:fametrano": {
+    "githubLogin": "fametrano",
+    "name": "fametrano",
+    "bio": "BIP contributor."
+  },
+  "gh:OrfeasLitos": {
+    "githubLogin": "OrfeasLitos",
+    "name": "OrfeasLitos",
     "bio": "BIP contributor."
   },
   "gh:siv2r": {
@@ -614,11 +634,6 @@
     "name": "3rdIteration",
     "bio": "BIP contributor."
   },
-  "gh:BenWestgate": {
-    "githubLogin": "BenWestgate",
-    "name": "BenWestgate",
-    "bio": "BIP contributor."
-  },
   "gh:ajtowns": {
     "githubLogin": "ajtowns",
     "name": "ajtowns",
@@ -632,11 +647,6 @@
   "gh:Roasbeef": {
     "githubLogin": "Roasbeef",
     "name": "Roasbeef",
-    "bio": "BIP contributor."
-  },
-  "gh:scgbckbone": {
-    "githubLogin": "scgbckbone",
-    "name": "scgbckbone",
     "bio": "BIP contributor."
   },
   "gh:duncan0k": {
@@ -669,11 +679,6 @@
     "name": "wangjingshuiku",
     "bio": "BIP contributor."
   },
-  "gh:fametrano": {
-    "githubLogin": "fametrano",
-    "name": "fametrano",
-    "bio": "BIP contributor."
-  },
   "gh:bitsagarob": {
     "githubLogin": "bitsagarob",
     "name": "bitsagarob",
@@ -682,11 +687,6 @@
   "gh:Sjors": {
     "githubLogin": "Sjors",
     "name": "Sjors",
-    "bio": "BIP contributor."
-  },
-  "gh:let-the-dreamers-rise": {
-    "githubLogin": "let-the-dreamers-rise",
-    "name": "let-the-dreamers-rise",
     "bio": "BIP contributor."
   },
   "gh:nervana21": {
@@ -1184,9 +1184,9 @@
     "name": "MoNyAvA",
     "bio": "BIP contributor."
   },
-  "gh:YoYo860224": {
-    "githubLogin": "YoYo860224",
-    "name": "YoYo860224",
+  "gh:yochengctw": {
+    "githubLogin": "yochengctw",
+    "name": "yochengctw",
     "bio": "BIP contributor."
   },
   "gh:BST1807": {
@@ -3557,6 +3557,21 @@
   "gh:RhettCreighton": {
     "githubLogin": "RhettCreighton",
     "name": "RhettCreighton",
+    "bio": "BIP reviewer."
+  },
+  "gh:Sosthene00": {
+    "githubLogin": "Sosthene00",
+    "name": "Sosthene00",
+    "bio": "BIP reviewer."
+  },
+  "gh:polespinasa": {
+    "githubLogin": "polespinasa",
+    "name": "polespinasa",
+    "bio": "BIP reviewer."
+  },
+  "gh:jgriffiths": {
+    "githubLogin": "jgriffiths",
+    "name": "jgriffiths",
     "bio": "BIP reviewer."
   }
 }
