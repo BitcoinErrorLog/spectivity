@@ -534,6 +534,21 @@
     "name": "Liam Gilligan",
     "bio": "BIP contributor."
   },
+  "gh:Sjors": {
+    "githubLogin": "Sjors",
+    "name": "Sjors",
+    "bio": "BIP contributor."
+  },
+  "gh:scgbckbone": {
+    "githubLogin": "scgbckbone",
+    "name": "scgbckbone",
+    "bio": "BIP contributor."
+  },
+  "gh:BEULAHEVANJALIN": {
+    "githubLogin": "BEULAHEVANJALIN",
+    "name": "BEULAHEVANJALIN",
+    "bio": "BIP contributor."
+  },
   "gh:BenWestgate": {
     "githubLogin": "BenWestgate",
     "name": "BenWestgate",
@@ -542,11 +557,6 @@
   "gh:edilmedeiros": {
     "githubLogin": "edilmedeiros",
     "name": "edilmedeiros",
-    "bio": "BIP contributor."
-  },
-  "gh:Sjors": {
-    "githubLogin": "Sjors",
-    "name": "Sjors",
     "bio": "BIP contributor."
   },
   "gh:mllwchrry": {
@@ -559,19 +569,9 @@
     "name": "pythcoiner",
     "bio": "BIP contributor."
   },
-  "gh:BEULAHEVANJALIN": {
-    "githubLogin": "BEULAHEVANJALIN",
-    "name": "BEULAHEVANJALIN",
-    "bio": "BIP contributor."
-  },
   "gh:nervana21": {
     "githubLogin": "nervana21",
     "name": "nervana21",
-    "bio": "BIP contributor."
-  },
-  "gh:scgbckbone": {
-    "githubLogin": "scgbckbone",
-    "name": "scgbckbone",
     "bio": "BIP contributor."
   },
   "gh:fametrano": {
@@ -669,11 +669,6 @@
     "name": "douglaz",
     "bio": "BIP contributor."
   },
-  "gh:danielabrozzoni": {
-    "githubLogin": "danielabrozzoni",
-    "name": "danielabrozzoni",
-    "bio": "BIP contributor."
-  },
   "gh:ginavalent": {
     "githubLogin": "ginavalent",
     "name": "ginavalent",
@@ -687,11 +682,6 @@
   "gh:wangjingshuiku": {
     "githubLogin": "wangjingshuiku",
     "name": "wangjingshuiku",
-    "bio": "BIP contributor."
-  },
-  "gh:bitsagarob": {
-    "githubLogin": "bitsagarob",
-    "name": "bitsagarob",
     "bio": "BIP contributor."
   },
   "gh:SatsAndSports": {
@@ -722,6 +712,16 @@
   "gh:macgyver13": {
     "githubLogin": "macgyver13",
     "name": "macgyver13",
+    "bio": "BIP contributor."
+  },
+  "gh:danielabrozzoni": {
+    "githubLogin": "danielabrozzoni",
+    "name": "danielabrozzoni",
+    "bio": "BIP contributor."
+  },
+  "gh:bitsagarob": {
+    "githubLogin": "bitsagarob",
+    "name": "bitsagarob",
     "bio": "BIP contributor."
   },
   "gh:theStack": {
@@ -3527,6 +3527,41 @@
   "gh:caesrcd": {
     "githubLogin": "caesrcd",
     "name": "caesrcd",
+    "bio": "BIP reviewer."
+  },
+  "gh:saltduck": {
+    "githubLogin": "saltduck",
+    "name": "saltduck",
+    "bio": "BIP reviewer."
+  },
+  "gh:wizkid057": {
+    "githubLogin": "wizkid057",
+    "name": "wizkid057",
+    "bio": "BIP reviewer."
+  },
+  "gh:bitcoin-eagle": {
+    "githubLogin": "bitcoin-eagle",
+    "name": "bitcoin-eagle",
+    "bio": "BIP reviewer."
+  },
+  "gh:OpenSauce21": {
+    "githubLogin": "OpenSauce21",
+    "name": "OpenSauce21",
+    "bio": "BIP reviewer."
+  },
+  "gh:BitcoinMechanic": {
+    "githubLogin": "BitcoinMechanic",
+    "name": "BitcoinMechanic",
+    "bio": "BIP reviewer."
+  },
+  "gh:MarkJelic": {
+    "githubLogin": "MarkJelic",
+    "name": "MarkJelic",
+    "bio": "BIP reviewer."
+  },
+  "gh:DimiH2025": {
+    "githubLogin": "DimiH2025",
+    "name": "DimiH2025",
     "bio": "BIP reviewer."
   },
   "gh:RhettCreighton": {
