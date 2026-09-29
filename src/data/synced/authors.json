@@ -534,9 +534,24 @@
     "name": "Liam Gilligan",
     "bio": "BIP contributor."
   },
+  "gh:Dev-next-gen": {
+    "githubLogin": "Dev-next-gen",
+    "name": "Dev-next-gen",
+    "bio": "BIP contributor."
+  },
   "gh:fametrano": {
     "githubLogin": "fametrano",
     "name": "fametrano",
+    "bio": "BIP contributor."
+  },
+  "gh:douglaz": {
+    "githubLogin": "douglaz",
+    "name": "douglaz",
+    "bio": "BIP contributor."
+  },
+  "gh:darosior": {
+    "githubLogin": "darosior",
+    "name": "darosior",
     "bio": "BIP contributor."
   },
   "gh:zjubiology": {
@@ -567,16 +582,6 @@
   "gh:edilmedeiros": {
     "githubLogin": "edilmedeiros",
     "name": "edilmedeiros",
-    "bio": "BIP contributor."
-  },
-  "gh:FlashWayne": {
-    "githubLogin": "FlashWayne",
-    "name": "FlashWayne",
-    "bio": "BIP contributor."
-  },
-  "gh:douglaz": {
-    "githubLogin": "douglaz",
-    "name": "douglaz",
     "bio": "BIP contributor."
   },
   "gh:ajtowns": {
@@ -714,6 +719,16 @@
     "name": "asaffulks",
     "bio": "BIP contributor."
   },
+  "gh:notTanveer": {
+    "githubLogin": "notTanveer",
+    "name": "notTanveer",
+    "bio": "BIP contributor."
+  },
+  "gh:FlashWayne": {
+    "githubLogin": "FlashWayne",
+    "name": "FlashWayne",
+    "bio": "BIP contributor."
+  },
   "gh:zizelevak": {
     "githubLogin": "zizelevak",
     "name": "zizelevak",
@@ -787,11 +802,6 @@
   "gh:ethicnology": {
     "githubLogin": "ethicnology",
     "name": "ethicnology",
-    "bio": "BIP contributor."
-  },
-  "gh:notTanveer": {
-    "githubLogin": "notTanveer",
-    "name": "notTanveer",
     "bio": "BIP contributor."
   },
   "gh:andrewtoth": {
@@ -897,11 +907,6 @@
   "gh:JeremyRubin": {
     "githubLogin": "JeremyRubin",
     "name": "JeremyRubin",
-    "bio": "BIP contributor."
-  },
-  "gh:darosior": {
-    "githubLogin": "darosior",
-    "name": "darosior",
     "bio": "BIP contributor."
   },
   "gh:theborakompanioni": {
@@ -3547,41 +3552,6 @@
   "gh:caesrcd": {
     "githubLogin": "caesrcd",
     "name": "caesrcd",
-    "bio": "BIP reviewer."
-  },
-  "gh:saltduck": {
-    "githubLogin": "saltduck",
-    "name": "saltduck",
-    "bio": "BIP reviewer."
-  },
-  "gh:wizkid057": {
-    "githubLogin": "wizkid057",
-    "name": "wizkid057",
-    "bio": "BIP reviewer."
-  },
-  "gh:bitcoin-eagle": {
-    "githubLogin": "bitcoin-eagle",
-    "name": "bitcoin-eagle",
-    "bio": "BIP reviewer."
-  },
-  "gh:OpenSauce21": {
-    "githubLogin": "OpenSauce21",
-    "name": "OpenSauce21",
-    "bio": "BIP reviewer."
-  },
-  "gh:BitcoinMechanic": {
-    "githubLogin": "BitcoinMechanic",
-    "name": "BitcoinMechanic",
-    "bio": "BIP reviewer."
-  },
-  "gh:MarkJelic": {
-    "githubLogin": "MarkJelic",
-    "name": "MarkJelic",
-    "bio": "BIP reviewer."
-  },
-  "gh:DimiH2025": {
-    "githubLogin": "DimiH2025",
-    "name": "DimiH2025",
     "bio": "BIP reviewer."
   },
   "gh:RhettCreighton": {
