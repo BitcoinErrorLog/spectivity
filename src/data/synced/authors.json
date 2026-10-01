@@ -534,14 +534,24 @@
     "name": "Liam Gilligan",
     "bio": "BIP contributor."
   },
-  "gh:myetcd": {
-    "githubLogin": "myetcd",
-    "name": "myetcd",
+  "gh:ajtowns": {
+    "githubLogin": "ajtowns",
+    "name": "ajtowns",
+    "bio": "BIP contributor."
+  },
+  "gh:duncan0k": {
+    "githubLogin": "duncan0k",
+    "name": "duncan0k",
     "bio": "BIP contributor."
   },
   "gh:nervana21": {
     "githubLogin": "nervana21",
     "name": "nervana21",
+    "bio": "BIP contributor."
+  },
+  "gh:myetcd": {
+    "githubLogin": "myetcd",
+    "name": "myetcd",
     "bio": "BIP contributor."
   },
   "gh:siv2r": {
@@ -604,19 +614,9 @@
     "name": "edilmedeiros",
     "bio": "BIP contributor."
   },
-  "gh:ajtowns": {
-    "githubLogin": "ajtowns",
-    "name": "ajtowns",
-    "bio": "BIP contributor."
-  },
   "gh:pythcoiner": {
     "githubLogin": "pythcoiner",
     "name": "pythcoiner",
-    "bio": "BIP contributor."
-  },
-  "gh:duncan0k": {
-    "githubLogin": "duncan0k",
-    "name": "duncan0k",
     "bio": "BIP contributor."
   },
   "gh:jeanpablojp": {
@@ -3557,6 +3557,36 @@
   "gh:caesrcd": {
     "githubLogin": "caesrcd",
     "name": "caesrcd",
+    "bio": "BIP reviewer."
+  },
+  "gh:RhettCreighton": {
+    "githubLogin": "RhettCreighton",
+    "name": "RhettCreighton",
+    "bio": "BIP reviewer."
+  },
+  "gh:plebhash": {
+    "githubLogin": "plebhash",
+    "name": "plebhash",
+    "bio": "BIP reviewer."
+  },
+  "gh:rkuester": {
+    "githubLogin": "rkuester",
+    "name": "rkuester",
+    "bio": "BIP reviewer."
+  },
+  "gh:Sosthene00": {
+    "githubLogin": "Sosthene00",
+    "name": "Sosthene00",
+    "bio": "BIP reviewer."
+  },
+  "gh:polespinasa": {
+    "githubLogin": "polespinasa",
+    "name": "polespinasa",
+    "bio": "BIP reviewer."
+  },
+  "gh:jgriffiths": {
+    "githubLogin": "jgriffiths",
+    "name": "jgriffiths",
     "bio": "BIP reviewer."
   }
 }
