@@ -534,6 +534,36 @@
     "name": "Liam Gilligan",
     "bio": "BIP contributor."
   },
+  "gh:guggero": {
+    "githubLogin": "guggero",
+    "name": "guggero",
+    "bio": "BIP contributor."
+  },
+  "gh:darosior": {
+    "githubLogin": "darosior",
+    "name": "darosior",
+    "bio": "BIP contributor."
+  },
+  "gh:fametrano": {
+    "githubLogin": "fametrano",
+    "name": "fametrano",
+    "bio": "BIP contributor."
+  },
+  "gh:siv2r": {
+    "githubLogin": "siv2r",
+    "name": "siv2r",
+    "bio": "BIP contributor."
+  },
+  "gh:gophersg": {
+    "githubLogin": "gophersg",
+    "name": "gophersg",
+    "bio": "BIP contributor."
+  },
+  "gh:BenWestgate": {
+    "githubLogin": "BenWestgate",
+    "name": "BenWestgate",
+    "bio": "BIP contributor."
+  },
   "gh:ajtowns": {
     "githubLogin": "ajtowns",
     "name": "ajtowns",
@@ -552,16 +582,6 @@
   "gh:myetcd": {
     "githubLogin": "myetcd",
     "name": "myetcd",
-    "bio": "BIP contributor."
-  },
-  "gh:siv2r": {
-    "githubLogin": "siv2r",
-    "name": "siv2r",
-    "bio": "BIP contributor."
-  },
-  "gh:fametrano": {
-    "githubLogin": "fametrano",
-    "name": "fametrano",
     "bio": "BIP contributor."
   },
   "gh:jonatack": {
@@ -584,11 +604,6 @@
     "name": "Dev-next-gen",
     "bio": "BIP contributor."
   },
-  "gh:darosior": {
-    "githubLogin": "darosior",
-    "name": "darosior",
-    "bio": "BIP contributor."
-  },
   "gh:zjubiology": {
     "githubLogin": "zjubiology",
     "name": "zjubiology",
@@ -602,11 +617,6 @@
   "gh:BEULAHEVANJALIN": {
     "githubLogin": "BEULAHEVANJALIN",
     "name": "BEULAHEVANJALIN",
-    "bio": "BIP contributor."
-  },
-  "gh:BenWestgate": {
-    "githubLogin": "BenWestgate",
-    "name": "BenWestgate",
     "bio": "BIP contributor."
   },
   "gh:edilmedeiros": {
@@ -702,11 +712,6 @@
   "gh:SatsAndSports": {
     "githubLogin": "SatsAndSports",
     "name": "SatsAndSports",
-    "bio": "BIP contributor."
-  },
-  "gh:guggero": {
-    "githubLogin": "guggero",
-    "name": "guggero",
     "bio": "BIP contributor."
   },
   "gh:jmoik": {
@@ -1229,9 +1234,9 @@
     "name": "MoNyAvA",
     "bio": "BIP contributor."
   },
-  "gh:yochengctw": {
-    "githubLogin": "yochengctw",
-    "name": "yochengctw",
+  "gh:YoYo860224": {
+    "githubLogin": "YoYo860224",
+    "name": "YoYo860224",
     "bio": "BIP contributor."
   },
   "gh:BST1807": {
