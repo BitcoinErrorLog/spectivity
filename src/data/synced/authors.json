@@ -534,6 +534,11 @@
     "name": "Liam Gilligan",
     "bio": "BIP contributor."
   },
+  "gh:guggero": {
+    "githubLogin": "guggero",
+    "name": "guggero",
+    "bio": "BIP contributor."
+  },
   "gh:BenWestgate": {
     "githubLogin": "BenWestgate",
     "name": "BenWestgate",
@@ -562,11 +567,6 @@
   "gh:ginavalent": {
     "githubLogin": "ginavalent",
     "name": "ginavalent",
-    "bio": "BIP contributor."
-  },
-  "gh:guggero": {
-    "githubLogin": "guggero",
-    "name": "guggero",
     "bio": "BIP contributor."
   },
   "gh:siv2r": {
@@ -719,14 +719,14 @@
     "name": "asaffulks",
     "bio": "BIP contributor."
   },
-  "gh:darosior": {
-    "githubLogin": "darosior",
-    "name": "darosior",
-    "bio": "BIP contributor."
-  },
   "gh:douglaz": {
     "githubLogin": "douglaz",
     "name": "douglaz",
+    "bio": "BIP contributor."
+  },
+  "gh:darosior": {
+    "githubLogin": "darosior",
+    "name": "darosior",
     "bio": "BIP contributor."
   },
   "gh:notTanveer": {
