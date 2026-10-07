@@ -539,6 +539,21 @@
     "name": "guggero",
     "bio": "BIP contributor."
   },
+  "gh:fametrano": {
+    "githubLogin": "fametrano",
+    "name": "fametrano",
+    "bio": "BIP contributor."
+  },
+  "gh:fmtappendf": {
+    "githubLogin": "fmtappendf",
+    "name": "fmtappendf",
+    "bio": "BIP contributor."
+  },
+  "gh:nervana21": {
+    "githubLogin": "nervana21",
+    "name": "nervana21",
+    "bio": "BIP contributor."
+  },
   "gh:BenWestgate": {
     "githubLogin": "BenWestgate",
     "name": "BenWestgate",
@@ -559,11 +574,6 @@
     "name": "gophersg",
     "bio": "BIP contributor."
   },
-  "gh:fametrano": {
-    "githubLogin": "fametrano",
-    "name": "fametrano",
-    "bio": "BIP contributor."
-  },
   "gh:ginavalent": {
     "githubLogin": "ginavalent",
     "name": "ginavalent",
@@ -582,11 +592,6 @@
   "gh:duncan0k": {
     "githubLogin": "duncan0k",
     "name": "duncan0k",
-    "bio": "BIP contributor."
-  },
-  "gh:nervana21": {
-    "githubLogin": "nervana21",
-    "name": "nervana21",
     "bio": "BIP contributor."
   },
   "gh:myetcd": {
@@ -2489,11 +2494,6 @@
     "name": "jgeewax",
     "bio": "BIP contributor."
   },
-  "gh:prahaladbelavadi": {
-    "githubLogin": "prahaladbelavadi",
-    "name": "prahaladbelavadi",
-    "bio": "BIP contributor."
-  },
   "gh:CodeShark": {
     "githubLogin": "CodeShark",
     "name": "CodeShark",
@@ -3552,11 +3552,6 @@
   "gh:shocknet-justin": {
     "githubLogin": "shocknet-justin",
     "name": "shocknet-justin",
-    "bio": "BIP reviewer."
-  },
-  "gh:caesrcd": {
-    "githubLogin": "caesrcd",
-    "name": "caesrcd",
     "bio": "BIP reviewer."
   }
 }
