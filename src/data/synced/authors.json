@@ -534,14 +534,14 @@
     "name": "Liam Gilligan",
     "bio": "BIP contributor."
   },
-  "gh:guggero": {
-    "githubLogin": "guggero",
-    "name": "guggero",
-    "bio": "BIP contributor."
-  },
   "gh:fametrano": {
     "githubLogin": "fametrano",
     "name": "fametrano",
+    "bio": "BIP contributor."
+  },
+  "gh:guggero": {
+    "githubLogin": "guggero",
+    "name": "guggero",
     "bio": "BIP contributor."
   },
   "gh:fmtappendf": {
@@ -1379,9 +1379,9 @@
     "name": "markjr",
     "bio": "BIP contributor."
   },
-  "gh:futreall": {
-    "githubLogin": "futreall",
-    "name": "futreall",
+  "gh:STARMEXXX": {
+    "githubLogin": "STARMEXXX",
+    "name": "STARMEXXX",
     "bio": "BIP contributor."
   },
   "gh:sky-coderay": {
@@ -3552,6 +3552,51 @@
   "gh:shocknet-justin": {
     "githubLogin": "shocknet-justin",
     "name": "shocknet-justin",
+    "bio": "BIP reviewer."
+  },
+  "gh:caesrcd": {
+    "githubLogin": "caesrcd",
+    "name": "caesrcd",
+    "bio": "BIP reviewer."
+  },
+  "gh:saltduck": {
+    "githubLogin": "saltduck",
+    "name": "saltduck",
+    "bio": "BIP reviewer."
+  },
+  "gh:wizkid057": {
+    "githubLogin": "wizkid057",
+    "name": "wizkid057",
+    "bio": "BIP reviewer."
+  },
+  "gh:bitcoin-eagle": {
+    "githubLogin": "bitcoin-eagle",
+    "name": "bitcoin-eagle",
+    "bio": "BIP reviewer."
+  },
+  "gh:OpenSauce21": {
+    "githubLogin": "OpenSauce21",
+    "name": "OpenSauce21",
+    "bio": "BIP reviewer."
+  },
+  "gh:BitcoinMechanic": {
+    "githubLogin": "BitcoinMechanic",
+    "name": "BitcoinMechanic",
+    "bio": "BIP reviewer."
+  },
+  "gh:MarkJelic": {
+    "githubLogin": "MarkJelic",
+    "name": "MarkJelic",
+    "bio": "BIP reviewer."
+  },
+  "gh:DimiH2025": {
+    "githubLogin": "DimiH2025",
+    "name": "DimiH2025",
+    "bio": "BIP reviewer."
+  },
+  "gh:RhettCreighton": {
+    "githubLogin": "RhettCreighton",
+    "name": "RhettCreighton",
     "bio": "BIP reviewer."
   }
 }
