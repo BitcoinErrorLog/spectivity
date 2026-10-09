@@ -534,14 +534,14 @@
     "name": "Liam Gilligan",
     "bio": "BIP contributor."
   },
-  "gh:fametrano": {
-    "githubLogin": "fametrano",
-    "name": "fametrano",
+  "gh:BEULAHEVANJALIN": {
+    "githubLogin": "BEULAHEVANJALIN",
+    "name": "BEULAHEVANJALIN",
     "bio": "BIP contributor."
   },
-  "gh:guggero": {
-    "githubLogin": "guggero",
-    "name": "guggero",
+  "gh:jonatack": {
+    "githubLogin": "jonatack",
+    "name": "jonatack",
     "bio": "BIP contributor."
   },
   "gh:fmtappendf": {
@@ -549,9 +549,29 @@
     "name": "fmtappendf",
     "bio": "BIP contributor."
   },
+  "gh:gophersg": {
+    "githubLogin": "gophersg",
+    "name": "gophersg",
+    "bio": "BIP contributor."
+  },
+  "gh:fametrano": {
+    "githubLogin": "fametrano",
+    "name": "fametrano",
+    "bio": "BIP contributor."
+  },
   "gh:nervana21": {
     "githubLogin": "nervana21",
     "name": "nervana21",
+    "bio": "BIP contributor."
+  },
+  "gh:ginavalent": {
+    "githubLogin": "ginavalent",
+    "name": "ginavalent",
+    "bio": "BIP contributor."
+  },
+  "gh:guggero": {
+    "githubLogin": "guggero",
+    "name": "guggero",
     "bio": "BIP contributor."
   },
   "gh:BenWestgate": {
@@ -567,16 +587,6 @@
   "gh:jeanpablojp": {
     "githubLogin": "jeanpablojp",
     "name": "jeanpablojp",
-    "bio": "BIP contributor."
-  },
-  "gh:gophersg": {
-    "githubLogin": "gophersg",
-    "name": "gophersg",
-    "bio": "BIP contributor."
-  },
-  "gh:ginavalent": {
-    "githubLogin": "ginavalent",
-    "name": "ginavalent",
     "bio": "BIP contributor."
   },
   "gh:siv2r": {
@@ -599,11 +609,6 @@
     "name": "myetcd",
     "bio": "BIP contributor."
   },
-  "gh:jonatack": {
-    "githubLogin": "jonatack",
-    "name": "jonatack",
-    "bio": "BIP contributor."
-  },
   "gh:macgyver13": {
     "githubLogin": "macgyver13",
     "name": "macgyver13",
@@ -622,11 +627,6 @@
   "gh:scgbckbone": {
     "githubLogin": "scgbckbone",
     "name": "scgbckbone",
-    "bio": "BIP contributor."
-  },
-  "gh:BEULAHEVANJALIN": {
-    "githubLogin": "BEULAHEVANJALIN",
-    "name": "BEULAHEVANJALIN",
     "bio": "BIP contributor."
   },
   "gh:edilmedeiros": {
@@ -3592,11 +3592,6 @@
   "gh:DimiH2025": {
     "githubLogin": "DimiH2025",
     "name": "DimiH2025",
-    "bio": "BIP reviewer."
-  },
-  "gh:RhettCreighton": {
-    "githubLogin": "RhettCreighton",
-    "name": "RhettCreighton",
     "bio": "BIP reviewer."
   }
 }
