@@ -1,12 +1,12 @@
 {
-  "syncedAt": "2026-10-09T13:00:18.963Z",
-  "totalSpecs": 1884,
-  "totalReviews": 20,
-  "totalAuthors": 719,
+  "syncedAt": "2026-10-10T12:17:25.155Z",
+  "totalSpecs": 1885,
+  "totalReviews": 11,
+  "totalAuthors": 712,
   "byNamespace": {
     "bip": {
       "merged": 1350,
-      "open": 57,
+      "open": 58,
       "closed": 424,
       "rejected": 53
     }
