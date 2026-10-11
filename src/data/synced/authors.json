@@ -534,6 +534,11 @@
     "name": "Liam Gilligan",
     "bio": "BIP contributor."
   },
+  "gh:fametrano": {
+    "githubLogin": "fametrano",
+    "name": "fametrano",
+    "bio": "BIP contributor."
+  },
   "gh:gophersg": {
     "githubLogin": "gophersg",
     "name": "gophersg",
@@ -572,11 +577,6 @@
   "gh:fmtappendf": {
     "githubLogin": "fmtappendf",
     "name": "fmtappendf",
-    "bio": "BIP contributor."
-  },
-  "gh:fametrano": {
-    "githubLogin": "fametrano",
-    "name": "fametrano",
     "bio": "BIP contributor."
   },
   "gh:nervana21": {
@@ -3547,16 +3547,6 @@
   "gh:ChrisMartl": {
     "githubLogin": "ChrisMartl",
     "name": "ChrisMartl",
-    "bio": "BIP reviewer."
-  },
-  "gh:shocknet-justin": {
-    "githubLogin": "shocknet-justin",
-    "name": "shocknet-justin",
-    "bio": "BIP reviewer."
-  },
-  "gh:caesrcd": {
-    "githubLogin": "caesrcd",
-    "name": "caesrcd",
     "bio": "BIP reviewer."
   }
 }
