@@ -534,6 +534,26 @@
     "name": "Liam Gilligan",
     "bio": "BIP contributor."
   },
+  "gh:siv2r": {
+    "githubLogin": "siv2r",
+    "name": "siv2r",
+    "bio": "BIP contributor."
+  },
+  "gh:BenWestgate": {
+    "githubLogin": "BenWestgate",
+    "name": "BenWestgate",
+    "bio": "BIP contributor."
+  },
+  "gh:scgbckbone": {
+    "githubLogin": "scgbckbone",
+    "name": "scgbckbone",
+    "bio": "BIP contributor."
+  },
+  "gh:fjahr": {
+    "githubLogin": "fjahr",
+    "name": "fjahr",
+    "bio": "BIP contributor."
+  },
   "gh:fametrano": {
     "githubLogin": "fametrano",
     "name": "fametrano",
@@ -594,19 +614,9 @@
     "name": "guggero",
     "bio": "BIP contributor."
   },
-  "gh:BenWestgate": {
-    "githubLogin": "BenWestgate",
-    "name": "BenWestgate",
-    "bio": "BIP contributor."
-  },
   "gh:jeanpablojp": {
     "githubLogin": "jeanpablojp",
     "name": "jeanpablojp",
-    "bio": "BIP contributor."
-  },
-  "gh:siv2r": {
-    "githubLogin": "siv2r",
-    "name": "siv2r",
     "bio": "BIP contributor."
   },
   "gh:myetcd": {
@@ -619,19 +629,9 @@
     "name": "macgyver13",
     "bio": "BIP contributor."
   },
-  "gh:fjahr": {
-    "githubLogin": "fjahr",
-    "name": "fjahr",
-    "bio": "BIP contributor."
-  },
   "gh:Dev-next-gen": {
     "githubLogin": "Dev-next-gen",
     "name": "Dev-next-gen",
-    "bio": "BIP contributor."
-  },
-  "gh:scgbckbone": {
-    "githubLogin": "scgbckbone",
-    "name": "scgbckbone",
     "bio": "BIP contributor."
   },
   "gh:edilmedeiros": {
@@ -3547,6 +3547,16 @@
   "gh:ChrisMartl": {
     "githubLogin": "ChrisMartl",
     "name": "ChrisMartl",
+    "bio": "BIP reviewer."
+  },
+  "gh:shocknet-justin": {
+    "githubLogin": "shocknet-justin",
+    "name": "shocknet-justin",
+    "bio": "BIP reviewer."
+  },
+  "gh:caesrcd": {
+    "githubLogin": "caesrcd",
+    "name": "caesrcd",
     "bio": "BIP reviewer."
   }
 }
