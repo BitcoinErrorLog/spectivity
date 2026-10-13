@@ -534,14 +534,14 @@
     "name": "Liam Gilligan",
     "bio": "BIP contributor."
   },
-  "gh:siv2r": {
-    "githubLogin": "siv2r",
-    "name": "siv2r",
-    "bio": "BIP contributor."
-  },
   "gh:BenWestgate": {
     "githubLogin": "BenWestgate",
     "name": "BenWestgate",
+    "bio": "BIP contributor."
+  },
+  "gh:siv2r": {
+    "githubLogin": "siv2r",
+    "name": "siv2r",
     "bio": "BIP contributor."
   },
   "gh:scgbckbone": {
@@ -3552,11 +3552,6 @@
   "gh:shocknet-justin": {
     "githubLogin": "shocknet-justin",
     "name": "shocknet-justin",
-    "bio": "BIP reviewer."
-  },
-  "gh:caesrcd": {
-    "githubLogin": "caesrcd",
-    "name": "caesrcd",
     "bio": "BIP reviewer."
   }
 }
