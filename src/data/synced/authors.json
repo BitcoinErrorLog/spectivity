@@ -724,6 +724,11 @@
     "name": "asaffulks",
     "bio": "BIP contributor."
   },
+  "gh:luke-jr": {
+    "githubLogin": "luke-jr",
+    "name": "luke-jr",
+    "bio": "BIP contributor."
+  },
   "gh:jmoik": {
     "githubLogin": "jmoik",
     "name": "jmoik",
@@ -1112,11 +1117,6 @@
   "gh:laanwj": {
     "githubLogin": "laanwj",
     "name": "laanwj",
-    "bio": "BIP contributor."
-  },
-  "gh:luke-jr": {
-    "githubLogin": "luke-jr",
-    "name": "luke-jr",
     "bio": "BIP contributor."
   },
   "gh:Eunovo": {
@@ -3552,11 +3552,6 @@
   "gh:shocknet-justin": {
     "githubLogin": "shocknet-justin",
     "name": "shocknet-justin",
-    "bio": "BIP reviewer."
-  },
-  "gh:caesrcd": {
-    "githubLogin": "caesrcd",
-    "name": "caesrcd",
     "bio": "BIP reviewer."
   }
 }
