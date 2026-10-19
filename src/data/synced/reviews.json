@@ -1,5 +1,21 @@
 [
   {
+    "id": "rev-pr1489-1709148435",
+    "specId": "pr-1489",
+    "reviewerPubky": "pk:gh-Symphonic3",
+    "label": "nack",
+    "createdAt": 1694035647000,
+    "githubUser": "Symphonic3"
+  },
+  {
+    "id": "rev-pr1489-1714414894",
+    "specId": "pr-1489",
+    "reviewerPubky": "pk:gh-ChrisMartl",
+    "label": "nack",
+    "createdAt": 1694458472000,
+    "githubUser": "ChrisMartl"
+  },
+  {
     "id": "rev-pr2137-4380924971",
     "specId": "pr-2137",
     "reviewerPubky": "pk:gh-evoskuil",
@@ -22,22 +38,6 @@
     "label": "nack",
     "createdAt": 1779345044000,
     "githubUser": "Sjors"
-  },
-  {
-    "id": "rev-pr1489-1709148435",
-    "specId": "pr-1489",
-    "reviewerPubky": "pk:gh-Symphonic3",
-    "label": "nack",
-    "createdAt": 1694035647000,
-    "githubUser": "Symphonic3"
-  },
-  {
-    "id": "rev-pr1489-1714414894",
-    "specId": "pr-1489",
-    "reviewerPubky": "pk:gh-ChrisMartl",
-    "label": "nack",
-    "createdAt": 1694458472000,
-    "githubUser": "ChrisMartl"
   },
   {
     "id": "rev-pr1951-3254653055",

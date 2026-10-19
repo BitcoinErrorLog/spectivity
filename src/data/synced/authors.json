@@ -534,6 +534,56 @@
     "name": "Liam Gilligan",
     "bio": "BIP contributor."
   },
+  "gh:BenWestgate": {
+    "githubLogin": "BenWestgate",
+    "name": "BenWestgate",
+    "bio": "BIP contributor."
+  },
+  "gh:Roasbeef": {
+    "githubLogin": "Roasbeef",
+    "name": "Roasbeef",
+    "bio": "BIP contributor."
+  },
+  "gh:fmtappendf": {
+    "githubLogin": "fmtappendf",
+    "name": "fmtappendf",
+    "bio": "BIP contributor."
+  },
+  "gh:akarve": {
+    "githubLogin": "akarve",
+    "name": "akarve",
+    "bio": "BIP contributor."
+  },
+  "gh:dmonakhov": {
+    "githubLogin": "dmonakhov",
+    "name": "dmonakhov",
+    "bio": "BIP contributor."
+  },
+  "gh:Dev-next-gen": {
+    "githubLogin": "Dev-next-gen",
+    "name": "Dev-next-gen",
+    "bio": "BIP contributor."
+  },
+  "gh:zjubiology": {
+    "githubLogin": "zjubiology",
+    "name": "zjubiology",
+    "bio": "BIP contributor."
+  },
+  "gh:fametrano": {
+    "githubLogin": "fametrano",
+    "name": "fametrano",
+    "bio": "BIP contributor."
+  },
+  "gh:myetcd": {
+    "githubLogin": "myetcd",
+    "name": "myetcd",
+    "bio": "BIP contributor."
+  },
+  "gh:liamgilligan": {
+    "githubLogin": "liamgilligan",
+    "name": "liamgilligan",
+    "bio": "BIP contributor."
+  },
   "gh:fjahr": {
     "githubLogin": "fjahr",
     "name": "fjahr",
@@ -544,24 +594,9 @@
     "name": "nervana21",
     "bio": "BIP contributor."
   },
-  "gh:fmtappendf": {
-    "githubLogin": "fmtappendf",
-    "name": "fmtappendf",
-    "bio": "BIP contributor."
-  },
   "gh:BEULAHEVANJALIN": {
     "githubLogin": "BEULAHEVANJALIN",
     "name": "BEULAHEVANJALIN",
-    "bio": "BIP contributor."
-  },
-  "gh:Dev-next-gen": {
-    "githubLogin": "Dev-next-gen",
-    "name": "Dev-next-gen",
-    "bio": "BIP contributor."
-  },
-  "gh:fametrano": {
-    "githubLogin": "fametrano",
-    "name": "fametrano",
     "bio": "BIP contributor."
   },
   "gh:jonatack": {
@@ -569,29 +604,14 @@
     "name": "jonatack",
     "bio": "BIP contributor."
   },
-  "gh:BenWestgate": {
-    "githubLogin": "BenWestgate",
-    "name": "BenWestgate",
-    "bio": "BIP contributor."
-  },
   "gh:siv2r": {
     "githubLogin": "siv2r",
     "name": "siv2r",
     "bio": "BIP contributor."
   },
-  "gh:scgbckbone": {
-    "githubLogin": "scgbckbone",
-    "name": "scgbckbone",
-    "bio": "BIP contributor."
-  },
   "gh:gophersg": {
     "githubLogin": "gophersg",
     "name": "gophersg",
-    "bio": "BIP contributor."
-  },
-  "gh:zjubiology": {
-    "githubLogin": "zjubiology",
-    "name": "zjubiology",
     "bio": "BIP contributor."
   },
   "gh:ajtowns": {
@@ -602,11 +622,6 @@
   "gh:duncan0k": {
     "githubLogin": "duncan0k",
     "name": "duncan0k",
-    "bio": "BIP contributor."
-  },
-  "gh:liamgilligan": {
-    "githubLogin": "liamgilligan",
-    "name": "liamgilligan",
     "bio": "BIP contributor."
   },
   "gh:ginavalent": {
@@ -622,11 +637,6 @@
   "gh:jeanpablojp": {
     "githubLogin": "jeanpablojp",
     "name": "jeanpablojp",
-    "bio": "BIP contributor."
-  },
-  "gh:myetcd": {
-    "githubLogin": "myetcd",
-    "name": "myetcd",
     "bio": "BIP contributor."
   },
   "gh:macgyver13": {
@@ -674,11 +684,6 @@
     "name": "murchandamus",
     "bio": "BIP contributor."
   },
-  "gh:dmonakhov": {
-    "githubLogin": "dmonakhov",
-    "name": "dmonakhov",
-    "bio": "BIP contributor."
-  },
   "gh:rustaceanrob": {
     "githubLogin": "rustaceanrob",
     "name": "rustaceanrob",
@@ -704,16 +709,6 @@
     "name": "ben221199",
     "bio": "BIP contributor."
   },
-  "gh:Roasbeef": {
-    "githubLogin": "Roasbeef",
-    "name": "Roasbeef",
-    "bio": "BIP contributor."
-  },
-  "gh:akarve": {
-    "githubLogin": "akarve",
-    "name": "akarve",
-    "bio": "BIP contributor."
-  },
   "gh:SatsAndSports": {
     "githubLogin": "SatsAndSports",
     "name": "SatsAndSports",
@@ -722,6 +717,11 @@
   "gh:asaffulks": {
     "githubLogin": "asaffulks",
     "name": "asaffulks",
+    "bio": "BIP contributor."
+  },
+  "gh:scgbckbone": {
+    "githubLogin": "scgbckbone",
+    "name": "scgbckbone",
     "bio": "BIP contributor."
   },
   "gh:luke-jr": {
