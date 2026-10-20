@@ -534,9 +534,29 @@
     "name": "Liam Gilligan",
     "bio": "BIP contributor."
   },
+  "gh:dmonakhov": {
+    "githubLogin": "dmonakhov",
+    "name": "dmonakhov",
+    "bio": "BIP contributor."
+  },
   "gh:BenWestgate": {
     "githubLogin": "BenWestgate",
     "name": "BenWestgate",
+    "bio": "BIP contributor."
+  },
+  "gh:duncan0k": {
+    "githubLogin": "duncan0k",
+    "name": "duncan0k",
+    "bio": "BIP contributor."
+  },
+  "gh:fjahr": {
+    "githubLogin": "fjahr",
+    "name": "fjahr",
+    "bio": "BIP contributor."
+  },
+  "gh:ajtowns": {
+    "githubLogin": "ajtowns",
+    "name": "ajtowns",
     "bio": "BIP contributor."
   },
   "gh:Roasbeef": {
@@ -552,11 +572,6 @@
   "gh:akarve": {
     "githubLogin": "akarve",
     "name": "akarve",
-    "bio": "BIP contributor."
-  },
-  "gh:dmonakhov": {
-    "githubLogin": "dmonakhov",
-    "name": "dmonakhov",
     "bio": "BIP contributor."
   },
   "gh:Dev-next-gen": {
@@ -584,11 +599,6 @@
     "name": "liamgilligan",
     "bio": "BIP contributor."
   },
-  "gh:fjahr": {
-    "githubLogin": "fjahr",
-    "name": "fjahr",
-    "bio": "BIP contributor."
-  },
   "gh:nervana21": {
     "githubLogin": "nervana21",
     "name": "nervana21",
@@ -612,16 +622,6 @@
   "gh:gophersg": {
     "githubLogin": "gophersg",
     "name": "gophersg",
-    "bio": "BIP contributor."
-  },
-  "gh:ajtowns": {
-    "githubLogin": "ajtowns",
-    "name": "ajtowns",
-    "bio": "BIP contributor."
-  },
-  "gh:duncan0k": {
-    "githubLogin": "duncan0k",
-    "name": "duncan0k",
     "bio": "BIP contributor."
   },
   "gh:ginavalent": {
@@ -3552,6 +3552,26 @@
   "gh:shocknet-justin": {
     "githubLogin": "shocknet-justin",
     "name": "shocknet-justin",
+    "bio": "BIP reviewer."
+  },
+  "gh:caesrcd": {
+    "githubLogin": "caesrcd",
+    "name": "caesrcd",
+    "bio": "BIP reviewer."
+  },
+  "gh:RhettCreighton": {
+    "githubLogin": "RhettCreighton",
+    "name": "RhettCreighton",
+    "bio": "BIP reviewer."
+  },
+  "gh:plebhash": {
+    "githubLogin": "plebhash",
+    "name": "plebhash",
+    "bio": "BIP reviewer."
+  },
+  "gh:rkuester": {
+    "githubLogin": "rkuester",
+    "name": "rkuester",
     "bio": "BIP reviewer."
   }
 }
