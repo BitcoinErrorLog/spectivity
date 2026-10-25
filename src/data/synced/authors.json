@@ -534,19 +534,19 @@
     "name": "Liam Gilligan",
     "bio": "BIP contributor."
   },
-  "gh:Eunovo": {
-    "githubLogin": "Eunovo",
-    "name": "Eunovo",
-    "bio": "BIP contributor."
-  },
   "gh:fjahr": {
     "githubLogin": "fjahr",
     "name": "fjahr",
     "bio": "BIP contributor."
   },
-  "gh:pythcoiner": {
-    "githubLogin": "pythcoiner",
-    "name": "pythcoiner",
+  "gh:ViniciusCestarii": {
+    "githubLogin": "ViniciusCestarii",
+    "name": "ViniciusCestarii",
+    "bio": "BIP contributor."
+  },
+  "gh:Eunovo": {
+    "githubLogin": "Eunovo",
+    "name": "Eunovo",
     "bio": "BIP contributor."
   },
   "gh:BenWestgate": {
@@ -557,11 +557,6 @@
   "gh:ajtowns": {
     "githubLogin": "ajtowns",
     "name": "ajtowns",
-    "bio": "BIP contributor."
-  },
-  "gh:ViniciusCestarii": {
-    "githubLogin": "ViniciusCestarii",
-    "name": "ViniciusCestarii",
     "bio": "BIP contributor."
   },
   "gh:jonatack": {
@@ -727,6 +722,11 @@
   "gh:asaffulks": {
     "githubLogin": "asaffulks",
     "name": "asaffulks",
+    "bio": "BIP contributor."
+  },
+  "gh:pythcoiner": {
+    "githubLogin": "pythcoiner",
+    "name": "pythcoiner",
     "bio": "BIP contributor."
   },
   "gh:scgbckbone": {
@@ -3552,11 +3552,6 @@
   "gh:shocknet-justin": {
     "githubLogin": "shocknet-justin",
     "name": "shocknet-justin",
-    "bio": "BIP reviewer."
-  },
-  "gh:caesrcd": {
-    "githubLogin": "caesrcd",
-    "name": "caesrcd",
     "bio": "BIP reviewer."
   }
 }
