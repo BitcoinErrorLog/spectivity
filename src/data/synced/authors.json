@@ -534,19 +534,29 @@
     "name": "Liam Gilligan",
     "bio": "BIP contributor."
   },
-  "gh:nervana21": {
-    "githubLogin": "nervana21",
-    "name": "nervana21",
-    "bio": "BIP contributor."
-  },
-  "gh:ajtowns": {
-    "githubLogin": "ajtowns",
-    "name": "ajtowns",
+  "gh:Eunovo": {
+    "githubLogin": "Eunovo",
+    "name": "Eunovo",
     "bio": "BIP contributor."
   },
   "gh:BenWestgate": {
     "githubLogin": "BenWestgate",
     "name": "BenWestgate",
+    "bio": "BIP contributor."
+  },
+  "gh:nervana21": {
+    "githubLogin": "nervana21",
+    "name": "nervana21",
+    "bio": "BIP contributor."
+  },
+  "gh:BEULAHEVANJALIN": {
+    "githubLogin": "BEULAHEVANJALIN",
+    "name": "BEULAHEVANJALIN",
+    "bio": "BIP contributor."
+  },
+  "gh:ajtowns": {
+    "githubLogin": "ajtowns",
+    "name": "ajtowns",
     "bio": "BIP contributor."
   },
   "gh:fametrano": {
@@ -557,11 +567,6 @@
   "gh:jeanpablojp": {
     "githubLogin": "jeanpablojp",
     "name": "jeanpablojp",
-    "bio": "BIP contributor."
-  },
-  "gh:Eunovo": {
-    "githubLogin": "Eunovo",
-    "name": "Eunovo",
     "bio": "BIP contributor."
   },
   "gh:fjahr": {
@@ -617,11 +622,6 @@
   "gh:liamgilligan": {
     "githubLogin": "liamgilligan",
     "name": "liamgilligan",
-    "bio": "BIP contributor."
-  },
-  "gh:BEULAHEVANJALIN": {
-    "githubLogin": "BEULAHEVANJALIN",
-    "name": "BEULAHEVANJALIN",
     "bio": "BIP contributor."
   },
   "gh:siv2r": {
@@ -3557,6 +3557,41 @@
   "gh:caesrcd": {
     "githubLogin": "caesrcd",
     "name": "caesrcd",
+    "bio": "BIP reviewer."
+  },
+  "gh:RhettCreighton": {
+    "githubLogin": "RhettCreighton",
+    "name": "RhettCreighton",
+    "bio": "BIP reviewer."
+  },
+  "gh:plebhash": {
+    "githubLogin": "plebhash",
+    "name": "plebhash",
+    "bio": "BIP reviewer."
+  },
+  "gh:rkuester": {
+    "githubLogin": "rkuester",
+    "name": "rkuester",
+    "bio": "BIP reviewer."
+  },
+  "gh:Sosthene00": {
+    "githubLogin": "Sosthene00",
+    "name": "Sosthene00",
+    "bio": "BIP reviewer."
+  },
+  "gh:polespinasa": {
+    "githubLogin": "polespinasa",
+    "name": "polespinasa",
+    "bio": "BIP reviewer."
+  },
+  "gh:gmaxwell": {
+    "githubLogin": "gmaxwell",
+    "name": "gmaxwell",
+    "bio": "BIP reviewer."
+  },
+  "gh:aaronisme": {
+    "githubLogin": "aaronisme",
+    "name": "aaronisme",
     "bio": "BIP reviewer."
   }
 }
