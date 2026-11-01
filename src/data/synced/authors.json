@@ -534,6 +534,16 @@
     "name": "Liam Gilligan",
     "bio": "BIP contributor."
   },
+  "gh:fjahr": {
+    "githubLogin": "fjahr",
+    "name": "fjahr",
+    "bio": "BIP contributor."
+  },
+  "gh:2099999997690000": {
+    "githubLogin": "2099999997690000",
+    "name": "2099999997690000",
+    "bio": "BIP contributor."
+  },
   "gh:Eunovo": {
     "githubLogin": "Eunovo",
     "name": "Eunovo",
@@ -567,11 +577,6 @@
   "gh:jeanpablojp": {
     "githubLogin": "jeanpablojp",
     "name": "jeanpablojp",
-    "bio": "BIP contributor."
-  },
-  "gh:fjahr": {
-    "githubLogin": "fjahr",
-    "name": "fjahr",
     "bio": "BIP contributor."
   },
   "gh:jonatack": {
