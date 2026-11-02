@@ -539,9 +539,9 @@
     "name": "fjahr",
     "bio": "BIP contributor."
   },
-  "gh:2099999997690000": {
-    "githubLogin": "2099999997690000",
-    "name": "2099999997690000",
+  "gh:BenWestgate": {
+    "githubLogin": "BenWestgate",
+    "name": "BenWestgate",
     "bio": "BIP contributor."
   },
   "gh:Eunovo": {
@@ -549,9 +549,24 @@
     "name": "Eunovo",
     "bio": "BIP contributor."
   },
-  "gh:BenWestgate": {
-    "githubLogin": "BenWestgate",
-    "name": "BenWestgate",
+  "gh:dmonakhov": {
+    "githubLogin": "dmonakhov",
+    "name": "dmonakhov",
+    "bio": "BIP contributor."
+  },
+  "gh:2099999997690000": {
+    "githubLogin": "2099999997690000",
+    "name": "2099999997690000",
+    "bio": "BIP contributor."
+  },
+  "gh:jeanpablojp": {
+    "githubLogin": "jeanpablojp",
+    "name": "jeanpablojp",
+    "bio": "BIP contributor."
+  },
+  "gh:fametrano": {
+    "githubLogin": "fametrano",
+    "name": "fametrano",
     "bio": "BIP contributor."
   },
   "gh:nervana21": {
@@ -569,16 +584,6 @@
     "name": "ajtowns",
     "bio": "BIP contributor."
   },
-  "gh:fametrano": {
-    "githubLogin": "fametrano",
-    "name": "fametrano",
-    "bio": "BIP contributor."
-  },
-  "gh:jeanpablojp": {
-    "githubLogin": "jeanpablojp",
-    "name": "jeanpablojp",
-    "bio": "BIP contributor."
-  },
   "gh:jonatack": {
     "githubLogin": "jonatack",
     "name": "jonatack",
@@ -587,11 +592,6 @@
   "gh:duncan0k": {
     "githubLogin": "duncan0k",
     "name": "duncan0k",
-    "bio": "BIP contributor."
-  },
-  "gh:dmonakhov": {
-    "githubLogin": "dmonakhov",
-    "name": "dmonakhov",
     "bio": "BIP contributor."
   },
   "gh:Roasbeef": {
