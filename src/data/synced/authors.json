@@ -529,6 +529,11 @@
     "name": "bubb1es",
     "bio": "BIP contributor."
   },
+  "gh:Tim Ruffing": {
+    "githubLogin": "Tim Ruffing",
+    "name": "Tim Ruffing",
+    "bio": "BIP contributor."
+  },
   "gh:Liam Gilligan": {
     "githubLogin": "Liam Gilligan",
     "name": "Liam Gilligan",
@@ -539,19 +544,9 @@
     "name": "fjahr",
     "bio": "BIP contributor."
   },
-  "gh:BenWestgate": {
-    "githubLogin": "BenWestgate",
-    "name": "BenWestgate",
-    "bio": "BIP contributor."
-  },
-  "gh:Eunovo": {
-    "githubLogin": "Eunovo",
-    "name": "Eunovo",
-    "bio": "BIP contributor."
-  },
-  "gh:dmonakhov": {
-    "githubLogin": "dmonakhov",
-    "name": "dmonakhov",
+  "gh:duncan0k": {
+    "githubLogin": "duncan0k",
+    "name": "duncan0k",
     "bio": "BIP contributor."
   },
   "gh:2099999997690000": {
@@ -559,9 +554,34 @@
     "name": "2099999997690000",
     "bio": "BIP contributor."
   },
+  "gh:ajtowns": {
+    "githubLogin": "ajtowns",
+    "name": "ajtowns",
+    "bio": "BIP contributor."
+  },
+  "gh:BenWestgate": {
+    "githubLogin": "BenWestgate",
+    "name": "BenWestgate",
+    "bio": "BIP contributor."
+  },
   "gh:jeanpablojp": {
     "githubLogin": "jeanpablojp",
     "name": "jeanpablojp",
+    "bio": "BIP contributor."
+  },
+  "gh:dmonakhov": {
+    "githubLogin": "dmonakhov",
+    "name": "dmonakhov",
+    "bio": "BIP contributor."
+  },
+  "gh:treib-holdings": {
+    "githubLogin": "treib-holdings",
+    "name": "treib-holdings",
+    "bio": "BIP contributor."
+  },
+  "gh:Eunovo": {
+    "githubLogin": "Eunovo",
+    "name": "Eunovo",
     "bio": "BIP contributor."
   },
   "gh:fametrano": {
@@ -579,19 +599,9 @@
     "name": "BEULAHEVANJALIN",
     "bio": "BIP contributor."
   },
-  "gh:ajtowns": {
-    "githubLogin": "ajtowns",
-    "name": "ajtowns",
-    "bio": "BIP contributor."
-  },
   "gh:jonatack": {
     "githubLogin": "jonatack",
     "name": "jonatack",
-    "bio": "BIP contributor."
-  },
-  "gh:duncan0k": {
-    "githubLogin": "duncan0k",
-    "name": "duncan0k",
     "bio": "BIP contributor."
   },
   "gh:Roasbeef": {
