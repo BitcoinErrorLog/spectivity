@@ -544,6 +544,11 @@
     "name": "Liam Gilligan",
     "bio": "BIP contributor."
   },
+  "gh:2099999997690000": {
+    "githubLogin": "2099999997690000",
+    "name": "2099999997690000",
+    "bio": "BIP contributor."
+  },
   "gh:duncan0k": {
     "githubLogin": "duncan0k",
     "name": "duncan0k",
@@ -552,16 +557,6 @@
   "gh:ariard": {
     "githubLogin": "ariard",
     "name": "ariard",
-    "bio": "BIP contributor."
-  },
-  "gh:2099999997690000": {
-    "githubLogin": "2099999997690000",
-    "name": "2099999997690000",
-    "bio": "BIP contributor."
-  },
-  "gh:zjubiology": {
-    "githubLogin": "zjubiology",
-    "name": "zjubiology",
     "bio": "BIP contributor."
   },
   "gh:fametrano": {
@@ -722,6 +717,11 @@
   "gh:asaffulks": {
     "githubLogin": "asaffulks",
     "name": "asaffulks",
+    "bio": "BIP contributor."
+  },
+  "gh:zjubiology": {
+    "githubLogin": "zjubiology",
+    "name": "zjubiology",
     "bio": "BIP contributor."
   },
   "gh:Yudis-bit": {
