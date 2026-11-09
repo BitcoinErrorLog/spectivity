@@ -544,6 +544,11 @@
     "name": "Liam Gilligan",
     "bio": "BIP contributor."
   },
+  "gh:craigraw": {
+    "githubLogin": "craigraw",
+    "name": "craigraw",
+    "bio": "BIP contributor."
+  },
   "gh:2099999997690000": {
     "githubLogin": "2099999997690000",
     "name": "2099999997690000",
@@ -1092,11 +1097,6 @@
   "gh:junderw": {
     "githubLogin": "junderw",
     "name": "junderw",
-    "bio": "BIP contributor."
-  },
-  "gh:craigraw": {
-    "githubLogin": "craigraw",
-    "name": "craigraw",
     "bio": "BIP contributor."
   },
   "gh:strmfos": {
@@ -3577,11 +3577,6 @@
   "gh:shocknet-justin": {
     "githubLogin": "shocknet-justin",
     "name": "shocknet-justin",
-    "bio": "BIP reviewer."
-  },
-  "gh:caesrcd": {
-    "githubLogin": "caesrcd",
-    "name": "caesrcd",
     "bio": "BIP reviewer."
   }
 }
