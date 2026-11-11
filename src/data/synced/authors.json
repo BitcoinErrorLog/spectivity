@@ -544,14 +544,29 @@
     "name": "Liam Gilligan",
     "bio": "BIP contributor."
   },
-  "gh:guggero": {
-    "githubLogin": "guggero",
-    "name": "guggero",
+  "gh:2099999997690000": {
+    "githubLogin": "2099999997690000",
+    "name": "2099999997690000",
     "bio": "BIP contributor."
   },
   "gh:fametrano": {
     "githubLogin": "fametrano",
     "name": "fametrano",
+    "bio": "BIP contributor."
+  },
+  "gh:guggero": {
+    "githubLogin": "guggero",
+    "name": "guggero",
+    "bio": "BIP contributor."
+  },
+  "gh:jonasnick": {
+    "githubLogin": "jonasnick",
+    "name": "jonasnick",
+    "bio": "BIP contributor."
+  },
+  "gh:jQrgen": {
+    "githubLogin": "jQrgen",
+    "name": "jQrgen",
     "bio": "BIP contributor."
   },
   "gh:Roasbeef": {
@@ -567,11 +582,6 @@
   "gh:gophersg": {
     "githubLogin": "gophersg",
     "name": "gophersg",
-    "bio": "BIP contributor."
-  },
-  "gh:2099999997690000": {
-    "githubLogin": "2099999997690000",
-    "name": "2099999997690000",
     "bio": "BIP contributor."
   },
   "gh:duncan0k": {
@@ -2314,11 +2324,6 @@
     "name": "jnewbery",
     "bio": "BIP contributor."
   },
-  "gh:jonasnick": {
-    "githubLogin": "jonasnick",
-    "name": "jonasnick",
-    "bio": "BIP contributor."
-  },
   "gh:Mertz22": {
     "githubLogin": "Mertz22",
     "name": "Mertz22",
@@ -3617,6 +3622,21 @@
   "gh:DimiH2025": {
     "githubLogin": "DimiH2025",
     "name": "DimiH2025",
+    "bio": "BIP reviewer."
+  },
+  "gh:RhettCreighton": {
+    "githubLogin": "RhettCreighton",
+    "name": "RhettCreighton",
+    "bio": "BIP reviewer."
+  },
+  "gh:plebhash": {
+    "githubLogin": "plebhash",
+    "name": "plebhash",
+    "bio": "BIP reviewer."
+  },
+  "gh:rkuester": {
+    "githubLogin": "rkuester",
+    "name": "rkuester",
     "bio": "BIP reviewer."
   },
   "gh:Sosthene00": {

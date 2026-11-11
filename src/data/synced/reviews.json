@@ -160,35 +160,35 @@
     "githubUser": "DimiH2025"
   },
   {
-    "id": "rev-pr339-342351913",
-    "specId": "pr-339",
-    "reviewerPubky": "pk:gh-jonathancross",
+    "id": "rev-pr1895-4270432365",
+    "specId": "pr-1895",
+    "reviewerPubky": "pk:gh-RhettCreighton",
     "label": "nack",
-    "createdAt": 1510020270000,
-    "githubUser": "jonathancross"
+    "createdAt": 1776451011000,
+    "githubUser": "RhettCreighton"
   },
   {
-    "id": "rev-pr339-515149147",
-    "specId": "pr-339",
-    "reviewerPubky": "pk:gh-ysangkok",
+    "id": "rev-pr2116-4261304940",
+    "specId": "pr-2116",
+    "reviewerPubky": "pk:gh-plebhash",
     "label": "ack",
-    "createdAt": 1564077446000,
-    "githubUser": "ysangkok"
+    "createdAt": 1776353432000,
+    "githubUser": "plebhash"
   },
   {
-    "id": "rev-pr339-2075909929",
-    "specId": "pr-339",
-    "reviewerPubky": "pk:gh-evoskuil",
-    "label": "ack",
-    "createdAt": 1713995604000,
-    "githubUser": "evoskuil"
-  },
-  {
-    "id": "rev-pr2099-4130482677",
-    "specId": "pr-2099",
-    "reviewerPubky": "pk:gh-achow101",
+    "id": "rev-pr2116-4261663423",
+    "specId": "pr-2116",
+    "reviewerPubky": "pk:gh-rkuester",
     "label": "concept-ack",
-    "createdAt": 1774481300000,
+    "createdAt": 1776356612000,
+    "githubUser": "rkuester"
+  },
+  {
+    "id": "rev-pr2089-4226764044",
+    "specId": "pr-2089",
+    "reviewerPubky": "pk:gh-achow101",
+    "label": "ack",
+    "createdAt": 1775855626000,
     "githubUser": "achow101"
   },
   {
@@ -574,21 +574,5 @@
     "label": "nack",
     "createdAt": 1618784278000,
     "githubUser": "junderw"
-  },
-  {
-    "id": "rev-pr756-464086691",
-    "specId": "pr-756",
-    "reviewerPubky": "pk:gh-luke-jr",
-    "label": "ack",
-    "createdAt": 1550243890000,
-    "githubUser": "luke-jr"
-  },
-  {
-    "id": "rev-pr756-464862688",
-    "specId": "pr-756",
-    "reviewerPubky": "pk:gh-achow101",
-    "label": "ack",
-    "createdAt": 1550520842000,
-    "githubUser": "achow101"
   }
 ]
