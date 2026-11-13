@@ -544,14 +544,19 @@
     "name": "Liam Gilligan",
     "bio": "BIP contributor."
   },
-  "gh:jonasnick": {
-    "githubLogin": "jonasnick",
-    "name": "jonasnick",
+  "gh:real-or-random": {
+    "githubLogin": "real-or-random",
+    "name": "real-or-random",
     "bio": "BIP contributor."
   },
   "gh:pythcoiner": {
     "githubLogin": "pythcoiner",
     "name": "pythcoiner",
+    "bio": "BIP contributor."
+  },
+  "gh:jonasnick": {
+    "githubLogin": "jonasnick",
+    "name": "jonasnick",
     "bio": "BIP contributor."
   },
   "gh:fametrano": {
@@ -562,6 +567,11 @@
   "gh:2099999997690000": {
     "githubLogin": "2099999997690000",
     "name": "2099999997690000",
+    "bio": "BIP contributor."
+  },
+  "gh:myetcd": {
+    "githubLogin": "myetcd",
+    "name": "myetcd",
     "bio": "BIP contributor."
   },
   "gh:guggero": {
@@ -652,11 +662,6 @@
   "gh:Dev-next-gen": {
     "githubLogin": "Dev-next-gen",
     "name": "Dev-next-gen",
-    "bio": "BIP contributor."
-  },
-  "gh:myetcd": {
-    "githubLogin": "myetcd",
-    "name": "myetcd",
     "bio": "BIP contributor."
   },
   "gh:siv2r": {
@@ -1307,11 +1312,6 @@
   "gh:Olexandr88": {
     "githubLogin": "Olexandr88",
     "name": "Olexandr88",
-    "bio": "BIP contributor."
-  },
-  "gh:real-or-random": {
-    "githubLogin": "real-or-random",
-    "name": "real-or-random",
     "bio": "BIP contributor."
   },
   "gh:maradini77": {
@@ -3582,11 +3582,6 @@
   "gh:shocknet-justin": {
     "githubLogin": "shocknet-justin",
     "name": "shocknet-justin",
-    "bio": "BIP reviewer."
-  },
-  "gh:caesrcd": {
-    "githubLogin": "caesrcd",
-    "name": "caesrcd",
     "bio": "BIP reviewer."
   }
 }
