@@ -544,24 +544,9 @@
     "name": "Liam Gilligan",
     "bio": "BIP contributor."
   },
-  "gh:real-or-random": {
-    "githubLogin": "real-or-random",
-    "name": "real-or-random",
-    "bio": "BIP contributor."
-  },
-  "gh:pythcoiner": {
-    "githubLogin": "pythcoiner",
-    "name": "pythcoiner",
-    "bio": "BIP contributor."
-  },
-  "gh:jonasnick": {
-    "githubLogin": "jonasnick",
-    "name": "jonasnick",
-    "bio": "BIP contributor."
-  },
-  "gh:fametrano": {
-    "githubLogin": "fametrano",
-    "name": "fametrano",
+  "gh:ajtowns": {
+    "githubLogin": "ajtowns",
+    "name": "ajtowns",
     "bio": "BIP contributor."
   },
   "gh:2099999997690000": {
@@ -569,29 +554,44 @@
     "name": "2099999997690000",
     "bio": "BIP contributor."
   },
-  "gh:myetcd": {
-    "githubLogin": "myetcd",
-    "name": "myetcd",
-    "bio": "BIP contributor."
-  },
   "gh:guggero": {
     "githubLogin": "guggero",
     "name": "guggero",
     "bio": "BIP contributor."
   },
-  "gh:jQrgen": {
-    "githubLogin": "jQrgen",
-    "name": "jQrgen",
-    "bio": "BIP contributor."
-  },
-  "gh:Roasbeef": {
-    "githubLogin": "Roasbeef",
-    "name": "Roasbeef",
+  "gh:fametrano": {
+    "githubLogin": "fametrano",
+    "name": "fametrano",
     "bio": "BIP contributor."
   },
   "gh:ariard": {
     "githubLogin": "ariard",
     "name": "ariard",
+    "bio": "BIP contributor."
+  },
+  "gh:pythcoiner": {
+    "githubLogin": "pythcoiner",
+    "name": "pythcoiner",
+    "bio": "BIP contributor."
+  },
+  "gh:real-or-random": {
+    "githubLogin": "real-or-random",
+    "name": "real-or-random",
+    "bio": "BIP contributor."
+  },
+  "gh:jonasnick": {
+    "githubLogin": "jonasnick",
+    "name": "jonasnick",
+    "bio": "BIP contributor."
+  },
+  "gh:myetcd": {
+    "githubLogin": "myetcd",
+    "name": "myetcd",
+    "bio": "BIP contributor."
+  },
+  "gh:Roasbeef": {
+    "githubLogin": "Roasbeef",
+    "name": "Roasbeef",
     "bio": "BIP contributor."
   },
   "gh:gophersg": {
@@ -617,11 +617,6 @@
   "gh:BenWestgate": {
     "githubLogin": "BenWestgate",
     "name": "BenWestgate",
-    "bio": "BIP contributor."
-  },
-  "gh:ajtowns": {
-    "githubLogin": "ajtowns",
-    "name": "ajtowns",
     "bio": "BIP contributor."
   },
   "gh:dmonakhov": {
@@ -739,6 +734,21 @@
     "name": "asaffulks",
     "bio": "BIP contributor."
   },
+  "gh:darosior": {
+    "githubLogin": "darosior",
+    "name": "darosior",
+    "bio": "BIP contributor."
+  },
+  "gh:jQrgen": {
+    "githubLogin": "jQrgen",
+    "name": "jQrgen",
+    "bio": "BIP contributor."
+  },
+  "gh:liamgilligan": {
+    "githubLogin": "liamgilligan",
+    "name": "liamgilligan",
+    "bio": "BIP contributor."
+  },
   "gh:craigraw": {
     "githubLogin": "craigraw",
     "name": "craigraw",
@@ -769,11 +779,6 @@
     "name": "MrHodlX",
     "bio": "BIP contributor."
   },
-  "gh:liamgilligan": {
-    "githubLogin": "liamgilligan",
-    "name": "liamgilligan",
-    "bio": "BIP contributor."
-  },
   "gh:ViniciusCestarii": {
     "githubLogin": "ViniciusCestarii",
     "name": "ViniciusCestarii",
@@ -802,11 +807,6 @@
   "gh:douglaz": {
     "githubLogin": "douglaz",
     "name": "douglaz",
-    "bio": "BIP contributor."
-  },
-  "gh:darosior": {
-    "githubLogin": "darosior",
-    "name": "darosior",
     "bio": "BIP contributor."
   },
   "gh:notTanveer": {
