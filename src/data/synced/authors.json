@@ -544,6 +544,16 @@
     "name": "Liam Gilligan",
     "bio": "BIP contributor."
   },
+  "gh:siv2r": {
+    "githubLogin": "siv2r",
+    "name": "siv2r",
+    "bio": "BIP contributor."
+  },
+  "gh:pythcoiner": {
+    "githubLogin": "pythcoiner",
+    "name": "pythcoiner",
+    "bio": "BIP contributor."
+  },
   "gh:guggero": {
     "githubLogin": "guggero",
     "name": "guggero",
@@ -574,19 +584,9 @@
     "name": "2099999997690000",
     "bio": "BIP contributor."
   },
-  "gh:pythcoiner": {
-    "githubLogin": "pythcoiner",
-    "name": "pythcoiner",
-    "bio": "BIP contributor."
-  },
   "gh:real-or-random": {
     "githubLogin": "real-or-random",
     "name": "real-or-random",
-    "bio": "BIP contributor."
-  },
-  "gh:jonasnick": {
-    "githubLogin": "jonasnick",
-    "name": "jonasnick",
     "bio": "BIP contributor."
   },
   "gh:myetcd": {
@@ -664,11 +664,6 @@
     "name": "Dev-next-gen",
     "bio": "BIP contributor."
   },
-  "gh:siv2r": {
-    "githubLogin": "siv2r",
-    "name": "siv2r",
-    "bio": "BIP contributor."
-  },
   "gh:ginavalent": {
     "githubLogin": "ginavalent",
     "name": "ginavalent",
@@ -737,6 +732,11 @@
   "gh:asaffulks": {
     "githubLogin": "asaffulks",
     "name": "asaffulks",
+    "bio": "BIP contributor."
+  },
+  "gh:jonasnick": {
+    "githubLogin": "jonasnick",
+    "name": "jonasnick",
     "bio": "BIP contributor."
   },
   "gh:darosior": {
@@ -3582,16 +3582,6 @@
   "gh:ChrisMartl": {
     "githubLogin": "ChrisMartl",
     "name": "ChrisMartl",
-    "bio": "BIP reviewer."
-  },
-  "gh:shocknet-justin": {
-    "githubLogin": "shocknet-justin",
-    "name": "shocknet-justin",
-    "bio": "BIP reviewer."
-  },
-  "gh:caesrcd": {
-    "githubLogin": "caesrcd",
-    "name": "caesrcd",
     "bio": "BIP reviewer."
   }
 }
