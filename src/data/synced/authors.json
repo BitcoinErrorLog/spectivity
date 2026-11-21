@@ -544,14 +544,19 @@
     "name": "Liam Gilligan",
     "bio": "BIP contributor."
   },
-  "gh:ajtowns": {
-    "githubLogin": "ajtowns",
-    "name": "ajtowns",
+  "gh:rustaceanrob": {
+    "githubLogin": "rustaceanrob",
+    "name": "rustaceanrob",
     "bio": "BIP contributor."
   },
   "gh:BEULAHEVANJALIN": {
     "githubLogin": "BEULAHEVANJALIN",
     "name": "BEULAHEVANJALIN",
+    "bio": "BIP contributor."
+  },
+  "gh:ariard": {
+    "githubLogin": "ariard",
+    "name": "ariard",
     "bio": "BIP contributor."
   },
   "gh:2099999997690000": {
@@ -569,11 +574,6 @@
     "name": "unixglo",
     "bio": "BIP contributor."
   },
-  "gh:ariard": {
-    "githubLogin": "ariard",
-    "name": "ariard",
-    "bio": "BIP contributor."
-  },
   "gh:siv2r": {
     "githubLogin": "siv2r",
     "name": "siv2r",
@@ -582,11 +582,6 @@
   "gh:mllwchrry": {
     "githubLogin": "mllwchrry",
     "name": "mllwchrry",
-    "bio": "BIP contributor."
-  },
-  "gh:rustaceanrob": {
-    "githubLogin": "rustaceanrob",
-    "name": "rustaceanrob",
     "bio": "BIP contributor."
   },
   "gh:jmoik": {
@@ -717,6 +712,11 @@
   "gh:bitcoinguardian": {
     "githubLogin": "bitcoinguardian",
     "name": "bitcoinguardian",
+    "bio": "BIP contributor."
+  },
+  "gh:ajtowns": {
+    "githubLogin": "ajtowns",
+    "name": "ajtowns",
     "bio": "BIP contributor."
   },
   "gh:ben221199": {
