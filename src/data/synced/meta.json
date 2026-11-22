@@ -1,8 +1,8 @@
 {
-  "syncedAt": "2026-11-21T14:30:36.460Z",
+  "syncedAt": "2026-11-22T14:26:37.360Z",
   "totalSpecs": 1918,
-  "totalReviews": 11,
-  "totalAuthors": 719,
+  "totalReviews": 7,
+  "totalAuthors": 718,
   "byNamespace": {
     "bip": {
       "merged": 1385,
