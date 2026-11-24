@@ -544,29 +544,9 @@
     "name": "Liam Gilligan",
     "bio": "BIP contributor."
   },
-  "gh:BEULAHEVANJALIN": {
-    "githubLogin": "BEULAHEVANJALIN",
-    "name": "BEULAHEVANJALIN",
-    "bio": "BIP contributor."
-  },
-  "gh:polespinasa": {
-    "githubLogin": "polespinasa",
-    "name": "polespinasa",
-    "bio": "BIP contributor."
-  },
-  "gh:3rdIteration": {
-    "githubLogin": "3rdIteration",
-    "name": "3rdIteration",
-    "bio": "BIP contributor."
-  },
-  "gh:ariard": {
-    "githubLogin": "ariard",
-    "name": "ariard",
-    "bio": "BIP contributor."
-  },
-  "gh:pythcoiner": {
-    "githubLogin": "pythcoiner",
-    "name": "pythcoiner",
+  "gh:jonatack": {
+    "githubLogin": "jonatack",
+    "name": "jonatack",
     "bio": "BIP contributor."
   },
   "gh:jmoik": {
@@ -574,14 +554,39 @@
     "name": "jmoik",
     "bio": "BIP contributor."
   },
-  "gh:fametrano": {
-    "githubLogin": "fametrano",
-    "name": "fametrano",
+  "gh:duncan0k": {
+    "githubLogin": "duncan0k",
+    "name": "duncan0k",
+    "bio": "BIP contributor."
+  },
+  "gh:polespinasa": {
+    "githubLogin": "polespinasa",
+    "name": "polespinasa",
     "bio": "BIP contributor."
   },
   "gh:rustaceanrob": {
     "githubLogin": "rustaceanrob",
     "name": "rustaceanrob",
+    "bio": "BIP contributor."
+  },
+  "gh:pythcoiner": {
+    "githubLogin": "pythcoiner",
+    "name": "pythcoiner",
+    "bio": "BIP contributor."
+  },
+  "gh:BEULAHEVANJALIN": {
+    "githubLogin": "BEULAHEVANJALIN",
+    "name": "BEULAHEVANJALIN",
+    "bio": "BIP contributor."
+  },
+  "gh:3rdIteration": {
+    "githubLogin": "3rdIteration",
+    "name": "3rdIteration",
+    "bio": "BIP contributor."
+  },
+  "gh:fametrano": {
+    "githubLogin": "fametrano",
+    "name": "fametrano",
     "bio": "BIP contributor."
   },
   "gh:2099999997690000": {
@@ -602,11 +607,6 @@
   "gh:mllwchrry": {
     "githubLogin": "mllwchrry",
     "name": "mllwchrry",
-    "bio": "BIP contributor."
-  },
-  "gh:duncan0k": {
-    "githubLogin": "duncan0k",
-    "name": "duncan0k",
     "bio": "BIP contributor."
   },
   "gh:BenWestgate": {
@@ -632,11 +632,6 @@
   "gh:gophersg": {
     "githubLogin": "gophersg",
     "name": "gophersg",
-    "bio": "BIP contributor."
-  },
-  "gh:jonatack": {
-    "githubLogin": "jonatack",
-    "name": "jonatack",
     "bio": "BIP contributor."
   },
   "gh:dmonakhov": {
@@ -737,6 +732,11 @@
   "gh:asaffulks": {
     "githubLogin": "asaffulks",
     "name": "asaffulks",
+    "bio": "BIP contributor."
+  },
+  "gh:ariard": {
+    "githubLogin": "ariard",
+    "name": "ariard",
     "bio": "BIP contributor."
   },
   "gh:jQrgen": {
