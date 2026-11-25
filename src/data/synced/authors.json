@@ -549,14 +549,29 @@
     "name": "jonatack",
     "bio": "BIP contributor."
   },
-  "gh:jmoik": {
-    "githubLogin": "jmoik",
-    "name": "jmoik",
+  "gh:edilmedeiros": {
+    "githubLogin": "edilmedeiros",
+    "name": "edilmedeiros",
+    "bio": "BIP contributor."
+  },
+  "gh:pythcoiner": {
+    "githubLogin": "pythcoiner",
+    "name": "pythcoiner",
     "bio": "BIP contributor."
   },
   "gh:duncan0k": {
     "githubLogin": "duncan0k",
     "name": "duncan0k",
+    "bio": "BIP contributor."
+  },
+  "gh:BEULAHEVANJALIN": {
+    "githubLogin": "BEULAHEVANJALIN",
+    "name": "BEULAHEVANJALIN",
+    "bio": "BIP contributor."
+  },
+  "gh:jmoik": {
+    "githubLogin": "jmoik",
+    "name": "jmoik",
     "bio": "BIP contributor."
   },
   "gh:polespinasa": {
@@ -567,16 +582,6 @@
   "gh:rustaceanrob": {
     "githubLogin": "rustaceanrob",
     "name": "rustaceanrob",
-    "bio": "BIP contributor."
-  },
-  "gh:pythcoiner": {
-    "githubLogin": "pythcoiner",
-    "name": "pythcoiner",
-    "bio": "BIP contributor."
-  },
-  "gh:BEULAHEVANJALIN": {
-    "githubLogin": "BEULAHEVANJALIN",
-    "name": "BEULAHEVANJALIN",
     "bio": "BIP contributor."
   },
   "gh:3rdIteration": {
@@ -672,11 +677,6 @@
   "gh:ginavalent": {
     "githubLogin": "ginavalent",
     "name": "ginavalent",
-    "bio": "BIP contributor."
-  },
-  "gh:edilmedeiros": {
-    "githubLogin": "edilmedeiros",
-    "name": "edilmedeiros",
     "bio": "BIP contributor."
   },
   "gh:kcalvinalvin": {
