@@ -544,6 +544,36 @@
     "name": "Liam Gilligan",
     "bio": "BIP contributor."
   },
+  "gh:siv2r": {
+    "githubLogin": "siv2r",
+    "name": "siv2r",
+    "bio": "BIP contributor."
+  },
+  "gh:jmoik": {
+    "githubLogin": "jmoik",
+    "name": "jmoik",
+    "bio": "BIP contributor."
+  },
+  "gh:duncan0k": {
+    "githubLogin": "duncan0k",
+    "name": "duncan0k",
+    "bio": "BIP contributor."
+  },
+  "gh:fjahr": {
+    "githubLogin": "fjahr",
+    "name": "fjahr",
+    "bio": "BIP contributor."
+  },
+  "gh:pqhyl07": {
+    "githubLogin": "pqhyl07",
+    "name": "pqhyl07",
+    "bio": "BIP contributor."
+  },
+  "gh:polespinasa": {
+    "githubLogin": "polespinasa",
+    "name": "polespinasa",
+    "bio": "BIP contributor."
+  },
   "gh:jonatack": {
     "githubLogin": "jonatack",
     "name": "jonatack",
@@ -559,24 +589,9 @@
     "name": "pythcoiner",
     "bio": "BIP contributor."
   },
-  "gh:duncan0k": {
-    "githubLogin": "duncan0k",
-    "name": "duncan0k",
-    "bio": "BIP contributor."
-  },
   "gh:BEULAHEVANJALIN": {
     "githubLogin": "BEULAHEVANJALIN",
     "name": "BEULAHEVANJALIN",
-    "bio": "BIP contributor."
-  },
-  "gh:jmoik": {
-    "githubLogin": "jmoik",
-    "name": "jmoik",
-    "bio": "BIP contributor."
-  },
-  "gh:polespinasa": {
-    "githubLogin": "polespinasa",
-    "name": "polespinasa",
     "bio": "BIP contributor."
   },
   "gh:rustaceanrob": {
@@ -602,11 +617,6 @@
   "gh:unixglo": {
     "githubLogin": "unixglo",
     "name": "unixglo",
-    "bio": "BIP contributor."
-  },
-  "gh:siv2r": {
-    "githubLogin": "siv2r",
-    "name": "siv2r",
     "bio": "BIP contributor."
   },
   "gh:mllwchrry": {
@@ -652,11 +662,6 @@
   "gh:nervana21": {
     "githubLogin": "nervana21",
     "name": "nervana21",
-    "bio": "BIP contributor."
-  },
-  "gh:fjahr": {
-    "githubLogin": "fjahr",
-    "name": "fjahr",
     "bio": "BIP contributor."
   },
   "gh:fmtappendf": {
