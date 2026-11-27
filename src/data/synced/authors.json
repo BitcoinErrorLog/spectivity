@@ -544,6 +544,16 @@
     "name": "Liam Gilligan",
     "bio": "BIP contributor."
   },
+  "gh:duncan0k": {
+    "githubLogin": "duncan0k",
+    "name": "duncan0k",
+    "bio": "BIP contributor."
+  },
+  "gh:craigraw": {
+    "githubLogin": "craigraw",
+    "name": "craigraw",
+    "bio": "BIP contributor."
+  },
   "gh:siv2r": {
     "githubLogin": "siv2r",
     "name": "siv2r",
@@ -554,19 +564,14 @@
     "name": "jmoik",
     "bio": "BIP contributor."
   },
-  "gh:duncan0k": {
-    "githubLogin": "duncan0k",
-    "name": "duncan0k",
+  "gh:pqhyl07": {
+    "githubLogin": "pqhyl07",
+    "name": "pqhyl07",
     "bio": "BIP contributor."
   },
   "gh:fjahr": {
     "githubLogin": "fjahr",
     "name": "fjahr",
-    "bio": "BIP contributor."
-  },
-  "gh:pqhyl07": {
-    "githubLogin": "pqhyl07",
-    "name": "pqhyl07",
     "bio": "BIP contributor."
   },
   "gh:polespinasa": {
@@ -767,11 +772,6 @@
   "gh:liamgilligan": {
     "githubLogin": "liamgilligan",
     "name": "liamgilligan",
-    "bio": "BIP contributor."
-  },
-  "gh:craigraw": {
-    "githubLogin": "craigraw",
-    "name": "craigraw",
     "bio": "BIP contributor."
   },
   "gh:zjubiology": {
@@ -3597,11 +3597,6 @@
   "gh:shocknet-justin": {
     "githubLogin": "shocknet-justin",
     "name": "shocknet-justin",
-    "bio": "BIP reviewer."
-  },
-  "gh:caesrcd": {
-    "githubLogin": "caesrcd",
-    "name": "caesrcd",
     "bio": "BIP reviewer."
   }
 }
